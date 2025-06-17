@@ -1,5 +1,5 @@
-Reconstructing food web of the Rhynie and Windyfield Cherts and comparison to modern food webs
-==============================================================================================
+Paleo-food web project for Rhynie Chert
+=======================================
 This project, part of Tanner Frank's PhD dissertation, aims to use a comprehensive list of described fossil taxa from the Early Devonian
 Rhynie and Windyfield Cherts in Scotland to reconstruct an ancient terrestrial trophic network and compare it to available webs from
 modern ecosystems.
