@@ -6,7 +6,7 @@ modern ecosystems.
 
 Last updated: 06-16-2025
 
-#Repo Contents:
+Repo Contents:
 --------------
 - RhynieGuildStructure.xlsx: spreadsheet defining metaweb guild structure, contains two sheets:
     - Guilds: lists trophic guilds along with basic info for each (similarly structured to guilds.csv)
