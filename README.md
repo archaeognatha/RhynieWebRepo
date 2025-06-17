@@ -1,5 +1,5 @@
-###Reconstructing food web of the Rhynie and Windyfield Cherts and comparison to modern food webs###
-
+Reconstructing food web of the Rhynie and Windyfield Cherts and comparison to modern food webs
+==============================================================================================
 This project, part of Tanner Frank's PhD dissertation, aims to use a comprehensive list of described fossil taxa from the Early Devonian
 Rhynie and Windyfield Cherts in Scotland to reconstruct an ancient terrestrial trophic network and compare it to available webs from
 modern ecosystems.
@@ -7,7 +7,7 @@ modern ecosystems.
 Last updated: 06-16-2025
 
 #Repo Contents:
-
+--------------
 - RhynieGuildStructure.xlsx: spreadsheet defining metaweb guild structure, contains two sheets:
     - Guilds: lists trophic guilds along with basic info for each (similarly structured to guilds.csv)
     - Guild composition: lists species within each guild --> this is the only place where specific taxon names are referred to in the context of the analysis structure, as all members of a guild are functionally equivalent in the code
