@@ -1,0 +1,29 @@
+﻿guild_no,guild_name,major_taxa,G,sp_tp,resource_guilds,terr,aqu
+1,terrestrial detritus,NA,1,producer,"24,20,12,11,10,9,8,7,6,5,4,3,2",1,0
+2,land plants,Tracheophyta,8,producer,,1,0
+3,terrestrial heterotroph microbes,,2,producer,"3,1",1,0
+4,terrestrial saprotrophs,"Zygomycota, Blastocladiomycota, Oomycota",17,producer,1,1,0
+5,mycorrhizae,"Glomeromycota, Mucuromycota",9,producer,"2,1",1,0
+6,plant parasites,Chytridomycota,7,producer,"2,1",1,0
+7,fungal parasites,Chytridomycota,3,producer,"7?,6,5?,4,1?, 21?",1,0?
+8,terrestrial microbivores,Hexapoda,1,producer,"20?,7,6,5,4,3,2??,1?",1,0
+9,terrestrial detritivores,Diplopoda,2,producer,"20?,3?,1",1,0
+10,mites,Acari,2,producer,"24, 20,7?,6,5,4,3,2?,1?",1,0
+11,terrestrial arthropod predators (1),Trigonotarbida,3,producer,"24?,11,10,9?,8",1,0
+12,terrestrial arthropod predators (2),Chilopoda,5,producer,"12,11,10,9,8",1,0
+13,aquatic detritus,NA,1,producer,"28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,2,1",0,1
+14,aquatic heterotroph microbes,,3,producer,"15,14,13",0,1
+15,aquatic unicellular/small algae,"Chlorophyta, Cyanobacteria",5,producer,,0,1
+16,planktic large colonial algae,"Chlorophyta, Cyanobacteria",1,producer,,0,1
+17,benthic filamentous algae,"Chlorophyta, Cyanobacteria",4,producer,,0,1
+18,other benthic/epiphytic algae,"Chlorophyta, Cyanobacteria",5,producer,,0,1
+19,macrophytic algae,Charophyta,1,producer,,0,1
+20,partially terrestrial epilithic/epiphytic algae,Cyanobacteria,3,producer,,1,1
+21,aquatic saprotrophs,Chytridomycota,4,producer,13,0,1
+22,small algae parasites,Chytridomycota,1,producer,"18?,17?,16?,15",0,1
+23,aquatic macrophyte parasites,Chytridomycota,1,producer,"20?, 19,17?,16?",0,1
+24,nematodes,Nematoda,1,producer,"20,19?,18?,17?,16?,15?,14?,7?,6?,5?,4?,3?,2??",1,1
+25,swimming filter feeders,Branchiopoda,2,producer,"22,15,14",0,1
+26,swimming scrapers,Branchiopoda,1,producer,"23,21,20,18,17?,16,14?,13",0,1
+27,arthropod  omnivores,"Branchiopoda, Euthycarcinoidea",2,producer,"28,27,26,25,24?,20?,19?,18?,17?,13",0,1
+28,benthic predators,Polychaeta?,1,producer,"28?,27?,26,24?",0,1
