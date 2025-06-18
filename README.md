@@ -4,7 +4,7 @@ This project, part of Tanner Frank's PhD dissertation, aims to use a comprehensi
 Rhynie and Windyfield Cherts in Scotland to reconstruct an ancient terrestrial trophic network and compare it to available webs from
 modern ecosystems.
 
-Last updated: 06-16-2025
+Last updated: 06-17-2025
 
 Repo Contents:
 --------------
@@ -20,9 +20,9 @@ Repo Contents:
 
 - **guild_matrix.csv**: adjacency matrix containing feeding relationships of all the guilds in the metaweb. this file is an input into RhynieWebCode.R and SLNcode.ipynb scripts
 
-- **SLNcode.ipynb**: this is a julia script in a Jupyter notebook adapted from Peter Roopnarine's code from the 2024 NAPC food web workshop. It takes in a guild-level metaweb (guild_matrix.csv) and species richness information (from guilds.csv) and generates species-level networks (SLNs). It also calculates basic network metrics for the SLNs.
+- **SLNcode.ipynb**: this is a julia script in a Jupyter notebook adapted from Dr. Peter Roopnarine's code from the 2024 NAPC fossil food web workshop. It takes in a guild-level metaweb (guild_matrix.csv) and species richness information (from guilds.csv) and generates species-level networks (SLNs). It also calculates basic network metrics for the SLNs.
 
 - **SLN_maker.jl**: julia function used by SLNcode.ipynb, which constructs an empty array of appropriate size given the species richness of each guild
 - **r_no_prey.jl**: julia function used by SLNcode.ipynb, which determines the number of prey items for each species by drawing from a power law distribution
 
-- **RhynieWebCode.R**: this is an R script that takes in a food web adjacency matrix and generates relevant statistics
+- **RhynieWebCode.R**: this is an R script that takes in a food web adjacency matrix and generates relevant statistics. It is adapted from Dr. Carrie Tyler's code used in the 2024 NAPC fossil food web workshop.
