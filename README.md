@@ -31,7 +31,7 @@ Repo Contents:
     - mean Net Trophic Position (NTP)
     - max NTP
     - NTP per guild (optional for input webs with defined guild structure)
-    - Trophic Coherence (Johnson et al. 2011)
+    - Trophic Coherence (Johnson et al. 2014)
     - Trophic Omnivory
     - mean/characteristic Path Length
     - max Path Length 
