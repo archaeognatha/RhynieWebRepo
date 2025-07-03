@@ -19,7 +19,7 @@ library(NetIndices)
 # use the 'igraph' and 'NetIndices' packages to examine and plot the metanetwork graph. 
 
 # Read in the data ----
-rhynie.matrix <- as.matrix(read.csv('guild_matrixR.csv'))
+rhynie.matrix <- as.matrix(read.csv('guild_matrix.csv'))
 
 # The adjacency matrix can be used to visualize and assess the metanetwork.
 # Note that the matrix needs to be of the class 'matrix'.
