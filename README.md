@@ -34,7 +34,6 @@ Repo Contents:
     - Trophic Coherence (Johnson et al. 2014)
     - Trophic Omnivory
     - mean/characteristic Path Length
-    - max Path Length 
     - Modularity 
     - Loops
     - mean Centrality
