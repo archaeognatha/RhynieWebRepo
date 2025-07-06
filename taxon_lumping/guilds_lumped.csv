@@ -1,0 +1,21 @@
+﻿guild_no,guild_name,major_taxa,G,sp_tp,resource_guilds,terr,aqu
+1,terrestrial detritus,,1,producer,,1,0
+2,land plants,,8,producer,,1,0
+3,heterotrophic microbes,,1,consumer,"1,3",1,0
+4,terrestrial fungi,,1,consumer,"1,2,4",1,0
+5,terrestrial microbivores,,1,consumer,"3,4,13",1,0
+6,terrestrial detritivores,,2,consumer,"1,3,4,13",1,0
+7,mites,,2,consumer,"2,3,4,13,16",1,0
+8,small terrestrial arthropod predators,,3,consumer,"5,6,7,8,16",1,0
+9,large terrestrial arthropod predators,,5,consumer,"5,6,7,8,9",1,0
+10,aquatic detritus,,1,producer,,0,1
+11,aquatic heterotroph microbes,,1,consumer,"10,11",0,1
+12,planktonic algae,,1,producer,,0,1
+13,benthic algae,,1,producer,,1,1
+14,macrophytic algae,,1,producer,,0,1
+15,aquatic fungi,,1,consumer,"15,14,13,12,10",0,1
+16,nematodes,,1,consumer,"14,13,4,3,2",1,1
+17,swimming filter feeders,,2,consumer,"12,11",0,1
+18,swimming scrapers,,1,consumer,"15,13,12,11,10",0,1
+19,arthropod omnivores,,2,consumer,"20,19,18,17,16,15,14,13,12,11,10",0,1
+20,benthic predators,,1,consumer,"19,18,16",0,1
