@@ -1,0 +1,140 @@
+sp_name,guild,family,sp_id,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+Ceratophysella armata,Collembola,Hypogastruridae,3,5,14,3.666666666666667,2.0
+Ceratophysella denticulata,Collembola,Hypogastruridae,4,5,14,3.666666666666667,2.0
+Folsomia quadrioculata,Collembola,Isotomidae,14,1,13,2.0,1.0
+Folsomia spinosa,Collembola,Isotomidae,15,1,13,2.0,1.0
+Friesea mirabilis,Collembola,Neanuridae,16,5,13,3.5882352941176467,2.0
+Isotomiella minor,Collembola,Isotomidae,22,6,13,3.5454545454545454,2.0
+Lepidocyrtus lanuginosus,Collembola,Entomobryidae,25,1,14,2.0,1.0
+Lipothrix (Sphyrotheca) lubbocki,Collembola,Sminthuridae,26,4,12,2.0,1.0
+Megalothorax minimus,Collembola,Neelidae,27,7,15,3.416666666666667,2.0
+Mesaphorura sp.,Collembola,Tullbergiidae,28,5,15,3.5882352941176467,2.0
+Paratullbergia callipygos,Collembola,Tullbergiidae,38,5,15,3.5882352941176467,2.0
+Parisotoma notabilis,Collembola,Isotomidae,40,6,13,3.5454545454545454,2.0
+Protaphorura armata,Collembola,Onychiuridae,42,4,7,2.8333333333333335,2.0
+Pseudachorutes cf. dubius,Collembola,Neanuridae,44,5,13,3.5882352941176467,2.0
+Pseudachorutes subcrassus,Collembola,Neanuridae,45,5,14,3.5882352941176467,2.0
+Supraphorura furcifera,Collembola,Onychiuridae,52,4,8,2.8333333333333335,2.0
+Lithobius cf. mutabilis juv,Chilopoda,Lithobiidae,66,62,20,3.830721003134796,3.0
+Lithobius sp4,Chilopoda,Lithobiidae,73,59,18,3.821192052980132,3.0
+Geophilus ribauti,Chilopoda,Geophilidae,74,57,11,3.8135593220338984,3.0
+Geophilus insculptus,Chilopoda,Geophilidae,75,57,8,3.814569536423841,3.0
+Schendyla nemorensis,Chilopoda,Schendylidae,77,56,9,3.8135593220338984,3.0
+Strigamia acuminata,Chilopoda,Dignathodontidae,79,61,6,3.8152866242038215,3.0
+Scolopendrella sp./subnuda {s},Symphyla,Scolopendrellidae,81,8,20,2.5,1.0
+Harpalus sp.,Coleoptera,Carabidae,88,49,7,3.8411552346570397,3.0
+Molops elatus,Coleoptera,Carabidae,89,29,2,3.857142857142857,3.0
+Agriotes aterrimus (juv),Coleoptera,Elateridae,108,1,19,2.0,1.0
+Athous subfuscus (juv) {m},Coleoptera,Elateridae,113,44,35,3.8391959798994977,6.0
+Athous vittatus (juv),Coleoptera,Elateridae,115,1,14,2.0,1.0
+Athous sp. (juv),Coleoptera,Elateridae,117,1,30,2.0,1.0
+Lamprohiza splendidula (juv),Coleoptera,Lampyridae,121,1,34,2.0,1.0
+Atheta sp.,Coleoptera,Stapylinidae,135,35,31,3.8626373626373627,6.0
+Othius punctulatus,Coleoptera,Stapylinidae,148,51,9,3.8369565217391304,3.0
+Othius subuliformis,Coleoptera,Stapylinidae,149,38,19,3.8300970873786406,4.0
+Amaurobius sp (juv),Araneae,Amaurobiidae,164,38,11,3.8577777777777778,3.0
+Centomerus sylvaticus (ad),Araneae,Linyphiidae,167,29,15,3.834319526627219,4.0
+Clubiona comta (ad),Araneae,Clubionidae,169,37,12,3.853211009174312,3.0
+Diplocephalus picinus (ad),Araneae,Linyphiidae,172,27,23,3.8684210526315788,6.0
+Harpactea lepida (juv),Araneae,Dysderidae,176,28,20,3.847560975609756,4.0
+Linyphiidae (juv),Araneae,Linyphiidae,178,33,32,3.8525641025641026,6.0
+Neobisium carcinoides (ad),Pseudoscorpiones,Neobisidae,181,28,27,3.8675496688741724,6.0
+Neobisium sp,Pseudoscorpiones,Neobisidae,182,29,25,3.867088607594937,6.0
+Phalangiidae (juv),Opiliones,Phalangiidae,185,42,15,3.818565400843882,3.0
+Robertus lividus (ad),Araneae,Theridiidae,186,37,14,3.8440366972477067,3.0
+Saloca diceros (ad),Araneae,Linyphiidae,188,24,28,3.8671875,6.0
+Tapinocyba insecta (ad),Araneae,Linyphiidae,189,26,27,3.880281690140845,6.0
+Tapinocyba pallens (ad),Araneae,Linyphiidae,190,28,29,3.858108108108108,6.0
+Walckenaeria cucullata (ad),Araneae,Linyphiidae,194,25,19,3.8489208633093526,5.0
+Dinychus perforatus juv,Mesostigmata,Urodinychidae,204,5,24,3.5882352941176467,2.0
+Leitneria granulata (juv),Mesostigmata,Halolaelapidae,215,10,14,3.7894736842105265,2.0
+Lysigamasus puerilis (ad),Mesostigmata,Pergamasinae,220,24,14,3.857142857142857,2.0
+Lysigamasus vagabundus (ad),Mesostigmata,Pergamasinae,222,42,25,3.875,2.0
+Parasitidae (juv) {xs},Mesostigmata,Parasitidae,233,10,13,3.8157894736842106,3.0
+Prozercon fimbriatus (ad),Mesostigmata,Zerconidae,239,17,14,3.833333333333333,2.0
+Prozercon fimbriatus (juv),Mesostigmata,Zerconidae,240,8,12,3.75,2.0
+Trachytes aegrota (ad),Mesostigmata,Trachytidae,242,5,22,3.5882352941176467,2.0
+Trachytes pauperior (juv),Mesostigmata,Trachytidae,245,5,14,3.5882352941176467,2.0
+Uropoda cassidea (juv),Mesostigmata,Uropodidae,249,5,14,3.5882352941176467,2.0
+Uropoda minima (ad),Mesostigmata,Uropodidae,251,5,10,3.5882352941176467,2.0
+Uropoda minima (juv),Mesostigmata,Uropodidae,252,5,13,3.5882352941176467,2.0
+Veigaia agilis (ad),Mesostigmata,Veigaiaidae,256,26,13,3.872549019607843,2.0
+Veigaia exigua (juv),Mesostigmata,Veigaiaidae,261,20,15,3.8666666666666667,3.0
+Veigaia nemorensis (ad),Mesostigmata,Veigaiaidae,263,41,27,3.870786516853933,2.0
+Veigaia nemorensis (juv),Mesostigmata,Veigaiaidae,264,32,19,3.8702290076335877,3.0
+Aporrectodea caliginosa (ad),Lumbricidae,Lumbricidae,271,5,0,3.625,3.0
+Achipteria coleoptrata,Oribatida,Achipteriidae,295,1,5,2.0,1.0
+Atropacarus striculus,Oribatida,Phthiracaridae,298,3,3,2.75,2.0
+Berniniella conjuncta,Oribatida,Oppiidae,301,7,2,3.5,2.0
+Brachychthoniidae spp.,Oribatida,Brachychthoniidae,302,4,2,2.6,2.0
+Chamobates voigtsi,Oribatida,Chamobatidae,308,2,2,3.0,2.0
+Damaeus riparius,Oribatida,Damaeidae,311,3,8,2.75,2.0
+Dissorhina ornata,Oribatida,Oppiidae,312,7,2,3.5,2.0
+Eulohmannia ribagai,Oribatida,Eulohmanniidae,314,4,8,2.6,2.0
+Hypochthonius rufulus,Oribatida,Hypochthoniidae,322,7,3,3.5,2.0
+Oribatida juv.,Oribatida,,323,9,6,3.4,2.0
+Microppia minus,Oribatida,Oppiidae,331,7,2,3.5,2.0
+Oppiella falcata,Oribatida,Oppiidae,337,7,2,3.5,2.0
+Oppiella nova,Oribatida,Oppiidae,338,8,2,3.458333333333333,2.0
+Oppiella subpectinata,Oribatida,Oppiidae,339,8,2,3.458333333333333,2.0
+Oppiella obsoleta,Oribatida,Oppiidae,341,8,2,3.458333333333333,2.0
+Platynothrus peltifer,Oribatida,Camisiidae,353,1,8,2.0,1.0
+Quadroppia quadricarinata,Oribatida,Quadroppiidae,357,3,2,2.75,2.0
+Steganacarus magnus,Oribatida,Phthiracaridae,365,2,8,3.0,2.0
+Tectocepheus minor,Oribatida,Tectocepheidae,371,1,2,2.0,1.0
+Oniscus asellus,Isopoda,Oniscidae,380,4,10,2.8333333333333335,2.0
+Allaiulus nitidus {xl},Diplopoda,Julidae,383,4,10,2.8333333333333335,2.0
+plants,Basal,Plants,401,0,10,1.0,0.0
+roots,Basal,Roots,402,0,16,1.0,0.0
+root exudates,Basal,Roots,403,0,7,1.0,0.0
+mykorrhiza,Basal,Fungi,404,2,35,2.0,1.0
+saphrophytes,Basal,Fungi,405,1,42,2.0,1.0
+bacterivor nematodes,Basal,Nematoda,406,1,39,3.0,2.0
+fungivor nematodes,Basal,Nematoda,407,2,39,3.0,2.0
+root feeding nematodes,Basal,Nematoda,408,2,39,2.0,1.0
+predatious nematodes,Basal,Nematoda,409,8,39,3.6956521739130435,2.0
+omniv. Nematodes,Basal,Nematoda,410,16,39,3.333333333333333,1.0
+bacteria,Basal,Bacteria,411,2,22,2.0,1.0
+flagelata,Basal,Protozoa,412,1,11,3.0,2.0
+ciliata,Basal,Protozoa,413,1,11,3.0,2.0
+amoeba,Basal,Protozoa,414,1,11,3.0,2.0
+algae,Basal,Algae,415,0,8,1.0,0.0
+enchitraeidae,Basal,Enchitraeidae,416,9,10,3.2142857142857144,2.0
+dead organic matter detritus,Basal detritus,detritus,417,0,18,1.0,0.0
+litter detritus,Basal detritus,detritus,442,0,23,1.0,0.0
+Julidae spec,Diplopoda,Julidae,486,4,10,2.8333333333333335,2.0
+Suctobelbella spp.,Oribatida,Suctobelbidae,625,8,2,3.458333333333333,2.0
+Lithobius sp2 {l},Chilopoda,Lithobiidae,706,69,32,3.8853503184713376,7.0
+Lithobius sp3 {m},Chilopoda,Lithobiidae,707,73,31,3.8797653958944283,5.0
+Scutigerella immaculata {s},Symphyla,Scutigerellidae,717,8,30,2.5,1.0
+Robertus sp (juv) {l},Araneae,Theridiidae,733,28,23,3.85,4.0
+Pergamasinae (juv) {s},Mesostigmata,Pergamasinae,735,33,17,3.875912408759124,3.0
+Trachytes aegrota (juv) {s},Mesostigmata,Trachytidae,737,5,19,3.5882352941176467,2.0
+Trachytes pauperior (ad) {s},Mesostigmata,Trachytidae,738,5,16,3.5882352941176467,2.0
+Aporrectodea caliginosa (juv) {xxl},Lumbricidae,Lumbricidae,740,5,0,3.625,3.0
+Lumbricus terrestris (juv) {xxl},Lumbricidae,Lumbricidae,745,6,1,3.4444444444444446,3.0
+Campodea sp {l},Diplura,Campodeidae,749,41,20,3.7638190954773867,4.0
+Trichoniscus pusillus {m},Isopoda,Trichoniscidae,750,4,34,2.8333333333333335,2.0
+Glomeris conspersa {xl},Diplopoda,Glomeridae,756,1,7,2.0,1.0
+Othius sp. (juv),Coleoptera,Stapylinidae,769,42,33,3.855721393034826,6.0
+Xantholinus sp. (juv),Coleoptera,Stapylinidae,770,41,36,3.8502673796791447,6.0
+Monachoides incarnatus,Gastropoda,Hygromiidae,818,2,1,2.0,1.0
+Cochlodina laminata,Gastropoda,Clausiliidae,823,2,3,2.5,2.0
+Aegopinella pura,Gastropoda,Oxychilidae,826,3,5,3.0,3.0
+Limax cinereoniger,Gastropoda,Limacidae,829,6,1,3.090909090909091,2.0
+Aegopinella nitidula juv,Gastropoda,Oxychilidae,831,3,2,3.0,3.0
+Vitrea diaphana juv,Gastropoda,Pristilomatidae,837,2,15,2.5,1.0
+Larve spec,Coleoptera,Larve spec,857,2,8,2.0,1.0
+Staphylinidae spec,Coleoptera,Stapylinidae,858,38,17,3.8238095238095235,4.0
+Elateridae spec,Coleoptera,Elateridae,861,2,8,2.0,1.0
+Coleoptera spec,Coleoptera,Coleoptera spec,863,0,27,1.0,0.0
+Brachysomus spec,Coleoptera,Curculionidae,864,2,15,2.0,1.0
+Cychrus attenuatus,Coleoptera,Carabidae,868,18,1,3.905263157894737,4.0
+Cylisticus spec,Isopoda,Cylisticidae,910,4,12,2.8333333333333335,2.0
+Trichoniscus spec,Isopoda,Trichoniscidae,911,4,23,2.8333333333333335,2.0
+Philoscia muscorum,Isopoda,Philosciidae,914,4,12,2.8333333333333335,2.0
+Glomeris spec,Diplopoda,Glomeridae,920,1,6,2.0,1.0
+Agelenidae spec juv,Araneae,Agelenidae,932,40,13,3.8493723849372383,3.0
+Harpactea lepida (juv),Araneae,Dysderidae,933,34,15,3.8341463414634145,3.0
+Theridiidae juv spec,Araneae,Theridiidae,942,32,18,3.8404255319148937,4.0
+Araneidae spec juv,Araneae,Araneidae,959,15,27,3.8,6.0
