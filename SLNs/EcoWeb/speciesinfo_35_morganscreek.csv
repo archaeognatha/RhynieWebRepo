@@ -1,0 +1,14 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1 Phagocata,1 Phagocata,2,0,3.25,2.0
+"2 Decapoda--Orconectes, Cambarus","2 Decapoda--Orconectes, Cambarus",4,0,2.857142857142857,2.0
+"3 Plecoptera--Isoperia, Isogenus","3 Plecoptera--Isoperia, Isogenus",5,0,3.0,2.0
+"4 Megaloptera--Nigronia, Sialis","4 Megaloptera--Nigronia, Sialis",4,0,3.125,2.0
+"5 Pisces--Rhinichthys, Semotilus","5 Pisces--Rhinichthys, Semotilus",4,0,3.125,2.0
+6 Gammarus,6 Gammarus,5,3,2.888888888888889,2.0
+"7 Trichoptera--Diplectrona, Rhyacophila","7 Trichoptera--Diplectrona, Rhyacophila",4,4,2.6666666666666665,1.0
+8 Asellus,8 Asellus,2,5,2.0,1.0
+"9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon","9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon",2,4,2.0,1.0
+"10 Trichoptera--Neophylax, Glossosoma","10 Trichoptera--Neophylax, Glossosoma",2,3,2.0,1.0
+"11 Diptera--Tendipedidae, Simulium","11 Diptera--Tendipedidae, Simulium",2,5,2.0,1.0
+12 detritus,12 detritus,0,7,1.0,0.0
+13 diatoms,13 diatoms,0,5,1.0,0.0

@@ -1,0 +1,37 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+      1 Entomobrya ligata,      1 Entomobrya ligata,2,1,2.5,1.0
+      2 E. corticola,      2 E. corticola,2,1,2.5,1.0
+      3 Entomobrya sp.,      3 Entomobrya sp.,2,1,2.5,1.0
+      4 Isotoma sensibilis,      4 Isotoma sensibilis,2,1,2.5,1.0
+      5 Parcoblatta sp.,      5 Parcoblatta sp.,1,0,3.0,2.0
+      6 Tachymenis flavicauda,      6 Tachymenis flavicauda,4,0,3.0,2.0
+      7 Platysoma lecontei,      7 Platysoma lecontei,3,0,4.0,3.0
+      8 Alaus myops larvae,      8 Alaus myops larvae,2,0,3.0,2.0
+      9 Orthostethus infuscatus larvae,      9 Orthostethus infuscatus larvae,1,0,2.0,1.0
+     10 Melanotus sp. larvae,     10 Melanotus sp. larvae,1,0,2.0,1.0
+     11 Elater verticinus,     11 Elater verticinus,1,0,2.0,1.0
+     12 Uloma punctulata,     12 Uloma punctulata,1,0,2.0,1.0
+     13 Xylopinus rufipes larvae,     13 Xylopinus rufipes larvae,1,0,2.0,1.0
+     14 Scotobates calcaratus larvae,     14 Scotobates calcaratus larvae,1,0,2.0,1.0
+     15 Passalus cornutus,     15 Passalus cornutus,1,0,2.0,1.0
+     16 Pseudolucanus capreolus larvae,     16 Pseudolucanus capreolus larvae,1,0,2.0,1.0
+     17 Derobrachus brunneus larvae,     17 Derobrachus brunneus larvae,1,1,2.0,1.0
+     18 Leptura sp. larvae,     18 Leptura sp. larvae,1,1,2.0,1.0
+     19 chironomid larvae,     19 chironomid larvae,1,1,3.0,2.0
+     20 cecidomyid larvae,     20 cecidomyid larvae,1,1,3.0,2.0
+     21 dolicopodid larvae,     21 dolicopodid larvae,1,1,3.0,2.0
+     22 Leptinothorax curvispinosus,     22 Leptinothorax curvispinosus,1,0,3.0,2.0
+     23 Ponera coarctata,     23 Ponera coarctata,1,0,3.0,2.0
+     24 lumbricid (undet.),     24 lumbricid (undet.),1,0,2.0,1.0
+     25 Polygyra thyriodes,     25 Polygyra thyriodes,2,0,2.5,1.0
+     26 Zonitoides arboreus,     26 Zonitoides arboreus,2,0,2.5,1.0
+     27 Philomycus carolinensis,     27 Philomycus carolinensis,2,0,2.5,1.0
+     28 Cambala annulata,     28 Cambala annulata,1,0,2.0,1.0
+     29 Fontaria coriacen,     29 Fontaria coriacen,1,0,2.0,1.0
+     30 Polydesmus serratus,     30 Polydesmus serratus,1,0,2.0,1.0
+     31 Geophilus varians,     31 Geophilus varians,1,0,3.0,2.0
+     32 Linotaenia bidens,     32 Linotaenia bidens,1,0,3.0,2.0
+     33 Uropoda sp.,     33 Uropoda sp.,1,0,3.0,2.0
+     34 various larvae (unspecified),     34 various larvae (unspecified),2,4,2.5,1.0
+     35 rotting wood detritus (Pinus spp.),     35 rotting wood detritus (Pinus spp.),0,23,1.0,0.0
+     36 fungi,     36 fungi,1,13,2.0,1.0

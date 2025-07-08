@@ -1,0 +1,19 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+"      1 wind-blown organic debris, pollen, detritus","      1 wind-blown organic debris, pollen, detritus",0,2,1.0,0.0
+      2 flowering plants,      2 flowering plants,0,5,1.0,0.0
+      3 dead carcasses detritus,      3 dead carcasses detritus,0,1,1.0,0.0
+      4 Machilanus (flea),      4 Machilanus (flea),1,0,2.0,1.0
+      5 fungi,      5 fungi,1,2,2.0,1.0
+      6 snow partridge,      6 snow partridge,1,1,2.0,1.0
+"      7 Ochotona ladacensis (pika), mice","      7 Ochotona ladacensis (pika), mice",1,1,2.0,1.0
+      8 Pseudois nahura (bharal sheep),      8 Pseudois nahura (bharal sheep),1,2,2.0,1.0
+      9 yak,      9 yak,1,1,2.0,1.0
+"     10 bumblebees, butterflies, aphids, weevils","     10 bumblebees, butterflies, aphids, weevils",1,0,2.0,1.0
+"     11 lammergeier, yellow-billed chough","     11 lammergeier, yellow-billed chough",1,0,2.0,1.0
+     12 springtails,     12 springtails,1,2,3.0,2.0
+     13 anthomyiid fly,     13 anthomyiid fly,1,1,3.0,2.0
+     14 Mustela altaica (weasel),     14 Mustela altaica (weasel),1,0,3.0,2.0
+"     15 wolf, fox","     15 wolf, fox",2,0,3.0,2.0
+     16 snow leopard,     16 snow leopard,2,0,3.0,2.0
+"     17 mites, centipedes","     17 mites, centipedes",1,0,4.0,3.0
+     18 salticid spider,     18 salticid spider,2,0,4.0,3.0

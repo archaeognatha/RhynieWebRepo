@@ -1,0 +1,48 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+      1 Entomobrya ligate,      1 Entomobrya ligate,1,1,2.0,1.0
+      2 Lepidocyrtus cyaneus,      2 Lepidocyrtus cyaneus,2,1,2.0,1.0
+      3 Isotoma sensibilis,      3 Isotoma sensibilis,1,1,2.0,1.0
+      4 Pseudistoma sensibilis,      4 Pseudistoma sensibilis,2,1,2.0,1.0
+      5 Parcoblatta sp.,      5 Parcoblatta sp.,0,1,1.0,0.0
+      6 Tachyta nana,      6 Tachyta nana,0,9,1.0,0.0
+      7 Canosoma crassus,      7 Canosoma crassus,0,1,1.0,0.0
+      8 Thoracophorus costalis,      8 Thoracophorus costalis,0,1,1.0,0.0
+      9 Acritus exiguus,      9 Acritus exiguus,0,1,1.0,0.0
+     10 Chariessa pilosa,     10 Chariessa pilosa,0,8,1.0,0.0
+     11 Alaus oculatus larvae,     11 Alaus oculatus larvae,0,1,1.0,0.0
+     12 Melanopus sp. larvae,     12 Melanopus sp. larvae,0,1,1.0,0.0
+     13 Chrysobothris femorata larvae,     13 Chrysobothris femorata larvae,2,1,2.0,1.0
+     14 Agrilus sp. larvae,     14 Agrilus sp. larvae,0,1,1.0,0.0
+     15 Silvanus embellis,     15 Silvanus embellis,1,1,2.0,1.0
+     16 S. planatus,     16 S. planatus,1,1,2.0,1.0
+     17 Brontes dubius larvae,     17 Brontes dubius larvae,1,1,2.0,1.0
+     18 Megalodacne fasciata,     18 Megalodacne fasciata,0,1,1.0,0.0
+     19 Xylotrechus colonus larvae,     19 Xylotrechus colonus larvae,0,1,1.0,0.0
+     20 Romaleum atomarium larvae,     20 Romaleum atomarium larvae,2,1,2.5,2.0
+     21 Neoclytus scutellaris larvae,     21 Neoclytus scutellaris larvae,0,1,1.0,0.0
+     22 Graphisurus fasciatus larvae,     22 Graphisurus fasciatus larvae,0,1,1.0,0.0
+     23 Orthotomicus coelatus,     23 Orthotomicus coelatus,0,1,1.0,0.0
+     24 Megaselia sp. larvae,     24 Megaselia sp. larvae,1,2,2.0,1.0
+     25 Lonchaea sp. larvae,     25 Lonchaea sp. larvae,2,1,2.5,1.0
+     26 tachinid larvae,     26 tachinid larvae,2,1,2.5,1.0
+     27 Tremex columba larvae,     27 Tremex columba larvae,0,1,1.0,0.0
+     28 Atanycolus simplex,     28 Atanycolus simplex,0,1,1.0,0.0
+     29 Sparhius floridanus,     29 Sparhius floridanus,0,1,1.0,0.0
+     30 Camponotus herculeanus,     30 Camponotus herculeanus,0,1,1.0,0.0
+     31 Crematogaster lineolata,     31 Crematogaster lineolata,0,1,1.0,0.0
+     32 Leptothorax curvispinosus,     32 Leptothorax curvispinosus,0,1,1.0,0.0
+     33 Ponera coarcta,     33 Ponera coarcta,0,1,1.0,0.0
+     34 Proceratium croceum,     34 Proceratium croceum,0,1,1.0,0.0
+     35 Linotaenia bidens,     35 Linotaenia bidens,0,1,1.0,0.0
+     36 Geophilus varians,     36 Geophilus varians,0,1,1.0,0.0
+     37 Chthonius spinosus,     37 Chthonius spinosus,0,1,1.0,0.0
+     38 C. longipalpus,     38 C. longipalpus,0,1,1.0,0.0
+     39 Uropoda sp.,     39 Uropoda sp.,1,1,2.0,1.0
+     40 Discopoma sp.,     40 Discopoma sp.,1,1,2.0,1.0
+     41 Pergamasus sp.,     41 Pergamasus sp.,1,1,2.0,1.0
+     42 Megisthanus sp.,     42 Megisthanus sp.,1,1,2.0,1.0
+     43 Dendrolaelops sp.,     43 Dendrolaelops sp.,1,1,2.0,1.0
+     44 various larvae (unspecified),     44 various larvae (unspecified),12,0,2.25,2.0
+     45 phloem (Quercus spp.),     45 phloem (Quercus spp.),9,3,3.5365853658536586,3.0
+     46 fungi,     46 fungi,17,2,3.2058823529411766,3.0
+     47 sapwood detritus,     47 sapwood detritus,3,0,3.757575757575758,3.0

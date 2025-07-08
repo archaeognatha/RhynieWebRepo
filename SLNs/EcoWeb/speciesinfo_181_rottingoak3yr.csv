@@ -1,0 +1,90 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+      1 Entomobrya ligate,      1 Entomobrya ligate,2,1,2.5,1.0
+      2 Isotoma sensibilis,      2 Isotoma sensibilis,2,1,2.5,1.0
+      3 Neosmithurus clavatus,      3 Neosmithurus clavatus,1,1,3.0,2.0
+      4 Reticulitermes flavipes,      4 Reticulitermes flavipes,1,0,2.0,1.0
+      5 Parcoblatta sp.,      5 Parcoblatta sp.,1,0,3.0,2.0
+      6 Tachyta nana,      6 Tachyta nana,9,0,3.7777777777777777,2.0
+      7 Canosoma crassus,      7 Canosoma crassus,1,0,3.0,2.0
+      8 Staphylinus violacens,      8 Staphylinus violacens,1,0,3.0,2.0
+      9 Coproporus ventriculus,      9 Coproporus ventriculus,1,0,3.0,2.0
+     10 Trachysectus confluentus,     10 Trachysectus confluentus,1,0,3.0,2.0
+     11 Actium sp.,     11 Actium sp.,6,0,4.0,3.0
+     12 Epierus regularis,     12 Epierus regularis,1,0,3.0,2.0
+     13 Epierus sp.,     13 Epierus sp.,1,0,3.0,2.0
+     14 Platysoma lecontei,     14 Platysoma lecontei,3,0,3.333333333333333,3.0
+     15 Dendroides bicolor larvae,     15 Dendroides bicolor larvae,2,0,2.5,1.0
+     16 Elater nigricollis larvae,     16 Elater nigricollis larvae,1,0,2.0,1.0
+     17 Orthostethus infuscatus larvae,     17 Orthostethus infuscatus larvae,1,0,2.0,1.0
+     18 Deltometopus amoenicornis larvae,     18 Deltometopus amoenicornis larvae,1,0,2.0,1.0
+     19 Alaus oculatus larvae,     19 Alaus oculatus larvae,3,0,3.0,2.0
+     20 Elaterinae larvae (undet.),     20 Elaterinae larvae (undet.),1,0,2.0,1.0
+     21 Rhysodes americanus,     21 Rhysodes americanus,1,0,2.0,1.0
+     22 Brontes dubius larvae,     22 Brontes dubius larvae,1,0,3.0,2.0
+     23 Megalodacne fasciata,     23 Megalodacne fasciata,1,0,3.0,2.0
+     24 Triplax thoracica,     24 Triplax thoracica,1,0,3.0,2.0
+     25 mycetyphagid (undet.),     25 mycetyphagid (undet.),1,0,3.0,2.0
+     26 Hymenorus sp.,     26 Hymenorus sp.,1,0,2.0,1.0
+     27 Platydema subcostatum,     27 Platydema subcostatum,1,0,3.0,2.0
+     28 P. ruficorne,     28 P. ruficorne,1,0,3.0,2.0
+     29 P. ruficolle,     29 P. ruficolle,1,0,3.0,2.0
+     30 Uloma imberbis,     30 Uloma imberbis,1,0,2.0,1.0
+     31 Dioedus punctatus,     31 Dioedus punctatus,1,0,2.0,1.0
+     32 Scotobates carcaratus larvae,     32 Scotobates carcaratus larvae,1,0,2.0,1.0
+     33 Xylopinus saperdoides,     33 Xylopinus saperdoides,1,0,2.0,1.0
+     34 Alobates pennsylvanicus larvae,     34 Alobates pennsylvanicus larvae,1,0,2.0,1.0
+     35 Meracantha contracta larvae,     35 Meracantha contracta larvae,1,0,2.0,1.0
+     36 Strongylium crenatum larvae,     36 Strongylium crenatum larvae,1,0,2.0,1.0
+     37 Synchroa punctata larvae,     37 Synchroa punctata larvae,2,0,2.5,1.0
+     38 Pseudolucanus capreole larvae,     38 Pseudolucanus capreole larvae,1,1,2.0,1.0
+     39 Platycerus quercus,     39 Platycerus quercus,1,0,2.0,1.0
+     40 Ceruchus piceus,     40 Ceruchus piceus,1,0,2.0,1.0
+     41 Dorcus (brevis?),     41 Dorcus (brevis?),1,0,2.0,1.0
+     42 Polymoecus brevipes larvae,     42 Polymoecus brevipes larvae,1,1,2.0,1.0
+     43 Cloetus globosus,     43 Cloetus globosus,1,0,2.0,1.0
+     44 Trichiotinus bidens larvae,     44 Trichiotinus bidens larvae,1,0,2.0,1.0
+     45 Phileurus valgus larvae,     45 Phileurus valgus larvae,1,0,2.0,1.0
+     46 Passalus cornutus,     46 Passalus cornutus,1,0,2.0,1.0
+     47 Derobrachus brunneus larvae,     47 Derobrachus brunneus larvae,1,1,2.0,1.0
+     48 Leptura proxima larvae,     48 Leptura proxima larvae,1,0,2.0,1.0
+     49 Eupsalis minuta,     49 Eupsalis minuta,1,0,2.0,1.0
+     50 Scolecocampa liburna larvae,     50 Scolecocampa liburna larvae,1,0,2.0,1.0
+     51 mycetophilid larvae (undet.),     51 mycetophilid larvae (undet.),1,1,3.0,2.0
+     52 cecidomyid larvae (undet.),     52 cecidomyid larvae (undet.),1,1,2.0,1.0
+     53 dolicopodid larvae (undet.),     53 dolicopodid larvae (undet.),1,1,2.0,1.0
+     54 Augochlora pura,     54 Augochlora pura,1,0,2.0,1.0
+     55 Camponotus herculeanus,     55 Camponotus herculeanus,1,0,3.0,2.0
+     56 Crematogaster lineolata,     56 Crematogaster lineolata,1,0,3.0,2.0
+     57 Leptothorax curvispinosus,     57 Leptothorax curvispinosus,1,0,3.0,2.0
+     58 Ponera coarcta,     58 Ponera coarcta,1,0,3.0,2.0
+     59 Proceratium croceum,     59 Proceratium croceum,1,0,3.0,2.0
+     60 Pheidole sp.,     60 Pheidole sp.,1,0,3.0,2.0
+     61 lumbricid (undet.),     61 lumbricid (undet.),1,0,2.0,1.0
+     62 Strobilops aena,     62 Strobilops aena,2,0,2.5,1.0
+     63 Polygyra fallax,     63 Polygyra fallax,2,0,2.5,1.0
+     64 P. tridentata,     64 P. tridentata,2,0,2.5,1.0
+     65 P. thyroideus,     65 P. thyroideus,2,0,2.5,1.0
+     66 Zonitoides arboreus,     66 Zonitoides arboreus,2,0,2.5,1.0
+     67 Euconulus chersinus,     67 Euconulus chersinus,2,0,2.5,1.0
+     68 Retinella indentata,     68 Retinella indentata,2,0,2.5,1.0
+     69 Philomycus carolinensis,     69 Philomycus carolinensis,2,0,2.5,1.0
+     70 Cambala annulata,     70 Cambala annulata,1,0,2.0,1.0
+     71 Fontaria coriacea,     71 Fontaria coriacea,1,0,2.0,1.0
+     72 Polydesmus serratus,     72 Polydesmus serratus,1,0,2.0,1.0
+     73 Spirostephon lactarium,     73 Spirostephon lactarium,1,0,2.0,1.0
+     74 Scolopendra viridis,     74 Scolopendra viridis,1,0,3.0,2.0
+     75 Cryptops hyalina,     75 Cryptops hyalina,1,0,3.0,2.0
+     76 Otocryptops sexspinosus,     76 Otocryptops sexspinosus,1,0,3.0,2.0
+     77 Bothropolys multidentatus,     77 Bothropolys multidentatus,1,0,3.0,2.0
+     78 Chelanops dentatus,     78 Chelanops dentatus,1,0,3.0,2.0
+     79 Podothrombium sp.,     79 Podothrombium sp.,1,2,3.0,2.0
+     80 Allothrombium pulvinus,     80 Allothrombium pulvinus,1,2,3.0,2.0
+     81 Zetes sp.,     81 Zetes sp.,1,2,3.0,2.0
+     82 Schelorabates sp.,     82 Schelorabates sp.,1,2,3.0,2.0
+     83 Pergamasus sp.,     83 Pergamasus sp.,1,2,3.0,2.0
+     84 Megisthanus sp.,     84 Megisthanus sp.,1,2,3.0,2.0
+     85 various larvae,     85 various larvae,2,16,2.5,1.0
+     86 rotting wood detritus,     86 rotting wood detritus,0,46,1.0,0.0
+     87 pollen (undet.),     87 pollen (undet.),0,1,1.0,0.0
+     88 microorganisms,     88 microorganisms,0,2,1.0,0.0
+     89 fungi (red rot),     89 fungi (red rot),1,30,2.0,1.0

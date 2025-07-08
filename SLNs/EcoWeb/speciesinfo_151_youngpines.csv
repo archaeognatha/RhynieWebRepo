@@ -1,0 +1,24 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+      1 Psen spp.,      1 Psen spp.,1,2,2.0,1.0
+      2 Oxybelus uniglumis,      2 Oxybelus uniglumis,1,2,2.0,1.0
+      3 Crossocerus wesmaeli,      3 Crossocerus wesmaeli,1,2,2.0,1.0
+      4 Formica fusca,      4 Formica fusca,1,0,2.0,1.0
+      5 Acanthomyops niger,      5 Acanthomyops niger,1,0,2.0,1.0
+      6 Linyphia triangularis,      6 Linyphia triangularis,11,1,3.6363636363636367,2.0
+      7 Agelena labyrinthica,      7 Agelena labyrinthica,11,1,3.6363636363636367,2.0
+      8 ichneumonids (unspecified),      8 ichneumonids (unspecified),4,2,3.0,2.0
+      9 Psammochares fuscus,      9 Psammochares fuscus,2,0,4.0,3.0
+     10 Anthocoris nemorum,     10 Anthocoris nemorum,1,0,3.0,2.0
+     11 Exochamus quadripustulatus,     11 Exochamus quadripustulatus,1,2,3.0,2.0
+     12 Coccinella 7-punctata,     12 Coccinella 7-punctata,1,2,3.0,2.0
+     13 Anatis ocellata,     13 Anatis ocellata,1,2,3.0,2.0
+     14 Adalia bipunctata,     14 Adalia bipunctata,1,2,3.0,2.0
+     15 Syrphus vitripennis larvae,     15 Syrphus vitripennis larvae,1,2,3.0,2.0
+     16 Sphex sabulosa,     16 Sphex sabulosa,4,2,3.0,2.0
+     17 Dilachnus pini,     17 Dilachnus pini,1,8,2.0,1.0
+     18 Retinia buoliana larvae,     18 Retinia buoliana larvae,1,2,2.0,1.0
+     19 Panolis griseovariegata larvae,     19 Panolis griseovariegata larvae,1,2,2.0,1.0
+     20 Oenerostoma piniariella larvae,     20 Oenerostoma piniariella larvae,1,2,2.0,1.0
+     21 Gelechia dodecella larvae,     21 Gelechia dodecella larvae,1,2,2.0,1.0
+     22 secretions of Dilachnus pini detritus,     22 secretions of Dilachnus pini detritus,0,5,1.0,0.0
+     23 young Pinus sp.,     23 young Pinus sp.,0,5,1.0,0.0

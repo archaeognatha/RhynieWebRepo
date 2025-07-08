@@ -1,0 +1,135 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+  1 ironplant goldenweed (forb/shrub),  1 ironplant goldenweed (forb/shrub),0,1,1.0,0.0
+  2 three-cleft greenthread (forb/shrub),  2 three-cleft greenthread (forb/shrub),0,1,1.0,0.0
+  3 Cryptantha sp. (forb/shrub),  3 Cryptantha sp. (forb/shrub),0,1,1.0,0.0
+  4 cheatgrass brome (grass),  4 cheatgrass brome (grass),0,1,1.0,0.0
+  5 Redowski's stickseed (forb/shrub),  5 Redowski's stickseed (forb/shrub),0,1,1.0,0.0
+  6 groundsel (forb/shrub)(Senecio sp.),  6 groundsel (forb/shrub)(Senecio sp.),0,1,1.0,0.0
+  7 dandelion )forb/shrub),  7 dandelion )forb/shrub),0,2,1.0,0.0
+  8 wooly indian wheat (forb/shrub),  8 wooly indian wheat (forb/shrub),0,2,1.0,0.0
+  9 prairie pepperweed (forb/shrub),  9 prairie pepperweed (forb/shrub),0,2,1.0,0.0
+ 10 groundsel (Senecio multicapitatus)(forb/shrub), 10 groundsel (Senecio multicapitatus)(forb/shrub),0,2,1.0,0.0
+ 11 fringed sagewort (forb/shrub), 11 fringed sagewort (forb/shrub),0,12,1.0,0.0
+ 12 blue grama (grass), 12 blue grama (grass),0,21,1.0,0.0
+ 13 belvedere summer cypress (forb/shrub), 13 belvedere summer cypress (forb/shrub),0,9,1.0,0.0
+ 14 scarlet globe mallow (forb/shrub), 14 scarlet globe mallow (forb/shrub),0,9,1.0,0.0
+ 15 cutleaf evening primrose (forb/shrub), 15 cutleaf evening primrose (forb/shrub),0,5,1.0,0.0
+ 16 slimflower scurf pea (forb/shrub), 16 slimflower scurf pea (forb/shrub),0,9,1.0,0.0
+ 17 needle and thread (grass), 17 needle and thread (grass),0,6,1.0,0.0
+ 18 hairy golden aster (forb/shrub), 18 hairy golden aster (forb/shrub),0,7,1.0,0.0
+ 19 red three-awn (grass), 19 red three-awn (grass),0,7,1.0,0.0
+ 20 locoweed (forb/shrub), 20 locoweed (forb/shrub),0,4,1.0,0.0
+ 21 carex (grass), 21 carex (grass),0,12,1.0,0.0
+ 22 sand dropseed (grass), 22 sand dropseed (grass),0,10,1.0,0.0
+ 23 western wheatgrass (grass), 23 western wheatgrass (grass),0,12,1.0,0.0
+ 24 gromwell (forb/shrub), 24 gromwell (forb/shrub),0,3,1.0,0.0
+ 25 broom snakeweed (forb/shrub), 25 broom snakeweed (forb/shrub),0,7,1.0,0.0
+ 26 six-weeks fescue (grass), 26 six-weeks fescue (grass),0,5,1.0,0.0
+ 27 wavyleaf thistle (forb/shrub), 27 wavyleaf thistle (forb/shrub),0,11,1.0,0.0
+ 28 buffalo grass (grass), 28 buffalo grass (grass),0,3,1.0,0.0
+ 29 crested wheatgrass (grass), 29 crested wheatgrass (grass),0,2,1.0,0.0
+ 30 alfalfa (forb/shrub), 30 alfalfa (forb/shrub),0,2,1.0,0.0
+ 31 tumbling Russian thistle (forb/shrub), 31 tumbling Russian thistle (forb/shrub),0,3,1.0,0.0
+ 32 four-o-clock (forb/shrub), 32 four-o-clock (forb/shrub),0,5,1.0,0.0
+ 33 silky sophora (forb/shrub), 33 silky sophora (forb/shrub),0,3,1.0,0.0
+ 34 unknown vegetation, 34 unknown vegetation,0,8,1.0,0.0
+ 35 wheat (grass), 35 wheat (grass),0,3,1.0,0.0
+ 36 oats (grass), 36 oats (grass),0,3,1.0,0.0
+ 37 commonsunflower (forb/shrub), 37 commonsunflower (forb/shrub),0,8,1.0,0.0
+ 38 unknown forbs, 38 unknown forbs,0,2,1.0,0.0
+ 39 rubber rabbit brush (forb/shrub), 39 rubber rabbit brush (forb/shrub),0,4,1.0,0.0
+ 40 bee spiderflower (forb/shrub), 40 bee spiderflower (forb/shrub),0,4,1.0,0.0
+ 41 dotted gayfeather (forb/shrub), 41 dotted gayfeather (forb/shrub),0,4,1.0,0.0
+ 42 pinnate tansy mustard (forb/shrub), 42 pinnate tansy mustard (forb/shrub),0,3,1.0,0.0
+ 43 fourwing saltbrush (forb/shrub), 43 fourwing saltbrush (forb/shrub),0,10,1.0,0.0
+ 44 bottlebrush squirreltail (grass), 44 bottlebrush squirreltail (grass),0,5,1.0,0.0
+ 45 plains bahia (forb/shrub), 45 plains bahia (forb/shrub),0,6,1.0,0.0
+ 46 plains prickly pear (forb/shrub), 46 plains prickly pear (forb/shrub),0,6,1.0,0.0
+ 47 greenthread (forb/shrub), 47 greenthread (forb/shrub),0,3,1.0,0.0
+ 48 groundsel (forb/shrub), 48 groundsel (forb/shrub),0,4,1.0,0.0
+ 49 small soapweed (forb/shrub), 49 small soapweed (forb/shrub),0,1,1.0,0.0
+ 50 upright prairie coneflower (forb/shrub), 50 upright prairie coneflower (forb/shrub),0,1,1.0,0.0
+ 51 prairie spiderwart (forb/shrub), 51 prairie spiderwart (forb/shrub),0,2,1.0,0.0
+ 52 unidentified seeds (forb/shrub), 52 unidentified seeds (forb/shrub),0,4,1.0,0.0
+ 53 fungus (forb/shrub), 53 fungus (forb/shrub),0,4,1.0,0.0
+ 54 common buckwheat (forb/shrub), 54 common buckwheat (forb/shrub),0,1,1.0,0.0
+ 55 tansy leaf aster (forb/shrub), 55 tansy leaf aster (forb/shrub),0,1,1.0,0.0
+ 56 lambs-quarter (forb/shrub), 56 lambs-quarter (forb/shrub),0,1,1.0,0.0
+ 57 cream peavine (forb/shrub), 57 cream peavine (forb/shrub),0,1,1.0,0.0
+ 58 slenderbush buckwheat (forb/shrub), 58 slenderbush buckwheat (forb/shrub),0,1,1.0,0.0
+ 59 Cryptantha (forb/shrub), 59 Cryptantha (forb/shrub),0,1,1.0,0.0
+ 60 orchard grass (grass), 60 orchard grass (grass),0,1,1.0,0.0
+ 61 Canada wild rye (grass), 61 Canada wild rye (grass),0,1,1.0,0.0
+ 62 wild rye (grass), 62 wild rye (grass),0,1,1.0,0.0
+ 63 wild buckwheat (forb/shrub), 63 wild buckwheat (forb/shrub),0,1,1.0,0.0
+ 64 peavine (forb/shrub), 64 peavine (forb/shrub),0,1,1.0,0.0
+ 65 silky crazyweed (forb/shrub), 65 silky crazyweed (forb/shrub),0,1,1.0,0.0
+ 66 musineon (forb/shrub), 66 musineon (forb/shrub),0,2,1.0,0.0
+ 67 bush peavine (forb/shrub), 67 bush peavine (forb/shrub),0,1,1.0,0.0
+ 68 knotweed (forb/shrub), 68 knotweed (forb/shrub),0,3,1.0,0.0
+ 69 indian ricegrass (grass), 69 indian ricegrass (grass),0,3,1.0,0.0
+ 70 pendler three-awn (grass), 70 pendler three-awn (grass),0,3,1.0,0.0
+ 71 tumbleweed amaranth (forb/shrub), 71 tumbleweed amaranth (forb/shrub),0,1,1.0,0.0
+ 72 slimleaf goosefoot (forb/shrub), 72 slimleaf goosefoot (forb/shrub),0,1,1.0,0.0
+ 73 lichen (forb/shrub), 73 lichen (forb/shrub),0,3,1.0,0.0
+ 74 antelope, 74 antelope,14,0,2.0,1.0
+ 75 cattle, 75 cattle,14,0,2.0,1.0
+ 76 sheep, 76 sheep,12,0,2.0,1.0
+ 77 bison, 77 bison,10,0,2.0,1.0
+ 78 black-tailed jackrabbit, 78 black-tailed jackrabbit,17,3,2.0,1.0
+ 79 white-tailed jackrabbit, 79 white-tailed jackrabbit,18,3,2.0,1.0
+ 80 grasshopper (opob), 80 grasshopper (opob),3,0,2.0,1.0
+ 81 grasshopper (trki), 81 grasshopper (trki),2,0,2.0,1.0
+ 82 grasshopper (psde), 82 grasshopper (psde),2,0,2.0,1.0
+ 83 grasshopper (arps), 83 grasshopper (arps),4,0,2.0,1.0
+ 84 grasshopper (mein), 84 grasshopper (mein),10,0,2.0,1.0
+ 85 Coleoptera, 85 Coleoptera,15,9,2.0,1.0
+ 86 Diptera, 86 Diptera,15,6,2.0,1.0
+ 87 Hemiptera, 87 Hemiptera,9,4,2.0,1.0
+ 88 Homoptera, 88 Homoptera,17,3,2.0,1.0
+ 89 vole, 89 vole,0,1,1.0,0.0
+ 90 Hymenoptera, 90 Hymenoptera,14,6,2.0,1.0
+ 91 butterflies, 91 butterflies,9,8,2.0,1.0
+ 92 thrips, 92 thrips,10,0,2.0,1.0
+ 93 gopher, 93 gopher,11,4,2.0,1.0
+ 94 kangaroo rat, 94 kangaroo rat,8,2,2.0,1.0
+ 95 harvester ant, 95 harvester ant,24,0,2.0,1.0
+ 96 unidentified grasshoppers, 96 unidentified grasshoppers,0,9,1.0,0.0
+ 97 lacewings, 97 lacewings,0,1,1.0,0.0
+ 98 crickets, 98 crickets,0,1,1.0,0.0
+ 99 cottontail rabbits, 99 cottontail rabbits,0,7,1.0,0.0
+100 prairie vole,100 prairie vole,0,2,1.0,0.0
+101 muskrat,101 muskrat,0,1,1.0,0.0
+102 harvest mouse,102 harvest mouse,0,1,1.0,0.0
+103 meadow vole,103 meadow vole,0,1,1.0,0.0
+104 ring-necked pheasent,104 ring-necked pheasent,0,1,1.0,0.0
+105 horned lark,105 horned lark,12,0,2.8085106382978724,2.0
+106 McCown's longspur,106 McCown's longspur,15,0,2.8977272727272725,2.0
+107 chestnut-collard longspur,107 chestnut-collard longspur,7,0,2.970149253731343,2.0
+108 ground squirrel,108 ground squirrel,19,3,2.7037037037037037,2.0
+109 spiders,109 spiders,0,3,1.0,0.0
+110 dragonflies,110 dragonflies,0,1,1.0,0.0
+111 house mouse,111 house mouse,0,1,1.0,0.0
+112 horned lark,112 horned lark,0,2,1.0,0.0
+"113 misc. fur, feather, fin","113 misc. fur, feather, fin",0,3,1.0,0.0
+114 hispid pocket mouse,114 hispid pocket mouse,0,2,1.0,0.0
+115 unidentified bird,115 unidentified bird,0,4,1.0,0.0
+116 unknown small mammal,116 unknown small mammal,0,3,1.0,0.0
+117 westwern meadowlark,117 westwern meadowlark,0,3,1.0,0.0
+118 long-billed curlew,118 long-billed curlew,0,1,1.0,0.0
+119 killdeer,119 killdeer,0,1,1.0,0.0
+120 mountain plover,120 mountain plover,0,1,1.0,0.0
+121 lark bunting,121 lark bunting,15,1,2.861111111111111,2.0
+122 robber fly,122 robber fly,19,0,2.858695652173913,2.0
+123 deer mouse,123 deer mouse,13,5,2.795918367346939,2.0
+124 grasshopper mouse,124 grasshopper mouse,13,2,2.8548387096774195,2.0
+125 misc. arthropods,125 misc. arthropods,0,6,1.0,0.0
+126 unknown snake,126 unknown snake,0,2,1.0,0.0
+127 weasel,127 weasel,0,2,1.0,0.0
+128 burrowing owl,128 burrowing owl,12,2,3.5054945054945055,3.0
+129 great horned owl,129 great horned owl,4,0,3.515151515151515,3.0
+130 long-eared owl,130 long-eared owl,6,0,3.526315789473684,3.0
+131 barn owl,131 barn owl,10,0,3.425287356321839,3.0
+132 golden eagle,132 golden eagle,5,0,3.225352112676056,3.0
+133 ferruginous hawk,133 ferruginous hawk,10,0,3.1395348837209305,3.0
+134 Swainson's hawk,134 Swainson's hawk,18,0,3.4371859296482414,3.0

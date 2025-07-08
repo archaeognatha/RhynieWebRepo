@@ -1,0 +1,12 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+       1 detritus,       1 detritus,0,7,1.0,0.0
+       2 Frenesia,       2 Frenesia,1,2,2.0,1.0
+       3 Gammarus,       3 Gammarus,1,4,2.0,1.0
+       4 tendipedid,       4 tendipedid,1,2,2.0,1.0
+       5 Physa,       5 Physa,1,0,2.0,1.0
+       6 Cardiocladius,       6 Cardiocladius,1,2,2.0,1.0
+       7 Tubifex,       7 Tubifex,1,2,2.0,1.0
+       8 Rhantus,       8 Rhantus,3,0,3.0,2.0
+       9 Chauliodes,       9 Chauliodes,2,0,3.0,2.0
+      10 Pentaneura,      10 Pentaneura,4,1,2.75,1.0
+      11 Phagocata,      11 Phagocata,5,0,3.0,2.0

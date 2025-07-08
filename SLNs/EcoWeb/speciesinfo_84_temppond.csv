@@ -1,0 +1,13 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+       1 detritus,       1 detritus,0,3,1.0,0.0
+"       2 periphyton, phytoplankton","       2 periphyton, phytoplankton",0,2,1.0,0.0
+       3 Rana sylvatica,       3 Rana sylvatica,1,2,2.0,1.0
+"       4 Daphnia pulex, Tendipes, amphipods, ostracods, corixids","       4 Daphnia pulex, Tendipes, amphipods, ostracods, corixids",2,4,2.0,1.0
+"       5 gastropods, pelecypods","       5 gastropods, pelecypods",2,3,2.0,1.0
+"       6 Chaoborus, Acilius","       6 Chaoborus, Acilius",1,3,3.0,2.0
+"       7 Hydracarina, Odonata, Ranatra, Belostoma","       7 Hydracarina, Odonata, Ranatra, Belostoma",1,1,3.0,2.0
+"       8 Ambystoma laterale, A. maculatum A. tremblayi","       8 Ambystoma laterale, A. maculatum A. tremblayi",3,2,3.333333333333333,2.0
+       9 Dytiscus,       9 Dytiscus,3,2,3.8,3.0
+      10 Ambystoma tigrinum,      10 Ambystoma tigrinum,4,1,3.7142857142857144,2.0
+      11 Notophthalmus viridescens,      11 Notophthalmus viridescens,4,0,3.625,2.0
+      12 Batracobdella picta (leech),      12 Batracobdella picta (leech),2,0,4.0,3.0

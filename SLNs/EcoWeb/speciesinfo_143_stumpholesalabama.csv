@@ -1,0 +1,13 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+      1 Toxorhynchites r. septentrionalis,      1 Toxorhynchites r. septentrionalis,5,1,3.25,2.0
+      2 Prionocyphon discoideus,      2 Prionocyphon discoideus,1,0,2.0,1.0
+      3 Meromacrus acutus,      3 Meromacrus acutus,1,0,2.0,1.0
+      4 Brunettia nitida,      4 Brunettia nitida,1,0,2.0,1.0
+      5 Telmatoscopus superbus,      5 Telmatoscopus superbus,1,0,2.0,1.0
+      6 Culicoides arboricola,      6 Culicoides arboricola,1,1,2.0,1.0
+      7 C. guttipennis,      7 C. guttipennis,1,1,2.0,1.0
+      8 Aedes triseriatus,      8 Aedes triseriatus,2,1,2.0,1.0
+      9 Orthopodomyia signifera,      9 Orthopodomyia signifera,2,1,2.0,1.0
+     10 large detritus particles,     10 large detritus particles,0,2,1.0,0.0
+     11 small detritus particles,     11 small detritus particles,0,6,1.0,0.0
+     12 suspended organic matter detritus,     12 suspended organic matter detritus,0,2,1.0,0.0

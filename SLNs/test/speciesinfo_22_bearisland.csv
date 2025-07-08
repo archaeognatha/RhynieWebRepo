@@ -1,0 +1,29 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+     1 bacteria,     1 bacteria,0,1,1.0,0.0
+     2 protozoa (fresh water plankton),     2 protozoa (fresh water plankton),1,3,2.0,1.0
+"     3 plants, dead plants","     3 plants, dead plants",0,9,1.0,0.0
+     4 algae (fresh water bottom and littoral),     4 algae (fresh water bottom and littoral),0,3,1.0,0.0
+     5 algae (fresh water plankton),     5 algae (fresh water plankton),0,5,1.0,0.0
+     6 worms,     6 worms,1,0,2.0,1.0
+     7 geese,     7 geese,2,0,2.0,1.0
+"     8 snow bunting, ptarmigan","     8 snow bunting, ptarmigan",6,1,3.4,3.0
+     9 purple sandpiper,     9 purple sandpiper,8,1,3.333333333333333,2.0
+    10 protozoa (fresh water bottom and littoral),    10 protozoa (fresh water bottom and littoral),1,1,2.0,1.0
+    11 Hymenoptera,    11 Hymenoptera,1,2,2.0,1.0
+    12 mites,    12 mites,1,3,2.0,1.0
+    13 Diptera (adult),    13 Diptera (adult),2,3,2.8,3.0
+    14 Collembola,    14 Collembola,1,2,2.0,1.0
+    15 moss,    15 moss,0,4,1.0,0.0
+    16 spiders,    16 spiders,4,2,3.3,3.0
+    17 protozoa (land),    17 protozoa (land),1,0,2.0,1.0
+"    18 Entomostraca, Rotifera (fresh water plankton)","    18 Entomostraca, Rotifera (fresh water plankton)",2,3,2.5,1.0
+"    19 skua, glaucous gull","    19 skua, glaucous gull",3,0,3.333333333333333,2.0
+"    20 kittiwake, guillemots, fulmar petrel, little auk, puffin","    20 kittiwake, guillemots, fulmar petrel, little auk, puffin",1,1,2.0,1.0
+"    21 northern eider, long-tailed duck, red-throated diver","    21 northern eider, long-tailed duck, red-throated diver",3,2,2.875,2.0
+    22 arctic fox,    22 arctic fox,4,0,3.7142857142857144,3.0
+    23 marine animals,    23 marine animals,0,3,1.0,0.0
+    24 seals,    24 seals,1,1,2.0,1.0
+    25 polar bear,    25 polar bear,1,0,3.0,2.0
+    26 Diptera (immature),    26 Diptera (immature),5,6,2.2,2.0
+"    27 Entomostraca, Rotifera, Tardigrada, Oligochaeta, Nematoda (fresh water bottom and littoral)","    27 Entomostraca, Rotifera, Tardigrada, Oligochaeta, Nematoda (fresh water bottom and littoral)",6,2,2.5,1.0
+    28 Lepidurus,    28 Lepidurus,4,1,2.5,1.0

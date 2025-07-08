@@ -1,0 +1,10 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+"        1 lichens, mosses","        1 lichens, mosses",0,4,1.0,0.0
+        2 detritus,        2 detritus,0,1,1.0,0.0
+        3 scarlet mite,        3 scarlet mite,1,0,2.0,1.0
+        4 reindeer,        4 reindeer,1,0,2.0,1.0
+"        5 landflies, adult chironomids, Achorutes","        5 landflies, adult chironomids, Achorutes",1,3,2.0,1.0
+        6 worm (Lumbricillus),        6 worm (Lumbricillus),1,1,2.0,1.0
+        7 spider,        7 spider,1,2,3.0,2.0
+        8 snow bunting,        8 snow bunting,3,0,3.0,1.0
+        9 purple sandpiper,        9 purple sandpiper,3,0,3.333333333333333,2.0

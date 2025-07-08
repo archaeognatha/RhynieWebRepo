@@ -1,0 +1,12 @@
+sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+      1 Prionocyphon serricornis,      1 Prionocyphon serricornis,1,0,2.0,1.0
+      2 Metriocnemus cavicola,      2 Metriocnemus cavicola,1,0,2.0,1.0
+      3 Aedes ornatus,      3 Aedes ornatus,2,0,2.0,1.0
+      4 Myiatropa florea,      4 Myiatropa florea,1,0,2.0,1.0
+      5 Telmatoscopus sp.,      5 Telmatoscopus sp.,1,0,2.0,1.0
+      6 Dasyhelea sensualis,      6 Dasyhelea sensualis,1,0,2.0,1.0
+      7 D. lignicola,      7 D. lignicola,1,0,2.0,1.0
+      8 Anopheles nigripes,      8 Anopheles nigripes,1,0,2.0,1.0
+      9 large detritus particles,      9 large detritus particles,0,2,1.0,0.0
+     10 small detritus particles,     10 small detritus particles,0,5,1.0,0.0
+     11 suspended organic matter detritus,     11 suspended organic matter detritus,0,2,1.0,0.0
