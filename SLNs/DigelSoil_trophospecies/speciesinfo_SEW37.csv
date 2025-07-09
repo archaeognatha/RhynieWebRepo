@@ -1,0 +1,111 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Deuteraphorura inermis,Collembola,1
+2,Folsomia quadrioculata,Collembola,1
+3,Isotomiella minor,Collembola,1
+4,Lepidocyrtus cyaneus;Lepidocyrtus lanuginosus,Collembola,2
+6,Lipothrix (Sphyrotheca) lubbocki,Collembola,1
+7,Megalothorax minimus,Collembola,1
+8,Mesaphorura sp.,Collembola,1
+9,Micranurida pygmaea,Collembola,1
+10,Parisotoma notabilis,Collembola,1
+11,Protaphorura armata,Collembola,1
+12,Lithobius curtipes {s},Chilopoda,1
+13,Schendyla nemorensis,Chilopoda,1
+14,Scolopendrella sp./subnuda {s},Symphyla,1
+15,Notiophilus biguttatus,Coleoptera,1
+16,Pterostichus oblongopunctatus,Coleoptera,1
+17,Agriotes aterrimus (juv),Coleoptera,1
+18,Aleocharinae sp1 (juv),Coleoptera,1
+19,Atheta sp.,Coleoptera,1
+20,Atheta sp. (juv),Coleoptera,1
+21,Geostiba circellaris,Coleoptera,1
+22,Habrocerus capillaricornis,Coleoptera,1
+23,Othius subuliformis,Coleoptera,1
+24,Othius sp. (juv),Coleoptera,1
+25,Tachyusa sp. (juv),Coleoptera,1
+26,Diplocephalus picinus (ad),Araneae,1
+27,Gnaphosidae (juv),Araneae,1
+28,Linyphiidae (juv),Araneae,1
+29,Microneta viaria (ad),Araneae,1
+30,Neobisium carcinoides (ad),Pseudoscorpiones,1
+31,Neobisium sp,Pseudoscorpiones,1
+32,Phalangiidae (juv),Opiliones,1
+33,Tapinocyba insecta (ad),Araneae,1
+34,Arctoseius magnanalis (ad),Mesostigmata,1
+35,Lysigamasus cf conus(ad),Mesostigmata,1
+36,Lysigamasus puerilis (ad),Mesostigmata,1
+37,Pergamasus sp (juv) {s},Mesostigmata,1
+38,Trachytes aegrota (juv) {xs},Mesostigmata,1
+39,Veigaia cerva (juv),Mesostigmata,1
+40,Veigaia kochi (juv),Mesostigmata,1
+41,Veigaia nemorensis (ad),Mesostigmata,1
+42,Veigaia nemorensis (juv),Mesostigmata,1
+43,Veigaia sp (juv),Mesostigmata,1
+44,Dendrobaena octaedra (ad),Lumbricidae,1
+45,Achipteria coleoptrata,Oribatida,1
+46,Brachychthoniidae spp.,Oribatida,1
+47,Carabodes labyrinthicus,Oribatida,1
+48,Chamobates cuspidatus;Chamobates voigtsi,Oribatida,2
+50,Euzetes globulus,Oribatida,1
+51,Oribatida juv.,Oribatida,1
+52,Oppiella nova;Suctobelbella spp.,Oribatida,2
+53,Phthiracarus globosus;Phthiracarus longulus;Rhysotritia duplicata,Oribatida,3
+55,Pseudosinella alba,Collembola,1
+56,Julidae juv spec {m},Diplopoda,1
+57,plants,Basal,1
+58,roots,Basal,1
+59,root exudates,Basal,1
+60,mykorrhiza,Basal,1
+61,saphrophytes,Basal,1
+62,bacterivor nematodes,Basal,1
+63,fungivor nematodes,Basal,1
+64,root feeding nematodes,Basal,1
+65,predatious nematodes,Basal,1
+66,omniv. Nematodes,Basal,1
+67,bacteria,Basal,1
+68,flagelata;ciliata;amoeba,Basal,3
+71,algae,Basal,1
+72,enchitraeidae,Basal,1
+73,dead organic matter detritus,Basal detritus,1
+74,Lasioseius lawrencei (ad),Mesostigmata,1
+75,Lysigamasus jugincola (ad),Mesostigmata,1
+76,Lysigamasus runcatellus (ad),Mesostigmata,1
+77,Pergamasus quisquiliarum (ad),Mesostigmata,1
+78,litter detritus,Basal detritus,1
+79,Zercon cf peltatus (ad),Mesostigmata,1
+80,Zercon cf peltatus (juv),Mesostigmata,1
+81,Macrargus rufus (ad),Araneae,1
+82,Haplodrassus soerenseni (ad),Araneae,1
+83,Polydesmus complanatus juv,Diplopoda,1
+84,Polydesmus angustus,Diplopoda,1
+85,Julidae spec,Diplopoda,1
+86,Adoristes ovatus,Oribatida,1
+87,Chamobates subglobulus;Steganacarus herculeanus,Oribatida,2
+90,Cryptops hortensis,Chilopoda,1
+91,Lithobius curtipes (juv),Chilopoda,1
+92,Agonum spec. (juv),Coleoptera,1
+93,Cordalia spec. (juv),Coleoptera,1
+94,Lathrobium brunnipes,Coleoptera,1
+95,Leptacinus sp. (juv),Coleoptera,1
+97,Ceratophysella sp.,Collembola,1
+98,Lithobius sp2 {l},Chilopoda,1
+99,Elateridae sp1 (juv) {l},Coleoptera,1
+100,Pergamasinae (juv) {s},Mesostigmata,1
+101,Lumbricus rubellus (ad) {xxl},Lumbricidae,1
+102,Lumbricus rubellus (juv) {xxl},Lumbricidae,1
+103,Campodea sp {l},Diplura,1
+104,Linyphiidae cf Erigoniinae (juv) {m},Araneae,1
+105,Nesovitrea hammonis,Gastropoda,1
+106,Nesovitrea hammonis juv,Gastropoda,1
+107,Arion fuscus,Gastropoda,1
+108,Staphylinidae spec,Coleoptera,1
+109,Coleoptera spec,Coleoptera,1
+110,Carabidae spec juv,Coleoptera,1
+111,Chrysomelidae spec,Coleoptera,1
+112,Brachyderinae spec,Coleoptera,1
+113,Erotylidae spec,Coleoptera,1
+114,Chilopoda spec,Chilopoda,1
+115,Theridiidae juv spec,Araneae,1
+116,Lycosidae spec juv,Araneae,1
+117,Philodromidae spec juv,Araneae,1
+118,Haplodrassus silvstris,Araneae,1

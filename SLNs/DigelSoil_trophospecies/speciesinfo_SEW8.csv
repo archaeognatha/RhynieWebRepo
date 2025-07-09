@@ -1,0 +1,110 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Deuteraphorura inermis,Collembola,1
+2,Folsomia quadrioculata,Collembola,1
+3,Isotomiella minor;Parisotoma notabilis,Collembola,2
+4,Lepidocyrtus lanuginosus;Lepidocyrtus lignorum,Collembola,2
+5,Megalothorax minimus,Collembola,1
+6,Mesaphorura sp.,Collembola,1
+8,Lithobius cf. mutabilis juv,Chilopoda,1
+9,Lithobius sp4,Chilopoda,1
+10,Schendyla nemorensis,Chilopoda,1
+11,Tropiphorus sp.,Coleoptera,1
+12,Agriotes aterrimus (juv),Coleoptera,1
+13,Agriotes sp. (juv),Coleoptera,1
+14,Athous haemorrhoidalis (juv),Coleoptera,1
+15,Athous subfuscus (juv) {m},Coleoptera,1
+16,Athous sp. (juv),Coleoptera,1
+17,Dalopius marginatus (juv) {m},Coleoptera,1
+18,Acrotona sylvicola,Coleoptera,1
+19,Geostiba circellaris,Coleoptera,1
+20,Habrocerus capillaricornis,Coleoptera,1
+21,Heterothops sp. (juv),Coleoptera,1
+22,Othius sp. (juv),Coleoptera,1
+23,Oxypoda annularis,Coleoptera,1
+24,Tachyusa sp. (juv),Coleoptera,1
+25,Staphylinidae sp1 (juv),Coleoptera,1
+26,Diplocephalus picinus (ad),Araneae,1
+27,Gnaphosidae (juv),Araneae,1
+28,Linyphiidae (juv),Araneae,1
+29,Microneta viaria (ad),Araneae,1
+30,Neobisium sp,Pseudoscorpiones,1
+31,Robertus lividus (ad),Araneae,1
+32,Tapinocyba insecta (ad),Araneae,1
+33,Gamasina (juv),Mesostigmata,1
+34,Lysigamasus puerilis (ad),Mesostigmata,1
+35,Pergamasinae (juv) {xs},Mesostigmata,1
+36,Uropoda minima (ad),Mesostigmata,1
+37,Uropoda minima (juv),Mesostigmata,1
+38,Uroseius cylindricus (ad),Mesostigmata,1
+39,Uroseius cylindricus (juv),Mesostigmata,1
+40,Veigaia sp (juv),Mesostigmata,1
+41,Zercon cf gurensis sp1 (ad),Mesostigmata,1
+42,Zercon sp (juv),Mesostigmata,1
+43,Lumbricus rubellus (juv) {xl},Lumbricidae,1
+44,Dendrobaena octaedra (juv),Lumbricidae,1
+45,Atropacarus striculus,Oribatida,1
+46,Brachychthoniidae spp.,Oribatida,1
+47,Chamobates cuspidatus;Chamobates voigtsi,Oribatida,2
+49,Damaeus riparius;Phthiracarus compressus;Phthiracarus globosus;Rhysotritia duplicata,Oribatida,4
+50,Oribatida juv.,Oribatida,1
+51,Metabelba pulverosa,Oribatida,1
+52,Microppia minus,Oribatida,1
+53,Nothrus silvestris,Oribatida,1
+54,Oppiella nova;Suctobelbella spp.,Oribatida,2
+55,Oribatella calcarata,Oribatida,1
+58,Protaphorura sp.,Collembola,1
+59,Steganacarus magnus,Oribatida,1
+60,Tectocepheus velatus alatus,Oribatida,1
+61,plants,Basal,1
+62,roots,Basal,1
+63,root exudates,Basal,1
+64,mykorrhiza,Basal,1
+65,saphrophytes,Basal,1
+66,bacterivor nematodes,Basal,1
+67,fungivor nematodes,Basal,1
+68,root feeding nematodes,Basal,1
+69,predatious nematodes,Basal,1
+70,omniv. Nematodes,Basal,1
+71,bacteria,Basal,1
+72,flagelata;ciliata;amoeba,Basal,3
+75,algae,Basal,1
+76,enchitraeidae,Basal,1
+77,dead organic matter detritus,Basal detritus,1
+78,Leptogamasus cf tectegynellus (ad),Mesostigmata,1
+79,Lysigamasus puerilis (juv),Mesostigmata,1
+80,Lysigamasus sp (ad),Mesostigmata,1
+81,Macrocheles sp (ad),Mesostigmata,1
+82,Pachylaelaps bellicosus (ad),Mesostigmata,1
+83,Pachylaelaps cf bellicosus (juv),Mesostigmata,1
+84,Pachylaelaps laeuchlii (ad),Mesostigmata,1
+85,litter detritus,Basal detritus,1
+86,Veigaia planicola (ad),Mesostigmata,1
+88,Geophilus truncorum,Chilopoda,1
+89,Lithobius forficatus,Chilopoda,1
+90,Lithobius forficatus (juv),Chilopoda,1
+91,Pterostichus spec.,Coleoptera,1
+92,Heterothops dissimilis (juv),Coleoptera,1
+93,Clubionidae (juv),Araneae,1
+95,Ceratophysella sp.,Collembola,1
+96,Lepidocyrtus curvicolis,Collembola,1
+98,Lithobius curtipes {m},Chilopoda,1
+99,Lithobius sp2 {l},Chilopoda,1
+100,Lumbricus rubellus (ad) {xxl},Lumbricidae,1
+101,Campodea sp {l},Diplura,1
+102,Linyphiidae cf Erigoniinae (juv) {m},Araneae,1
+103,Xantholinus sp. (juv),Coleoptera,1
+104,Xenylla grisea,Collembola,1
+105,Arion silvaticus,Gastropoda,1
+106,Cantharidae spec,Coleoptera,1
+107,Geotrupes spec,Coleoptera,1
+108,Staphylinidae spec,Coleoptera,1
+109,Elateridae spec,Coleoptera,1
+110,Coleoptera spec,Coleoptera,1
+111,Cychrus attenuatus,Coleoptera,1
+112,Brachyderinae spec,Coleoptera,1
+113,Carabus nemoralis,Coleoptera,1
+114,Coccinella septempunctata,Coleoptera,1
+115,Chilopoda spec,Chilopoda,1
+116,Harpactea lepida (juv),Araneae,1
+117,Tenuiphantes mengei,Araneae,1
+118,Amaurobius fenestralis,Araneae,1

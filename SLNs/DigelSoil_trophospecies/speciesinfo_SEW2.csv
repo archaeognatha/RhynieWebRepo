@@ -1,0 +1,74 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Entomobrya marginata/lanuginosa,Collembola,1
+2,Folsomia quadrioculata,Collembola,1
+3,Isotomiella minor,Collembola,1
+4,Lepidocyrtus cyaneus;Lepidocyrtus lanuginosus,Collembola,2
+6,Lipothrix (Sphyrotheca) lubbocki,Collembola,1
+7,Megalothorax minimus,Collembola,1
+8,Mesaphorura sp.;Paratullbergia callipygos;Mesaphorura macrochaeta;Mesaphorura sylvatica,Collembola,4
+9,Micranurida pygmaea;Trachytes aegrota (juv) {xs},Collembola,2
+11,Parisotoma notabilis,Collembola,1
+12,Schendyla nemorensis,Chilopoda,1
+13,Scolopendrella sp./subnuda {s},Symphyla,1
+14,Notiophilus rufipes (juv),Coleoptera,1
+15,Athous sp. (juv),Coleoptera,1
+16,Atheta sp. (juv),Coleoptera,1
+17,Linyphiidae (juv),Araneae,1
+18,Phalangiidae (juv),Opiliones,1
+19,Lysigamasus vagabundus (ad),Mesostigmata,1
+20,Pergamasinae (juv) {xs},Mesostigmata,1
+22,Uropoda minima (ad),Mesostigmata,1
+23,Veigaia nemorensis (juv),Mesostigmata,1
+24,Zercon cf gurensis sp1 (ad),Mesostigmata,1
+25,Zercon sp (juv),Mesostigmata,1
+26,Lumbricus rubellus (juv) {xl},Lumbricidae,1
+27,Campodea sp {m},Diplura,1
+28,Brachychthoniidae spp.;Micreremus gracilior,Oribatida,2
+29,Carabodes labyrinthicus,Oribatida,1
+30,Chamobates voigtsi;Microtritia minima,Oribatida,2
+31,Eniochthonius minutissimus,Oribatida,1
+32,Eupelops hirtus;Cepheus cepheiformes;Eupelops torulosus,Oribatida,3
+33,Euzetes globulus;Platynothrus peltifer;Adoristes ovatus,Oribatida,3
+34,Oribatida juv.,Oribatida,1
+35,Microppia minus;Berniniella sigma;Oppiella acuminata;Oppiella propinqua,Oribatida,4
+36,Oppiella nova;Suctobelbella spp.,Oribatida,2
+37,Phthiracarus longulus;Rhysotritia duplicata,Oribatida,2
+39,Porobelba spinosa;Quadroppia quadricarinata,Oribatida,2
+41,Tectocepheus velatus alatus;Tectocepheus velatus sarekensis,Oribatida,2
+43,Polydesmidae,Diplopoda,1
+44,plants,Basal,1
+45,roots,Basal,1
+46,root exudates,Basal,1
+47,mykorrhiza,Basal,1
+48,saphrophytes,Basal,1
+49,bacterivor nematodes,Basal,1
+50,fungivor nematodes,Basal,1
+51,root feeding nematodes,Basal,1
+52,predatious nematodes,Basal,1
+53,omniv. Nematodes,Basal,1
+54,bacteria,Basal,1
+55,flagelata;ciliata;amoeba,Basal,3
+58,algae,Basal,1
+59,enchitraeidae,Basal,1
+60,dead organic matter detritus,Basal detritus,1
+61,Pachylaelaps sp (juv),Mesostigmata,1
+62,Entomobrya corticalis,Collembola,1
+63,Pergamasus norvegicus (ad),Mesostigmata,1
+64,Pergamasus quisquiliarum (ad),Mesostigmata,1
+65,litter detritus,Basal detritus,1
+66,Vulgarogamasus sp (ad),Mesostigmata,1
+67,Erigonella hiemalis (ad),Araneae,1
+70,Carabodes coriaceus,Oribatida,1
+71,Carabodes ornatus,Oribatida,1
+72,Carabodes subarcticus,Oribatida,1
+80,Cryptops hortensis,Chilopoda,1
+84,Elateridae sp1 (juv) {l},Coleoptera,1
+85,Staphylinidae spec,Coleoptera,1
+86,Carabidae spec juv,Coleoptera,1
+87,Cylisticus spec,Isopoda,1
+88,Tenuiphantes mengei,Araneae,1
+89,Theridiidae juv spec,Araneae,1
+90,Lycosidae spec juv,Araneae,1
+91,Liocranidae spec juv,Araneae,1
+92,Philodromus dispar,Araneae,1
+93,Philodromidae spec juv,Araneae,1

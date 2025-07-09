@@ -1,0 +1,104 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Allacma fusca,Collembola,1
+2,Ceratophysella denticulata,Collembola,1
+3,Folsomia quadrioculata;Folsomia spinosa,Collembola,2
+5,Isotomiella minor;Parisotoma notabilis,Collembola,2
+6,Megalothorax minimus,Collembola,1
+7,Mesaphorura sp.;Mesaphorura macrochaeta,Collembola,2
+9,Proisotoma minima,Collembola,1
+10,Protaphorura armata;Protaphorura sp.,Collembola,2
+11,Lithobius sp4,Chilopoda,1
+12,Geophilus ribauti,Chilopoda,1
+13,Schendyla nemorensis,Chilopoda,1
+14,Malthodes sp. (juv),Coleoptera,1
+15,Pterostichus strenuus,Coleoptera,1
+16,Nargus anisotomoides,Coleoptera,1
+17,Athous zebei (juv) {s},Coleoptera,1
+18,Dalopius marginatus (juv) {m},Coleoptera,1
+19,Elateridae sp1 (juv) {m},Coleoptera,1
+20,Atheta fungi,Coleoptera,1
+21,Atheta sp.,Coleoptera,1
+22,Gyrohypnus sp. (juv),Coleoptera,1
+23,Othius sp. (juv),Coleoptera,1
+24,Xantholinus sp. (juv),Coleoptera,1
+25,Xantholininae sp1 (juv),Coleoptera,1
+26,Amaurobius sp (juv),Araneae,1
+27,Linyphiidae (juv),Araneae,1
+28,Micrargus herbigradus (ad),Araneae,1
+29,Microneta viaria (ad),Araneae,1
+30,Neobisium sp,Pseudoscorpiones,1
+31,Phalangiidae (juv),Opiliones,1
+32,Robertus lividus (ad),Araneae,1
+33,Robertus sp (juv) {m},Araneae,1
+34,Lysigamasus lapponicus (ad),Mesostigmata,1
+35,Pergamasinae (juv) {xs},Mesostigmata,1
+36,Trachytes aegrota (ad),Mesostigmata,1
+37,Uropoda cassidea (juv),Mesostigmata,1
+38,Uroseius cylindricus (ad),Mesostigmata,1
+39,Uroseius cylindricus (juv),Mesostigmata,1
+40,Veigaia nemorensis (ad),Mesostigmata,1
+41,Veigaia nemorensis (juv),Mesostigmata,1
+42,Willemia aspinata,Collembola,1
+43,Campodea sp {m},Diplura,1
+44,Achipteria coleoptrata,Oribatida,1
+45,Brachychthoniidae spp.,Oribatida,1
+46,Carabodes labyrinthicus,Oribatida,1
+47,Chamobates borealis,Oribatida,1
+48,Chamobates voigtsi,Oribatida,1
+49,Dissorhina ornata;Oppiella falcata,Oribatida,2
+50,Oribatida juv.,Oribatida,1
+51,Microppia minus,Oribatida,1
+52,Nanhermannia nana,Oribatida,1
+53,Nothrus silvestris,Oribatida,1
+55,Oppiella nova;Oppiella subpectinata;Suctobelbella spp.,Oribatida,3
+57,Phthiracarus borosetosus;Phthiracarus compressus;Phthiracarus longulus;Nanhermannia elegantula;Rhysotritia duplicata,Oribatida,5
+60,Platynothrus peltifer;Adoristes ovatus;Liacarus coracinus;Liacarus subterraneus,Oribatida,4
+61,Quadroppia quadricarinata;Quadroppia hammerae,Oribatida,2
+63,Pseudanurophorus binoculatus,Collembola,1
+64,Sphaeridia pumilis,Collembola,1
+65,Tachypodoiulus niger,Diplopoda,1
+66,plants,Basal,1
+67,roots,Basal,1
+68,root exudates,Basal,1
+69,mykorrhiza,Basal,1
+70,saphrophytes,Basal,1
+71,bacterivor nematodes,Basal,1
+72,fungivor nematodes,Basal,1
+73,root feeding nematodes,Basal,1
+74,predatious nematodes,Basal,1
+75,omniv. Nematodes,Basal,1
+76,bacteria,Basal,1
+77,flagelata;ciliata;amoeba,Basal,3
+80,algae,Basal,1
+81,enchitraeidae,Basal,1
+82,dead organic matter detritus,Basal detritus,1
+83,Lysigamasus jugincola (ad),Mesostigmata,1
+84,litter detritus,Basal detritus,1
+85,Linyphiidae cf Erigoniinae (juv) {s},Araneae,1
+86,Erigonella hiemalis (ad),Araneae,1
+87,Julidae spec,Diplopoda,1
+89,Damaeobelba minutissima,Oribatida,1
+92,Adrastus sp (juv),Coleoptera,1
+93,Hahniidae (juv),Araneae,1
+94,Robertus scoticus (ad),Araneae,1
+95,Robertus lividus (juv) {m},Araneae,1
+96,Monocephalus fuscipes (ad),Araneae,1
+97,Edwarzetes edwardsii;Trichoribates novus,Oribatida,2
+102,Tectocepheus velatus velatus,Oribatida,1
+104,Cornodendrolaelaps cf cornutulus (ad),Mesostigmata,1
+105,Geholaspis mandibularis (juv.),Mesostigmata,1
+106,Pachylaelaps cf vexillifer (ad),Mesostigmata,1
+107,Rhodacarus agrestis (ad),Mesostigmata,1
+108,Dicyrtomina ornata,Collembola,1
+110,Scutigerella immaculata {m},Symphyla,1
+111,Athous subfuscus (juv) {l},Coleoptera,1
+112,Trachytes aegrota (juv) {s},Mesostigmata,1
+113,Trichoniscus pusillus {m},Isopoda,1
+114,Allaiulus nitidus {xxl},Diplopoda,1
+115,Lithobius aeruginosus {m},Chilopoda,1
+116,Staphylinidae spec,Coleoptera,1
+117,Anthicidae spec,Coleoptera,1
+118,Scolytidae spec,Coleoptera,1
+119,Asthenargus paganus,Araneae,1
+120,Ceratinella brevis,Araneae,1
+121,Tenuiphantes tenuis,Araneae,1

@@ -1,0 +1,128 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Folsomia quadrioculata,Collembola,1
+2,Isotomiella minor,Collembola,1
+3,Lepidocyrtus cyaneus;Lepidocyrtus lanuginosus;Lepidocyrtus juv.,Collembola,3
+5,Megalothorax minimus,Collembola,1
+6,Parisotoma notabilis,Collembola,1
+7,Protaphorura armata;Protaphorura sp.,Collembola,2
+8,Sminthurinus aureus,Collembola,1
+9,Stenaphorura denisi,Collembola,1
+10,Lithobius piceus,Chilopoda,1
+11,Lithobius aulacopus,Chilopoda,1
+12,Lithobius mutabilis,Chilopoda,1
+13,Lithobius cf. mutabilis juv,Chilopoda,1
+14,Lithobius sp. juv {m},Chilopoda,1
+15,Lithobius sp1 {s},Chilopoda,1
+16,Lithobius sp3 {xs},Chilopoda,1
+17,Lithobius sp4,Chilopoda,1
+18,Geophilus ribauti,Chilopoda,1
+19,Strigamia acuminata,Chilopoda,1
+20,Nargus anisotomoides,Coleoptera,1
+21,Athous haemorrhoidalis (juv);Elateridae sp1 (juv) {l},Coleoptera,2
+22,Athous sp. (juv),Coleoptera,1
+23,Aleocharinae sp1 (juv),Coleoptera,1
+24,Gyrohypnus sp. (juv),Coleoptera,1
+25,Amaurobius sp (juv),Araneae,1
+26,Diplocephalus picinus (ad),Araneae,1
+27,Harpactea lepida (juv),Araneae,1
+28,Linyphiidae (juv),Araneae,1
+29,Microneta viaria (ad),Araneae,1
+30,Neobisium sp,Pseudoscorpiones,1
+31,Robertus lividus (ad),Araneae,1
+32,Robertus sp (juv) {m},Araneae,1
+33,Saloca diceros (ad),Araneae,1
+34,Tapinocyba pallens (ad),Araneae,1
+35,Pergamasinae (juv) {xs},Mesostigmata,1
+36,Rhodacarellus kreuzi (ad),Mesostigmata,1
+37,Trachytes aegrota (ad),Mesostigmata,1
+38,Uropoda cassidea (ad),Mesostigmata,1
+39,Uropoda cassidea (juv),Mesostigmata,1
+40,Veigaia nemorensis (ad),Mesostigmata,1
+41,Veigaia nemorensis (juv),Mesostigmata,1
+42,Aporrectodea rosea (ad);Aporectodea longa (juv),Lumbricidae,2
+43,Aporrectodea rosea (juv),Lumbricidae,1
+44,Lumbricus terrestris (ad),Lumbricidae,1
+45,Lumbricus terrestris (juv) {xl},Lumbricidae,1
+46,Achipteria coleoptrata,Oribatida,1
+47,Atropacarus striculus,Oribatida,1
+48,Chamobates voigtsi;Pantelozetes paolii,Oribatida,2
+49,Dissorhina ornata;Oppiella falcata,Oribatida,2
+50,Hypochthonius rufulus,Oribatida,1
+51,Oribatida juv.,Oribatida,1
+53,Oppiella nova;Suctobelbella spp.,Oribatida,2
+54,Oppiella subpectinata,Oribatida,1
+56,Phthiracarus compressus;Phthiracarus ferrugineus;Phthiracarus stramineus,Oribatida,3
+57,Phthiracarus longulus,Oribatida,1
+59,Allaiulus nitidus {xl};Julidae spec,Diplopoda,2
+60,Chordeuma silvestre,Diplopoda,1
+61,plants,Basal,1
+62,roots,Basal,1
+63,root exudates,Basal,1
+64,mykorrhiza,Basal,1
+65,saphrophytes,Basal,1
+66,bacterivor nematodes,Basal,1
+67,fungivor nematodes,Basal,1
+68,root feeding nematodes,Basal,1
+69,predatious nematodes,Basal,1
+70,omniv. Nematodes,Basal,1
+71,bacteria,Basal,1
+72,flagelata;ciliata;amoeba,Basal,3
+75,algae,Basal,1
+76,enchitraeidae,Basal,1
+77,dead organic matter detritus,Basal detritus,1
+78,Lysigamasus jugincola (ad),Mesostigmata,1
+79,litter detritus,Basal detritus,1
+80,Vulgarogamasus kraepelini (ad),Mesostigmata,1
+81,Maro minutus (ad),Araneae,1
+82,Diplostyla concolor (ad),Araneae,1
+84,Steganacarus herculeanus,Oribatida,1
+86,Centromerus brevivulvatus (ad),Araneae,1
+87,Centromerus cavernarum (ad),Araneae,1
+88,Clubionidae (juv),Araneae,1
+89,Diplostyla concolor (juv),Araneae,1
+90,Trogulus sp juv,Opiliones,1
+91,Lithobius aeruginosus juv,Chilopoda,1
+92,Geophilus Studeri juv,Chilopoda,1
+93,Geophilus ribauti juv,Chilopoda,1
+94,Geophilus studeri,Chilopoda,1
+95,Lithobius tricuspis,Chilopoda,1
+96,Hungarobelba pyrenaica,Oribatida,1
+99,Quadroppia hammerae,Oribatida,1
+101,Philonthus carbonarius,Coleoptera,1
+102,Lysigamasus minorleitneriae (ad),Mesostigmata,1
+103,Lysigamasus truncellus (ad),Mesostigmata,1
+104,Ceratophysella sp.,Collembola,1
+106,Mesaphorura sylvatica;Neanura muscorum,Collembola,2
+108,Lithobius sp2 {l},Chilopoda,1
+109,Scutigerella immaculata {m};Scolopendrella sp./subnuda {m},Symphyla,2
+111,Athous subfuscus (juv) {l},Coleoptera,1
+113,Trachytes aegrota (juv) {s},Mesostigmata,1
+114,Trachytes pauperior (ad) {s},Mesostigmata,1
+115,Campodea sp {l},Diplura,1
+116,Trichoniscus pusillus {m},Isopoda,1
+117,Allaiulus nitidus juv,Diplopoda,1
+118,Linyphiidae cf Erigoniinae (juv) {m},Araneae,1
+119,Lithobius aeruginosus {l},Chilopoda,1
+120,Othius sp. (juv),Coleoptera,1
+121,Ena montana;Ena montana juv,Gastropoda,2
+123,Helicigona lapicida,Gastropoda,1
+124,Helicodonta obvoluta;Monachoides incarnatus,Gastropoda,2
+125,Helicodonta obvoluta juv,Gastropoda,1
+127,Aegopinella nitens,Gastropoda,1
+128,Aegopinella nitens juv,Gastropoda,1
+129,Discus rotundatus juv,Gastropoda,1
+130,Phyllobius callacartus;Elateridae spec,Coleoptera,2
+131,Staphylinidae spec,Coleoptera,1
+132,Abax parallelepipedus,Coleoptera,1
+134,Coleoptera spec,Coleoptera,1
+135,Carabidae spec,Coleoptera,1
+136,Abax spec,Coleoptera,1
+137,Rhynchaenus fagi,Coleoptera,1
+138,Trichoniscus spec,Isopoda,1
+139,Porcellio conspersum,Isopoda,1
+140,Glomeris spec,Diplopoda,1
+141,Agelenidae spec juv,Araneae,1
+142,Harpactea lepida (juv),Araneae,1
+143,Harpactea lepida (ad),Araneae,1
+144,Walckenaeria furcillata,Araneae,1
+145,Euophrys frontalis,Araneae,1

@@ -1,0 +1,82 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Ceratophysella denticulata,Collembola,1
+2,Folsomia quadrioculata,Collembola,1
+3,Isotomiella minor;Parisotoma notabilis,Collembola,2
+4,Lepidocyrtus lanuginosus,Collembola,1
+5,Lipothrix (Sphyrotheca) lubbocki,Collembola,1
+6,Megalothorax minimus,Collembola,1
+7,Mesaphorura sp.;Mesaphorura macrochaeta,Collembola,2
+8,Micraphorura absoloni,Collembola,1
+10,Protaphorura armata,Collembola,1
+11,Lithobius sp4,Chilopoda,1
+12,Schendyla nemorensis,Chilopoda,1
+13,Pterostichus oblongopunctatus,Coleoptera,1
+14,Agriotes aterrimus (juv),Coleoptera,1
+15,Athous subfuscus (juv) {m},Coleoptera,1
+16,Aleocharinae sp1 (juv),Coleoptera,1
+17,Atheta sp. (juv),Coleoptera,1
+18,Geostiba circellaris,Coleoptera,1
+19,Gnaphosidae (juv),Araneae,1
+20,Linyphiidae (juv),Araneae,1
+21,Microneta viaria (ad),Araneae,1
+22,Neobisium sp,Pseudoscorpiones,1
+23,Phalangiidae (juv),Opiliones,1
+24,Tapinocyba insecta (ad),Araneae,1
+25,Hypoaspis aculeifer (ad),Mesostigmata,1
+26,Leioseius bicolor (ad),Mesostigmata,1
+27,Leptogamasus suecicus (ad),Mesostigmata,1
+28,Trachytes aegrota (ad),Mesostigmata,1
+29,Uropoda minima (ad),Mesostigmata,1
+30,Uropoda minima (juv),Mesostigmata,1
+31,Veigaia nemorensis (ad),Mesostigmata,1
+32,Veigaia nemorensis (juv),Mesostigmata,1
+33,Achipteria coleoptrata,Oribatida,1
+34,Brachychthoniidae spp.,Oribatida,1
+35,Chamobates cuspidatus;Chamobates voigtsi,Oribatida,2
+37,Damaeus riparius;Phthiracarus laevigatus;Rhysotritia duplicata,Oribatida,3
+38,Eniochthonius minutissimus,Oribatida,1
+39,Eupelops hirtus,Oribatida,1
+40,Oribatida juv.,Oribatida,1
+41,Microppia minus,Oribatida,1
+42,Nanhermannia nana,Oribatida,1
+43,Nothrus silvestris,Oribatida,1
+44,Oppiella nova;Suctobelbella spp.,Oribatida,2
+45,Oribatella calcarata,Oribatida,1
+46,Tectocepheus velatus alatus,Oribatida,1
+47,plants,Basal,1
+48,roots,Basal,1
+49,root exudates,Basal,1
+50,mykorrhiza,Basal,1
+51,saphrophytes,Basal,1
+52,bacterivor nematodes,Basal,1
+53,fungivor nematodes,Basal,1
+54,root feeding nematodes,Basal,1
+55,predatious nematodes,Basal,1
+56,omniv. Nematodes,Basal,1
+57,bacteria,Basal,1
+58,flagelata;ciliata;amoeba,Basal,3
+61,algae,Basal,1
+62,enchitraeidae,Basal,1
+63,dead organic matter detritus,Basal detritus,1
+64,Lysigamasus runcatellus (ad),Mesostigmata,1
+65,litter detritus,Basal detritus,1
+66,Vulgarogamasus kraepelini (ad),Mesostigmata,1
+67,Zercon cf peltatus (ad),Mesostigmata,1
+68,Zercon cf peltatus (juv),Mesostigmata,1
+69,Tapinocyba praecox (ad),Araneae,1
+70,Julidae spec,Diplopoda,1
+71,Nanhermannia elegantula,Oribatida,1
+74,Pterostichus spec.,Coleoptera,1
+76,Mesaphorura yosii,Collembola,1
+78,Pergamasinae (juv) {s},Mesostigmata,1
+79,Trachytes aegrota (juv) {s},Mesostigmata,1
+80,Lumbricus rubellus (ad) {xxl},Lumbricidae,1
+81,Campodea sp {l},Diplura,1
+82,Linyphiidae cf Erigoniinae (juv) {m},Araneae,1
+83,Xantholinus sp. (juv),Coleoptera,1
+84,Staphylinidae spec,Coleoptera,1
+85,Brachyderinae spec,Coleoptera,1
+86,Carabidae spec,Coleoptera,1
+87,Oodes helipioides,Coleoptera,1
+88,Chilopoda spec,Chilopoda,1
+89,Theridiidae juv spec,Araneae,1

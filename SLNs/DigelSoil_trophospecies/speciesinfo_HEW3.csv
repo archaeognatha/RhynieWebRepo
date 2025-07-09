@@ -1,0 +1,112 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Desoria violacea,Collembola,1
+2,Deuteraphorura inermis,Collembola,1
+3,Folsomia quadrioculata,Collembola,1
+4,Isotomiella minor;Parisotoma notabilis,Collembola,2
+5,Lepidocyrtus cyaneus;Lepidocyrtus lanuginosus,Collembola,2
+7,Megalothorax minimus,Collembola,1
+8,Mesaphorura sp.,Collembola,1
+9,Micranurida pygmaea,Collembola,1
+10,Micraphorura absoloni,Collembola,1
+11,Orchesella bifasciata,Collembola,1
+13,Protaphorura armata,Collembola,1
+14,Sminthurinus aureus,Collembola,1
+15,Lithobius sp4,Chilopoda,1
+16,Geophilus insculptus,Chilopoda,1
+17,Scolopendrella sp./subnuda {s},Symphyla,1
+18,Malthodes sp. (juv),Coleoptera,1
+19,Harpalus sp.,Coleoptera,1
+20,Notiophilus rufipes (juv),Coleoptera,1
+21,Athous haemorrhoidalis (juv),Coleoptera,1
+22,Athous subfuscus (juv) {m},Coleoptera,1
+23,Dalopius marginatus (juv) {m},Coleoptera,1
+24,Liodidae sp1,Coleoptera,1
+25,Atheta fungi,Coleoptera,1
+26,Atheta sp.,Coleoptera,1
+27,Atheta sp. (juv),Coleoptera,1
+28,Geostiba circellaris,Coleoptera,1
+29,Amaurobius sp (juv),Araneae,1
+30,Diplocephalus picinus (ad),Araneae,1
+31,Hahnia pusilla (juv),Araneae,1
+32,Hahnia pusilla (ad),Araneae,1
+33,Linyphiidae (juv),Araneae,1
+34,Neobisium sp,Pseudoscorpiones,1
+35,Phalangiidae (juv),Opiliones,1
+36,Robertus lividus (ad),Araneae,1
+37,Saloca diceros (ad),Araneae,1
+38,Tapinocyba pallens (ad),Araneae,1
+39,Leptogamasus suecicus (ad),Mesostigmata,1
+40,Lysigamasus lapponicus (ad),Mesostigmata,1
+41,Trachytes aegrota (ad),Mesostigmata,1
+42,Veigaia cerva (juv),Mesostigmata,1
+43,Veigaia exigua (ad),Mesostigmata,1
+44,Veigaia nemorensis (ad),Mesostigmata,1
+45,Veigaia nemorensis (juv),Mesostigmata,1
+46,Veigaia sp (juv),Mesostigmata,1
+47,Zercon cf gurensis sp1 (ad),Mesostigmata,1
+48,Zercon sp (juv),Mesostigmata,1
+49,Lumbricus terrestris (juv) {xl},Lumbricidae,1
+50,Dendrobaena octaedra (ad),Lumbricidae,1
+51,Achipteria coleoptrata,Oribatida,1
+52,Brachychthoniidae spp.,Oribatida,1
+53,Chamobates borealis,Oribatida,1
+54,Chamobates cuspidatus;Chamobates voigtsi,Oribatida,2
+56,Dissorhina ornata,Oribatida,1
+57,Eulohmannia ribagai;Oribatella calcarata,Oribatida,2
+58,Oribatida juv.,Oribatida,1
+59,Nothrus silvestris,Oribatida,1
+60,Oppiella nova;Oppiella subpectinata;Oppiella obsoleta;Suctobelbella spp.,Oribatida,4
+64,Phthiracarus longulus,Oribatida,1
+65,Quadroppia quadricarinata,Oribatida,1
+66,Tectocepheus velatus alatus,Oribatida,1
+67,Porcellio spinicornis;Oniscus asellus;Trachelipus ratzeburgii,Isopoda,3
+69,Tachypodoiulus niger,Diplopoda,1
+70,plants,Basal,1
+71,roots,Basal,1
+72,root exudates,Basal,1
+73,mykorrhiza,Basal,1
+74,saphrophytes,Basal,1
+75,bacterivor nematodes,Basal,1
+76,fungivor nematodes,Basal,1
+77,root feeding nematodes,Basal,1
+78,predatious nematodes,Basal,1
+79,omniv. Nematodes,Basal,1
+80,bacteria,Basal,1
+81,flagelata;ciliata;amoeba,Basal,3
+84,algae,Basal,1
+85,enchitraeidae,Basal,1
+86,dead organic matter detritus,Basal detritus,1
+87,litter detritus,Basal detritus,1
+88,Erigonella hiemalis (ad),Araneae,1
+89,Julidae spec,Diplopoda,1
+90,Pterostichus spec.,Coleoptera,1
+92,Scutigerella immaculata {s},Symphyla,1
+93,Elateridae sp1 (juv) {l},Coleoptera,1
+94,Parasitidae (juv) {s},Mesostigmata,1
+95,Pergamasinae (juv) {s},Mesostigmata,1
+96,Trachytes aegrota (juv) {s},Mesostigmata,1
+97,Campodea sp {l},Diplura,1
+98,Xantholinus sp. (juv),Coleoptera,1
+99,Discus rotundatus juv,Gastropoda,1
+100,Nesovitrea hammonis,Gastropoda,1
+101,Arion silvaticus,Gastropoda,1
+102,Limacidae spec,Gastropoda,1
+103,Aegopinella pura,Gastropoda,1
+104,Aegopinella nitidula;Aegopinella nitidula juv,Gastropoda,2
+106,Gastropoda spec juv,Gastropoda,1
+107,Cepea nemoralis,Gastropoda,1
+108,Staphylinidae spec,Coleoptera,1
+109,Coleoptera spec,Coleoptera,1
+110,Carabidae spec juv,Coleoptera,1
+111,Notiophilus spec,Coleoptera,1
+112,Cylisticus spec,Isopoda,1
+113,Trichoniscus spec,Isopoda,1
+115,Glomeris spec,Diplopoda,1
+116,Euophrys frontalis,Araneae,1
+117,Tenuiphantes mengei,Araneae,1
+118,Tenuiphantes tenuis,Araneae,1
+119,Theridiidae juv spec,Araneae,1
+120,Salticidae spec juv,Araneae,1
+121,Walckenaeria atrotibialis,Araneae,1
+122,Dicymbium brevisetosum,Araneae,1
+123,Enoplognatha ovata,Araneae,1

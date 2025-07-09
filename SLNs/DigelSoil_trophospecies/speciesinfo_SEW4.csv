@@ -1,0 +1,108 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Folsomia quadrioculata,Collembola,1
+2,Isotomiella minor;Xenylla grisea,Collembola,2
+3,Megalothorax minimus,Collembola,1
+4,Mesaphorura sp.;Paratullbergia callipygos,Collembola,2
+5,Micranurida pygmaea,Collembola,1
+6,Micraphorura absoloni,Collembola,1
+8,Parisotoma notabilis,Collembola,1
+9,Sminthurinus aureus,Collembola,1
+10,Tomocerus vulgaris,Collembola,1
+11,Lithobius sp4,Chilopoda,1
+12,Schendyla nemorensis,Chilopoda,1
+13,Agriotes aterrimus (juv),Coleoptera,1
+14,Athous subfuscus (juv) {m},Coleoptera,1
+15,Athous sp. (juv),Coleoptera,1
+16,Plectophoreus fischeri,Coleoptera,1
+17,Acrotrichis sp.,Coleoptera,1
+18,Habrocerus capillaricornis,Coleoptera,1
+19,Othius sp. (juv),Coleoptera,1
+20,Diplocephalus picinus (ad),Araneae,1
+21,Linyphiidae (juv),Araneae,1
+22,Microneta viaria (ad),Araneae,1
+23,Neobisium carcinoides (ad),Pseudoscorpiones,1
+24,Neobisium sp,Pseudoscorpiones,1
+25,Phalangiidae (juv),Opiliones,1
+26,Robertus lividus (ad),Araneae,1
+27,Tapinocyba insecta (ad),Araneae,1
+28,Vulgarogamasus sp juv,Mesostigmata,1
+29,Leioseius bicolor (ad),Mesostigmata,1
+30,Pergamasinae (juv) {xs},Mesostigmata,1
+31,Pergamasus sp (juv) {s},Mesostigmata,1
+32,Trachytes aegrota (juv) {xs},Mesostigmata,1
+33,Urodiaspis tecta (juv),Mesostigmata,1
+34,Uropoda minima (ad),Mesostigmata,1
+35,Veigaia nemorensis (ad),Mesostigmata,1
+36,Veigaia nemorensis (juv),Mesostigmata,1
+37,Campodea sp {m},Diplura,1
+38,Achipteria coleoptrata,Oribatida,1
+39,Brachychthoniidae spp.,Oribatida,1
+40,Chamobates voigtsi;Microtritia minima,Oribatida,2
+41,Eniochthonius minutissimus,Oribatida,1
+42,Oribatida juv.,Oribatida,1
+43,Metabelba pulverosa,Oribatida,1
+44,Microppia minus;Berniniella sigma;Oppiella propinqua,Oribatida,3
+45,Nanhermannia nana,Oribatida,1
+46,Nothrus silvestris,Oribatida,1
+47,Oppiella nova;Suctobelbella spp.,Oribatida,2
+48,Oribatella calcarata,Oribatida,1
+49,Phthiracarus compressus;Phthiracarus lentulus;Phthiracarus longulus;Rhysotritia duplicata,Oribatida,4
+52,Platynothrus peltifer,Oribatida,1
+53,Porobelba spinosa;Quadroppia quadricarinata,Oribatida,2
+55,Scheloribates laevigatus,Oribatida,1
+56,Protaphorura sp.,Collembola,1
+57,Sphaeridia pumilis,Collembola,1
+58,plants,Basal,1
+59,roots,Basal,1
+60,root exudates,Basal,1
+61,mykorrhiza,Basal,1
+62,saphrophytes,Basal,1
+63,bacterivor nematodes,Basal,1
+64,fungivor nematodes,Basal,1
+65,root feeding nematodes,Basal,1
+66,predatious nematodes,Basal,1
+67,omniv. Nematodes,Basal,1
+68,bacteria,Basal,1
+69,flagelata;ciliata;amoeba,Basal,3
+72,algae,Basal,1
+73,enchitraeidae,Basal,1
+74,dead organic matter detritus,Basal detritus,1
+75,Eviphis sp (juv),Mesostigmata,1
+76,Geholaspis longispinosus (juv),Mesostigmata,1
+77,Geholaspis longispinosus (ad),Mesostigmata,1
+78,Lysigamasus sp (ad),Mesostigmata,1
+79,litter detritus,Basal detritus,1
+80,Rhodacarus coronatus (ad),Mesostigmata,1
+81,Urodiaspis tecta (ad),Mesostigmata,1
+82,Diplostyla concolor (ad),Araneae,1
+83,Julidae spec,Diplopoda,1
+84,Adoristes ovatus,Oribatida,1
+86,Carabodes coriaceus,Oribatida,1
+87,Carabodes ornatus,Oribatida,1
+90,Phthiracarus laevigatus,Oribatida,1
+92,Scheloribates initialis,Oribatida,1
+93,Pterostichus chamaeleon (juv),Coleoptera,1
+94,Pterostichus spec.,Coleoptera,1
+95,Lathrobium brunnipes,Coleoptera,1
+96,Mycetoporus sp.,Coleoptera,1
+97,Clubionidae (juv),Araneae,1
+99,Lepidocyrtus juv.,Collembola,1
+100,Neanura muscorum,Collembola,1
+101,Lithobius curtipes {l},Chilopoda,1
+102,Athous zebei (juv) {m},Coleoptera,1
+103,Elateridae sp1 (juv) {l},Coleoptera,1
+104,Parasitidae (juv) {s},Mesostigmata,1
+105,Lumbricus rubellus (ad) {xxl};Lumbricus rubellus (juv) {xxl},Lumbricidae,2
+107,Linyphiidae cf Erigoniinae (juv) {m},Araneae,1
+109,Staphylinidae spec,Coleoptera,1
+110,Coleoptera spec,Coleoptera,1
+111,Ptilidae spec,Coleoptera,1
+112,Carabidae spec,Coleoptera,1
+113,Molops piceus,Coleoptera,1
+114,Trichoniscus spec,Isopoda,1
+115,Chilopoda spec,Chilopoda,1
+116,Ceratinella brevis,Araneae,1
+117,Theridiidae juv spec,Araneae,1
+118,Liocranidae spec juv,Araneae,1
+119,Philodromus dispar,Araneae,1
+120,Haplodrassus silvstris,Araneae,1

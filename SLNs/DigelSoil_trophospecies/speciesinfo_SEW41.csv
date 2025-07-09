@@ -1,0 +1,111 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Isotomiella minor,Collembola,1
+2,Megalothorax minimus,Collembola,1
+3,Mesaphorura sp.,Collembola,1
+4,Micranurida pygmaea,Collembola,1
+5,Micraphorura absoloni,Collembola,1
+6,Parisotoma notabilis,Collembola,1
+7,Lithobius sp4,Chilopoda,1
+8,Schendyla nemorensis,Chilopoda,1
+9,Scolopendrella sp./subnuda {s},Symphyla,1
+10,Malthodes sp. (juv),Coleoptera,1
+11,Agriotes aterrimus (juv),Coleoptera,1
+12,Athous subfuscus (juv) {m},Coleoptera,1
+13,Dalopius marginatus (juv) {m},Coleoptera,1
+14,Acrotrichis sp.,Coleoptera,1
+15,Aleocharinae sp1 (juv),Coleoptera,1
+16,Atheta fungi,Coleoptera,1
+17,Atheta sp. (juv),Coleoptera,1
+18,Geostiba circellaris,Coleoptera,1
+19,Habrocerus capillaricornis,Coleoptera,1
+20,Othius sp. (juv),Coleoptera,1
+21,Xantholinus sp. (juv),Coleoptera,1
+22,Diplocephalus picinus (ad),Araneae,1
+23,Linyphiidae (juv),Araneae,1
+24,Neobisium sp,Pseudoscorpiones,1
+25,Phalangiidae (juv),Opiliones,1
+26,Robertus lividus (ad),Araneae,1
+27,Tapinocyba insecta (ad),Araneae,1
+28,Trombidiidae,Prostigmata,1
+29,Lysigamasus cf conus(ad),Mesostigmata,1
+30,Lysigamasus lapponicus (ad),Mesostigmata,1
+31,Pergamasinae (juv) {xs},Mesostigmata,1
+32,Trachytes aegrota (ad),Mesostigmata,1
+33,Urodiaspis tecta (juv),Mesostigmata,1
+34,Uropoda minima (ad),Mesostigmata,1
+35,Uropoda minima (juv),Mesostigmata,1
+36,Veigaia nemorensis (ad),Mesostigmata,1
+37,Veigaia nemorensis (juv),Mesostigmata,1
+38,Zercon cf gurensis sp1 (ad),Mesostigmata,1
+39,Zercon sp (juv),Mesostigmata,1
+40,Dendrobaena octaedra (ad);Dendrodrilus rubidus (ad),Lumbricidae,2
+42,Campodea sp {m},Diplura,1
+43,Achipteria coleoptrata,Oribatida,1
+44,Brachychthoniidae spp.,Oribatida,1
+45,Chamobates voigtsi,Oribatida,1
+46,Galumna lanceata;Chamobates subglobulus;Eupelops torulosus,Oribatida,3
+47,Oribatida juv.,Oribatida,1
+48,Microppia minus,Oribatida,1
+49,Nothrus silvestris,Oribatida,1
+50,Oppiella nova;Suctobelbella spp.,Oribatida,2
+51,Oribatula tibialis,Oribatida,1
+52,Platynothrus peltifer,Oribatida,1
+53,Quadroppia quadricarinata,Oribatida,1
+54,Protaphorura sp.,Collembola,1
+55,Julidae juv spec {m};Polydesmidae,Diplopoda,2
+57,plants,Basal,1
+58,roots,Basal,1
+59,root exudates,Basal,1
+60,mykorrhiza,Basal,1
+61,saphrophytes,Basal,1
+62,bacterivor nematodes,Basal,1
+63,fungivor nematodes,Basal,1
+64,root feeding nematodes,Basal,1
+65,predatious nematodes,Basal,1
+66,omniv. Nematodes,Basal,1
+67,bacteria,Basal,1
+68,flagelata;ciliata;amoeba,Basal,3
+71,algae,Basal,1
+72,enchitraeidae,Basal,1
+73,dead organic matter detritus,Basal detritus,1
+74,Lysigamasus runcatellus (ad),Mesostigmata,1
+75,litter detritus,Basal detritus,1
+76,Rhodacarus coronatus (ad),Mesostigmata,1
+77,Rhodacarus sp (ad),Mesostigmata,1
+78,Trichouropoda ovalis (ad),Mesostigmata,1
+79,Linyphiidae cf Erigoniinae (juv) {s},Araneae,1
+80,Maro minutus (ad),Araneae,1
+81,Euryopis flavomaculata (ad),Araneae,1
+82,Polydesmus inconstans,Diplopoda,1
+83,Megaphyllum projectum,Diplopoda,1
+84,Julidae spec,Diplopoda,1
+85,Carabodes subarcticus,Oribatida,1
+87,Damaeus auritus;Rhysotritia duplicata,Oribatida,2
+89,Galumna tarsipennata,Oribatida,1
+91,Lithobius curtipes (juv),Chilopoda,1
+92,Nargus spec.,Coleoptera,1
+93,Lathrobium sp. (juv),Coleoptera,1
+94,Clubionidae (juv),Araneae,1
+96,Ceratophysella sp.,Collembola,1
+97,Lepidocyrtus juv.,Collembola,1
+98,Elateridae sp1 (juv) {l},Coleoptera,1
+99,Nesovitrea hammonis,Gastropoda,1
+100,Aegopinella nitidula juv,Gastropoda,1
+101,Cantharidae spec,Coleoptera,1
+102,Geotrupes spec,Coleoptera,1
+103,Staphylinidae spec,Coleoptera,1
+104,Elateridae spec,Coleoptera,1
+105,Coleoptera spec,Coleoptera,1
+106,Brachyderinae spec,Coleoptera,1
+107,Erotylidae spec,Coleoptera,1
+108,Cylisticus spec,Isopoda,1
+109,Porcellio conspersum,Isopoda,1
+110,Chilopoda spec,Chilopoda,1
+111,Ceratinella brevis,Araneae,1
+112,Tenuiphantes tenuis,Araneae,1
+113,Theridiidae juv spec,Araneae,1
+114,Linyphia hortensis,Araneae,1
+115,Metellina segmentata,Araneae,1
+116,Liocranidae spec juv,Araneae,1
+117,Haplodrassus silvstris,Araneae,1
+118,Clubiona pallidula,Araneae,1

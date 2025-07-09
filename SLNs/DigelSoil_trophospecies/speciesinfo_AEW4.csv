@@ -1,0 +1,110 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Folsomia quadrioculata,Collembola,1
+2,Isotomidae;Isotomiella minor;Parisotoma notabilis,Collembola,3
+4,Lepidocyrtus lanuginosus;Lepidocyrtus juv.,Collembola,2
+5,Megalothorax minimus,Collembola,1
+7,Sminthurinus aureus,Collembola,1
+8,Lithobius piceus,Chilopoda,1
+9,Lithobius mutabilis,Chilopoda,1
+10,Lithobius sp4,Chilopoda,1
+11,Atheta sp.,Coleoptera,1
+12,Amaurobius sp (juv),Araneae,1
+13,Clubiona comta (ad),Araneae,1
+14,Diplocephalus picinus (ad),Araneae,1
+15,Linyphiidae (juv),Araneae,1
+16,Microneta viaria (ad),Araneae,1
+17,Neobisium carcinoides (ad),Pseudoscorpiones,1
+18,Neobisium sp,Pseudoscorpiones,1
+19,Phalangiidae (juv),Opiliones,1
+20,Robertus lividus (ad),Araneae,1
+21,Robertus sp (juv) {m},Araneae,1
+22,Saloca diceros (ad),Araneae,1
+23,Tapinocyba insecta (ad),Araneae,1
+24,Trogulus tricarinatus,Opiliones,1
+25,Walckenaeria dysderoides (ad),Araneae,1
+26,Geholaspis mandibularis (ad),Mesostigmata,1
+27,Holoparasitus stramenti (ad),Mesostigmata,1
+28,Leitneria granulata (juv),Mesostigmata,1
+29,Macrocheles montanus (ad),Mesostigmata,1
+30,Pachyseius humeralis (ad),Mesostigmata,1
+31,Pergamasinae (juv) {xs},Mesostigmata,1
+32,Rhodacarellus kreuzi (ad),Mesostigmata,1
+33,Uropoda athiasae (ad),Mesostigmata,1
+34,Uropoda cassidea (ad),Mesostigmata,1
+35,Uropoda cassidea (juv),Mesostigmata,1
+36,Veigaia cerva (ad),Mesostigmata,1
+37,Veigaia exigua (ad),Mesostigmata,1
+38,Veigaia nemorensis (ad),Mesostigmata,1
+39,Lumbricus terrestris (ad);Lumbricus terrestris (juv) {xxxl},Lumbricidae,2
+40,Campodea sp {m},Diplura,1
+41,Atropacarus striculus,Oribatida,1
+42,Berniniella conjuncta;Oppiella falcata,Oribatida,2
+43,Brachychthoniidae spp.,Oribatida,1
+44,Ceratozetes gracilis,Oribatida,1
+45,Chamobates voigtsi;Pantelozetes paolii,Oribatida,2
+46,Galumna lanceata;Steganacarus herculeanus,Oribatida,2
+47,Oribatida juv.,Oribatida,1
+48,Tomocerus baudoti,Collembola,1
+50,Oppiella subpectinata,Oribatida,1
+52,Phthiracarus compressus;Phthiracarus ferrugineus,Oribatida,2
+53,Phthiracarus globosus,Oribatida,1
+54,Quadroppia quadricarinata;Quadroppia hammerae,Oribatida,2
+55,Protaphorura fimata;Protaphorura sp.,Collembola,2
+57,Ligidium hypnorum,Isopoda,1
+58,Glomeris spec juv {m},Diplopoda,1
+59,plants,Basal,1
+60,roots,Basal,1
+61,root exudates,Basal,1
+62,mykorrhiza,Basal,1
+63,saphrophytes,Basal,1
+64,bacterivor nematodes,Basal,1
+65,fungivor nematodes,Basal,1
+66,root feeding nematodes,Basal,1
+67,predatious nematodes,Basal,1
+68,omniv. Nematodes,Basal,1
+69,bacteria,Basal,1
+70,flagelata;ciliata;amoeba,Basal,3
+73,algae,Basal,1
+74,enchitraeidae,Basal,1
+75,dead organic matter detritus,Basal detritus,1
+76,litter detritus,Basal detritus,1
+77,Erigonella hiemalis (ad),Araneae,1
+78,Julidae spec,Diplopoda,1
+80,Aporectodea longa (juv);Octolasion tyrtaeum (juv) {xxl},Lumbricidae,2
+81,Lithobius aeruginosus juv,Chilopoda,1
+82,Geophilus studeri,Chilopoda,1
+83,Lithobius  mutabilis juv,Chilopoda,1
+84,Epidamaeus setiger,Oribatida,1
+85,Liacarus subterraneus,Oribatida,1
+88,Suctobelbella spp.,Oribatida,1
+89,Tectocepheus velatus velatus,Oribatida,1
+90,Carabidae sp1,Coleoptera,1
+91,Geholaspis mandibularis (juv.);Pachylaelaps cf vexillifer (ad),Mesostigmata,2
+92,Lysigamasus minorleitneriae (ad),Mesostigmata,1
+93,Lysigamasus truncellus (ad),Mesostigmata,1
+95,Macrochelidae (juv),Mesostigmata,1
+97,Lithobius sp2 {l},Chilopoda,1
+98,Scolopendrella sp./subnuda {m},Symphyla,1
+99,Athous zebei (juv) {m},Coleoptera,1
+102,Trichoniscus pusillus {m},Isopoda,1
+103,Chordeumatidae juv {m},Diplopoda,1
+104,Robertus lividus (juv) {l},Araneae,1
+105,Lithobius aeruginosus {l},Chilopoda,1
+106,Ena montana;Ena montana juv;Trichia striolata juv,Gastropoda,3
+108,Monachoides incarnatus,Gastropoda,1
+109,Aegopinella nitens,Gastropoda,1
+110,Aegopinella nitens juv,Gastropoda,1
+111,Discus rotundatus juv,Gastropoda,1
+113,Cochlodina laminata,Gastropoda,1
+114,Cantharidae spec,Coleoptera,1
+115,Staphylinidae spec,Coleoptera,1
+116,Coleoptera spec,Coleoptera,1
+117,Carabidae spec,Coleoptera,1
+118,Abax spec,Coleoptera,1
+119,Molops piceus,Coleoptera,1
+120,Trichoniscus spec,Isopoda,1
+121,Chilopoda spec,Chilopoda,1
+122,Harpactea lepida (juv),Araneae,1
+123,Theridiidae juv spec,Araneae,1
+124,Eurocoelotes inermis,Araneae,1
+125,Centromerus prudens,Araneae,1

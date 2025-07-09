@@ -1,0 +1,79 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Desoria violacea,Collembola,1
+2,Folsomia quadrioculata,Collembola,1
+3,Isotomidae;Parisotoma notabilis,Collembola,2
+4,Lepidocyrtus lanuginosus,Collembola,1
+5,Megalothorax minimus,Collembola,1
+6,Mesaphorura sp.,Collembola,1
+8,Sminthurinus aureus;Sminthurinus sp. juv,Collembola,2
+10,Stenaphorura denisi,Collembola,1
+11,Lithobius crassipes,Chilopoda,1
+12,Lithobius sp4,Chilopoda,1
+13,Geophilus ribauti,Chilopoda,1
+14,Geophilus flavus,Chilopoda,1
+15,Notiophilus biguttatus,Coleoptera,1
+16,Pterostichus strenuus,Coleoptera,1
+17,Nargus anisotomoides,Coleoptera,1
+18,Aleocharinae sp1 (juv),Coleoptera,1
+19,Atheta sp. (juv),Coleoptera,1
+20,Tachyusa sp. (juv),Coleoptera,1
+21,Coelotes sp (juv) {l},Araneae,1
+22,Clubiona comta (ad),Araneae,1
+23,Coelotes terrestris (ad),Araneae,1
+24,Diplocephalus picinus (ad),Araneae,1
+25,Hahnia pusilla (ad),Araneae,1
+26,Linyphiidae (juv),Araneae,1
+27,Microneta viaria (ad),Araneae,1
+28,Neobisium sp,Pseudoscorpiones,1
+29,Phalangiidae (juv),Opiliones,1
+30,Tapinocyba insecta (ad),Araneae,1
+31,Trombidiidae,Prostigmata,1
+32,Lysigamasus sp (juv),Mesostigmata,1
+33,Pergamasinae (male),Mesostigmata,1
+34,Veigaia exigua (ad),Mesostigmata,1
+35,Zercon cf gurensis sp1 (ad),Mesostigmata,1
+36,Aporrectodea caliginosa (ad),Lumbricidae,1
+37,Aporrectodea caliginosa (juv) {xl};Aporrectodea rosea (ad);Octolasion tyrtaeum (juv) {xxl},Lumbricidae,3
+39,Aporrectodea rosea (juv),Lumbricidae,1
+40,Atropacarus striculus;Quadroppia quadricarinata,Oribatida,2
+41,Ceratozetes gracilis,Oribatida,1
+42,Chamobates cuspidatus;Pantelozetes paolii,Oribatida,2
+43,Eulohmannia ribagai,Oribatida,1
+44,Eupelops plicatus,Oribatida,1
+45,Hypochthonius luteus;Hypochthonius rufulus,Oribatida,2
+47,Oribatida juv.,Oribatida,1
+48,Oppiella nova;Oppiella subpectinata;Suctobelbella spp.,Oribatida,3
+51,Phthiracarus lentulus,Oribatida,1
+53,Steganacarus magnus,Oribatida,1
+54,Porcellio spinicornis,Isopoda,1
+55,Glomeris spec juv {m},Diplopoda,1
+56,plants,Basal,1
+57,roots,Basal,1
+58,root exudates,Basal,1
+59,mykorrhiza,Basal,1
+60,saphrophytes,Basal,1
+61,bacterivor nematodes,Basal,1
+62,fungivor nematodes,Basal,1
+63,root feeding nematodes,Basal,1
+64,predatious nematodes,Basal,1
+65,omniv. Nematodes,Basal,1
+66,bacteria,Basal,1
+67,flagelata;ciliata;amoeba,Basal,3
+70,algae,Basal,1
+71,enchitraeidae,Basal,1
+72,dead organic matter detritus,Basal detritus,1
+73,litter detritus,Basal detritus,1
+74,Julidae spec,Diplopoda,1
+75,Pterostichus spec.,Coleoptera,1
+77,Lithobius sp2 {l},Chilopoda,1
+78,Scutigerella immaculata {s},Symphyla,1
+79,Lumbricus terrestris (juv) {xxl},Lumbricidae,1
+81,Trichoniscus pusillus {m},Isopoda,1
+82,Helicidae spec juv;Cepea hortensis,Gastropoda,2
+83,Clausilia bidentata,Gastropoda,1
+85,Larve spec;Elateridae spec,Coleoptera,2
+86,Staphylinidae spec,Coleoptera,1
+87,Abax ovalis,Coleoptera,1
+88,Abax parallelepipedus,Coleoptera,1
+90,Agelenidae spec juv,Araneae,1
+91,Histopona torpida,Araneae,1
