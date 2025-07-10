@@ -1,0 +1,8 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,      1 Prionocyphon serricornis;      4 Myiatropa florea,      1 Prionocyphon serricornis,2,1,0,2.0,1.0
+2,      2 Metriocnemus cavicola;      5 Telmatoscopus sp.;      6 Dasyhelea sensualis;      7 D. lignicola,      2 Metriocnemus cavicola,4,1,0,2.0,1.0
+3,      3 Aedes ornatus,      3 Aedes ornatus,1,2,0,2.0,1.0
+8,      8 Anopheles nigripes,      8 Anopheles nigripes,1,1,0,2.0,1.0
+9,      9 large detritus particles,      9 large detritus particles,1,0,1,1.0,0.0
+10,     10 small detritus particles,     10 small detritus particles,1,0,2,1.0,0.0
+11,     11 suspended organic matter detritus,     11 suspended organic matter detritus,1,0,2,1.0,0.0

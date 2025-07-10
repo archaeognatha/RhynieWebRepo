@@ -1,0 +1,14 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,      1 Entomobrya ligata;      2 E. corticola;      3 Entomobrya sp.;      4 Isotoma sensibilis,      1 Entomobrya ligata,4,2,1,2.5,1.0
+5,      5 Parcoblatta sp.;     33 Uropoda sp.,      5 Parcoblatta sp.,2,1,0,3.0,2.0
+6,      6 Tachymenis flavicauda,      6 Tachymenis flavicauda,1,1,0,3.0,2.0
+7,      7 Platysoma lecontei,      7 Platysoma lecontei,1,1,0,4.0,3.0
+8,      8 Alaus myops larvae,      8 Alaus myops larvae,1,1,0,3.0,2.0
+9,      9 Orthostethus infuscatus larvae;     10 Melanotus sp. larvae;     11 Elater verticinus;     12 Uloma punctulata;     13 Xylopinus rufipes larvae;     14 Scotobates calcaratus larvae;     15 Passalus cornutus;     16 Pseudolucanus capreolus larvae;     24 lumbricid (undet.);     28 Cambala annulata;     29 Fontaria coriacen;     30 Polydesmus serratus,      9 Orthostethus infuscatus larvae,12,1,0,2.0,1.0
+17,     17 Derobrachus brunneus larvae;     18 Leptura sp. larvae,     17 Derobrachus brunneus larvae,2,1,1,2.0,1.0
+19,     19 chironomid larvae;     20 cecidomyid larvae;     21 dolicopodid larvae,     19 chironomid larvae,3,1,1,3.0,2.0
+22,     22 Leptinothorax curvispinosus;     23 Ponera coarctata;     31 Geophilus varians;     32 Linotaenia bidens,     22 Leptinothorax curvispinosus,4,1,0,3.0,2.0
+25,     25 Polygyra thyriodes;     26 Zonitoides arboreus;     27 Philomycus carolinensis,     25 Polygyra thyriodes,3,2,0,2.5,1.0
+34,     34 various larvae (unspecified),     34 various larvae (unspecified),1,2,1,2.5,1.0
+35,     35 rotting wood detritus (Pinus spp.),     35 rotting wood detritus (Pinus spp.),1,0,6,1.0,0.0
+36,     36 fungi,     36 fungi,1,1,5,2.0,1.0

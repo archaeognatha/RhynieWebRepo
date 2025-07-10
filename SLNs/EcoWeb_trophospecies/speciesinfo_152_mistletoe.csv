@@ -1,0 +1,15 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,      1 Crematogaster laeviuscula,      1 Crematogaster laeviuscula,1,3,0,4.0,2.0
+2,      2 Olla V-nigrum,      2 Olla V-nigrum,1,1,1,4.0,3.0
+3,      3 Chrysopis sp.;      4 Oecanthus niveus,      3 Chrysopis sp.,2,1,0,4.0,3.0
+5,      5 Tacoma feriella,      5 Tacoma feriella,1,1,1,3.0,2.0
+6,      6 Casinaria limenitides;      7 Phytocoris breviusculus;      8 Podisus acutissimus,      6 Casinaria limenitides,3,1,0,4.0,3.0
+9,      9 Largus cinctus,      9 Largus cinctus,1,2,0,3.0,2.0
+10,     10 Metadontia amoena,     10 Metadontia amoena,1,1,0,4.0,3.0
+11,     11 Apanteles cp.,     11 Apanteles cp.,1,2,0,4.0,3.0
+12,     12 Vanduzea laeta;     13 pseudococcids (unspecified);     14 Lecanium sp.;     16 Leptoglossus brevirostris;     19 Aphrastus unicolor;     20 Myrmex sp. (prob. estriatus);     21 Smiracraulax tuberculatus,     12 Vanduzea laeta,7,1,0,3.0,2.0
+15,     15 aphids (unspecified),     15 aphids (unspecified),1,1,2,3.0,2.0
+17,     17 Cyathissa percara,     17 Cyathissa percara,1,1,3,3.0,2.0
+18,     18 Atlides halesus,     18 Atlides halesus,1,1,2,3.0,2.0
+22,     22 Phoradendron tomentosum,     22 Phoradendron tomentosum,1,1,6,2.0,1.0
+23,     23 Prosopis juliflora,     23 Prosopis juliflora,1,0,2,1.0,0.0

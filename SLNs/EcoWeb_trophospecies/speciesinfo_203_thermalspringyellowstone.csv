@@ -1,0 +1,11 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,      1 Partnuniella thermalis,      1 Partnuniella thermalis,1,3,0,3.0,2.0
+2,      2 Thermacarus nevadensis;      3 Tachytrechus angustipennis,      2 Thermacarus nevadensis,2,3,0,3.0,2.0
+4,      4 birds (unspecified),      4 birds (unspecified),1,3,0,3.0,2.0
+5,      5 arachnids (unspec.),      5 arachnids (unspec.),1,2,0,3.0,2.0
+6,      6 Paracoenia turbida eggs,      6 Paracoenia turbida eggs,1,1,2,2.0,1.0
+7,      7 P. turbida larvae,      7 P. turbida larvae,1,1,2,2.0,1.0
+8,      8 P. turbida pupae,      8 P. turbida pupae,1,1,1,2.0,1.0
+9,      9 P. turbida adults,      9 P. turbida adults,1,1,2,2.0,1.0
+10,     10 Lamproscatella dichaeta;     11 Microcoelepis sp.;     12 chironomid (unspec.);     13 amphipod (unspec.);     14 tipulid (unspec.),     10 Lamproscatella dichaeta,5,1,4,2.0,1.0
+15,     15 blue-green algal-bacterial mat,     15 blue-green algal-bacterial mat,1,0,5,1.0,0.0

@@ -1,0 +1,8 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,      1 Myiatropa sp.;      2 Prionocyphon sp.,      1 Myiatropa sp.,2,1,0,2.0,1.0
+3,      3 Metriocnemus sp.;      4 Dasyhelea sp.,      3 Metriocnemus sp.,2,1,0,2.0,1.0
+5,      5 Aedes sp.,      5 Aedes sp.,1,2,0,2.0,1.0
+6,      6 Anopheles sp.,      6 Anopheles sp.,1,1,0,2.0,1.0
+7,      7 large detritus particles,      7 large detritus particles,1,0,1,1.0,0.0
+8,      8 small detritus particles,      8 small detritus particles,1,0,2,1.0,0.0
+9,      9 dissolved organic matter detritus,      9 dissolved organic matter detritus,1,0,2,1.0,0.0

@@ -1,0 +1,34 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,     1 Haplochromis johnstoni,     1 Haplochromis johnstoni,1,10,0,2.7,2.0
+2,     2 Barbus rhoadesii,     2 Barbus rhoadesii,1,2,0,3.5,3.0
+3,     3 Haplochromis dimidiatus,     3 Haplochromis dimidiatus,1,8,0,3.1,2.0
+4,     4 Haplochromis rostratus;     5 Haplochromis sp.;     6 Rhamphochromis spp.,     4 Haplochromis rostratus,3,1,0,4.0,3.0
+7,     7 Engraulicypris sardella,     7 Engraulicypris sardella,1,2,1,2.5,2.0
+8,     8 various immature fishes,     8 various immature fishes,1,2,3,3.0,2.0
+9,     9 Lethrinops brevis;    12 Lethrinops,     9 Lethrinops brevis,2,2,0,3.0,2.0
+10,    10 Tilapia saka-squamipinnis,    10 Tilapia saka-squamipinnis,1,2,1,2.0,1.0
+11,    11 Synodontis zambesensis,    11 Synodontis zambesensis,1,4,0,2.75,2.0
+13,    13 Alestes imberi,    13 Alestes imberi,1,2,0,2.5,2.0
+14,    14 Microcyclops nyasae,    14 Microcyclops nyasae,1,1,1,2.0,1.0
+15,    15 Lethriops furcifer,    15 Lethriops furcifer,1,1,0,3.0,2.0
+16,    16 Barbus eurystomus,    16 Barbus eurystomus,1,2,0,3.0,2.0
+17,    17 Haplocrhomis mola,    17 Haplocrhomis mola,1,6,0,3.0,2.0
+18,    18 Barilius microcephalus,    18 Barilius microcephalus,1,2,0,2.0,1.0
+19,    19 Barbus johnstoni,    19 Barbus johnstoni,1,6,0,2.5,1.0
+20,    20 Baetid nymphs,    20 Baetid nymphs,1,1,6,2.0,1.0
+21,    21 Ostracods,    21 Ostracods,1,1,7,2.0,1.0
+22,    22 Chironomid larvae,    22 Chironomid larvae,1,1,8,2.0,1.0
+23,    23 Caridina nilotica,    23 Caridina nilotica,1,1,2,2.0,1.0
+24,    24 Corbicula africana,    24 Corbicula africana,1,1,3,2.0,1.0
+25,"    25 Barbus innocens, Haplochromis similis, Haplochromis moori","    25 Barbus innocens, Haplochromis similis, Haplochromis moori",1,3,0,2.0,1.0
+26,    26 Lanistes procerus,    26 Lanistes procerus,1,1,1,2.0,1.0
+27,"    27 Malanoides tuberculata, other gastropods","    27 Malanoides tuberculata, other gastropods",1,1,3,2.0,1.0
+28,    28 Tilapia melanopleura,    28 Tilapia melanopleura,1,1,0,2.0,1.0
+29,    29 Tilapia shirana;    30 Labeo mesops,    29 Tilapia shirana,2,1,0,2.0,1.0
+31,    31 terrestrial insects,    31 terrestrial insects,1,0,5,1.0,0.0
+32,    32 Aufwuchs on Vallisneria,    32 Aufwuchs on Vallisneria,1,0,5,1.0,0.0
+33,    33 Vallisneria,    33 Vallisneria,1,0,8,1.0,0.0
+34,"    34 bottom detritus, algae","    34 bottom detritus, algae",1,0,11,1.0,0.0
+35,    35 plankton,    35 plankton,1,0,2,1.0,0.0
+36,    36 Haplochromis chrysonotus,    36 Haplochromis chrysonotus,1,4,0,2.5,1.0
+37,    37 Cyclopoid copepods,    37 Cyclopoid copepods,1,1,3,2.0,1.0

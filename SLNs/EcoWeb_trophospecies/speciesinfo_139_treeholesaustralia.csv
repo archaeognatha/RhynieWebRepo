@@ -1,0 +1,12 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,      1 Lechriodus fletcheri,      1 Lechriodus fletcheri,1,6,1,4.0,2.0
+2,      2 Anatopynia sp.,      2 Anatopynia sp.,1,2,2,3.0,2.0
+3,      3 Cheiroseius sp.,      3 Cheiroseius sp.,1,1,1,3.0,2.0
+4,      4 Prionocyphon sp.,      4 Prionocyphon sp.,1,1,2,2.0,1.0
+5,      5 hyadesiid mite,      5 hyadesiid mite,1,1,2,2.0,1.0
+6,      6 Aedes sp. 22;      7 Aedes candidoscutellum,      6 Aedes sp. 22,2,2,4,2.0,1.0
+8,      8 large detritus particles,      8 large detritus particles,1,0,1,1.0,0.0
+9,      9 small detritus particles,      9 small detritus particles,1,0,2,1.0,0.0
+10,     10 suspended organic matter detritus,     10 suspended organic matter detritus,1,0,1,1.0,0.0
+11,     11 Culicoides angularis,     11 Culicoides angularis,1,2,2,3.6,3.0
+12,     12 Arrenurus sp.,     12 Arrenurus sp.,1,4,1,3.7142857142857144,4.0

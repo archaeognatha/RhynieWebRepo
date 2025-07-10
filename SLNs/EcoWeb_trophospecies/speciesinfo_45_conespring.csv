@@ -1,0 +1,11 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,       1 detritus,       1 detritus,1,0,6,1.0,0.0
+2,       2 Frenesia,       2 Frenesia,1,1,2,2.0,1.0
+3,       3 Gammarus,       3 Gammarus,1,1,4,2.0,1.0
+4,       4 tendipedid;       7 Tubifex,       4 tendipedid,2,1,2,2.0,1.0
+5,       5 Physa,       5 Physa,1,1,0,2.0,1.0
+6,       6 Cardiocladius,       6 Cardiocladius,1,1,2,2.0,1.0
+8,       8 Rhantus,       8 Rhantus,1,3,0,3.0,2.0
+9,       9 Chauliodes,       9 Chauliodes,1,2,0,3.0,2.0
+10,      10 Pentaneura,      10 Pentaneura,1,3,1,2.6666666666666665,1.0
+11,      11 Phagocata,      11 Phagocata,1,4,0,3.0,2.0

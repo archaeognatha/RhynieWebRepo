@@ -1,0 +1,8 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,"  1 algae, bacteria, detritus","  1 algae, bacteria, detritus",1,0,4,1.0,0.0
+2,  2 small rotifers,  2 small rotifers,1,1,3,2.0,1.0
+3,"  3 Moina, Diaptomus","  3 Moina, Diaptomus",1,1,3,2.0,1.0
+4,  4 herbivorous insects,  4 herbivorous insects,1,2,1,2.5,1.0
+5,  5 Cyclops (copepod),  5 Cyclops (copepod),1,3,2,2.6666666666666665,1.0
+6,  6 Asplancha,  6 Asplancha,1,4,2,3.25,2.0
+7,  7 predaceous insects,  7 predaceous insects,1,4,0,3.25,2.0
