@@ -1,27 +1,27 @@
-sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds
-1,terrestrial detritus,1,1,0,4,1,0,0,4
-2,land plants,2,8,0,4,1,0,0,0
-3,land plants,2,8,0,4,1,0,0,0
-4,land plants,2,8,0,4,1,0,0,1
-5,land plants,2,8,0,4,1,0,0,2
-6,land plants,2,8,0,4,1,0,0,3
-7,land plants,2,8,0,4,1,0,0,2
-8,land plants,2,8,0,4,1,0,0,3
-9,land plants,2,8,0,4,1,0,0,1
-10,heterotrophic microbes,3,1,2,7,1,0,2,2
-11,terrestrial fungi,4,1,10,7,1,0,8,3
-12,terrestrial microbivores,5,1,3,8,1,0,1,5
-13,terrestrial detritivores,6,2,4,8,1,0,1,3
-14,terrestrial detritivores,6,2,4,8,1,0,2,3
-15,mites,7,2,12,8,1,0,3,3
-16,mites,7,2,12,8,1,0,1,3
-17,small terrestrial arthropod predators,8,3,9,8,1,0,2,5
-18,small terrestrial arthropod predators,8,3,9,8,1,0,1,2
-19,small terrestrial arthropod predators,8,3,9,8,1,0,9,5
-20,large terrestrial arthropod predators,9,5,13,5,1,0,13,2
-21,large terrestrial arthropod predators,9,5,13,5,1,0,2,1
-22,large terrestrial arthropod predators,9,5,13,5,1,0,1,2
-23,large terrestrial arthropod predators,9,5,13,5,1,0,4,1
-24,large terrestrial arthropod predators,9,5,13,5,1,0,5,1
-25,benthic algae,10,1,0,6,1,1,0,2
-26,nematodes,11,1,11,5,1,1,6,2
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,terrestrial detritus,1,1,0,4,1,0,0,4,1.0,0.0
+2,land plants,2,8,0,4,1,0,0,0,1.0,0.0
+3,land plants,2,8,0,4,1,0,0,0,1.0,0.0
+4,land plants,2,8,0,4,1,0,0,1,1.0,0.0
+5,land plants,2,8,0,4,1,0,0,2,1.0,0.0
+6,land plants,2,8,0,4,1,0,0,3,1.0,0.0
+7,land plants,2,8,0,4,1,0,0,2,1.0,0.0
+8,land plants,2,8,0,4,1,0,0,3,1.0,0.0
+9,land plants,2,8,0,4,1,0,0,1,1.0,0.0
+10,heterotrophic microbes,3,1,2,7,1,0,2,2,2.5,1.0
+11,terrestrial fungi,4,1,10,7,1,0,8,3,2.5,1.0
+12,terrestrial microbivores,5,1,3,8,1,0,1,5,3.0,2.0
+13,terrestrial detritivores,6,2,4,8,1,0,1,3,2.0,1.0
+14,terrestrial detritivores,6,2,4,8,1,0,2,3,2.5,1.0
+15,mites,7,2,12,8,1,0,3,3,3.1,3.0
+16,mites,7,2,12,8,1,0,1,3,2.0,1.0
+17,small terrestrial arthropod predators,8,3,9,8,1,0,2,5,3.0,2.0
+18,small terrestrial arthropod predators,8,3,9,8,1,0,1,2,4.25,4.0
+19,small terrestrial arthropod predators,8,3,9,8,1,0,9,5,4.113636363636363,3.0
+20,large terrestrial arthropod predators,9,5,13,5,1,0,13,2,4.586666666666666,3.0
+21,large terrestrial arthropod predators,9,5,13,5,1,0,2,1,4.0,3.0
+22,large terrestrial arthropod predators,9,5,13,5,1,0,1,2,4.0,3.0
+23,large terrestrial arthropod predators,9,5,13,5,1,0,4,1,4.269230769230769,4.0
+24,large terrestrial arthropod predators,9,5,13,5,1,0,5,1,4.32,3.0
+25,benthic algae,10,1,0,6,1,1,0,2,1.0,0.0
+26,nematodes,11,1,11,5,1,1,6,2,2.5833333333333335,2.0
