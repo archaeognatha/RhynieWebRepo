@@ -101,6 +101,12 @@ ggplot(df, aes(x = Analysis, y = C, fill = Analysis)) +
   theme_classic() +
   labs(title = "Connectance of Rhynie and Modern webs")
 
+# boxplot of link density
+ggplot(df, aes(x = Analysis, y = L_D, fill = Analysis)) +
+  geom_boxplot() +
+  theme_classic() +
+  labs(title = "Link density of Rhynie and Modern webs")
+
 # boxplot of mean trophic level
 ggplot(df, aes(x = Analysis, y = Mean_NTP, fill = Analysis)) +
   geom_boxplot() +
@@ -173,29 +179,93 @@ ggplot(df, aes(x = Analysis, y = Top, fill = Analysis)) +
   theme_classic() +
   labs(title = "% taxa in Rhynie and Modern webs without predators")
 
-### Statistical comparisons of samples
+### PANEL BOXPLOT FIGURE 1: Modern webs, Rhynie Complete, Rhynie Lumped
 
-# label webs as Devonian or Modern
-df <- df %>%
-  mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian","modern")) %>%
-  mutate(Period = as.factor(Period))
+metrics = c("C", "LinkDensity", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "mean_longest_path_len", "priConsumers", "secConsumers", "Top")
 
-# subset dataframe for comparing full (Trophic Species) rhynie to modern webs
-df_unlumped <- df %>%
-  filter(!startsWith(Analysis, "Rhynie")|(startsWith(Analysis, "Rhynie_all")&!endsWith(Analysis,"lumped"))) %>%
-  mutate(Analysis = as.factor(Analysis)) 
+# Filter to the analyses of interest and rename metrics and analyses
+df_plot <- df %>%
+  filter(Analysis %in% c("DigelSoil_TS", "EcoWeb_TS", "Rhynie_all_TS", "Rhynie_all_lumped")) %>%
+  mutate(Analysis = fct_recode(Analysis, "Modern_DigelSoil" = "DigelSoil_TS", "Modern_EcoWeb" = "EcoWeb_TS", "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped")) %>%
+  rename(LinkDensity = L_D, NTP_mean_norm = Mean_NTP_norm, NTP_max = Max_NTP, q = q_inCoherence,
+         mean_longest_path_len = Mean_longest_chain, char_path_len = Mean_path_len, InDegree = MeanInDegree,
+         priConsumers = Herbiv, secConsumers = Carniv)
 
-# subset dataframe for comparing lumped rhynie to modern webs
-df_lumped <- df %>%
-  filter(!startsWith(Analysis, "Rhynie")|Analysis == "Rhynie_all_lumped") %>%
-  mutate(Analysis = as.factor(Analysis)) 
+# Reshape to long format for ggplot
+df_long <- df_plot %>%
+  pivot_longer(
+    cols = metrics,
+    names_to = "Metric",
+    values_to = "Value"
+  )
 
-# subset dataframe for comparing rhynie web to terrestrial and aquatic subsets (not lumped)
-df_habitats <- df %>%
-  filter(startsWith(Analysis, "Rhynie")&!endsWith(Analysis,"lumped")) %>%
-  mutate(Analysis = as.factor(Analysis)) 
+# re-code the levels in Analysis to make sure it plots in the right order
+df_long$Analysis <- factor(df_long$Analysis,
+                           levels = c("Modern_EcoWeb", "Modern_DigelSoil", "Rhynie_complete", "Rhynie_lumped"))
 
-# subset dataframe for comparing full and lumped rhynie webs (complete)
-df_rhynielumping <- df %>%
-  filter(startsWith(Analysis, "Rhynie_all")) %>%
-  mutate(Analysis = as.factor(Analysis)) 
+# Define color palette for consistency
+analysis_colors <- c(
+  "Modern_EcoWeb" = "#ADD40C",
+  "Modern_DigelSoil" = "#7D845E",
+  "Rhynie_complete" = "#D6016D",
+  "Rhynie_lumped" = "#DB90FF"
+)
+
+# Create the boxplot figure
+ggplot(df_long, aes(x = Analysis, y = Value, fill = Analysis)) +
+  geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
+  facet_wrap(~ Metric, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = analysis_colors) +
+  theme_classic(base_size = 12) +
+  theme(
+    axis.text.x = element_text(angle = 30, hjust = 1),
+    legend.position = "none",
+    strip.background = element_blank(),
+    strip.text = element_text(face = "bold")
+  ) +
+  labs(title = "Food Web Metrics by Analysis", x = NULL, y = NULL)
+
+### PANEL BOXPLOT FIGURE 2: Rhynie Complete, Rhynie aquatic, Rhynie terrestrial
+
+metrics = c("C", "LinkDensity", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "mean_longest_path_len", "priConsumers", "secConsumers", "Top")
+
+# Filter to the Rhynie unlumped variants and rename metrics and analyses
+df_rhynie <- df %>%
+  filter(Analysis %in% c("Rhynie_all_TS", "Rhynie_terr_TS", "Rhynie_aqu_TS")) %>%
+  mutate(Analysis = fct_recode(Analysis, "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_terr" = "Rhynie_terr_TS", "Rhynie_aqu" = "Rhynie_aqu_TS")) %>%
+  rename(LinkDensity = L_D, NTP_mean_norm = Mean_NTP_norm, NTP_max = Max_NTP, q = q_inCoherence,
+         mean_longest_path_len = Mean_longest_chain, char_path_len = Mean_path_len, InDegree = MeanInDegree,
+         priConsumers = Herbiv, secConsumers = Carniv)
+
+# Reshape to long format
+df_rhynie_long <- df_rhynie %>%
+  pivot_longer(
+    cols = metrics,
+    names_to = "Metric",
+    values_to = "Value"
+  )
+
+# re-code the levels in Analysis to make sure it plots in the right order
+df_rhynie_long$Analysis <- factor(df_rhynie_long$Analysis,
+                           levels = c("Rhynie_complete", "Rhynie_terr", "Rhynie_aqu"))
+
+# Define color palette for consistency
+analysis_colors <- c(
+  "Rhynie_complete" = "#D6016D",
+  "Rhynie_terr" = "#E8BE21",
+  "Rhynie_aqu" = "#2F9FDE"
+)
+
+# Plot
+ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
+  geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
+  facet_wrap(~ Metric, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = analysis_colors) +
+  theme_classic(base_size = 12) +
+  theme(
+    axis.text.x = element_text(angle = 30, hjust = 1),
+    legend.position = "none",
+    strip.background = element_blank(),
+    strip.text = element_text(face = "bold")
+  ) +
+  labs(title = "Rhynie Web Subsets (unlumped)", x = NULL, y = NULL)
