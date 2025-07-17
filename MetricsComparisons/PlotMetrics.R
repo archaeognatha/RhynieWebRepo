@@ -86,7 +86,7 @@ ggplot(df_small, aes(x = S, y = Top, color = Analysis)) +
        y = "Percentage of nodes without predators")
 
 # % primary consumer taxa vs S
-ggplot(df_small, aes(x = S, y = Top, color = Analysis)) +
+ggplot(df_small, aes(x = S, y = Carniv, color = Analysis)) +
   geom_point(size = 2) +
   theme_classic() +
   labs(title = "Primary consumers vs Species Richness",
@@ -181,7 +181,7 @@ ggplot(df, aes(x = Analysis, y = Top, fill = Analysis)) +
 
 ### PANEL BOXPLOT FIGURE 1: Modern webs, Rhynie Complete, Rhynie Lumped
 
-metrics = c("C", "LinkDensity", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "mean_longest_path_len", "priConsumers", "secConsumers", "Top")
+metrics = c("C", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "Std_path_len", "priConsumers", "secConsumers", "Top")
 
 # Filter to the analyses of interest and rename metrics and analyses
 df_plot <- df %>%
@@ -227,7 +227,7 @@ ggplot(df_long, aes(x = Analysis, y = Value, fill = Analysis)) +
 
 ### PANEL BOXPLOT FIGURE 2: Rhynie Complete, Rhynie aquatic, Rhynie terrestrial
 
-metrics = c("C", "LinkDensity", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "mean_longest_path_len", "priConsumers", "secConsumers", "Top")
+metrics = c("C", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "Std_path_len", "priConsumers", "secConsumers", "Top")
 
 # Filter to the Rhynie unlumped variants and rename metrics and analyses
 df_rhynie <- df %>%
@@ -269,3 +269,5 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
     strip.text = element_text(face = "bold")
   ) +
   labs(title = "Rhynie Web Subsets (unlumped)", x = NULL, y = NULL)
+
+
