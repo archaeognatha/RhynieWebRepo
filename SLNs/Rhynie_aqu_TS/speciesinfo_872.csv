@@ -1,34 +1,34 @@
-trophospecies_id,sp_name,guild,n_lumped
-1,1,aquatic detritus,1
-2,2,aquatic heterotroph microbes,1
-3,3,aquatic heterotroph microbes,1
-4,4,aquatic heterotroph microbes,1
-5,5,aquatic unicellular/small algae,1
-6,6,aquatic unicellular/small algae,1
-7,7,aquatic unicellular/small algae,1
-8,8,aquatic unicellular/small algae,1
-9,9,aquatic unicellular/small algae,1
-10,10,planktic large colonial algae,1
-11,11,benthic filamentous algae,1
-12,12,benthic filamentous algae,1
-13,13,benthic filamentous algae,1
-14,14;19,benthic filamentous algae,2
-15,15,benthic filamentous algae,1
-16,16,other benthic/epiphytic algae,1
-17,17,other benthic/epiphytic algae,1
-18,18,other benthic/epiphytic algae,1
-20,20,macrophytic algae,1
-21,21,partially terrestrial epilithic/epiphytic algae,1
-22,22,partially terrestrial epilithic/epiphytic algae,1
-23,23,partially terrestrial epilithic/epiphytic algae,1
-24,24,aquatic saprotrophs,1
-25,25,aquatic saprotrophs,1
-26,26,aquatic saprotrophs,1
-27,27,aquatic saprotrophs,1
-28,28,aquatic saprotrophs,1
-29,29,small algae parasites,1
-30,30,aquatic macrophyte parasites,1
-31,31,nematodes,1
-32,32;35,swimming filter feeders,2
-33,33;36;37,swimming filter feeders,3
-34,34,swimming scrapers,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,1,aquatic detritus,1,0,11,1.0,0.0
+2,2,aquatic heterotroph microbes,1,0,6,1.0,0.0
+3,3,aquatic heterotroph microbes,1,0,2,1.0,0.0
+4,4,aquatic heterotroph microbes,1,0,5,1.0,0.0
+5,5,aquatic unicellular/small algae,1,5,1,3.2,2.0
+6,6,aquatic unicellular/small algae,1,2,5,3.5,2.0
+7,7,aquatic unicellular/small algae,1,3,4,3.666666666666667,2.0
+8,8,aquatic unicellular/small algae,1,1,4,3.0,2.0
+9,9,aquatic unicellular/small algae,1,2,4,3.0,2.0
+10,10,planktic large colonial algae,1,1,2,2.0,1.0
+11,11,benthic filamentous algae,1,3,2,2.0,1.0
+12,12,benthic filamentous algae,1,2,1,2.0,1.0
+13,13,benthic filamentous algae,1,1,1,2.0,1.0
+14,14;19,benthic filamentous algae,2,4,1,2.0,1.0
+15,15,benthic filamentous algae,1,4,2,2.0,1.0
+16,16,other benthic/epiphytic algae,1,1,3,2.0,1.0
+17,17,other benthic/epiphytic algae,1,1,2,2.0,1.0
+18,18,other benthic/epiphytic algae,1,2,2,2.0,1.0
+20,20,macrophytic algae,1,9,2,3.0,2.0
+21,21,partially terrestrial epilithic/epiphytic algae,1,5,1,3.416666666666667,3.0
+22,22,partially terrestrial epilithic/epiphytic algae,1,1,1,3.0,2.0
+23,23,partially terrestrial epilithic/epiphytic algae,1,3,1,3.625,3.0
+24,24,aquatic saprotrophs,1,1,1,4.0,3.0
+25,25,aquatic saprotrophs,1,1,1,2.0,1.0
+26,26,aquatic saprotrophs,1,2,1,4.0,3.0
+27,27,aquatic saprotrophs,1,1,0,2.0,1.0
+28,28,aquatic saprotrophs,1,2,1,3.5,2.0
+29,29,small algae parasites,1,3,1,3.0,2.0
+30,30,aquatic macrophyte parasites,1,1,1,4.0,4.0
+31,31,nematodes,1,9,1,4.421052631578947,4.0
+32,32;35,swimming filter feeders,2,0,1,1.0,0.0
+33,33;36;37,swimming filter feeders,3,0,0,1.0,0.0
+34,34,swimming scrapers,1,1,0,2.0,1.0

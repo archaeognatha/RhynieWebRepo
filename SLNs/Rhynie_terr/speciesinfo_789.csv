@@ -1,63 +1,63 @@
-sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds
-1,terrestrial detritus,1,1,0,37,1,0,0,26
-2,land plants,2,8,0,19,1,0,0,11
-3,land plants,2,8,0,19,1,0,0,10
-4,land plants,2,8,0,19,1,0,0,9
-5,land plants,2,8,0,19,1,0,0,8
-6,land plants,2,8,0,19,1,0,0,11
-7,land plants,2,8,0,19,1,0,0,7
-8,land plants,2,8,0,19,1,0,0,7
-9,land plants,2,8,0,19,1,0,0,14
-10,terrestrial heterotroph microbes,3,2,3,8,1,0,3,7
-11,terrestrial heterotroph microbes,3,2,3,8,1,0,1,2
-12,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-13,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-14,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-15,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-16,terrestrial saprotrophs,4,15,1,9,1,0,1,5
-17,terrestrial saprotrophs,4,15,1,9,1,0,1,5
-18,terrestrial saprotrophs,4,15,1,9,1,0,1,5
-19,terrestrial saprotrophs,4,15,1,9,1,0,1,5
-20,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-21,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-22,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-23,terrestrial saprotrophs,4,15,1,9,1,0,1,2
-24,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-25,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-26,terrestrial saprotrophs,4,15,1,9,1,0,1,2
-27,mycorrhizae,5,9,9,7,1,0,4,3
-28,mycorrhizae,5,9,9,7,1,0,5,1
-29,mycorrhizae,5,9,9,7,1,0,5,4
-30,mycorrhizae,5,9,9,7,1,0,5,1
-31,mycorrhizae,5,9,9,7,1,0,8,3
-32,mycorrhizae,5,9,9,7,1,0,1,4
-33,mycorrhizae,5,9,9,7,1,0,1,1
-34,mycorrhizae,5,9,9,7,1,0,4,1
-35,mycorrhizae,5,9,9,7,1,0,6,2
-36,plant parasites,6,7,9,7,1,0,4,1
-37,plant parasites,6,7,9,7,1,0,4,1
-38,plant parasites,6,7,9,7,1,0,1,4
-39,plant parasites,6,7,9,7,1,0,6,4
-40,plant parasites,6,7,9,7,1,0,9,4
-41,plant parasites,6,7,9,7,1,0,9,3
-42,plant parasites,6,7,9,7,1,0,7,1
-43,fungal parasites,7,3,31,4,1,0,5,2
-44,fungal parasites,7,3,31,4,1,0,6,1
-45,fungal parasites,7,3,31,4,1,0,8,1
-46,terrestrial microbivores,8,1,39,8,1,0,12,4
-47,terrestrial detritivores,9,2,21,5,1,0,21,1
-48,terrestrial detritivores,9,2,21,5,1,0,5,1
-49,mites,10,2,49,8,1,0,21,4
-50,mites,10,2,49,8,1,0,9,2
-51,terrestrial arthropod predators (1),11,3,7,8,1,0,2,3
-52,terrestrial arthropod predators (1),11,3,7,8,1,0,1,2
-53,terrestrial arthropod predators (1),11,3,7,8,1,0,7,3
-54,terrestrial arthropod predators (2),12,5,13,5,1,0,5,2
-55,terrestrial arthropod predators (2),12,5,13,5,1,0,1,3
-56,terrestrial arthropod predators (2),12,5,13,5,1,0,2,2
-57,terrestrial arthropod predators (2),12,5,13,5,1,0,13,1
-58,terrestrial arthropod predators (2),12,5,13,5,1,0,1,2
-59,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,1
-60,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,2
-61,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,4
-62,nematodes,14,1,47,5,1,1,34,3
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,terrestrial detritus,1,1,0,37,1,0,0,26,1.0,0.0
+2,land plants,2,8,0,19,1,0,0,11,1.0,0.0
+3,land plants,2,8,0,19,1,0,0,10,1.0,0.0
+4,land plants,2,8,0,19,1,0,0,9,1.0,0.0
+5,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+6,land plants,2,8,0,19,1,0,0,11,1.0,0.0
+7,land plants,2,8,0,19,1,0,0,7,1.0,0.0
+8,land plants,2,8,0,19,1,0,0,7,1.0,0.0
+9,land plants,2,8,0,19,1,0,0,14,1.0,0.0
+10,terrestrial heterotroph microbes,3,2,3,8,1,0,3,7,3.0,1.0
+11,terrestrial heterotroph microbes,3,2,3,8,1,0,1,2,3.0,2.0
+12,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+13,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+14,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+15,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+16,terrestrial saprotrophs,4,15,1,9,1,0,1,5,2.0,1.0
+17,terrestrial saprotrophs,4,15,1,9,1,0,1,5,2.0,1.0
+18,terrestrial saprotrophs,4,15,1,9,1,0,1,5,2.0,1.0
+19,terrestrial saprotrophs,4,15,1,9,1,0,1,5,2.0,1.0
+20,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+21,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+22,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+23,terrestrial saprotrophs,4,15,1,9,1,0,1,2,2.0,1.0
+24,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+25,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+26,terrestrial saprotrophs,4,15,1,9,1,0,1,2,2.0,1.0
+27,mycorrhizae,5,9,9,7,1,0,4,3,2.0,1.0
+28,mycorrhizae,5,9,9,7,1,0,5,1,2.0,1.0
+29,mycorrhizae,5,9,9,7,1,0,5,4,2.0,1.0
+30,mycorrhizae,5,9,9,7,1,0,5,1,2.0,1.0
+31,mycorrhizae,5,9,9,7,1,0,8,3,2.0,1.0
+32,mycorrhizae,5,9,9,7,1,0,1,4,2.0,1.0
+33,mycorrhizae,5,9,9,7,1,0,1,1,2.0,1.0
+34,mycorrhizae,5,9,9,7,1,0,4,1,2.0,1.0
+35,mycorrhizae,5,9,9,7,1,0,6,2,2.0,1.0
+36,plant parasites,6,7,9,7,1,0,4,1,2.0,1.0
+37,plant parasites,6,7,9,7,1,0,4,1,2.0,1.0
+38,plant parasites,6,7,9,7,1,0,1,4,2.0,1.0
+39,plant parasites,6,7,9,7,1,0,6,4,2.0,1.0
+40,plant parasites,6,7,9,7,1,0,9,4,2.0,1.0
+41,plant parasites,6,7,9,7,1,0,9,3,2.0,1.0
+42,plant parasites,6,7,9,7,1,0,7,1,2.0,1.0
+43,fungal parasites,7,3,31,4,1,0,5,2,3.0,2.0
+44,fungal parasites,7,3,31,4,1,0,6,1,3.0,2.0
+45,fungal parasites,7,3,31,4,1,0,8,1,3.0,2.0
+46,terrestrial microbivores,8,1,39,8,1,0,12,4,3.0,2.0
+47,terrestrial detritivores,9,2,21,5,1,0,21,1,2.857142857142857,1.0
+48,terrestrial detritivores,9,2,21,5,1,0,5,1,3.0,2.0
+49,mites,10,2,49,8,1,0,21,4,3.2131147540983607,2.0
+50,mites,10,2,49,8,1,0,9,2,2.9,2.0
+51,terrestrial arthropod predators (1),11,3,7,8,1,0,2,3,3.7,3.0
+52,terrestrial arthropod predators (1),11,3,7,8,1,0,1,2,3.7272727272727275,3.0
+53,terrestrial arthropod predators (1),11,3,7,8,1,0,7,3,4.082191780821917,3.0
+54,terrestrial arthropod predators (2),12,5,13,5,1,0,5,2,4.943396226415095,5.0
+55,terrestrial arthropod predators (2),12,5,13,5,1,0,1,3,4.727272727272727,4.0
+56,terrestrial arthropod predators (2),12,5,13,5,1,0,2,2,4.727272727272727,3.0
+57,terrestrial arthropod predators (2),12,5,13,5,1,0,13,1,4.544715447154472,3.0
+58,terrestrial arthropod predators (2),12,5,13,5,1,0,1,2,4.363636363636363,4.0
+59,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,1,1.0,0.0
+60,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,2,1.0,0.0
+61,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,4,1.0,0.0
+62,nematodes,14,1,47,5,1,1,34,3,3.0485436893203883,2.0

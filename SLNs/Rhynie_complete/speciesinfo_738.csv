@@ -1,96 +1,96 @@
-sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds
-1,terrestrial detritus,1,1,0,37,1,0,0,24
-2,land plants,2,8,0,19,1,0,0,6
-3,land plants,2,8,0,19,1,0,0,9
-4,land plants,2,8,0,19,1,0,0,8
-5,land plants,2,8,0,19,1,0,0,10
-6,land plants,2,8,0,19,1,0,0,11
-7,land plants,2,8,0,19,1,0,0,8
-8,land plants,2,8,0,19,1,0,0,7
-9,land plants,2,8,0,19,1,0,0,11
-10,terrestrial heterotroph microbes,3,2,3,8,1,0,1,4
-11,terrestrial heterotroph microbes,3,2,3,8,1,0,1,3
-12,terrestrial saprotrophs,4,15,1,9,1,0,1,1
-13,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-14,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-15,terrestrial saprotrophs,4,15,1,9,1,0,1,1
-16,terrestrial saprotrophs,4,15,1,9,1,0,1,1
-17,terrestrial saprotrophs,4,15,1,9,1,0,1,2
-18,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-19,terrestrial saprotrophs,4,15,1,9,1,0,1,5
-20,terrestrial saprotrophs,4,15,1,9,1,0,1,6
-21,terrestrial saprotrophs,4,15,1,9,1,0,1,2
-22,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-23,terrestrial saprotrophs,4,15,1,9,1,0,1,4
-24,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-25,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-26,terrestrial saprotrophs,4,15,1,9,1,0,1,3
-27,mycorrhizae,5,9,9,7,1,0,1,1
-28,mycorrhizae,5,9,9,7,1,0,9,2
-29,mycorrhizae,5,9,9,7,1,0,3,2
-30,mycorrhizae,5,9,9,7,1,0,4,1
-31,mycorrhizae,5,9,9,7,1,0,1,3
-32,mycorrhizae,5,9,9,7,1,0,3,3
-33,mycorrhizae,5,9,9,7,1,0,9,2
-34,mycorrhizae,5,9,9,7,1,0,1,2
-35,mycorrhizae,5,9,9,7,1,0,1,1
-36,plant parasites,6,7,9,7,1,0,9,3
-37,plant parasites,6,7,9,7,1,0,7,1
-38,plant parasites,6,7,9,7,1,0,1,2
-39,plant parasites,6,7,9,7,1,0,5,2
-40,plant parasites,6,7,9,7,1,0,1,2
-41,plant parasites,6,7,9,7,1,0,9,4
-42,plant parasites,6,7,9,7,1,0,4,1
-43,fungal parasites,7,3,31,4,1,0,13,2
-44,fungal parasites,7,3,31,4,1,0,6,0
-45,fungal parasites,7,3,31,4,1,0,12,2
-46,terrestrial microbivores,8,1,39,8,1,0,1,1
-47,terrestrial detritivores,9,2,21,5,1,0,2,0
-48,terrestrial detritivores,9,2,21,5,1,0,12,0
-49,mites,10,2,49,8,1,0,17,5
-50,mites,10,2,49,8,1,0,9,3
-51,terrestrial arthropod predators (1),11,3,7,8,1,0,1,3
-52,terrestrial arthropod predators (1),11,3,7,8,1,0,6,4
-53,terrestrial arthropod predators (1),11,3,7,8,1,0,6,2
-54,terrestrial arthropod predators (2),12,5,13,5,1,0,4,4
-55,terrestrial arthropod predators (2),12,5,13,5,1,0,3,2
-56,terrestrial arthropod predators (2),12,5,13,5,1,0,2,0
-57,terrestrial arthropod predators (2),12,5,13,5,1,0,1,1
-58,terrestrial arthropod predators (2),12,5,13,5,1,0,4,0
-59,aquatic detritus,13,1,0,11,0,1,0,8
-60,aquatic heterotroph microbes,14,3,9,7,0,1,2,5
-61,aquatic heterotroph microbes,14,3,9,7,0,1,2,3
-62,aquatic heterotroph microbes,14,3,9,7,0,1,9,4
-63,aquatic unicellular/small algae,15,5,0,6,0,1,0,3
-64,aquatic unicellular/small algae,15,5,0,6,0,1,0,4
-65,aquatic unicellular/small algae,15,5,0,6,0,1,0,4
-66,aquatic unicellular/small algae,15,5,0,6,0,1,0,4
-67,aquatic unicellular/small algae,15,5,0,6,0,1,0,4
-68,planktic large colonial algae,16,1,0,1,0,1,0,0
-69,benthic filamentous algae,17,5,0,4,0,1,0,2
-70,benthic filamentous algae,17,5,0,4,0,1,0,0
-71,benthic filamentous algae,17,5,0,4,0,1,0,2
-72,benthic filamentous algae,17,5,0,4,0,1,0,2
-73,benthic filamentous algae,17,5,0,4,0,1,0,1
-74,other benthic/epiphytic algae,18,4,0,5,0,1,0,2
-75,other benthic/epiphytic algae,18,4,0,5,0,1,0,3
-76,other benthic/epiphytic algae,18,4,0,5,0,1,0,4
-77,other benthic/epiphytic algae,18,4,0,5,0,1,0,1
-78,macrophytic algae,19,1,0,4,0,1,0,1
-79,partially terrestrial epilithic/epiphytic algae,20,3,0,10,1,1,0,3
-80,partially terrestrial epilithic/epiphytic algae,20,3,0,10,1,1,0,3
-81,partially terrestrial epilithic/epiphytic algae,20,3,0,10,1,1,0,3
-82,aquatic saprotrophs,21,5,1,1,0,1,1,1
-83,aquatic saprotrophs,21,5,1,1,0,1,1,0
-84,aquatic saprotrophs,21,5,1,1,0,1,1,0
-85,aquatic saprotrophs,21,5,1,1,0,1,1,1
-86,aquatic saprotrophs,21,5,1,1,0,1,1,1
-87,small algae parasites,22,1,9,2,0,1,9,2
-88,aquatic macrophyte parasites,23,1,9,1,0,1,1,1
-89,nematodes,24,1,60,8,1,1,41,5
-90,swimming filter feeders,25,2,9,2,0,1,5,0
-91,swimming filter feeders,25,2,9,2,0,1,9,0
-92,swimming scrapers,26,1,18,3,0,1,7,0
-93,arthropod  omnivores,27,2,21,3,0,1,1,1
-94,arthropod  omnivores,27,2,21,3,0,1,6,0
-95,benthic predators,28,1,4,2,0,1,2,0
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,terrestrial detritus,1,1,0,37,1,0,0,24,1.0,0.0
+2,land plants,2,8,0,19,1,0,0,6,1.0,0.0
+3,land plants,2,8,0,19,1,0,0,9,1.0,0.0
+4,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+5,land plants,2,8,0,19,1,0,0,10,1.0,0.0
+6,land plants,2,8,0,19,1,0,0,11,1.0,0.0
+7,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+8,land plants,2,8,0,19,1,0,0,7,1.0,0.0
+9,land plants,2,8,0,19,1,0,0,11,1.0,0.0
+10,terrestrial heterotroph microbes,3,2,3,8,1,0,1,4,2.0,1.0
+11,terrestrial heterotroph microbes,3,2,3,8,1,0,1,3,2.0,1.0
+12,terrestrial saprotrophs,4,15,1,9,1,0,1,1,2.0,1.0
+13,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+14,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+15,terrestrial saprotrophs,4,15,1,9,1,0,1,1,2.0,1.0
+16,terrestrial saprotrophs,4,15,1,9,1,0,1,1,2.0,1.0
+17,terrestrial saprotrophs,4,15,1,9,1,0,1,2,2.0,1.0
+18,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+19,terrestrial saprotrophs,4,15,1,9,1,0,1,5,2.0,1.0
+20,terrestrial saprotrophs,4,15,1,9,1,0,1,6,2.0,1.0
+21,terrestrial saprotrophs,4,15,1,9,1,0,1,2,2.0,1.0
+22,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+23,terrestrial saprotrophs,4,15,1,9,1,0,1,4,2.0,1.0
+24,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+25,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+26,terrestrial saprotrophs,4,15,1,9,1,0,1,3,2.0,1.0
+27,mycorrhizae,5,9,9,7,1,0,1,1,2.0,1.0
+28,mycorrhizae,5,9,9,7,1,0,9,2,2.0,1.0
+29,mycorrhizae,5,9,9,7,1,0,3,2,2.0,1.0
+30,mycorrhizae,5,9,9,7,1,0,4,1,2.0,1.0
+31,mycorrhizae,5,9,9,7,1,0,1,3,2.0,1.0
+32,mycorrhizae,5,9,9,7,1,0,3,3,2.0,1.0
+33,mycorrhizae,5,9,9,7,1,0,9,2,2.0,1.0
+34,mycorrhizae,5,9,9,7,1,0,1,2,2.0,1.0
+35,mycorrhizae,5,9,9,7,1,0,1,1,2.0,1.0
+36,plant parasites,6,7,9,7,1,0,9,3,2.0,1.0
+37,plant parasites,6,7,9,7,1,0,7,1,2.0,1.0
+38,plant parasites,6,7,9,7,1,0,1,2,2.0,1.0
+39,plant parasites,6,7,9,7,1,0,5,2,2.0,1.0
+40,plant parasites,6,7,9,7,1,0,1,2,2.0,1.0
+41,plant parasites,6,7,9,7,1,0,9,4,2.0,1.0
+42,plant parasites,6,7,9,7,1,0,4,1,2.0,1.0
+43,fungal parasites,7,3,31,4,1,0,13,2,3.0,2.0
+44,fungal parasites,7,3,31,4,1,0,6,0,3.0,2.0
+45,fungal parasites,7,3,31,4,1,0,12,2,3.0,2.0
+46,terrestrial microbivores,8,1,39,8,1,0,1,1,3.0,2.0
+47,terrestrial detritivores,9,2,21,5,1,0,2,0,3.0,2.0
+48,terrestrial detritivores,9,2,21,5,1,0,12,0,2.8181818181818183,2.0
+49,mites,10,2,49,8,1,0,17,5,3.258064516129032,3.0
+50,mites,10,2,49,8,1,0,9,3,3.1578947368421053,3.0
+51,terrestrial arthropod predators (1),11,3,7,8,1,0,1,3,4.279999999999999,4.0
+52,terrestrial arthropod predators (1),11,3,7,8,1,0,6,4,4.246268656716418,3.0
+53,terrestrial arthropod predators (1),11,3,7,8,1,0,6,2,4.00909090909091,3.0
+54,terrestrial arthropod predators (2),12,5,13,5,1,0,4,4,5.453488372093023,5.0
+55,terrestrial arthropod predators (2),12,5,13,5,1,0,3,2,5.04054054054054,4.0
+56,terrestrial arthropod predators (2),12,5,13,5,1,0,2,0,4.918367346938775,5.0
+57,terrestrial arthropod predators (2),12,5,13,5,1,0,1,1,5.08,5.0
+58,terrestrial arthropod predators (2),12,5,13,5,1,0,4,0,4.797979797979798,4.0
+59,aquatic detritus,13,1,0,11,0,1,0,8,1.0,0.0
+60,aquatic heterotroph microbes,14,3,9,7,0,1,2,5,2.0,1.0
+61,aquatic heterotroph microbes,14,3,9,7,0,1,2,3,2.0,1.0
+62,aquatic heterotroph microbes,14,3,9,7,0,1,9,4,2.625,1.0
+63,aquatic unicellular/small algae,15,5,0,6,0,1,0,3,1.0,0.0
+64,aquatic unicellular/small algae,15,5,0,6,0,1,0,4,1.0,0.0
+65,aquatic unicellular/small algae,15,5,0,6,0,1,0,4,1.0,0.0
+66,aquatic unicellular/small algae,15,5,0,6,0,1,0,4,1.0,0.0
+67,aquatic unicellular/small algae,15,5,0,6,0,1,0,4,1.0,0.0
+68,planktic large colonial algae,16,1,0,1,0,1,0,0,1.0,0.0
+69,benthic filamentous algae,17,5,0,4,0,1,0,2,1.0,0.0
+70,benthic filamentous algae,17,5,0,4,0,1,0,0,1.0,0.0
+71,benthic filamentous algae,17,5,0,4,0,1,0,2,1.0,0.0
+72,benthic filamentous algae,17,5,0,4,0,1,0,2,1.0,0.0
+73,benthic filamentous algae,17,5,0,4,0,1,0,1,1.0,0.0
+74,other benthic/epiphytic algae,18,4,0,5,0,1,0,2,1.0,0.0
+75,other benthic/epiphytic algae,18,4,0,5,0,1,0,3,1.0,0.0
+76,other benthic/epiphytic algae,18,4,0,5,0,1,0,4,1.0,0.0
+77,other benthic/epiphytic algae,18,4,0,5,0,1,0,1,1.0,0.0
+78,macrophytic algae,19,1,0,4,0,1,0,1,1.0,0.0
+79,partially terrestrial epilithic/epiphytic algae,20,3,0,10,1,1,0,3,1.0,0.0
+80,partially terrestrial epilithic/epiphytic algae,20,3,0,10,1,1,0,3,1.0,0.0
+81,partially terrestrial epilithic/epiphytic algae,20,3,0,10,1,1,0,3,1.0,0.0
+82,aquatic saprotrophs,21,5,1,1,0,1,1,1,2.0,1.0
+83,aquatic saprotrophs,21,5,1,1,0,1,1,0,2.0,1.0
+84,aquatic saprotrophs,21,5,1,1,0,1,1,0,2.0,1.0
+85,aquatic saprotrophs,21,5,1,1,0,1,1,1,2.0,1.0
+86,aquatic saprotrophs,21,5,1,1,0,1,1,1,2.0,1.0
+87,small algae parasites,22,1,9,2,0,1,9,2,2.0,1.0
+88,aquatic macrophyte parasites,23,1,9,1,0,1,1,1,2.0,1.0
+89,nematodes,24,1,60,8,1,1,41,5,3.0485436893203883,2.0
+90,swimming filter feeders,25,2,9,2,0,1,5,0,2.8947368421052633,2.0
+91,swimming filter feeders,25,2,9,2,0,1,9,0,2.7916666666666665,2.0
+92,swimming scrapers,26,1,18,3,0,1,7,0,2.75,2.0
+93,arthropod  omnivores,27,2,21,3,0,1,1,1,2.0,1.0
+94,arthropod  omnivores,27,2,21,3,0,1,6,0,3.206896551724138,3.0
+95,benthic predators,28,1,4,2,0,1,2,0,3.44,3.0
