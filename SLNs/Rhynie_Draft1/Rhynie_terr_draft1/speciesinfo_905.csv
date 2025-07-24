@@ -1,0 +1,65 @@
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,terrestrial detritus,1,1,0,39,1,0,0,27,1.0,0.0
+2,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+3,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+4,land plants,2,8,0,19,1,0,0,4,1.0,0.0
+5,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+6,land plants,2,8,0,19,1,0,0,5,1.0,0.0
+7,land plants,2,8,0,19,1,0,0,9,1.0,0.0
+8,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+9,land plants,2,8,0,19,1,0,0,8,1.0,0.0
+10,terrestrial heterotroph microbes,3,2,3,6,1,0,2,2,2.5,2.0
+11,terrestrial heterotroph microbes,3,2,3,6,1,0,3,3,2.6666666666666665,1.0
+12,terrestrial saprotrophs,4,17,1,7,1,0,1,3,2.0,1.0
+13,terrestrial saprotrophs,4,17,1,7,1,0,1,3,2.0,1.0
+14,terrestrial saprotrophs,4,17,1,7,1,0,1,2,2.0,1.0
+15,terrestrial saprotrophs,4,17,1,7,1,0,1,2,2.0,1.0
+16,terrestrial saprotrophs,4,17,1,7,1,0,1,1,2.0,1.0
+17,terrestrial saprotrophs,4,17,1,7,1,0,1,2,2.0,1.0
+18,terrestrial saprotrophs,4,17,1,7,1,0,1,0,2.0,1.0
+19,terrestrial saprotrophs,4,17,1,7,1,0,1,0,2.0,1.0
+20,terrestrial saprotrophs,4,17,1,7,1,0,1,1,2.0,1.0
+21,terrestrial saprotrophs,4,17,1,7,1,0,1,1,2.0,1.0
+22,terrestrial saprotrophs,4,17,1,7,1,0,1,3,2.0,1.0
+23,terrestrial saprotrophs,4,17,1,7,1,0,1,2,2.0,1.0
+24,terrestrial saprotrophs,4,17,1,7,1,0,1,0,2.0,1.0
+25,terrestrial saprotrophs,4,17,1,7,1,0,1,1,2.0,1.0
+26,terrestrial saprotrophs,4,17,1,7,1,0,1,2,2.0,1.0
+27,terrestrial saprotrophs,4,17,1,7,1,0,1,1,2.0,1.0
+28,terrestrial saprotrophs,4,17,1,7,1,0,1,3,2.0,1.0
+29,mycorrhizae,5,9,9,7,1,0,6,0,2.0,1.0
+30,mycorrhizae,5,9,9,7,1,0,6,1,2.0,1.0
+31,mycorrhizae,5,9,9,7,1,0,5,0,2.0,1.0
+32,mycorrhizae,5,9,9,7,1,0,1,1,2.0,1.0
+33,mycorrhizae,5,9,9,7,1,0,5,3,2.0,1.0
+34,mycorrhizae,5,9,9,7,1,0,1,1,2.0,1.0
+35,mycorrhizae,5,9,9,7,1,0,9,1,2.0,1.0
+36,mycorrhizae,5,9,9,7,1,0,3,2,2.0,1.0
+37,mycorrhizae,5,9,9,7,1,0,1,4,2.0,1.0
+38,plant parasites,6,7,9,7,1,0,4,3,2.0,1.0
+39,plant parasites,6,7,9,7,1,0,1,1,2.0,1.0
+40,plant parasites,6,7,9,7,1,0,1,3,2.0,1.0
+41,plant parasites,6,7,9,7,1,0,1,1,2.0,1.0
+42,plant parasites,6,7,9,7,1,0,7,4,2.0,1.0
+43,plant parasites,6,7,9,7,1,0,6,0,2.0,1.0
+44,plant parasites,6,7,9,7,1,0,3,4,2.0,1.0
+45,fungal parasites,7,3,33,4,1,0,12,1,3.0,2.0
+46,fungal parasites,7,3,33,4,1,0,9,1,3.0,2.0
+47,fungal parasites,7,3,33,4,1,0,4,2,3.0,2.0
+48,terrestrial microbivores,8,1,41,8,1,0,15,4,3.375,2.0
+49,terrestrial detritivores,9,2,4,5,1,0,1,2,2.0,1.0
+50,terrestrial detritivores,9,2,4,5,1,0,1,1,2.0,1.0
+51,mites,10,2,51,8,1,0,25,4,2.8205128205128203,2.0
+52,mites,10,2,51,8,1,0,1,2,3.0,2.0
+53,terrestrial arthropod predators (1),11,3,7,8,1,0,3,1,4.551724137931035,4.0
+54,terrestrial arthropod predators (1),11,3,7,8,1,0,1,4,4.3,4.0
+55,terrestrial arthropod predators (1),11,3,7,8,1,0,1,3,3.3,3.0
+56,terrestrial arthropod predators (2),12,5,13,5,1,0,5,4,4.387755102040817,5.0
+57,terrestrial arthropod predators (2),12,5,13,5,1,0,3,2,4.40625,6.0
+58,terrestrial arthropod predators (2),12,5,13,5,1,0,13,3,4.4491525423728815,4.0
+59,terrestrial arthropod predators (2),12,5,13,5,1,0,4,2,4.522727272727273,6.0
+60,terrestrial arthropod predators (2),12,5,13,5,1,0,5,2,4.382978723404255,5.0
+61,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,2,1.0,0.0
+62,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,1,1.0,0.0
+63,partially terrestrial epilithic/epiphytic algae,13,3,0,6,1,1,0,1,1.0,0.0
+64,nematodes,14,1,49,5,1,1,4,1,3.761904761904762,3.0

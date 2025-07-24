@@ -1,0 +1,60 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,1,terrestrial detritus,1,0,21,1.0,0.0
+2,2,land plants,1,0,9,1.0,0.0
+3,3,land plants,1,0,8,1.0,0.0
+4,4,land plants,1,0,7,1.0,0.0
+5,5,land plants,1,0,6,1.0,0.0
+6,6,land plants,1,0,7,1.0,0.0
+7,7,land plants,1,0,10,1.0,0.0
+8,8,land plants,1,0,7,1.0,0.0
+9,9,land plants,1,0,5,1.0,0.0
+10,10,terrestrial heterotroph microbes,1,2,3,2.5,1.0
+11,11,terrestrial heterotroph microbes,1,3,4,2.6666666666666665,1.0
+12,12;40,terrestrial saprotrophs,2,1,0,2.0,1.0
+13,13,terrestrial saprotrophs,1,1,2,2.0,1.0
+14,14,terrestrial saprotrophs,1,1,4,2.0,1.0
+15,15;27,terrestrial saprotrophs,2,1,2,2.0,1.0
+16,16;22;28,terrestrial saprotrophs,3,1,1,2.0,1.0
+17,17,terrestrial saprotrophs,1,1,1,2.0,1.0
+18,18,terrestrial saprotrophs,1,1,2,2.0,1.0
+19,19,terrestrial saprotrophs,1,1,3,2.0,1.0
+20,20,terrestrial saprotrophs,1,1,2,2.0,1.0
+21,21,terrestrial saprotrophs,1,1,2,2.0,1.0
+23,23,terrestrial saprotrophs,1,1,1,2.0,1.0
+24,24,terrestrial saprotrophs,1,1,3,2.0,1.0
+25,25,terrestrial saprotrophs,1,1,2,2.0,1.0
+26,26,terrestrial saprotrophs,1,1,2,2.0,1.0
+29,29,mycorrhizae,1,9,2,2.0,1.0
+30,30,mycorrhizae,1,4,1,2.0,1.0
+31,31,mycorrhizae,1,8,3,2.0,1.0
+32,32,mycorrhizae,1,2,1,2.0,1.0
+33,33,mycorrhizae,1,2,1,2.0,1.0
+34,34,mycorrhizae,1,2,2,2.0,1.0
+35,35,mycorrhizae,1,1,1,2.0,1.0
+36,36,mycorrhizae,1,5,1,2.0,1.0
+37,37,mycorrhizae,1,4,1,2.0,1.0
+38,38,plant parasites,1,1,2,2.0,1.0
+39,39,plant parasites,1,3,2,2.0,1.0
+41,41,plant parasites,1,4,1,2.0,1.0
+42,42,plant parasites,1,3,2,2.0,1.0
+43,43,plant parasites,1,2,1,2.0,1.0
+44,44,plant parasites,1,8,1,2.0,1.0
+45,45,fungal parasites,1,13,0,3.0,2.0
+46,46,fungal parasites,1,1,1,3.0,2.0
+47,47,fungal parasites,1,3,1,3.0,2.0
+48,48,terrestrial microbivores,1,7,5,2.875,2.0
+49,49;50,terrestrial detritivores,2,1,2,2.0,1.0
+51,51,mites,1,1,1,2.0,1.0
+52,52,mites,1,27,2,3.036363636363636,3.0
+53,53,terrestrial arthropod predators (1),1,3,1,4.08,3.0
+54,54,terrestrial arthropod predators (1),1,3,3,4.08,3.0
+55,55,terrestrial arthropod predators (1),1,3,4,3.4375,4.0
+56,56,terrestrial arthropod predators (2),1,4,3,4.648648648648649,4.0
+57,57,terrestrial arthropod predators (2),1,3,0,4.638888888888889,5.0
+58,58,terrestrial arthropod predators (2),1,4,1,4.666666666666666,4.0
+59,59,terrestrial arthropod predators (2),1,7,2,4.8125,4.0
+60,60,terrestrial arthropod predators (2),1,1,2,4.833333333333334,4.0
+61,61,partially terrestrial epilithic/epiphytic algae,1,0,2,1.0,0.0
+62,62,partially terrestrial epilithic/epiphytic algae,1,0,1,1.0,0.0
+63,63,partially terrestrial epilithic/epiphytic algae,1,0,3,1.0,0.0
+64,64,nematodes,1,15,3,2.9743589743589745,2.0
