@@ -1,0 +1,37 @@
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
+1,aquatic detritus,1,1,0,20,0,1,0,11,1.0,0.0
+2,aquatic heterotroph microbes,2,3,0,10,0,1,0,5,1.0,0.0
+3,aquatic heterotroph microbes,2,3,0,10,0,1,0,5,1.0,0.0
+4,aquatic heterotroph microbes,2,3,0,10,0,1,0,3,1.0,0.0
+5,aquatic unicellular/small algae,3,5,6,9,0,1,6,3,3.5,1.0
+6,aquatic unicellular/small algae,3,5,6,9,0,1,2,4,3.5,2.0
+7,aquatic unicellular/small algae,3,5,6,9,0,1,1,4,3.0,4.0
+8,aquatic unicellular/small algae,3,5,6,9,0,1,1,2,4.0,5.0
+9,aquatic unicellular/small algae,3,5,6,9,0,1,2,3,3.0,3.0
+10,planktic large colonial algae,4,1,1,5,0,1,1,1,2.0,1.0
+11,benthic filamentous algae,5,5,4,5,0,1,1,2,2.0,1.0
+12,benthic filamentous algae,5,5,4,5,0,1,1,2,2.0,1.0
+13,benthic filamentous algae,5,5,4,5,0,1,1,2,2.0,1.0
+14,benthic filamentous algae,5,5,4,5,0,1,1,1,2.0,1.0
+15,benthic filamentous algae,5,5,4,5,0,1,1,2,2.0,1.0
+16,other benthic/epiphytic algae,6,4,4,5,0,1,4,2,2.0,1.0
+17,other benthic/epiphytic algae,6,4,4,5,0,1,3,1,2.0,1.0
+18,other benthic/epiphytic algae,6,4,4,5,0,1,4,2,2.0,1.0
+19,other benthic/epiphytic algae,6,4,4,5,0,1,1,3,2.0,1.0
+20,macrophytic algae,7,1,10,4,0,1,1,3,3.0,2.0
+21,partially terrestrial epilithic/epiphytic algae,8,3,16,2,1,1,16,1,3.208333333333333,2.0
+22,partially terrestrial epilithic/epiphytic algae,8,3,16,2,1,1,6,0,3.166666666666667,3.0
+23,partially terrestrial epilithic/epiphytic algae,8,3,16,2,1,1,1,1,3.0,2.0
+24,aquatic saprotrophs,9,4,1,1,0,1,1,0,2.0,1.0
+25,aquatic saprotrophs,9,4,1,1,0,1,1,0,2.0,1.0
+26,aquatic saprotrophs,9,4,1,1,0,1,1,0,2.0,1.0
+27,aquatic saprotrophs,9,4,1,1,0,1,1,0,2.0,1.0
+28,small algae parasites,10,1,20,2,0,1,3,1,3.333333333333333,2.0
+29,aquatic macrophyte parasites,11,1,5,2,0,1,2,0,4.0,3.0
+30,nematodes,12,1,10,1,1,1,1,0,4.0,3.0
+31,swimming filter feeders,13,2,0,1,0,1,0,1,1.0,0.0
+32,swimming filter feeders,13,2,0,1,0,1,0,1,1.0,0.0
+33,swimming scrapers,14,1,5,1,0,1,5,1,2.5,1.0
+34,arthropod  omnivores,15,2,0,1,0,1,0,1,1.0,0.0
+35,arthropod  omnivores,15,2,0,1,0,1,0,1,1.0,0.0
+36,benthic predators,16,1,0,0,0,1,0,0,1.0,0.0
