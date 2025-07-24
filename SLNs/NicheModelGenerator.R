@@ -1,16 +1,14 @@
 ### Generate null webs with niche model 
-
+library(tidyverse)
 library(ATNr)
 library(igraph)
 
-# import Rhynie web metrics (trophic species lumped)
-df <- read_csv("TrophospeciesMetrics.csv")
-# filter so it's just the rhynie full web
-df_rhynie_full <- df %>%
-  filter(Analysis == "Rhynie_all_TS")
+# import Rhynie web metrics (change wd to relevant SLN folder, e.g., Rhynie_lumped_TS)
+df <- read_csv("WebMetrics_Rhynie_TS.csv")
 
-sp_richnesses <- df_rhynie_full$S
-connectances <- df_rhynie_full$C 
+
+sp_richnesses <- df$S
+connectances <- df$C 
 
 # create n niche models with C and S values drawn from Rhynie webs and output them as csv's along w sp. info files
 n = 1000
