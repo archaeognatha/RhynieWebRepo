@@ -1,0 +1,20 @@
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds
+1,terrestrial detritus,1,1,0,4,1,0,0,2
+2,land plants,2,1,0,4,1,0,0,1
+3,heterotrophic microbes,3,1,2,7,1,0,1,2
+4,terrestrial fungi,4,1,3,7,1,0,3,5
+5,terrestrial microbivores,5,1,3,8,1,0,1,3
+6,terrestrial detritivores,6,2,4,8,1,0,4,4
+7,terrestrial detritivores,6,2,4,8,1,0,1,4
+8,mites,7,2,5,8,1,0,1,3
+9,mites,7,2,5,8,1,0,1,3
+10,small terrestrial arthropod predators,8,3,9,8,1,0,6,3
+11,small terrestrial arthropod predators,8,3,9,8,1,0,1,4
+12,small terrestrial arthropod predators,8,3,9,8,1,0,9,3
+13,large terrestrial arthropod predators,9,5,13,5,1,0,5,2
+14,large terrestrial arthropod predators,9,5,13,5,1,0,4,1
+15,large terrestrial arthropod predators,9,5,13,5,1,0,2,2
+16,large terrestrial arthropod predators,9,5,13,5,1,0,1,2
+17,large terrestrial arthropod predators,9,5,13,5,1,0,7,0
+18,benthic algae,10,1,0,6,1,1,0,3
+19,nematodes,11,1,4,5,1,1,2,2
