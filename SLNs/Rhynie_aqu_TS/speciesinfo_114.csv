@@ -1,0 +1,33 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,1,aquatic detritus,1
+2,2,aquatic heterotroph microbes,1
+3,3,aquatic heterotroph microbes,1
+4,4,aquatic heterotroph microbes,1
+5,5,aquatic unicellular/small algae,1
+6,6,aquatic unicellular/small algae,1
+7,7,aquatic unicellular/small algae,1
+8,8,aquatic unicellular/small algae,1
+9,9,aquatic unicellular/small algae,1
+10,10,planktic large colonial algae,1
+11,11,benthic filamentous algae,1
+12,12;14,benthic filamentous algae,2
+13,13,benthic filamentous algae,1
+15,15,benthic filamentous algae,1
+16,16,other benthic/epiphytic algae,1
+17,17;19,other benthic/epiphytic algae,2
+18,18,other benthic/epiphytic algae,1
+20,20,macrophytic algae,1
+21,21,partially terrestrial epilithic/epiphytic algae,1
+22,22,partially terrestrial epilithic/epiphytic algae,1
+23,23,partially terrestrial epilithic/epiphytic algae,1
+24,24,aquatic saprotrophs,1
+25,25,aquatic saprotrophs,1
+26,26,aquatic saprotrophs,1
+27,27,aquatic saprotrophs,1
+28,28,aquatic saprotrophs,1
+29,29,small algae parasites,1
+30,30,aquatic macrophyte parasites,1
+31,31,nematodes,1
+32,32;33,swimming filter feeders,2
+34,34,swimming scrapers,1
+35,35;36;37,arthropod  omnivores,3

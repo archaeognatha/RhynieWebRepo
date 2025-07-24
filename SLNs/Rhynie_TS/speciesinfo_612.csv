@@ -1,0 +1,82 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,1,terrestrial detritus,1
+2,2,land plants,1
+3,3,land plants,1
+4,4,land plants,1
+5,5,land plants,1
+6,6,land plants,1
+7,7,land plants,1
+8,8,land plants,1
+9,9,land plants,1
+10,10,terrestrial heterotroph microbes,1
+11,11,terrestrial heterotroph microbes,1
+12,12,terrestrial saprotrophs,1
+13,13;16,terrestrial saprotrophs,2
+14,14;18,terrestrial saprotrophs,2
+15,15,terrestrial saprotrophs,1
+17,17;20;22;34,terrestrial saprotrophs,4
+19,19,terrestrial saprotrophs,1
+21,21,terrestrial saprotrophs,1
+23,23,terrestrial saprotrophs,1
+24,24;26,terrestrial saprotrophs,2
+25,25,terrestrial saprotrophs,1
+27,27,mycorrhizae,1
+28,28,mycorrhizae,1
+29,29,mycorrhizae,1
+30,30,mycorrhizae,1
+31,31,mycorrhizae,1
+32,32,mycorrhizae,1
+33,33,mycorrhizae,1
+35,35,mycorrhizae,1
+36,36,plant parasites,1
+37,37,plant parasites,1
+38,38,plant parasites,1
+39,39,plant parasites,1
+40,40,plant parasites,1
+41,41,plant parasites,1
+42,42,plant parasites,1
+43,43,fungal parasites,1
+44,44,fungal parasites,1
+45,45,fungal parasites,1
+46,46,terrestrial microbivores,1
+47,47,terrestrial detritivores,1
+48,48,terrestrial detritivores,1
+49,49,mites,1
+50,50,mites,1
+51,51,terrestrial arthropod predators (1),1
+52,52,terrestrial arthropod predators (1),1
+53,53,terrestrial arthropod predators (1),1
+54,54,terrestrial arthropod predators (2),1
+55,55,terrestrial arthropod predators (2),1
+56,56,terrestrial arthropod predators (2),1
+57,57,terrestrial arthropod predators (2),1
+58,58,terrestrial arthropod predators (2),1
+59,59,aquatic detritus,1
+60,60,aquatic heterotroph microbes,1
+61,61,aquatic heterotroph microbes,1
+62,62,aquatic heterotroph microbes,1
+63,63,aquatic unicellular/small algae,1
+64,64,aquatic unicellular/small algae,1
+65,65,aquatic unicellular/small algae,1
+66,66,aquatic unicellular/small algae,1
+67,67,aquatic unicellular/small algae,1
+68,68,planktic large colonial algae,1
+69,69,benthic filamentous algae,1
+70,70;73,benthic filamentous algae,2
+71,71;72;81,benthic filamentous algae,3
+74,74,other benthic/epiphytic algae,1
+75,75;77,other benthic/epiphytic algae,2
+76,76,other benthic/epiphytic algae,1
+78,78,macrophytic algae,1
+79,79,partially terrestrial epilithic/epiphytic algae,1
+80,80,partially terrestrial epilithic/epiphytic algae,1
+82,82;83;84;85;86,aquatic saprotrophs,5
+87,87,small algae parasites,1
+88,88,aquatic macrophyte parasites,1
+89,89,nematodes,1
+90,90,swimming filter feeders,1
+91,91,swimming filter feeders,1
+92,92,swimming scrapers,1
+93,93,arthropod  omnivores,1
+94,94,arthropod  omnivores,1
+95,95,benthic predators,1
