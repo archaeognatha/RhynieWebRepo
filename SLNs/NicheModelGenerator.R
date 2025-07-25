@@ -3,17 +3,17 @@ library(tidyverse)
 library(ATNr)
 library(igraph)
 
-# import Rhynie web metrics (change wd to relevant SLN folder, e.g., Rhynie_lumped_TS)
-df <- read_csv("WebMetrics_Rhynie_TS.csv")
 
+# import Rhynie web metrics (change wd to SLNs and add relevant folder into pathname below, e.g., Rhynie_TS)
+df <- read_csv("Rhynie_TS/WebMetrics_Rhynie_TS.csv")
 
-sp_richnesses <- df$S
-connectances <- df$C 
-
-# create n niche models with C and S values drawn from Rhynie webs and output them as csv's along w sp. info files
-n = 1000
+n = 1000 # number of SLNs to generate
 pathname = "Niche_TS/"
 dir.create(pathname, showWarnings = FALSE)
+
+# create n niche models with C and S values drawn from Rhynie webs and output them as csv's along w sp. info files
+sp_richnesses <- df$S
+connectances <- df$C 
   
 for (i in 1:n){
   # sample values for S and C
