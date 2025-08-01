@@ -235,8 +235,8 @@ newdata <- data.frame(S = S_vals)
 pred_ci <- predictNLS(logistic_model, newdata = newdata, interval = "confidence", alpha = 0.05)
 
 # Plot with confidence bands
-plot(df_modern$S, df_modern$Mean_NTP, pch = 16, col = "gray40",
-     xlab = "Species Richness (S)", ylab = "Mean NTP", main = "Logistic Fit with Confidence Interval")
-lines(S_vals, pred_ci$summary[,7], col = "blue", lwd = 2)
+plot(df_modern$S, df_modern$Max_NTP, pch = 16, col = "gray40",
+     xlab = "Species Richness (S)", ylab = "Max NTP", main = "Logistic Fit with Confidence Interval")
+lines(S_vals, pred_ci$summary[,1], col = "blue", lwd = 2)
 lines(S_vals, pred_ci$summary[,11], col = "blue", lty = 2)
 lines(S_vals, pred_ci$summary[,12], col = "blue", lty = 2)
