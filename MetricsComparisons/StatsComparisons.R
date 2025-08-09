@@ -1,3 +1,4 @@
+# START HERE ####
 # Load necessary libraries
 library(tidyverse)
 
@@ -9,7 +10,9 @@ df <- df %>%
   mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian","modern")) %>%
   mutate(Period = as.factor(Period))
 
-### CODE FOR PERMUTATION ANALYSIS b/w Rhynie_TS and both modern webs Niche Model output
+# PERMUTATION ANALYSIS #### 
+##  permutation analysis b/w Rhynie, Modern webs, and Niche Model output ####
+
 metrics_results <- data.frame(Metric = character(), RhynieModernDiff = numeric(), normalizedDiff_modern = numeric(), PVal_modern = numeric(), ProportionWithin95ofModern = numeric(), 
                               RhynieNicheDiff = numeric(), normalizedDiff_niche = numeric(), PVal_niche = numeric(), ProportionWithin95ofNiche = numeric ())
 # Subset data
@@ -89,7 +92,7 @@ for (metric in metrics){
 
 write.csv(metrics_results, "permutationtest_RhynieTSvsModernvsNiche.csv", row.names = FALSE)
 
-### CODE FOR PERMUTATION ANALYSIS b/w Rhynie_TS and Rhynie_lumped
+## permutation analysis b/w Rhynie_TS and Rhynie_lumped ####
 
 metrics_results <- data.frame(Metric = character(), RhynieModernDiff = numeric(), normalizedDiff = numeric(), PVal = numeric())
 # Subset data
@@ -138,60 +141,36 @@ for (metric in metrics){
 }
 write.csv(metrics_results, "permutationtest_RhynieTSvsRhynieLumped.csv", row.names = FALSE)
 
-# Optional: plot
+## Optional: plot histogram of permutations ####
 hist(perm_diffs, breaks = 40, main = paste("Permutation Test for", metric),
      xlab = "Difference in means (Rhynie - Modern)")
 abline(v = mean(obs_diffs), col = "red", lwd = 2)
 
 
-### CODE FOR PERMUTATION BASED MANOVA
+# PERMUTATION-BASED MANOVA ####
 
 # Load vegan for adonis
 library(vegan)
 
-# Select variables for MANOVA
-metrics = c("C", "L_D", "Mean_NTP", "Mean_NTP_norm", "Max_NTP", "TrOmniv", "q_inCoherence", "Mean_longest_chain", "Mean_path_len", "Std_path_len", "MeanInDegree", "StdInDegree", "Basal", "Herbiv", "Carniv", "Top")
+# Select metrics for MANOVA
+metrics = c("C", "Mean_NTP", "Max_NTP", "TrOmniv", "q_inCoherence", "Mean_longest_chain", "Mean_path_len", "MeanInDegree", "Basal", "Herbiv", "Carniv", "Top")
 
-# Remove any rows with missing values in these metrics
+# Select which SLNs to include in the MANOVA 
+analyses = c("Rhynie_all_lumped", "DigelSoil_TS")
+
+# Remove any rows with missing values and select only the chosen analyses
 df_clean <- df %>%
-  na.omit()
+  na.omit() %>%
+  filter(Analysis %in% analyses)
 
-# Run permutation MANOVA
+# Run PERMANOVA
+## you can specify Period instead of Analysis for adonis2 to compare all modern vs Rhynie
 adonis_result <- adonis2(df_clean[, metrics] ~ as.factor(Analysis), data = df_clean, permutations = 999)
 
 # Output
 print(adonis_result)
 
-### Statistical comparisons of samples
-
-# subset dataframe for comparing full (Trophic Species) rhynie to modern webs
-df_unlumped <- df %>%
-  filter(!startsWith(Analysis, "Rhynie")|(startsWith(Analysis, "Rhynie_all")&!endsWith(Analysis,"lumped"))) %>%
-  mutate(Analysis = as.factor(Analysis)) 
-
-# subset dataframe for comparing lumped rhynie to modern webs
-df_lumped <- df %>%
-  filter(!startsWith(Analysis, "Rhynie")|Analysis == "Rhynie_all_lumped") %>%
-  filter(Analysis != "Niche_TS") %>%
-  group_by(Analysis) %>%
-  slice_head(n = 100) %>%
-  ungroup() %>%
-  mutate(Analysis = as.factor(Analysis)) 
-
-# subset dataframe for comparing rhynie web to terrestrial and aquatic subsets (not lumped)
-df_habitats <- df %>%
-  filter(startsWith(Analysis, "Rhynie")&!endsWith(Analysis,"lumped")) %>%
-  mutate(Analysis = as.factor(Analysis)) 
-
-# subset dataframe for comparing full and lumped rhynie webs (complete)
-df_rhynielumping <- df %>%
-  filter(startsWith(Analysis, "Rhynie_all")) %>%
-  mutate(Analysis = as.factor(Analysis)) 
-
-empirical_pvals <- sapply(rhynie_vals, function(x) mean(modern_vals <= x))
-hist(empirical_pvals, main = "Empirical p-values for Rhynie Webs", xlab = "Empirical p-value")
-
-### PCA to look at overlap between webs
+# PCA - to look at overlap between webs ####
 
 # subset dataframe for comparing relevant analyses
 df_lumped <- df %>%
@@ -216,7 +195,14 @@ pca_scores <- as.data.frame(pca_result$x)
 pca_scores$Web_ID <- df_lumped$SLN_ID
 pca_scores$Analysis <- df_lumped$Analysis
 
-# Basic PCA biplot
+# Loadings (contributions of metrics to PCs)
+loadings <- pca_result$rotation
+print(loadings)
+
+# Optional: visual inspection of importance
+summary(pca_result)
+
+## PC1 vs PC2 plot ####
 ggplot(pca_scores, aes(x = PC1, y = PC2, color = Analysis, label = "")) +
   geom_point(size = 3) +
   geom_text(vjust = -0.5, size = 3) +
@@ -226,14 +212,7 @@ ggplot(pca_scores, aes(x = PC1, y = PC2, color = Analysis, label = "")) +
                                 "EcoWeb_TS" = "#ADD40C", "DigelSoil_TS" = "#7D845E",
                                 "Niche_lumped" = "blue", "Niche_TS" = "cyan"))
 
-# Loadings (contributions of metrics to PCs)
-loadings <- pca_result$rotation
-print(loadings)
-
-# Optional: visual inspection of importance
-summary(pca_result)
-
-# PC2 x PC3
+## PC2 vs PC3 plot ####
 ggplot(pca_scores, aes(x = PC2, y = PC3, color = Analysis, label = "")) +
   geom_point(size = 3) +
   geom_text(vjust = -0.5, size = 3) +
@@ -243,8 +222,7 @@ ggplot(pca_scores, aes(x = PC2, y = PC3, color = Analysis, label = "")) +
                                 "EcoWeb_TS" = "#ADD40C", "DigelSoil_TS" = "#7D845E",
                                 "Niche_lumped" = "blue", "Niche_TS" = "cyan"))
 
-
- ### Non-linear least squares model
+# Non-linear least squares model ####
 library(propagate)
 library(nlstools)
 
@@ -296,5 +274,31 @@ plot(df_modern$S, df_modern$Max_NTP, pch = 16, col = "gray40",
 lines(S_vals, pred_ci$summary[,1], col = "blue", lwd = 2)
 lines(S_vals, pred_ci$summary[,11], col = "blue", lty = 2)
 lines(S_vals, pred_ci$summary[,12], col = "blue", lty = 2)
+
+# (Deprecated?) create subsets of df for analyses ####
+
+# subset dataframe for comparing full (Trophic Species) rhynie to modern webs
+df_unlumped <- df %>%
+  filter(!startsWith(Analysis, "Rhynie")|(startsWith(Analysis, "Rhynie_all")&!endsWith(Analysis,"lumped"))) %>%
+  mutate(Analysis = as.factor(Analysis)) 
+
+# subset dataframe for comparing lumped rhynie to modern webs
+df_lumped <- df %>%
+  filter(!startsWith(Analysis, "Rhynie")|Analysis == "Rhynie_all_lumped") %>%
+  filter(Analysis != "Niche_TS") %>%
+  group_by(Analysis) %>%
+  slice_head(n = 100) %>%
+  ungroup() %>%
+  mutate(Analysis = as.factor(Analysis)) 
+
+# subset dataframe for comparing rhynie web to terrestrial and aquatic subsets (not lumped)
+df_habitats <- df %>%
+  filter(startsWith(Analysis, "Rhynie")&!endsWith(Analysis,"lumped")) %>%
+  mutate(Analysis = as.factor(Analysis)) 
+
+# subset dataframe for comparing full and lumped rhynie webs (complete)
+df_rhynielumping <- df %>%
+  filter(startsWith(Analysis, "Rhynie_all")) %>%
+  mutate(Analysis = as.factor(Analysis)) 
 
 

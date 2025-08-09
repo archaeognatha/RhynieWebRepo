@@ -1,3 +1,4 @@
+# START HERE ####
 # Load necessary libraries
 library(tidyverse)
 
@@ -9,12 +10,12 @@ df <- df %>%
   mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian","modern")) %>%
   mutate(Period = as.factor(Period))
 
-### PANEL SCATTERPLOT FIGURE 1: Modern webs vs. Rhynie complete, lumped, terrestrial, aquatic
+# PANEL SCATTERPLOT FIGURE 1: Modern webs vs. Rhynie complete, lumped, terrestrial, aquatic ####
 
 metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "TrOmniv", "q", 
             "char_path_len", "std_path_len", "priConsumers", "secConsumers", "Top")
 
-# Filter to the analyses of interest and rename metrics and analyses, 
+## Scatterplot 1 filter to analyses of interest and rename metrics and analyses #### 
 #     also, only include 100 SLNs for each Rhynie analysis so as not to crowd plots
 df_plot <- df %>%
   filter(Analysis %in% c("DigelSoil_TS", "EcoWeb_TS", "Rhynie_all_TS", "Rhynie_all_lumped", "Rhynie_terr_lumped", "Rhynie_aqu_lumped")) %>%
@@ -41,7 +42,7 @@ df_long$Analysis <- factor(df_long$Analysis,
 # re-code the levels in Metric to make sure the facets appear in the right order
 df_long$Metric <- factor(df_long$Metric, levels = metrics)
 
-# give nicer-looking labels for each metric
+## Scatterplot 1 metric labels ####
 metric_labels <- c(C = "C", 
                    NTP_mean = "Mean NTP", 
                    NTP_max = "Max NTP", 
@@ -54,7 +55,7 @@ metric_labels <- c(C = "C",
                    secConsumers= "Secondary consumers", 
                    Top = "Apex species")
 
-# Define color palette for consistency
+## Scatterplot 1 color palette ####
 analysis_colors <- c(
   "Modern_EcoWeb" = "#ADD40C",
   "Modern_DigelSoil" = "#7D845E",
@@ -64,13 +65,14 @@ analysis_colors <- c(
   "Rhynie_aqu" = "#2F9FDE"
 )
 
+## Scatterplot 1 datapoint shapes ####
 analysis_shapes <- c(
   "Modern_EcoWeb" = 15,"Modern_DigelSoil" = 15,
   "Rhynie_complete" = 20,"Rhynie_lumped" = 20,
   "Rhynie_terr" = 20, "Rhynie_aqu" = 20
 )
 
-# Create the scatterplot figure
+## Scatterplot 1 GENERATE FIGURE (ggplot2 call) ####
 ggplot(df_long, aes(x = S, y = Value)) +
   geom_point(alpha = 0.5, aes(colour = Analysis, shape = Analysis)) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels)) +
@@ -99,14 +101,15 @@ ggplot(df_long, aes(x = S, y = Value)) +
     strip.text = element_text(face = "bold"),
 ) +
   guides(colour = guide_legend(override.aes = list(size=3)))
-# -----------------------------------------------------------------------------
 
-### PANEL BOXPLOT FIGURE 1: Rhynie Complete and lumped vs. Niche Model results
+#-----------------------------------------------------------------------------#
+
+# PANEL BOXPLOT FIGURE 1: Rhynie (lumped + unlumped) vs. Niche Model results ####
 
 metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "TrOmniv", "q", 
             "char_path_len", "std_path_len", "priConsumers", "secConsumers", "Top")
 
-# Filter to the complete Rhynie webs + niche model and rename metrics and analyses
+## Boxplot 1 filter to only full/lumped Rhynie and Niche model, rename metrics and analyses #### 
 df_rhynie <- df %>%
   filter(Analysis %in% c("Rhynie_all_TS", "Rhynie_all_lumped", "Niche_TS", "Niche_lumped")) %>%
   mutate(Analysis = fct_recode(Analysis, "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped", 
@@ -129,6 +132,7 @@ df_rhynie_long$Analysis <- factor(df_rhynie_long$Analysis,
 # re-code the levels in Metric to make sure the facets appear in the right order
 df_rhynie_long$Metric <- factor(df_rhynie_long$Metric, levels = metrics)
 
+## Boxplot 1 metric labels ####
 metric_labels <- c(C = "C", 
                    NTP_mean = "Mean NTP", 
                    NTP_max = "Max NTP", 
@@ -141,7 +145,7 @@ metric_labels <- c(C = "C",
                    secConsumers= "Secondary consumers", 
                    Top = "Apex species")
 
-# Define color palette
+## Boxplot 1 color palette ####
 analysis_colors <- c(
   "Rhynie_complete" = "#DB90FF",
   "Rhynie_lumped" = "#D6016D",
@@ -149,7 +153,7 @@ analysis_colors <- c(
   "Niche_lumped" = "#23D2E4"
 )
  
-# Plot
+## Boxplot 1 GENERATE FIGURE (ggplot2 call) ####
 ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
   geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels)) +
@@ -172,13 +176,13 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
   labs(title = "", x = NULL, y = NULL)
 
 
-### PANEL BOXPLOT FIGURE 2: specific metrics
+# PANEL BOXPLOT FIGURE 2: specific metrics of interest ####
 
-# metrics of interest and renamed versions
+# define metrics of interest and renamed versions
 metrics <- c("Max_NTP", "Mean_path_len", "Herbiv")
 metrics2 <- c("NTP_max", "char_path_len", "priConsumers")
 
-# Filter to the Rhynie_lumped and modern webs, metrics of interest, and rename metrics and analyses
+## Boxplot 2 filter to only lumped Rhynie and modern, metrics of interest, rename metrics + analyses #### 
 df_sigmetrics <- df %>%
   filter(Analysis %in% c("Rhynie_all_lumped", "DigelSoil_TS", "EcoWeb_TS")) %>%
   mutate(Analysis = fct_recode(Analysis, "Rhynie_lumped" = "Rhynie_all_lumped", 
@@ -197,17 +201,19 @@ df_sigmetrics_long <- df_sigmetrics %>%
     values_to = "Value"
   )
 
+## Boxplot 2 metric labels ####
 metric_labels <- c(NTP_max = "Max NTP", 
                    char_path_len = "Characteristic path length", 
                    priConsumers = "Primary consumers")
 
-# Define color palette
+## Boxplot 2 color palette ####
 analysis_colors <- c(
   "Rhynie_lumped" = "#D6016D",
   "Modern_EcoWeb" = "#ADD40C",
   "Modern_DigelSoil" = "#7D845E"
 )
 
+## Boxplot 2 GENERATE FIGURE (ggplot2 call) ####
 ggplot(df_sigmetrics_long, aes(x = Analysis, y = Value, fill = Analysis)) +
   geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 2, labeller = labeller(Metric = metric_labels)) +
@@ -226,7 +232,7 @@ ggplot(df_sigmetrics_long, aes(x = Analysis, y = Value, fill = Analysis)) +
   ) +
   labs(title = "", x = NULL, y = NULL)
 
-#### INDIVIDUAL BOXPLOTS
+# (deprecated?) INDIVIDUAL METRIC SCATTERPLOTS ####
 
 # subset the dataframe with the first 100 rhynie replicates and remove the lumped terr/aqu webs 
 # ...to make the plots below easier to read
@@ -325,7 +331,7 @@ ggplot(df_small, aes(x = S, y = Carniv, color = Analysis)) +
        x = "Number of species (S)",
        y = "Percentage of secondary consumers")
 
-# Group comparisons
+# (deprecated?) Group comparisons - individual metric boxplots ####
 
 # boxplot of connectance
 ggplot(df, aes(x = Analysis, y = C, fill = Analysis)) +
@@ -412,9 +418,7 @@ ggplot(df, aes(x = Analysis, y = Top, fill = Analysis)) +
   labs(title = "% taxa in Rhynie and Modern webs without predators")
 
 
-
-
-### PANEL BOXPLOT FIGURE 2: Modern webs, Rhynie Complete, Rhynie Lumped
+# (deprecated) PANEL BOXPLOT FIGURE: Modern webs, Rhynie Complete, Rhynie Lumped ####
 
 metrics = c("C", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "std_path_len", "priConsumers", "secConsumers", "Top")
 
@@ -460,7 +464,7 @@ ggplot(df_long, aes(x = Analysis, y = Value, fill = Analysis)) +
   ) +
   labs(title = "Food Web Metrics by Analysis", x = NULL, y = NULL)
 
-### PANEL BOXPLOT FIGURE 3: Rhynie Complete, Rhynie aquatic, Rhynie terrestrial
+# (deprecated) PANEL BOXPLOT FIGURE: Rhynie Complete, Rhynie aquatic, Rhynie terrestrial ####
 
 metrics = c("C", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "Std_path_len", "priConsumers", "secConsumers", "Top")
 
