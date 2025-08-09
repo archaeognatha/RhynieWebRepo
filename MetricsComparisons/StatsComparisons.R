@@ -162,7 +162,6 @@ adonis_result <- adonis2(df_clean[, metrics] ~ as.factor(Analysis), data = df_cl
 # Output
 print(adonis_result)
 
-
 ### Statistical comparisons of samples
 
 # subset dataframe for comparing full (Trophic Species) rhynie to modern webs
@@ -173,6 +172,10 @@ df_unlumped <- df %>%
 # subset dataframe for comparing lumped rhynie to modern webs
 df_lumped <- df %>%
   filter(!startsWith(Analysis, "Rhynie")|Analysis == "Rhynie_all_lumped") %>%
+  filter(Analysis != "Niche_TS") %>%
+  group_by(Analysis) %>%
+  slice_head(n = 100) %>%
+  ungroup() %>%
   mutate(Analysis = as.factor(Analysis)) 
 
 # subset dataframe for comparing rhynie web to terrestrial and aquatic subsets (not lumped)
@@ -188,7 +191,60 @@ df_rhynielumping <- df %>%
 empirical_pvals <- sapply(rhynie_vals, function(x) mean(modern_vals <= x))
 hist(empirical_pvals, main = "Empirical p-values for Rhynie Webs", xlab = "Empirical p-value")
 
-### Non-linear least squares model
+### PCA to look at overlap between webs
+
+# subset dataframe for comparing relevant analyses
+df_lumped <- df %>%
+  filter(!startsWith(Analysis, "Rhynie")|Analysis == "Rhynie_all_lumped"|Analysis == "Rhynie_all_TS") %>%
+  #filter(Analysis != "Niche_TS") %>%
+  group_by(Analysis) %>%
+  slice_head(n = 100) %>%
+  ungroup() %>%
+  mutate(Analysis = as.factor(Analysis)) 
+
+# select columns with numeric metrics we'd like to include in the PCA
+metrics = df_lumped[, c("C", "Mean_NTP", "Max_NTP", "TrOmniv", "q_inCoherence", "Mean_path_len", "MeanInDegree", "Herbiv", "Carniv", "Top")]
+
+# optional: scale the metrics
+metrics_scaled <- scale(metrics)
+
+# run PCA
+pca_result <- prcomp(metrics_scaled, center = TRUE, scale. = TRUE)
+
+# Get PCA scores and combine with metadata
+pca_scores <- as.data.frame(pca_result$x)
+pca_scores$Web_ID <- df_lumped$SLN_ID
+pca_scores$Analysis <- df_lumped$Analysis
+
+# Basic PCA biplot
+ggplot(pca_scores, aes(x = PC1, y = PC2, color = Analysis, label = "")) +
+  geom_point(size = 3) +
+  geom_text(vjust = -0.5, size = 3) +
+  theme_minimal() +
+  labs(title = "PCA of Food Web Metrics", x = "PC1", y = "PC2") +
+  scale_color_manual(values = c("Rhynie_all_lumped" = "#D6016D", "Rhynie_all_TS" = "#DB90FF", 
+                                "EcoWeb_TS" = "#ADD40C", "DigelSoil_TS" = "#7D845E",
+                                "Niche_lumped" = "blue", "Niche_TS" = "cyan"))
+
+# Loadings (contributions of metrics to PCs)
+loadings <- pca_result$rotation
+print(loadings)
+
+# Optional: visual inspection of importance
+summary(pca_result)
+
+# PC2 x PC3
+ggplot(pca_scores, aes(x = PC2, y = PC3, color = Analysis, label = "")) +
+  geom_point(size = 3) +
+  geom_text(vjust = -0.5, size = 3) +
+  theme_minimal() +
+  labs(title = "PCA of Food Web Metrics", x = "PC2", y = "PC3") +
+  scale_color_manual(values = c("Rhynie_all_lumped" = "#D6016D", "Rhynie_all_TS" = "#DB90FF", 
+                                "EcoWeb_TS" = "#ADD40C", "DigelSoil_TS" = "#7D845E",
+                                "Niche_lumped" = "blue", "Niche_TS" = "cyan"))
+
+
+ ### Non-linear least squares model
 library(propagate)
 library(nlstools)
 
@@ -240,3 +296,5 @@ plot(df_modern$S, df_modern$Max_NTP, pch = 16, col = "gray40",
 lines(S_vals, pred_ci$summary[,1], col = "blue", lwd = 2)
 lines(S_vals, pred_ci$summary[,11], col = "blue", lty = 2)
 lines(S_vals, pred_ci$summary[,12], col = "blue", lty = 2)
+
+

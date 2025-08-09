@@ -17,10 +17,10 @@ metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "TrOmniv", "q",
 # Filter to the analyses of interest and rename metrics and analyses, 
 #     also, only include 100 SLNs for each Rhynie analysis so as not to crowd plots
 df_plot <- df %>%
-  filter(Analysis %in% c("DigelSoil_TS", "EcoWeb_TS", "Rhynie_all_TS", "Rhynie_all_lumped", "Rhynie_terr_TS", "Rhynie_aqu_TS")) %>%
+  filter(Analysis %in% c("DigelSoil_TS", "EcoWeb_TS", "Rhynie_all_TS", "Rhynie_all_lumped", "Rhynie_terr_lumped", "Rhynie_aqu_lumped")) %>%
   mutate(Analysis = fct_recode(Analysis, "Modern_DigelSoil" = "DigelSoil_TS", "Modern_EcoWeb" = "EcoWeb_TS", 
                                "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped",
-                               "Rhynie_terr" = "Rhynie_terr_TS", "Rhynie_aqu" = "Rhynie_aqu_TS" )) %>%
+                               "Rhynie_terr" = "Rhynie_terr_lumped", "Rhynie_aqu" = "Rhynie_aqu_lumped" )) %>%
   rename(NTP_mean = Mean_NTP, NTP_max = Max_NTP, q = q_inCoherence,
          char_path_len = Mean_path_len, std_path_len = Std_path_len, 
          InDegree = MeanInDegree, priConsumers = Herbiv, secConsumers = Carniv) %>%
@@ -58,8 +58,8 @@ metric_labels <- c(C = "C",
 analysis_colors <- c(
   "Modern_EcoWeb" = "#ADD40C",
   "Modern_DigelSoil" = "#7D845E",
-  "Rhynie_complete" = "#D6016D",
-  "Rhynie_lumped" = "#DB90FF",
+  "Rhynie_complete" = "#DB90FF",
+  "Rhynie_lumped" = "#D6016D",
   "Rhynie_terr" = "#E8BE21",
   "Rhynie_aqu" = "#2F9FDE"
 )
@@ -70,7 +70,7 @@ analysis_shapes <- c(
   "Rhynie_terr" = 20, "Rhynie_aqu" = 20
 )
 
-# Create the boxplot figure
+# Create the scatterplot figure
 ggplot(df_long, aes(x = S, y = Value)) +
   geom_point(alpha = 0.5, aes(colour = Analysis, shape = Analysis)) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels)) +
@@ -103,17 +103,17 @@ ggplot(df_long, aes(x = S, y = Value)) +
 
 ### PANEL BOXPLOT FIGURE 1: Rhynie Complete and lumped vs. Niche Model results
 
-metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "q", "char_path_len", 
-            "Std_path_len", "priConsumers", "secConsumers", "Top")
+metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "TrOmniv", "q", 
+            "char_path_len", "std_path_len", "priConsumers", "secConsumers", "Top")
 
-# Filter to the Rhynie unlumped variants and rename metrics and analyses
+# Filter to the complete Rhynie webs + niche model and rename metrics and analyses
 df_rhynie <- df %>%
   filter(Analysis %in% c("Rhynie_all_TS", "Rhynie_all_lumped", "Niche_TS", "Niche_lumped")) %>%
   mutate(Analysis = fct_recode(Analysis, "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped", 
                                "Niche_complete" = "Niche_TS", "Niche_lumped" = "Niche_lumped")) %>%
-  rename(LinkDensity = L_D, NTP_mean = Mean_NTP, NTP_max = Max_NTP, q = q_inCoherence,
-         mean_longest_path_len = Mean_longest_chain, char_path_len = Mean_path_len, InDegree = MeanInDegree,
-         priConsumers = Herbiv, secConsumers = Carniv)
+  rename(NTP_mean = Mean_NTP, NTP_max = Max_NTP, q = q_inCoherence,
+         char_path_len = Mean_path_len, std_path_len = Std_path_len, 
+         InDegree = MeanInDegree, priConsumers = Herbiv, secConsumers = Carniv)
 
 # Reshape to long format
 df_rhynie_long <- df_rhynie %>%
@@ -126,6 +126,9 @@ df_rhynie_long <- df_rhynie %>%
 # re-code the levels in Analysis to make sure it plots in the right order
 df_rhynie_long$Analysis <- factor(df_rhynie_long$Analysis,
                                   levels = c("Rhynie_complete", "Niche_complete", "Rhynie_lumped", "Niche_lumped"))
+# re-code the levels in Metric to make sure the facets appear in the right order
+df_rhynie_long$Metric <- factor(df_rhynie_long$Metric, levels = metrics)
+
 metric_labels <- c(C = "C", 
                    NTP_mean = "Mean NTP", 
                    NTP_max = "Max NTP", 
@@ -138,10 +141,10 @@ metric_labels <- c(C = "C",
                    secConsumers= "Secondary consumers", 
                    Top = "Apex species")
 
-# Define color palette for consistency
+# Define color palette
 analysis_colors <- c(
-  "Rhynie_complete" = "#D6016D",
-  "Rhynie_lumped" = "#DB90FF",
+  "Rhynie_complete" = "#DB90FF",
+  "Rhynie_lumped" = "#D6016D",
   "Niche_complete" = "#093BC5",
   "Niche_lumped" = "#23D2E4"
 )
@@ -160,13 +163,69 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
     axis.text.x = element_blank(),
     axis.ticks.x = element_blank(),
     axis.line.x = element_blank(),
-    legend.position = c(0.7,0.1),
+    legend.position = c(0.84,0.1),
     legend.title = element_blank(),
     legend.key.width = unit(1, "cm"),
     strip.background = element_blank(),
     strip.text = element_text(face = "bold")
   ) +
   labs(title = "", x = NULL, y = NULL)
+
+
+### PANEL BOXPLOT FIGURE 2: specific metrics
+
+# metrics of interest and renamed versions
+metrics <- c("Max_NTP", "Mean_path_len", "Herbiv")
+metrics2 <- c("NTP_max", "char_path_len", "priConsumers")
+
+# Filter to the Rhynie_lumped and modern webs, metrics of interest, and rename metrics and analyses
+df_sigmetrics <- df %>%
+  filter(Analysis %in% c("Rhynie_all_lumped", "DigelSoil_TS", "EcoWeb_TS")) %>%
+  mutate(Analysis = fct_recode(Analysis, "Rhynie_lumped" = "Rhynie_all_lumped", 
+                               "Modern_EcoWeb" = "EcoWeb_TS", "Modern_DigelSoil" = "DigelSoil_TS", )) %>%
+  filter(S > 15) %>% # only keep webs with more than 15 species to mitigate sensitivity to scaling
+  select(all_of(append("Analysis", metrics))) %>%
+  rename(NTP_max = Max_NTP, char_path_len = Mean_path_len, priConsumers = Herbiv) %>%
+  group_by(Analysis) %>%
+  slice_head(n = 100)
+
+# Reshape to long format
+df_sigmetrics_long <- df_sigmetrics %>%
+  pivot_longer(
+    cols = all_of(metrics2),
+    names_to = "Metric",
+    values_to = "Value"
+  )
+
+metric_labels <- c(NTP_max = "Max NTP", 
+                   char_path_len = "Characteristic path length", 
+                   priConsumers = "Primary consumers")
+
+# Define color palette
+analysis_colors <- c(
+  "Rhynie_lumped" = "#D6016D",
+  "Modern_EcoWeb" = "#ADD40C",
+  "Modern_DigelSoil" = "#7D845E"
+)
+
+ggplot(df_sigmetrics_long, aes(x = Analysis, y = Value, fill = Analysis)) +
+  geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
+  facet_wrap(~ Metric, scales = "free_y", ncol = 2, labeller = labeller(Metric = metric_labels)) +
+  scale_fill_manual(values = analysis_colors, 
+                    breaks = c("Rhynie_lumped", "Modern_EcoWeb", "Modern_DigelSoil"),
+                    labels = c("Rhynie", "Modern: EcoWeb (S > 15)", "Modern: DigelSoil")) +
+  theme_classic(base_size = 15) +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    legend.position = c(0.75,0.2),
+    legend.title = element_blank(),
+    legend.key.width = unit(1, "cm"),
+    strip.background = element_blank(),
+    strip.text = element_text(face = "bold")
+  ) +
+  labs(title = "", x = NULL, y = NULL)
+
 #### INDIVIDUAL BOXPLOTS
 
 # subset the dataframe with the first 100 rhynie replicates and remove the lumped terr/aqu webs 
@@ -383,8 +442,8 @@ df_long$Analysis <- factor(df_long$Analysis,
 analysis_colors <- c(
   "Modern_EcoWeb" = "#ADD40C",
   "Modern_DigelSoil" = "#7D845E",
-  "Rhynie_complete" = "#D6016D",
-  "Rhynie_lumped" = "#DB90FF"
+  "Rhynie_complete" = "#DB90FF",
+  "Rhynie_lumped" = "#D6016D"
 )
 
 # Create the boxplot figure
@@ -405,10 +464,10 @@ ggplot(df_long, aes(x = Analysis, y = Value, fill = Analysis)) +
 
 metrics = c("C", "NTP_mean_norm", "NTP_max", "InDegree", "TrOmniv", "q", "char_path_len", "Std_path_len", "priConsumers", "secConsumers", "Top")
 
-# Filter to the Rhynie unlumped variants and rename metrics and analyses
+# Filter to the Rhynie lumped variants and rename metrics and analyses
 df_rhynie <- df %>%
-  filter(Analysis %in% c("Rhynie_all_TS", "Rhynie_terr_TS", "Rhynie_aqu_TS")) %>%
-  mutate(Analysis = fct_recode(Analysis, "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_terr" = "Rhynie_terr_TS", "Rhynie_aqu" = "Rhynie_aqu_TS")) %>%
+  filter(Analysis %in% c("Rhynie_all_lumped", "Rhynie_terr_lumped", "Rhynie_aqu_lumped")) %>%
+  mutate(Analysis = fct_recode(Analysis, "Rhynie_complete" = "Rhynie_all_lumped", "Rhynie_terr" = "Rhynie_terr_lumped", "Rhynie_aqu" = "Rhynie_aqu_lumped")) %>%
   rename(LinkDensity = L_D, NTP_mean_norm = Mean_NTP_norm, NTP_max = Max_NTP, q = q_inCoherence,
          mean_longest_path_len = Mean_longest_chain, char_path_len = Mean_path_len, InDegree = MeanInDegree,
          priConsumers = Herbiv, secConsumers = Carniv)
@@ -445,5 +504,3 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
     strip.text = element_text(face = "bold")
   ) +
   labs(title = "Rhynie Web Subsets (unlumped)", x = NULL, y = NULL)
-
-
