@@ -4,8 +4,8 @@
 3,terrestrial heterotroph microbes,,2,producer,"3,1",1,0
 4,terrestrial saprotrophs,"Zygomycota, Blastocladiomycota, Oomycota",15,producer,1,1,0
 5,mycorrhizae,"Glomeromycota, Mucuromycota",9,producer,"2,1",1,0
-6,plant parasites,Chytridomycota,7,producer,"2,1",1,0
-7,fungal parasites,Chytridomycota,3,producer,"7?,6,5?,4,1?, 21?",1,0
+6,plant parasites,Chytridomycota,6,producer,"2,1",1,0
+7,fungal parasites,Chytridomycota,4,producer,"7?,6,5?,4,1?, 21?",1,0
 8,terrestrial microbivores,Hexapoda,1,producer,"20?,7,6,5,4,3,2??,1?",1,0
 9,terrestrial detritivores,Diplopoda,2,producer,"20?,3?,1",1,0
 10,mites,Acari,2,producer,"24, 20,7?,6,5,4,3,2?,1?",1,0

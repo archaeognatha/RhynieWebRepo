@@ -43,12 +43,12 @@ df_long$Analysis <- factor(df_long$Analysis,
 df_long$Metric <- factor(df_long$Metric, levels = metrics)
 
 ## Scatterplot 1 metric labels ####
-metric_labels <- c(C = "C", 
-                   NTP_mean = "Mean NTP", 
-                   NTP_max = "Max NTP", 
-                   InDegree = "In degree", 
+metric_labels <- c(C = "Connectance (C)", 
+                   NTP_mean = "Mean ntp", 
+                   NTP_max = "Max ntp", 
+                   InDegree = "In-degree", 
                    TrOmniv = "Trophic omnivory", 
-                   q = "q", 
+                   q = "Coherence (q)", 
                    char_path_len = "Characteristic path length", 
                    std_path_len = "Path length std. dev.", 
                    priConsumers = "Primary consumers",
@@ -57,7 +57,7 @@ metric_labels <- c(C = "C",
 
 ## Scatterplot 1 color palette ####
 analysis_colors <- c(
-  "Modern_EcoWeb" = "#ADD40C",
+  "Modern_EcoWeb" = "#9CC104",
   "Modern_DigelSoil" = "#7D845E",
   "Rhynie_complete" = "#DB90FF",
   "Rhynie_lumped" = "#D6016D",
@@ -74,7 +74,7 @@ analysis_shapes <- c(
 
 ## Scatterplot 1 GENERATE FIGURE (ggplot2 call) ####
 ggplot(df_long, aes(x = S, y = Value)) +
-  geom_point(alpha = 0.5, aes(colour = Analysis, shape = Analysis)) +
+  geom_point(alpha = 0.6, aes(colour = Analysis, shape = Analysis)) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels)) +
   scale_color_manual(values = analysis_colors,
                      breaks = c("Modern_EcoWeb", "Modern_DigelSoil", 
@@ -133,12 +133,12 @@ df_rhynie_long$Analysis <- factor(df_rhynie_long$Analysis,
 df_rhynie_long$Metric <- factor(df_rhynie_long$Metric, levels = metrics)
 
 ## Boxplot 1 metric labels ####
-metric_labels <- c(C = "C", 
-                   NTP_mean = "Mean NTP", 
-                   NTP_max = "Max NTP", 
-                   InDegree = "In degree", 
+metric_labels <- c(C = "Connectance (C)", 
+                   NTP_mean = "Mean ntp", 
+                   NTP_max = "Max ntp", 
+                   InDegree = "In-degree", 
                    TrOmniv = "Trophic omnivory", 
-                   q = "q", 
+                   q = "Coherence (q)", 
                    char_path_len = "Characteristic path length", 
                    std_path_len = "Path length std. dev.", 
                    priConsumers = "Primary consumers",
@@ -169,7 +169,8 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
     axis.line.x = element_blank(),
     legend.position = c(0.84,0.1),
     legend.title = element_blank(),
-    legend.key.width = unit(1, "cm"),
+    legend.key.width = unit(0.75, "cm"),
+    legend.text = element_text(size = 10),
     strip.background = element_blank(),
     strip.text = element_text(face = "bold")
   ) +
@@ -179,8 +180,8 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
 # PANEL BOXPLOT FIGURE 2: specific metrics of interest ####
 
 # define metrics of interest and renamed versions
-metrics <- c("Max_NTP", "Mean_path_len", "Herbiv")
-metrics2 <- c("NTP_max", "char_path_len", "priConsumers")
+metrics <- c("Max_NTP", "q_inCoherence", "Mean_path_len", "Herbiv")
+metrics2 <- c("NTP_max", "q", "char_path_len", "priConsumers")
 
 ## Boxplot 2 filter to only lumped Rhynie and modern, metrics of interest, rename metrics + analyses #### 
 df_sigmetrics <- df %>%
@@ -189,7 +190,7 @@ df_sigmetrics <- df %>%
                                "Modern_EcoWeb" = "EcoWeb_TS", "Modern_DigelSoil" = "DigelSoil_TS", )) %>%
   filter(S > 15) %>% # only keep webs with more than 15 species to mitigate sensitivity to scaling
   select(all_of(append("Analysis", metrics))) %>%
-  rename(NTP_max = Max_NTP, char_path_len = Mean_path_len, priConsumers = Herbiv) %>%
+  rename(NTP_max = Max_NTP, q = q_inCoherence, char_path_len = Mean_path_len, priConsumers = Herbiv) %>%
   group_by(Analysis) %>%
   slice_head(n = 100)
 
@@ -201,15 +202,19 @@ df_sigmetrics_long <- df_sigmetrics %>%
     values_to = "Value"
   )
 
+# re-code the levels in Metric to make sure the facets appear in the right order
+df_sigmetrics_long$Metric <- factor(df_sigmetrics_long$Metric, levels = metrics2)
+
 ## Boxplot 2 metric labels ####
-metric_labels <- c(NTP_max = "Max NTP", 
+metric_labels <- c(NTP_max = "Max ntp", 
+                   q = "Coherence (q)",
                    char_path_len = "Characteristic path length", 
                    priConsumers = "Primary consumers")
 
 ## Boxplot 2 color palette ####
 analysis_colors <- c(
   "Rhynie_lumped" = "#D6016D",
-  "Modern_EcoWeb" = "#ADD40C",
+  "Modern_EcoWeb" = "#9CC104",
   "Modern_DigelSoil" = "#7D845E"
 )
 
@@ -218,15 +223,14 @@ ggplot(df_sigmetrics_long, aes(x = Analysis, y = Value, fill = Analysis)) +
   geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 2, labeller = labeller(Metric = metric_labels)) +
   scale_fill_manual(values = analysis_colors, 
-                    breaks = c("Rhynie_lumped", "Modern_EcoWeb", "Modern_DigelSoil"),
-                    labels = c("Rhynie", "Modern: EcoWeb (S > 15)", "Modern: DigelSoil")) +
+                    breaks = c("Rhynie_lumped", "Modern_EcoWeb", "Modern_DigelSoil")) +
+  scale_x_discrete(breaks = c("Rhynie_lumped", "Modern_EcoWeb", "Modern_DigelSoil"),
+                   labels = c("Rhynie", "Modern:\nEcoWeb\n(S > 15)", "Modern:\nDigelSoil")) +
   theme_classic(base_size = 15) +
   theme(
-    axis.text.x = element_blank(),
+    axis.text.x = element_text(size = 10),
     axis.ticks.x = element_blank(),
-    legend.position = c(0.75,0.2),
-    legend.title = element_blank(),
-    legend.key.width = unit(1, "cm"),
+    legend.position = "none",
     strip.background = element_blank(),
     strip.text = element_text(face = "bold")
   ) +
@@ -444,7 +448,7 @@ df_long$Analysis <- factor(df_long$Analysis,
 
 # Define color palette for consistency
 analysis_colors <- c(
-  "Modern_EcoWeb" = "#ADD40C",
+  "Modern_EcoWeb" = "#9CC104",
   "Modern_DigelSoil" = "#7D845E",
   "Rhynie_complete" = "#DB90FF",
   "Rhynie_lumped" = "#D6016D"
