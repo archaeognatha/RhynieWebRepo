@@ -1,0 +1,19 @@
+sp_name,guild,sp_id
+Roots,plants,1
+Detritus,detritus,2
+fungi,fungi,3
+bacteria,bacteria,4
+protozoa,protozoa,5
+enchytraeids,enchytraeids,6
+earthworms,earthworms,7
+phytophagous nematodes,phytophagous nematodes,8
+fungivorous nematodes,fungivorous nematodes,9
+bactieriophagous nematodes,bactieriophagous nematodes,10
+predatory nematodes,predatory nematodes,11
+microbivorous microarthropods,microbivorous microarthropods,12
+predatory microarthropods,predatory microarthropods,13
+herbage arthropods,herbage arthropods,14
+predatory herbage arthropods,predatory herbage arthropods,15
+macroarthropods,macroarthropods,16
+phytophagous macroarthropods,phytophagous macroarthropods,17
+predatory macroarthropods,predatory macroarthropods,18

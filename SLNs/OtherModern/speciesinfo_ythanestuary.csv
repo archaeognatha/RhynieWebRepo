@@ -1,0 +1,93 @@
+sp_name,guild,sp_id,common_name,mean_wetmass_g,N_in_whole_estuary
+Lutra lutra,aquatic mammal,1,Otter,12000,2
+Phalacrocorax carbo,bird,2,Cormorant,2250,30
+Ardea cinerea,bird,3,Heron,1097,10
+Cygnus olor,bird,4,Mute Swan,10250,35
+Tadorna tadorna,bird,5,Shelduck,1112,55
+Anas penelope,bird,6,Wigeon,710,350
+Somateria mollissima,bird,7,Eider,2150,3350
+Somateria mollissima,bird,8,Eider juv.,700,1834
+Haematopus ostralegus,bird,9,Oystercatcher,540,250
+Charadris hiaticula,bird,10,Ringed plover,63,5
+Pluvialis apricaria,bird,11,Golden plover,180,200
+Pluvialis squatarola,bird,12,Grey plover,227,200
+Vanellus vanellus,bird,13,Lapwing,243,200
+Calidris alpina,bird,14,Dunlin,48,350
+Limos lapponica,bird,15,Bar-tailed godwit,301,12
+Numenius arquata,bird,16,Curlew,725,5
+Tringa totanus,bird,17,Redshank,117,400
+Arenaria interpres,bird,18,Turnstone,110,35
+Larus canus,bird,19,Common gull,386,15
+Larus ridibundus,bird,20,B H gull,180,150
+Larus aragentatus,bird,21,Herring gull,885,30
+Larus marinus,bird,22,G B B gull,1330,20
+Sterna Sandvicensis,bird,23,Sandwich tern,230,462
+Sterna hirundo,bird,24,Common tern,126,409
+Sterna paradisea,bird,25,Arctic tern,110,30
+Corvus frugilegus,bird,26,Rook,446,8
+Corvus corone,bird,27,Crow,487,12
+Sprattus sprattus,fish,28,Spratt,3,10400
+Clupea harengus,fish,29,Herring,5,10400
+Anguilla anguilla,fish,30,Eel,90,20800
+Sygnathus rostellatus,fish,31,Nilssons pipefish,2,2080
+Pollachus virens,fish,32,Saithe,125,2080
+Ciliata mustella,fish,33,Five-bearded rockling,10,20800
+Ammodytes tobianus,fish,34,Sand eel,2,2080
+Pholis gunnellus,fish,35,Butterfish,85,20800
+Zoarces viviparus,fish,36,Viviparous blenny,1.5,20800
+Pomatoschistus minutus,fish,37,Sand goby,6.204,10400000
+Pomatoschistus microps,fish,38,Common goby,6.204,41600000
+Myxocephalus scorpius,fish,39,Fatherlasher,15,20800
+Agonus cataphractus,fish,40,Pogge,15,20800
+Gasterosteus aculeatus,fish,41,3-spined stickleback,2,20800
+Pleuronectes platessa,fish,42,Plaice juv.,27,686400
+Platichthys flesus,fish,43,Flounder,125,264160
+Platichthys flesus,fish,44,Flounder juv.,27,332800
+Salmo trutta,fish,45,Sea trout,480,10000
+Crangon crangon,crustacean,46,Brown shrimp,2.263157895,10400000
+Hyale nilssoni,crustacean,47,Amphipod,0.022727273,4160000
+Carcinus maenas,crustacean,48,Shore crab,10,6240000
+Hydrobia ulvae,gastropod,49,Mud snail,0.001343284,1.41E+11
+Ostracoda,crustacean,50,Ostracods,6.82E-06,53154400000
+Calanoidea,crustacean,51,Calanoid copepods,6.82E-06,3.45E+11
+Harpacticoidea,crustacean,52,Harpacticoid copepods,6.82E-06,5.55E+11
+Semibalanus balanoides,barnacle,53,Barnacle (cyprid),3.92E-06,444440000
+Neomysis integer,crustacean,54,Opposum shrimp,0.15625,16640000
+Mya arenaria,bivalve,55,Clam,0.666666667,14560000
+Talitrus saltator,crustacean,56,Sand hopper,0.031818182,16640000
+Corophium volutator,crustacean,57,mud shrimp,0.009090909,52000000000
+Bathyporeia pilosa,crustacean,58,Amphipod,0.009090909,871200
+Gammarus spp.,crustacean,59,Amphipod,0.029545455,26000000
+Idotea emarginata,crustacean,60,Isopod,0.022727273,100000
+Jaera marina,crustacean,61,Isopod,0.013636364,600000
+Eurydice pulchra,crustacean,62,Isopod,0.018181818,120000
+Nototropis spp.,crustacean,63,Amphipod,0.022727273,120000
+Nematoda,worm,64,Nematodes,0.000130435,7.16E+11
+Diatomeae,phytoplankton ,65,Diatoms,6.67E-06,6.27E+12
+Nereis virens,worm,66,King rag worm,1.25,1344000
+Nereis diversicolor,worm,67,rag worm,0.125,2496000000
+Hesionidae,worm,68,polychaete,0.01875,41600000
+Parathemisto spp.,worm,69,polychaete,0.00625,31200000
+Phyllodoce,worm,70,paddle worm,1.25,736320000
+Eteone,worm,71,paddle worm,0.625,110240000
+Pygospio elegans,worm,72,tube worm,0.000416667,382720000
+Capitallidae,worm,73,blood worm,0.000416667,865280000
+Manayunkia aestuarina,worm,74,polychaete,0.000208333,3.12E+11
+Aricia spp.,worm,75,polychaete,0.000125,52000000
+Arenicola marina,worm,76,lugworm,0.166666667,45760000
+Tubificoides benedeni,worm,77,oligopchaete,0.011111111,29120000000
+Tubifex costatus,worm,78,oligopchaete,0.000555556,31200000000
+Fucus ceranoides,macroalga,79,Brown algae,0.25,300000
+Littorina littorea,gastropod,80,periwinkle,0.09,10400000
+Littorina saxatilis,gastropod,81,rough periwinkle,0.016,550000
+Alderia modesta,gastropod,82,snail,0.001,2080000
+Retusa obtusa,gastropod,83,snail,0.0008,56160000
+Macoma balthica,bivalve,84,baltic tellin,0.07,936000000
+Mytilus edulis,bivalve,85,blue mussel,0.4,324240000
+Cerastoderma edule,bivalve,86,cockle,0.5,124800000
+Chironomid larvae,insect,87,Chironomid larvae,0.000105263,624000000
+Diptera larvae,insect,88,Diptera larvae/pupae,0.010526316,624000000
+Acari,arachnid,89,Acarina,4.35E-05,31200000000
+Foraminifera,zooplankton,90,Foraminifera,0.0000125,1.85E+11
+Enteromorpha,macroalga,91,Green algae,0.0025,20800000
+POM (detritus),detritus,92,POM (detritus),,

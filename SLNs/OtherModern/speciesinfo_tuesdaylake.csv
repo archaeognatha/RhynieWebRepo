@@ -1,0 +1,58 @@
+sp_name,guild,sp_id,phylum,class,order,family,m_kg_fresh,N_indiv_per_m3_epilimnion
+Anabaena circinalis,producer,1,Cyanobacteria,Cyanophyceae,Nostocales,Nostocaceae,1.91E-13,6.00E+06
+Ankyra judayi,producer,2,Chlorophyta,Chlorophyceae,Chlorococcales,Sphaeropleaceae,1.53E-13,1.30E+07
+Cryptomonas sp. 1,producer,3,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,2.85E-13,3.30E+07
+Cryptomonas sp. 3,producer,4,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,6.72E-13,1.80E+07
+Cryptomonas sp. 4,producer,5,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1.64E-12,2.80E+07
+Chroococcus dispersus,producer,6,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,2.39E-13,5.00E+06
+Chroococcus limneticus,producer,7,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,1.31E-12,1.60E+07
+Cosmarium sp.,producer,8,Charophyta,Zygnematophyceae,Zygnematales,Desmidiaceae,3.71E-12,1.00E+06
+Closteriopsis longissimus,producer,9,Chlorophyta,Chlorophyceae,Sphaeropleales,Ankistrodesmaceae,1.98E-13,1.00E+06
+Chrysosphaerella longispina,producer,10,Heterokontophyta,Synurophyceae,Synurales,Synuraceae,4.40E-11,1.00E+06
+Dinobryon bavaricum,producer,11,Heterokontophyta,Chrysophyceae,Chromulinales,Dinobryaceae,5.29E-12,8.00E+06
+Dinobryon cylindricum,producer,12,Heterokontophyta,Chrysophyceae,Chromulinales,Dinobryaceae,4.48E-12,6.70E+07
+Dactylococcopsis fascicularis,producer,13,Cyanobacteria,Cyanophyceae,Chlorococcales,Chroococcaceae,1.32E-13,1.00E+06
+Diceras sp.,producer,14,Heterokontophyta,Chrysophyceae,Hibberdiales,Stylococcaceae,1.53E-13,1.00E+06
+Dictyosphaerium pulchellum,producer,15,Chlorophyta,Chlorophyceae,Chlorococcales,Botryococcaceae,4.07E-13,1.00E+06
+Dinobryon sertularia,producer,16,Heterokontophyta,Chrysophyceae,Chromulinales,Dinobryaceae,6.28E-12,2.00E+06
+Sphaerocystis schroeteri,producer,17,Chlorophyta,Chlorophyceae,Tetrasporales,Palmellaceae,1.08E-11,2.00E+06
+Gloeocystis sp.,producer,18,Chlorophyta,Chlorophyceae,Chlorococcales,Radiococcaceae,9.46E-11,5.00E+06
+Glenodinium pulvisculus,producer,19,Myzozoa,Dinophyceae,Peridiniales,Peridiniales,5.20E-12,8.00E+06
+Microcystis aeruginosa,producer,20,Cyanobacteria,Cyanophyceae,Chlorococcales,Microcystaceae,1.62E-11,2.00E+06
+Mallomonas-spiny sp. 1,producer,21,Heterokontophyta,Synurophyceae,Synurales,Mallomonadaceae,2.22E-12,2.10E+07
+Mallomonas-spiny sp. 2,producer,22,Heterokontophyta,Synurophyceae,Synurales,Mallomonadaceae,2.22E-12,2.60E+07
+unclassified microflagellates,producer,23,Microflagellate,,,,1.02E-13,1.26E+08
+Oocystis sp. 1,producer,24,Chlorophyta,Chlorophyceae,Chlorococcales,Oocystaceae,3.86E-12,2.40E+07
+Oocystis sp. 2,producer,25,Chlorophyta,Chlorophyceae,Chlorococcales,Oocystaceae,6.32E-12,3.00E+06
+Oscillatoria sp.,producer,26,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,1.61E-12,6.00E+06
+Peridinium limbatum,producer,27,Myzozoa,Dinophyceae,Peridiniales,Peridiniaceae,6.46E-11,1.00E+06
+Peridinium pulsillum,producer,28,Myzozoa,Dinophyceae,Peridiniales,Peridiniaceae,1.58E-12,1.00E+06
+Quadrigula lacustris,producer,29,Chlorophyta,Chlorophyceae,Sphaeropleales,Ankistrodesmaceae,7.13E-12,1.03E+08
+Quadrigula sp. 2,producer,30,Chlorophyta,Chlorophyceae,Sphaeropleales,Ankistrodesmaceae,9.48E-13,1.10E+07
+Chromulina sp.,producer,31,Heterokontophyta,Chrysophyceae,Chromulinales,Chromulinaceae,3.03E-14,2.09E+08
+Schroederia setigera,producer,32,Chlorophyta,Chlorophyceae,Sphaeropleales,Neochloridaceae,6.37E-13,8.90E+07
+Selenastrum minutum,producer,33,Chlorophyta,Sphaeropleales,Ankistrodesmaceae,Monoraphidium,2.72E-13,1.10E+07
+Synedra sp.,producer,34,Bacillariophyta,Fragilariophyceae,Fragilariales,Fragilariaceae,3.62E-13,2.00E+06
+Synura sp.,producer,35,Heterokontophyta,Synurophyceae,Synurales,Mallomonadaceae,5.07E-12,1.00E+06
+Ascomorpha eucadis,consumer,36,Rotifera,Monogononta,Ploima,Gastropidae,4.00E-10,21000
+Conochilus (colonial),consumer,37,Rotifera,Monogononta,Flosculariaceae,Conochilidae,1.46E-08,4200
+Conochiloides dossuarius,consumer,38,Rotifera,Monogononta,Flosculariaceae,Conochilidae,1.60E-10,1800
+Cyclops varians rubellus,consumer,39,Arthropoda (Crustacea),Maxillopoda (Copepoda),Cyclopoida,Cyclopidae,2.44E-08,2400
+Diaptomus oregonensis,consumer,40,Arthropoda (Crustacea),Maxillopoda (Copepoda),Calanoida,Diaptomidae,1.44E-08,600
+Daphnia pulex,consumer,41,Arthropoda (Crustacea),Branchiopoda,Cladocera,Daphnidae,4.57E-08,15600
+Daphnia rosea,consumer,42,Arthropoda (Crustacea),Branchiopoda,Cladocera,Daphnidae,1.36E-08,2400
+Gastropus hyptopus,consumer,43,Rotifera,Monogononta,Ploima,Gastropidae,1.35E-10,1800
+Gastropus stylifer,consumer,44,Rotifera,Monogononta,Ploima,Gastropidae,1.00E-10,11400
+Holopedium gibberum,consumer,45,Arthropoda (Crustacea),Branchiopoda,Cladocera,Holopedidae,4.89E-08,4200
+Kellicottia bostoniensis,consumer,46,Rotifera,Monogononta,Ploima,Brachionidae,2.00E-11,31800
+Kellicottia longispina,consumer,47,Rotifera,Monogononta,Ploima,Brachionidae,4.50E-11,3000
+Keratella cochlearis,consumer,48,Rotifera,Monogononta,Ploima,Brachionidae,1.00E-11,52800
+Keratella testudo,consumer,49,Rotifera,Monogononta,Ploima,Brachionidae,1.50E-11,69600
+Orthocyclops modestus,consumer,50,Arthropoda (Crustacea),Maxillopoda (Copepoda),Cyclopoida,Cyclopidae,3.22E-08,600
+Polyarthra vulgaris,consumer,51,Rotifera,Monogononta,Ploima,Synchaetatidae,2.60E-10,75600
+Synchaeta sp.,consumer,52,Rotifera,Monogononta,Ploima,Synchaetatidae,3.70E-10,29400
+Trichocerca cylindrica,consumer,53,Rotifera,Monogononta,Ploima,Trichocercidae,5.90E-10,22200
+Trichocerca multicrinis,consumer,54,Rotifera,Monogononta,Ploima,Trichocercidae,7.00E-11,4200
+Tropocyclops prasinus,consumer,55,Arthropoda (Crustacea),Maxillopoda (Copepoda),Cyclopoida,Cyclopidae,8.95E-09,1200
+Chaoborus punctipennis,consumer,56,Arthropoda,Insecta,Diptera,Chaoboridae,2.10E-07,12000
+Micropterus salmoides,consumer,57,Chordata,Actinopterygii,Perciformes,Centrarchidae,0.2,0.03
