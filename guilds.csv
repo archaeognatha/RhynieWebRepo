@@ -1,11 +1,11 @@
-﻿guild_no,guild_name,major_taxa,G,sp_tp,resource_guilds,terr,aqu
+guild_no,guild_name,major_taxa,G,sp_tp,resource_guilds,terr,aqu
 1,terrestrial detritus,NA,1,producer,"24,20,12,11,10,9,8,7,6,5,4,3,2",1,0
 2,land plants,Tracheophyta,8,producer,,1,0
 3,terrestrial heterotroph microbes,,2,producer,"3,1",1,0
-4,terrestrial saprotrophs,"Zygomycota, Blastocladiomycota, Oomycota",15,producer,1,1,0
-5,mycorrhizae,"Glomeromycota, Mucuromycota",9,producer,"2,1",1,0
+4,terrestrial saprotrophs,"Zygomycota, Blastocladiomycota, Oomycota",16,producer,1,1,0
+5,mycorrhizae,"Glomeromycota, Mucuromycota",10,producer,"2,1",1,0
 6,plant parasites,Chytridomycota,6,producer,"2,1",1,0
-7,fungal parasites,Chytridomycota,4,producer,"7?,6,5?,4,1?, 21?",1,0
+7,fungal parasites,Chytridomycota,7,producer,"7?,6,5?,4,1?, 21?",1,0
 8,terrestrial microbivores,Hexapoda,1,producer,"20?,7,6,5,4,3,2??,1?",1,0
 9,terrestrial detritivores,Diplopoda,2,producer,"20?,3?,1",1,0
 10,mites,Acari,2,producer,"24, 20,7?,6,5,4,3,2?,1?",1,0
@@ -13,7 +13,7 @@
 12,terrestrial arthropod predators (2),Chilopoda,5,producer,"12,11,10,9,8",1,0
 13,aquatic detritus,NA,1,producer,"28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,2,1",0,1
 14,aquatic heterotroph microbes,,3,producer,"15,14,13",0,1
-15,aquatic unicellular/small algae,"Chlorophyta, Cyanobacteria",5,producer,,0,1
+15,aquatic unicellular/small algae,"Chlorophyta, Cyanobacteria",6,producer,,0,1
 16,planktic large colonial algae,"Chlorophyta, Cyanobacteria",1,producer,,0,1
 17,benthic filamentous algae,"Chlorophyta, Cyanobacteria",5,producer,,0,1
 18,other benthic/epiphytic algae,"Chlorophyta, Cyanobacteria",4,producer,,0,1
