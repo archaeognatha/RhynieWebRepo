@@ -24,8 +24,7 @@ Repo Contents:
 
 - **guild_matrix.csv**: adjacency matrix containing feeding relationships of all the guilds in the metaweb. Rows represent consumer ID, columns represent resource ID. There is also **guild_matrix_transposed.csv**, which is the matrix but the rows and columns are switched. This file is an input into the SLNcode.ipynb and RhynieWebCode.R scripts
 
-- **SLNcode.ipynb**: this is a julia script in a Jupyter notebook adapted from Peter Roopnarine's 2024 NAPC fossil food web workshop code. It takes in a guild-level metaweb (guild_matrix.csv) and species richness information (from guilds.csv) and generates a desired number of species-level networks (SLNs) that are randomized within the constraints of the metaweb structure. The script outputs two kinds of .csv files into a new directory within the directory /SLNs: " species-level adjacency matrices (matrix_X.csv), and corresponding species lists with guild assignments and basic info (speciesinfo_X.csv).
-
+- **SLNcode.ipynb**: this is a julia script in a Jupyter notebook adapted from Peter Roopnarine's 2024 NAPC fossil food web workshop code. It takes in a guild-level metaweb (guild_matrix.csv) and species richness information (from guilds.csv) and generates a desired number of species-level networks (SLNs) that are randomized within the constraints of the metaweb structure. The script outputs two kinds of .csv files into a new directory within the directory /SLNs: " species-level adjacency matrices (matrix_X.csv), and corresponding species lists with guild assignments and basic info (speciesinfo_X.csv)
     - **SLN_maker.jl**: julia function used by SLNcode.ipynb, which constructs an empty array of appropriate size given the species richness of each guild
     - **r_no_prey.jl**: julia function used by SLNcode.ipynb, which determines the number of prey items for each species by drawing from a power law distribution
 
@@ -42,14 +41,14 @@ Repo Contents:
     - Loops
     - mean Centrality
 
-- **RhynieWebCode.R**: this is an R script that takes in a food web adjacency matrix and generates relevant statistics. It is adapted from Dr. Carrie Tyler's code used in the 2024 NAPC fossil food web workshop.
+- **RhynieWebCode.R**: this is an R script that takes in a food web adjacency matrix and generates relevant statistics. It is adapted from Dr. Carrie Tyler's code used in the 2024 NAPC fossil food web workshop
 
-> **SLNs**: directory that stores species-level-networks for Rhynie and comparative datasets. Each SLN is stored as two .csv files: a matrix file containing the adjacency matrix of interactions, and a speciesinfo file containing taxa names and species-level metrics. For each folder, there is also a WebMetrics file with summary statistics calculated for each SLN, which is the output of **WebMetrics.ipynb**
+-> **SLNs**: directory that stores species-level-networks for Rhynie and comparative datasets. Each SLN is stored as two .csv files: a matrix file containing the adjacency matrix of interactions, and a speciesinfo file containing taxa names and species-level metrics. For each folder, there is also a WebMetrics file with summary statistics calculated for each SLN, which is the output of **WebMetrics.ipynb**
     - **TrophSpLumper.jl**: julia script which defines and runs a function that collapses species with identical consumers and resources into trophospecies; the script inputs an SLN folder and outputs a new folder containing the new "lumped" networks
     - **NicheModelGenerator.R** R script that inputs the WebMetrics file for a folder of SLNs and uses to generate a desired number of networks with a comparable distribution of connectance and species richness values using the niche model
 
-> **Rhynie_lumped_data**: directory with alternative guild and guild-level matrix file for a taxonomically-lumped version of the Rhynie network
+-> **Rhynie_lumped_data**: directory with alternative guild and guild-level matrix file for a taxonomically-lumped version of the Rhynie network
 
-> **DigelSoilWebs_rawdata**: directory with the original metaweb dataset for the Digel 2014 German soil study; unlike the guild-level Rhynie metaweb, this is a regional metaweb from which SLNs representing individual localities can be drawn. The jupyter notebook **SLNconvertDigelSoil.ipynb** performs this operation, outputting the resulting files into the >SLNs directory
+-> **DigelSoilWebs_rawdata**: directory with the original metaweb dataset for the Digel 2014 German soil study; unlike the guild-level Rhynie metaweb, this is a regional metaweb from which SLNs representing individual localities can be drawn. The jupyter notebook **SLNconvertDigelSoil.ipynb** performs this operation, outputting the resulting files into the >SLNs directory
 
-> **MetricsComparisons**: directory with files and scripts related to comparative statistics of the SLN metrics. Most notably, **CompleteMetrics.csv** is a manually-created combination of the WebMetrics results from the various SLNs calculated for different datasets. This datasheet is an input into the R scripts: **StatsComparisons.R** performs various exploratory statistics, **PlotMetrics.R** creates cleaner plots for comparing the data
+-> **MetricsComparisons**: directory with files and scripts related to comparative statistics of the SLN metrics. Most notably, **CompleteMetrics.csv** is a manually-created combination of the WebMetrics results from the various SLNs calculated for different datasets. This datasheet is an input into the R scripts: **StatsComparisons.R** performs various exploratory statistics, **PlotMetrics.R** creates cleaner plots for comparing the data
