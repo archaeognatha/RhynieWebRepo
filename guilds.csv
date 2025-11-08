@@ -23,7 +23,7 @@ guild_no,guild_name,major_taxa,G,sp_tp,priority resource guild(s),general resour
 22,terrestrial nematodes,,1,consumer,2,"3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20,21,38",1,0
 23,terrestrial microbivores,Hexapoda,1,consumer,"9,11","12,13,14,15,16,17,18,19,20,21,38",1,0
 24,terrestrial detritivores,Diplopoda,2,consumer,1,"9,11,38",1,0
-25,mites,Acari,2,consumer,,"2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22",1,0
+25,mites,Acari,2,consumer,,"2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,38",1,0
 26,terrestrial arthropod predators (1),Trigonotarbida,3,consumer,,"22,25,26",1,0
 27,terrestrial arthropod predators (2),Chilopoda,5,consumer,,"23,24,25,26,27",1,0
 28,aquatic detritus,NA,1,,,NA,0,1
