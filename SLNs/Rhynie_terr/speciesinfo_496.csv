@@ -1,0 +1,70 @@
+sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds
+1,terrestrial detritus,1,1,0,40,1,0,0,27
+2,Aglaophyton,2,1,0,17,1,0,0,11
+3,Rhynia,3,1,0,20,1,0,0,6
+4,Asteroxylon,4,1,0,16,1,0,0,8
+5,Horneophyton,5,1,0,19,1,0,0,7
+6,Nothia,6,1,0,21,1,0,0,5
+7,other land plants,7,2,0,22,1,0,0,6
+8,other land plants,7,2,0,22,1,0,0,6
+9,lichen,8,1,0,10,1,0,0,5
+10,terrestrial heterotroph bacteria,9,1,1,6,1,0,1,3
+11,terrestrial protozoa,10,1,30,2,1,0,3,0
+12,terrestrial saprotrophs,11,14,1,12,1,0,1,3
+13,terrestrial saprotrophs,11,14,1,12,1,0,1,1
+14,terrestrial saprotrophs,11,14,1,12,1,0,1,1
+15,terrestrial saprotrophs,11,14,1,12,1,0,1,4
+16,terrestrial saprotrophs,11,14,1,12,1,0,1,5
+17,terrestrial saprotrophs,11,14,1,12,1,0,1,3
+18,terrestrial saprotrophs,11,14,1,12,1,0,1,1
+19,terrestrial saprotrophs,11,14,1,12,1,0,1,1
+20,terrestrial saprotrophs,11,14,1,12,1,0,1,3
+21,terrestrial saprotrophs,11,14,1,12,1,0,1,4
+22,terrestrial saprotrophs,11,14,1,12,1,0,1,2
+23,terrestrial saprotrophs,11,14,1,12,1,0,1,1
+24,terrestrial saprotrophs,11,14,1,12,1,0,1,2
+25,terrestrial saprotrophs,11,14,1,12,1,0,1,1
+26,mycorrhizae: Aglaophyton,12,3,7,12,1,0,6,1
+27,mycorrhizae: Aglaophyton,12,3,7,12,1,0,2,0
+28,mycorrhizae: Aglaophyton,12,3,7,12,1,0,3,2
+29,mycorrhizae: Rhynia,13,2,7,12,1,0,1,1
+30,mycorrhizae: Rhynia,13,2,7,12,1,0,1,4
+31,mycorrhizae: Asteroxylon,14,3,7,12,1,0,6,2
+32,mycorrhizae: Asteroxylon,14,3,7,12,1,0,3,2
+33,mycorrhizae: Asteroxylon,14,3,7,12,1,0,1,3
+34,mycorrhizae: Horneophyton,15,3,7,12,1,0,3,2
+35,mycorrhizae: Horneophyton,15,3,7,12,1,0,1,3
+36,mycorrhizae: Horneophyton,15,3,7,12,1,0,7,0
+37,possible mycorrhizae,16,1,8,12,1,0,1,2
+38,parasites: Aglaophyton,17,1,8,12,1,0,2,3
+39,parasites: Asteroxylon,18,3,8,12,1,0,2,1
+40,parasites: Asteroxylon,18,3,8,12,1,0,7,3
+41,parasites: Asteroxylon,18,3,8,12,1,0,1,2
+42,parasites: Nothia,19,1,8,12,1,0,1,1
+43,general plant parasites,20,2,12,12,1,0,12,3
+44,general plant parasites,20,2,12,12,1,0,2,0
+45,fungal parasites,21,7,34,3,1,0,4,0
+46,fungal parasites,21,7,34,3,1,0,2,0
+47,fungal parasites,21,7,34,3,1,0,17,0
+48,fungal parasites,21,7,34,3,1,0,18,0
+49,fungal parasites,21,7,34,3,1,0,4,0
+50,fungal parasites,21,7,34,3,1,0,1,1
+51,fungal parasites,21,7,34,3,1,0,3,0
+52,terrestrial nematodes,22,1,51,6,1,0,7,2
+53,terrestrial microbivores,23,1,29,5,1,0,1,0
+54,terrestrial detritivores,24,2,18,5,1,0,4,1
+55,terrestrial detritivores,24,2,18,5,1,0,3,1
+56,mites,25,2,47,8,1,0,13,3
+57,mites,25,2,47,8,1,0,4,2
+58,terrestrial arthropod predators (1),26,3,6,8,1,0,3,3
+59,terrestrial arthropod predators (1),26,3,6,8,1,0,1,1
+60,terrestrial arthropod predators (1),26,3,6,8,1,0,5,5
+61,terrestrial arthropod predators (2),27,5,13,5,1,0,3,1
+62,terrestrial arthropod predators (2),27,5,13,5,1,0,2,2
+63,terrestrial arthropod predators (2),27,5,13,5,1,0,3,2
+64,terrestrial arthropod predators (2),27,5,13,5,1,0,2,0
+65,terrestrial arthropod predators (2),27,5,13,5,1,0,3,0
+66,partially terrestrial epilithic/epiphytic algae,28,3,0,10,1,1,0,5
+67,partially terrestrial epilithic/epiphytic algae,28,3,0,10,1,1,0,3
+68,partially terrestrial epilithic/epiphytic algae,28,3,0,10,1,1,0,1
+69,aquatic nematodes,29,1,3,0,1,1,1,0
