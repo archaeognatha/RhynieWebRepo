@@ -1,18 +1,18 @@
-trophospecies_id,sp_name,guild,n_lumped
-1,Roots,plants,1
-2,Detritus,detritus,1
-3,fungi,fungi,1
-4,bacteria,bacteria,1
-5,phytophagous nematodes,phytophagous nematodes,1
-6,fungivorous nematodes,fungivorous nematodes,1
-7,bactieriophagous nematodes,bactieriophagous nematodes,1
-8,predatory nematodes,predatory nematodes,1
-9,collembola;cryptostigmatic mites;noncryptostigmatic mites,collembola,3
-10,predatory collembola,predatory collembola,1
-13,bacteriophagous mites,bacteriophagous mites,1
-14,nematophagous mites,nematophagous mites,1
-15,predatory mites,predatory mites,1
-16,earthworms,earthworms,1
-17,enchytraeids,enchytraeids,1
-18,flagellates,flagellates,1
-19,amoebae,amoebae,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,Roots,plants,1,0,1,1.0,0.0,1.7777777777777777,0.0,1.0,1.7777777777777777,0.0
+2,Detritus,detritus,1,0,4,1.0,0.0,0.5925925925925926,0.0,1.0,0.5925925925925926,0.0
+3,fungi,fungi,1,1,3,2.0,1.0,1.4545454545454546,16.0,2.0,1.4545454545454546,16.0
+4,bacteria,bacteria,1,1,6,2.0,1.0,1.6,16.0,2.0,1.6,16.0
+5,phytophagous nematodes,phytophagous nematodes,1,1,4,2.0,1.0,4.0,16.0,2.0,4.0,16.0
+6,fungivorous nematodes,fungivorous nematodes,1,1,4,3.0,2.0,4.0,5.333333333333333,3.0,4.0,5.333333333333333
+7,bactieriophagous nematodes,bactieriophagous nematodes,1,1,3,3.0,2.0,5.333333333333333,5.333333333333333,3.0,5.333333333333333,5.333333333333333
+8,predatory nematodes,predatory nematodes,1,6,2,3.666666666666667,2.0,8.0,1.3333333333333333,3.666666666666667,8.0,1.3333333333333333
+9,collembola;cryptostigmatic mites;noncryptostigmatic mites,collembola,3,1,1,3.0,2.0,16.0,5.333333333333333,3.0,16.0,5.333333333333333
+10,predatory collembola,predatory collembola,1,2,1,3.5,3.0,16.0,1.7777777777777777,3.5,16.0,1.7777777777777777
+13,bacteriophagous mites,bacteriophagous mites,1,1,1,3.0,2.0,16.0,5.333333333333333,3.0,16.0,5.333333333333333
+14,nematophagous mites,nematophagous mites,1,4,1,3.8,3.0,16.0,0.9411764705882353,3.8,16.0,0.9411764705882353
+15,predatory mites,predatory mites,1,8,0,4.090909090909091,3.0,0.0,0.7619047619047619,4.090909090909091,0.0,0.7619047619047619
+16,earthworms,earthworms,1,1,0,2.0,1.0,0.0,16.0,2.0,0.0,16.0
+17,enchytraeids,enchytraeids,1,3,0,2.6666666666666665,1.0,0.0,5.333333333333333,2.6666666666666665,0.0,5.333333333333333
+18,flagellates,flagellates,1,1,2,3.0,2.0,2.6666666666666665,5.333333333333333,3.0,2.6666666666666665,5.333333333333333
+19,amoebae,amoebae,1,2,1,3.5,2.0,3.2,4.0,3.5,3.2,4.0

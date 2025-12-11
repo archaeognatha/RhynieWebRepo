@@ -92,4 +92,4 @@ function lump_trophospecies(input_dir::String, output_dir::String)
     CSV.write(joinpath(output_dir, "lumping_summary.csv"), lumping_summary)
 end
 
-lump_trophospecies("SLNs/Rhynie_complete", "SLNs/Rhynie_TS")
+lump_trophospecies("SLNs/DeRuiterSoil", "SLNs/DeRuiterSoil_TS")

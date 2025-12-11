@@ -1,30 +1,30 @@
-trophospecies_id,sp_name,guild,n_lumped
-1,plants,plants,1
-2,detritus,detritus,1
-3,carrion,detritus,1
-4,soil microbes,soil microbes,1
-5,soil microarthropods and nematodes,soil microarthropods and nematodes,1
-6,soil micropredators,soil micropredators,1
-7,soil macroarthropods,soil macroarthropods,1
-8,soil macroarthropod predators,soil macroarthropod predators,1
-9,surface arthropod detritivores,surface arthropod detritivores,1
-10,surface arthropod herbivores,surface arthropod herbivores,1
-11,small arthropod predators;medium arthropod predators,small arthropod predators,2
-13,large arthropod predators,large arthropod predators,1
-14,facultative arthropod predators,facultative arthropod predators,1
-15,life-history arthropod omnivore,life-history arthropod omnivore,1
-16,spider parasitoids,spider parasitoids,1
-17,primary parasitoids,primary parasitoids,1
-18,hyperparasitoids,hyperparasitoids,1
-19,facultative hyperparasitoids,facultative hyperparasitoids,1
-20,herbivorous mammals and reptiles,herbivorous mammals and reptiles,1
-21,primarily herbivorous mammals and birds,primarily herbivorous mammals and birds,1
-22,small omnivorous mammals and birds,small omnivorous mammals and birds,1
-23,predaceous mammals and birds,predaceous mammals and birds,1
-24,arthropodivorous snakes,arthropodivorous snakes,1
-25,primarily arthropodivorous lizards,primarily arthropodivorous lizards,1
-26,primarily carnivorous lizards,primarily carnivorous lizards,1
-27,primarily carnivorous snakes,primarily carnivorous snakes,1
-28,"large, primarily predaceous birds","large, primarily predaceous birds",1
-29,"large, primarily predaceous mammals","large, primarily predaceous mammals",1
-30,golden eagle,golden eagle,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,plants,plants,1,0,18,1.0,0.0,0.8235294117647058,0.0,1.0,0.8235294117647058,0.0
+2,detritus,detritus,1,0,6,1.0,0.0,0.6363636363636364,0.0,1.0,0.6596452328159645,0.0
+3,carrion,detritus,1,0,9,1.0,0.0,0.6829268292682927,0.0,1.0,0.6596452328159645,0.0
+4,soil microbes,soil microbes,1,4,12,2.5,1.0,0.7567567567567568,9.333333333333334,2.5,0.7567567567567568,9.333333333333334
+5,soil microarthropods and nematodes,soil microarthropods and nematodes,1,4,2,2.5,1.0,0.6829268292682927,7.0,2.5,0.6829268292682927,7.0
+6,soil micropredators,soil micropredators,1,3,2,3.333333333333333,2.0,0.7,3.5,3.333333333333333,0.7,3.5
+7,soil macroarthropods,soil macroarthropods,1,5,17,2.6666666666666665,1.0,1.2727272727272727,7.0,2.6666666666666665,1.2727272727272727,7.0
+8,soil macroarthropod predators,soil macroarthropod predators,1,6,16,3.25,2.0,1.3333333333333333,3.111111111111111,3.25,1.3333333333333333,3.111111111111111
+9,surface arthropod detritivores,surface arthropod detritivores,1,3,15,2.6,2.0,1.3333333333333333,5.6,2.6,1.3333333333333333,5.6
+10,surface arthropod herbivores,surface arthropod herbivores,1,1,15,2.0,1.0,1.3333333333333333,28.0,2.0,1.3333333333333333,28.0
+11,small arthropod predators;medium arthropod predators,small arthropod predators,2,12,15,3.6764705882352944,3.0,1.4,0.9333333333333333,3.6764705882352944,1.4,0.9333333333333333
+13,large arthropod predators,large arthropod predators,1,14,14,3.7,2.0,1.3333333333333333,1.037037037037037,3.7,1.3333333333333333,1.037037037037037
+14,facultative arthropod predators,facultative arthropod predators,1,15,15,3.4594594594594597,4.0,1.4,0.9333333333333333,3.4594594594594597,1.4,0.9333333333333333
+15,life-history arthropod omnivore,life-history arthropod omnivore,1,12,15,3.59375,4.0,1.4,0.8484848484848485,3.59375,1.4,0.8484848484848485
+16,spider parasitoids,spider parasitoids,1,4,17,3.9,3.0,1.5555555555555556,0.6511627906976745,3.9,1.5555555555555556,0.6511627906976745
+17,primary parasitoids,primary parasitoids,1,10,6,3.5384615384615383,3.0,0.9655172413793104,0.9032258064516129,3.5384615384615383,0.9655172413793104,0.9032258064516129
+18,hyperparasitoids,hyperparasitoids,1,5,6,3.8461538461538463,4.0,0.9333333333333333,0.6222222222222222,3.8461538461538463,0.9333333333333333,0.6222222222222222
+19,facultative hyperparasitoids,facultative hyperparasitoids,1,13,6,3.6285714285714286,3.0,0.9333333333333333,0.9655172413793104,3.6285714285714286,0.9333333333333333,0.9655172413793104
+20,herbivorous mammals and reptiles,herbivorous mammals and reptiles,1,1,5,2.0,1.0,4.0,28.0,2.0,4.0,28.0
+21,primarily herbivorous mammals and birds,primarily herbivorous mammals and birds,1,10,5,3.5384615384615383,3.0,4.0,0.8484848484848485,3.5384615384615383,4.0,0.8484848484848485
+22,small omnivorous mammals and birds,small omnivorous mammals and birds,1,15,5,3.6097560975609757,3.0,4.666666666666667,0.6511627906976745,3.6097560975609757,4.666666666666667,0.6511627906976745
+23,predaceous mammals and birds,predaceous mammals and birds,1,19,4,3.510204081632653,3.0,4.0,0.717948717948718,3.510204081632653,4.0,0.717948717948718
+24,arthropodivorous snakes,arthropodivorous snakes,1,9,7,3.6,3.0,0.9333333333333333,0.875,3.6,0.9333333333333333,0.875
+25,primarily arthropodivorous lizards,primarily arthropodivorous lizards,1,12,9,3.5625,2.0,0.9655172413793104,0.9655172413793104,3.5625,0.9655172413793104,0.9655172413793104
+26,primarily carnivorous lizards,primarily carnivorous lizards,1,12,8,3.5625,2.0,0.717948717948718,0.9655172413793104,3.5625,0.717948717948718,0.9655172413793104
+27,primarily carnivorous snakes,primarily carnivorous snakes,1,12,6,3.53125,3.0,5.6,0.56,3.53125,5.6,0.56
+28,"large, primarily predaceous birds","large, primarily predaceous birds",1,20,3,3.5555555555555554,3.0,3.5,0.7368421052631579,3.5555555555555554,3.5,0.7368421052631579
+29,"large, primarily predaceous mammals","large, primarily predaceous mammals",1,21,2,3.509090909090909,2.0,2.3333333333333335,0.7777777777777778,3.509090909090909,2.3333333333333335,0.7777777777777778
+30,golden eagle,golden eagle,1,20,2,3.537037037037037,2.0,3.111111111111111,0.7567567567567568,3.537037037037037,3.111111111111111,0.7567567567567568

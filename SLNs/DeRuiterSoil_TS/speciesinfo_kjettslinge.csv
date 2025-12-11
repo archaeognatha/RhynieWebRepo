@@ -1,19 +1,19 @@
-trophospecies_id,sp_name,guild,n_lumped
-1,Roots,plants,1
-2,Detritus,detritus,1
-3,fungi,fungi,1
-4,bacteria,bacteria,1
-5,protozoa,protozoa,1
-6,enchytraeids,enchytraeids,1
-7,earthworms,earthworms,1
-8,phytophagous nematodes,phytophagous nematodes,1
-9,fungivorous nematodes,fungivorous nematodes,1
-10,bactieriophagous nematodes,bactieriophagous nematodes,1
-11,predatory nematodes,predatory nematodes,1
-12,microbivorous microarthropods,microbivorous microarthropods,1
-13,predatory microarthropods,predatory microarthropods,1
-14,herbage arthropods,herbage arthropods,1
-15,predatory herbage arthropods,predatory herbage arthropods,1
-16,macroarthropods,macroarthropods,1
-17,phytophagous macroarthropods,phytophagous macroarthropods,1
-18,predatory macroarthropods,predatory macroarthropods,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,Roots,plants,1,0,2,1.0,0.0,2.125,0.0,1.0,2.125,0.0
+2,Detritus,detritus,1,0,7,1.0,0.0,0.8095238095238095,0.0,1.0,0.8095238095238095,0.0
+3,fungi,fungi,1,1,5,2.0,1.0,1.3076923076923077,17.0,2.0,1.3076923076923077,17.0
+4,bacteria,bacteria,1,1,6,2.0,1.0,1.2142857142857142,17.0,2.0,1.2142857142857142,17.0
+5,protozoa,protozoa,1,2,3,2.5,1.0,1.8888888888888888,8.5,2.5,1.8888888888888888,8.5
+6,enchytraeids,enchytraeids,1,4,2,2.75,1.0,8.5,4.25,2.75,8.5,4.25
+7,earthworms,earthworms,1,1,0,2.0,1.0,0.0,17.0,2.0,0.0,17.0
+8,phytophagous nematodes,phytophagous nematodes,1,1,2,2.0,1.0,8.5,17.0,2.0,8.5,17.0
+9,fungivorous nematodes,fungivorous nematodes,1,1,3,3.0,2.0,5.666666666666667,5.666666666666667,3.0,5.666666666666667,5.666666666666667
+10,bactieriophagous nematodes,bactieriophagous nematodes,1,2,3,3.0,2.0,5.666666666666667,4.25,3.0,5.666666666666667,4.25
+11,predatory nematodes,predatory nematodes,1,5,0,3.6,2.0,0.0,1.1333333333333333,3.6,0.0,1.1333333333333333
+12,microbivorous microarthropods,microbivorous microarthropods,1,2,3,3.0,2.0,5.666666666666667,4.25,3.0,5.666666666666667,4.25
+13,predatory microarthropods,predatory microarthropods,1,7,0,3.428571428571429,2.0,0.0,1.0,3.428571428571429,0.0,1.0
+14,herbage arthropods,herbage arthropods,1,3,1,2.6666666666666665,1.0,17.0,5.666666666666667,2.6666666666666665,17.0,5.666666666666667
+15,predatory herbage arthropods,predatory herbage arthropods,1,1,0,3.0,2.0,0.0,2.4285714285714284,3.0,0.0,2.4285714285714284
+16,macroarthropods,macroarthropods,1,4,3,2.75,1.0,5.666666666666667,4.25,2.75,5.666666666666667,4.25
+17,phytophagous macroarthropods,phytophagous macroarthropods,1,1,2,2.0,1.0,8.5,17.0,2.0,8.5,17.0
+18,predatory macroarthropods,predatory macroarthropods,1,6,0,3.5,2.0,0.0,1.0625,3.5,0.0,1.0625

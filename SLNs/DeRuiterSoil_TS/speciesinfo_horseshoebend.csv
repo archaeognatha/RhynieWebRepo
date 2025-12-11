@@ -1,12 +1,12 @@
-trophospecies_id,sp_name,guild,n_lumped
-1,Roots,plants,1
-2,Detritus,detritus,1
-3,fungi,fungi,1
-4,bacteria,bacteria,1
-5,phytophagous nematodes,phytophagous nematodes,1
-6,fungivorous nematodes;collembola;cryptostigmatic mites;noncryptostigmatic mites,fungivorous nematodes,4
-7,bactieriophagous nematodes,bactieriophagous nematodes,1
-11,earthworms,earthworms,1
-12,enchytraeids,enchytraeids,1
-13,protozoa,protozoa,1
-14,predatory arthropods,predatory arthropods,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,Roots,plants,1,0,1,1.0,0.0,3.3333333333333335,0.0,1.0,3.3333333333333335,0.0
+2,Detritus,detritus,1,0,4,1.0,0.0,0.7692307692307693,0.0,1.0,0.7692307692307693,0.0
+3,fungi,fungi,1,1,2,2.0,1.0,2.5,10.0,2.0,2.5,10.0
+4,bacteria,bacteria,1,1,3,2.0,1.0,2.0,10.0,2.0,2.0,10.0
+5,phytophagous nematodes,phytophagous nematodes,1,1,1,2.0,1.0,10.0,10.0,2.0,10.0,10.0
+6,fungivorous nematodes;collembola;cryptostigmatic mites;noncryptostigmatic mites,fungivorous nematodes,4,1,1,3.0,2.0,10.0,3.3333333333333335,3.0,10.0,3.3333333333333335
+7,bactieriophagous nematodes,bactieriophagous nematodes,1,1,1,3.0,2.0,10.0,3.3333333333333335,3.0,10.0,3.3333333333333335
+11,earthworms,earthworms,1,1,0,2.0,1.0,0.0,10.0,2.0,0.0,10.0
+12,enchytraeids,enchytraeids,1,3,0,2.6666666666666665,1.0,0.0,3.3333333333333335,2.6666666666666665,0.0,3.3333333333333335
+13,protozoa,protozoa,1,1,0,3.0,2.0,0.0,3.3333333333333335,3.0,0.0,3.3333333333333335
+14,predatory arthropods,predatory arthropods,1,3,0,3.666666666666667,3.0,0.0,0.8333333333333334,3.666666666666667,0.0,0.8333333333333334

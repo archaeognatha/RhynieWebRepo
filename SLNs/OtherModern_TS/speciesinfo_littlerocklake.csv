@@ -1,81 +1,81 @@
-trophospecies_id,sp_name,guild,n_lumped
-1,Perca flavescens,Actinopteri,1
-2,Chaoborus punctipennis;Chaoborus albatus,Insecta,2
-3,Cladopelma;Nanocladius;Paratendipes;Chaetocladius;Micropsectra;Cricotopus;Glyptotendipes;Endochironomus;Corynoneura;Paratanytarsus;Microtendipes;Pseudochironomus;Stenochironomus,Insecta,13
-4,Albabesmyia;Guttipelopia;Djalmabatista;Larsia,Insecta,4
-5,Libellula;Sympetrum;Anisoptera epitheca,Insecta,3
-6,Ophryoxus gracilis,Branchiopoda,1
-7,Bosmina longirostris,Branchiopoda,1
-10,Micropterus salmoides,Actinopteri,1
-11,Fish eggs,Actinopteri,1
-12,Hydroporus,Insecta,1
-13,Enallagma,Insecta,1
-15,Macropelopis;Procladius;Clinotanypus,Insecta,3
-16,Campeloma decisum,Bivalvia,1
-17,Pomoxis nigromaculatus,Actinopteri,1
-18,Banksiola,Insecta,1
-19,Daphnia parvula;Daphnia galeata mendotae;Diaphanosoma birgei,Branchiopoda,3
-20,Ambloplites rupestris,Actinopteri,1
-22,Caenis,Insecta,1
-26,Cryptochironomus,Insecta,1
-27,Annelida Hirudinea,Clitellata,1
-28,Bezzia,Insecta,1
-30,Polypedilum;Parachironomus,Insecta,2
-33,Polycentropus,Insecta,1
-34,Turbellaria Tricladida,Turbellaria,1
-35,Epischura lacustris,Hexanauplia,1
-37,Sphaeriidae,Bivalvia,1
-40,Umbra,Actinopteri,1
-41,Hemiptera Notonectids,Insecta,1
-42,Leptophlebia,Insecta,1
-43,Leptodora kindtii;Polyphemus pediculus,Branchiopoda,2
-44,Holopedium gibberum,Branchiopoda,1
-45,Sphaeromais,Insecta,1
-46,Notemigonus crysoleucus,Actinopteri,1
-47,Limnephilus,Insecta,1
-48,Xenochironomus,Insecta,1
-49,Chironomus;Stictochironomus,Insecta,2
-52,Agrypnia,Insecta,1
-54,Arthropoda Hydracarina,Arachnida,1
-60,Tropocyclops prasinus,Hexanauplia,1
-62,Mesocyclops edax;Diacyclops thomasi,Hexanauplia,2
-64,Acantholeberis curvirostris,Branchiopoda,1
-66,Amphipoda Crangonyx gracilis,Malacostraca,1
-67,Magaloptera Sialis;Molanna,Insecta,2
-68,Oecetis,Insecta,1
-69,Hemiptera Gerris,Insecta,1
-71,Mystacides,Insecta,1
-72,Lepidoptera Pyralidae eoparagyractis,Insecta,1
-73,Diaptomus minutus,Hexanauplia,1
-74,Hemiptera Veliidae,Insecta,1
-75,Neuroptera Climacia,Insecta,1
-77,Gyrinus,Insecta,1
-78,Alona affinis;Alona quadrangularis;Alona intermedia;Alona rustica;Disparalona acutirostris;Alonella excisa,Branchiopoda,6
-80,Macrocyclops albidus;Microcyclops rubellus,Hexanauplia,2
-81,Kellicottia bostoniensis;Conochilus unicornis;Kellicottia longispina;Conochiloides,Monogononta,4
-82,Eubosmina,Branchiopoda,1
-83,Polyarthra vulgaris;Calanoid copepodids;Polyarthra remata,Monogononta,3
-84,Synchaeta;Nauplii;Gastropus;Trichocerca cylindrica,Monogononta,4
-86,Keratella crassa;Keratella hiemalis;Keratella taurocephala;Keratella cochlearis,Monogononta,4
-89,Scapholeberis kingi,Branchiopoda,1
-94,Cyclopoid copepodids,Hexanauplia,1
-97,Acanthocyclops;Eucyclops serrulatus,Hexanauplia,2
-98,Sida crystallina,Branchiopoda,1
-101,Asplanchna,Monogononta,1
-103,Chydorus spi,Branchiopoda,1
-104,Annelida Oligochaete,Clitellata,1
-107,Harpacticoid copepods,Hexanauplia,1
-110,Chydorus sp,Branchiopoda,1
-112,Tanytarsus,Insecta,1
-114,Harpacticoid copepodids,Hexanauplia,1
-115,Cryptomonas;Chroomonas;Scenedesmus;Crucigenia;Rhabdoderma;Oocystis;Elaktothrix;Ankistrodesmus;Euastrum;Tetraiidron;Chroococcus;Merismopedia;Schroederia;Gomphosphaeria;Aphanothece,Cryptophyceae,15
-117,Mallomonas;Asterionella,Synurophyceae,2
-119,Xanthidium;Trachelomonas;Phacus;Quadrigula;Arthrodesmus;Spondylosium;Cosmarium;Pediastrum;Staurastrum,Zygnemophyceae,9
-124,Aphanocapsa;Dinobryon;Gloeothece;Coelosphaerium;Synura,Cyanophyceae,5
-137,Tabellaria,Fragilariophyceae,1
-138,Synedra,Fragilariophyceae,1
-148,Fine organic matter detritus,detritus,1
-149,Spongilla lacustris;Corvomyenia everetti;Ephydatia muelleri,Demospongiae,3
-152,Zygnema;Bulbochaete;Groenbladia;Scytonema;Batrachospermum;Tribonema;Spirogyra;Desmidium;Microchaete;Oscillatoria;Plectonema;Microcoleus;Binuclearia;Rhizoclonium;Geminella;Mougeotia;Schizothrix;Phormidium;Oedogonium;Sphaerozosma;Hapalosiphon;Bambusina;Radiofilum;Hyalotheca;Lyngbya,Zygnematophyceae,25
-177,Anabaena,Cyanophyceae,1
-178,Bivalvia,Bivalvia,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,Perca flavescens,Actinopteri,1,68,7,3.9006410256410255,2.0,2.8214285714285716,0.8876404494382022,3.474674111133254,2.5036339735587854,0.6490865260094152
+2,Chaoborus punctipennis;Chaoborus albatus,Insecta,2,5,11,3.2142857142857144,2.0,1.880952380952381,4.647058823529412,2.8995150350906806,1.9768892065439534,22.69989067432817
+3,Cladopelma;Nanocladius;Paratendipes;Chaetocladius;Micropsectra;Cricotopus;Glyptotendipes;Endochironomus;Corynoneura;Paratanytarsus;Microtendipes;Pseudochironomus;Stenochironomus,Insecta,13,1,13,2.0,1.0,1.7954545454545454,79.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+4,Albabesmyia;Guttipelopia;Djalmabatista;Larsia,Insecta,4,13,13,3.6363636363636367,3.0,1.8372093023255813,2.0256410256410255,2.8995150350906806,1.9768892065439534,22.69989067432817
+5,Libellula;Sympetrum;Anisoptera epitheca,Insecta,3,22,4,3.553571428571429,2.0,2.0256410256410255,2.1944444444444446,2.8995150350906806,1.9768892065439534,22.69989067432817
+6,Ophryoxus gracilis,Branchiopoda,1,3,16,2.0,1.0,2.0789473684210527,26.333333333333332,2.133503401360544,2.6987169934194797,28.01574074074074
+7,Bosmina longirostris,Branchiopoda,1,3,13,2.0,1.0,3.761904761904762,26.333333333333332,2.133503401360544,2.6987169934194797,28.01574074074074
+10,Micropterus salmoides,Actinopteri,1,55,7,3.993174061433447,2.0,2.8214285714285716,0.7745098039215687,3.474674111133254,2.5036339735587854,0.6490865260094152
+11,Fish eggs,Actinopteri,1,0,5,1.0,0.0,2.0256410256410255,0.0,3.474674111133254,2.5036339735587854,0.6490865260094152
+12,Hydroporus,Insecta,1,0,2,1.0,0.0,1.9268292682926829,0.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+13,Enallagma,Insecta,1,20,6,3.5384615384615383,2.0,2.135135135135135,2.1944444444444446,2.8995150350906806,1.9768892065439534,22.69989067432817
+15,Macropelopis;Procladius;Clinotanypus,Insecta,3,14,13,3.6176470588235294,3.0,1.8372093023255813,2.0789473684210527,2.8995150350906806,1.9768892065439534,22.69989067432817
+16,Campeloma decisum,Bivalvia,1,1,6,2.0,1.0,2.0256410256410255,79.0,2.0,1.3335470085470085,79.0
+17,Pomoxis nigromaculatus,Actinopteri,1,61,7,3.886986301369863,2.0,2.8214285714285716,0.8229166666666666,3.474674111133254,2.5036339735587854,0.6490865260094152
+18,Banksiola,Insecta,1,10,5,3.9259259259259256,3.0,2.0789473684210527,1.6808510638297873,2.8995150350906806,1.9768892065439534,22.69989067432817
+19,Daphnia parvula;Daphnia galeata mendotae;Diaphanosoma birgei,Branchiopoda,3,4,14,2.0,1.0,4.388888888888889,19.75,2.133503401360544,2.6987169934194797,28.01574074074074
+20,Ambloplites rupestris,Actinopteri,1,56,7,4.003378378378379,2.0,2.8214285714285716,0.7821782178217822,3.474674111133254,2.5036339735587854,0.6490865260094152
+22,Caenis,Insecta,1,1,7,2.0,1.0,2.0789473684210527,79.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+26,Cryptochironomus,Insecta,1,14,13,3.2727272727272725,2.0,1.7954545454545454,3.590909090909091,2.8995150350906806,1.9768892065439534,22.69989067432817
+27,Annelida Hirudinea,Clitellata,1,7,5,3.82258064516129,3.0,2.0789473684210527,0.5,2.911290322580645,1.813983488132095,39.75
+28,Bezzia,Insecta,1,5,13,3.0,2.0,1.6458333333333333,7.181818181818182,2.8995150350906806,1.9768892065439534,22.69989067432817
+30,Polypedilum;Parachironomus,Insecta,2,13,13,3.25,2.0,1.7954545454545454,3.761904761904762,2.8995150350906806,1.9768892065439534,22.69989067432817
+33,Polycentropus,Insecta,1,1,6,2.0,1.0,2.135135135135135,79.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+34,Turbellaria Tricladida,Turbellaria,1,2,3,3.0,2.0,1.880952380952381,19.75,3.0,1.880952380952381,19.75
+35,Epischura lacustris,Hexanauplia,1,27,9,3.586206896551724,4.0,3.16,0.4540229885057471,2.91133549548372,2.8729107138114816,21.171238000681065
+37,Sphaeriidae,Bivalvia,1,1,5,2.0,1.0,1.975,79.0,2.0,1.3335470085470085,79.0
+40,Umbra,Actinopteri,1,60,6,3.9250936329588013,3.0,2.0789473684210527,0.8061224489795918,3.474674111133254,2.5036339735587854,0.6490865260094152
+41,Hemiptera Notonectids,Insecta,1,6,7,3.8793103448275863,4.0,2.323529411764706,0.398989898989899,2.8995150350906806,1.9768892065439534,22.69989067432817
+42,Leptophlebia,Insecta,1,2,6,2.0,1.0,2.135135135135135,39.5,2.8995150350906806,1.9768892065439534,22.69989067432817
+43,Leptodora kindtii;Polyphemus pediculus,Branchiopoda,2,20,9,3.6020408163265305,4.0,3.2916666666666665,0.4388888888888889,2.133503401360544,2.6987169934194797,28.01574074074074
+44,Holopedium gibberum,Branchiopoda,1,4,9,2.0,1.0,3.4347826086956523,19.75,2.133503401360544,2.6987169934194797,28.01574074074074
+45,Sphaeromais,Insecta,1,2,9,2.5,1.0,1.58,39.5,2.8995150350906806,1.9768892065439534,22.69989067432817
+46,Notemigonus crysoleucus,Actinopteri,1,27,5,3.6134453781512605,4.0,2.135135135135135,0.47023809523809523,3.474674111133254,2.5036339735587854,0.6490865260094152
+47,Limnephilus,Insecta,1,1,5,2.0,1.0,2.0789473684210527,79.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+48,Xenochironomus,Insecta,1,1,13,3.0,2.0,1.7954545454545454,26.333333333333332,2.8995150350906806,1.9768892065439534,22.69989067432817
+49,Chironomus;Stictochironomus,Insecta,2,1,8,2.0,1.0,1.6122448979591837,79.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+52,Agrypnia,Insecta,1,8,5,3.0,2.0,2.0789473684210527,4.9375,2.8995150350906806,1.9768892065439534,22.69989067432817
+54,Arthropoda Hydracarina,Arachnida,1,10,2,3.84,3.0,1.8372093023255813,1.6122448979591837,3.84,1.8372093023255813,1.6122448979591837
+60,Tropocyclops prasinus,Hexanauplia,1,25,11,3.380952380952381,5.0,3.95,0.34801762114537443,2.91133549548372,2.8729107138114816,21.171238000681065
+62,Mesocyclops edax;Diacyclops thomasi,Hexanauplia,2,23,10,3.671641791044776,3.0,3.761904761904762,0.5851851851851851,2.91133549548372,2.8729107138114816,21.171238000681065
+64,Acantholeberis curvirostris,Branchiopoda,1,1,15,2.0,1.0,2.0256410256410255,79.0,2.133503401360544,2.6987169934194797,28.01574074074074
+66,Amphipoda Crangonyx gracilis,Malacostraca,1,1,7,2.0,1.0,1.975,79.0,2.0,1.975,79.0
+67,Magaloptera Sialis;Molanna,Insecta,2,10,6,3.9259259259259256,3.0,2.135135135135135,1.6808510638297873,2.8995150350906806,1.9768892065439534,22.69989067432817
+68,Oecetis,Insecta,1,2,6,3.0,2.0,2.135135135135135,9.875,2.8995150350906806,1.9768892065439534,22.69989067432817
+69,Hemiptera Gerris,Insecta,1,6,3,4.0,5.0,2.0256410256410255,0.3224489795918367,2.8995150350906806,1.9768892065439534,22.69989067432817
+71,Mystacides,Insecta,1,7,6,3.0,2.0,2.135135135135135,5.266666666666667,2.8995150350906806,1.9768892065439534,22.69989067432817
+72,Lepidoptera Pyralidae eoparagyractis,Insecta,1,0,7,1.0,0.0,2.0789473684210527,0.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+73,Diaptomus minutus,Hexanauplia,1,6,12,2.0,1.0,3.590909090909091,13.166666666666666,2.91133549548372,2.8729107138114816,21.171238000681065
+74,Hemiptera Veliidae,Insecta,1,5,6,3.6,5.0,2.393939393939394,0.3224489795918367,2.8995150350906806,1.9768892065439534,22.69989067432817
+75,Neuroptera Climacia,Insecta,1,1,5,3.0,2.0,2.0789473684210527,26.333333333333332,2.8995150350906806,1.9768892065439534,22.69989067432817
+77,Gyrinus,Insecta,1,28,6,4.171717171717171,4.0,2.1944444444444446,0.47023809523809523,2.8995150350906806,1.9768892065439534,22.69989067432817
+78,Alona affinis;Alona quadrangularis;Alona intermedia;Alona rustica;Disparalona acutirostris;Alonella excisa,Branchiopoda,6,3,21,2.0,1.0,1.8372093023255813,26.333333333333332,2.133503401360544,2.6987169934194797,28.01574074074074
+80,Macrocyclops albidus;Microcyclops rubellus,Hexanauplia,2,3,13,3.0,2.0,2.135135135135135,8.777777777777779,2.91133549548372,2.8729107138114816,21.171238000681065
+81,Kellicottia bostoniensis;Conochilus unicornis;Kellicottia longispina;Conochiloides,Monogononta,4,1,6,2.0,1.0,2.0789473684210527,79.0,2.2476190476190476,3.0328596317869776,64.07777777777778
+82,Eubosmina,Branchiopoda,1,2,13,2.0,1.0,3.761904761904762,39.5,2.133503401360544,2.6987169934194797,28.01574074074074
+83,Polyarthra vulgaris;Calanoid copepodids;Polyarthra remata,Monogononta,3,1,11,2.0,1.0,3.590909090909091,79.0,2.2476190476190476,3.0328596317869776,64.07777777777778
+84,Synchaeta;Nauplii;Gastropus;Trichocerca cylindrica,Monogononta,4,1,12,2.0,1.0,3.4347826086956523,79.0,2.2476190476190476,3.0328596317869776,64.07777777777778
+86,Keratella crassa;Keratella hiemalis;Keratella taurocephala;Keratella cochlearis,Monogononta,4,1,7,2.0,1.0,2.46875,79.0,2.2476190476190476,3.0328596317869776,64.07777777777778
+89,Scapholeberis kingi,Branchiopoda,1,3,16,2.0,1.0,1.975,26.333333333333332,2.133503401360544,2.6987169934194797,28.01574074074074
+94,Cyclopoid copepodids,Hexanauplia,1,20,11,3.5632183908045976,4.0,3.761904761904762,0.43169398907103823,2.91133549548372,2.8729107138114816,21.171238000681065
+97,Acanthocyclops;Eucyclops serrulatus,Hexanauplia,2,3,14,3.0,2.0,2.0789473684210527,8.777777777777779,2.91133549548372,2.8729107138114816,21.171238000681065
+98,Sida crystallina,Branchiopoda,1,4,16,2.0,1.0,1.975,19.75,2.133503401360544,2.6987169934194797,28.01574074074074
+101,Asplanchna,Monogononta,1,7,12,3.238095238095238,2.0,3.590909090909091,4.388888888888889,2.2476190476190476,3.0328596317869776,64.07777777777778
+103,Chydorus spi,Branchiopoda,1,3,23,2.0,1.0,1.9268292682926829,26.333333333333332,2.133503401360544,2.6987169934194797,28.01574074074074
+104,Annelida Oligochaete,Clitellata,1,1,16,2.0,1.0,1.5490196078431373,79.0,2.911290322580645,1.813983488132095,39.75
+107,Harpacticoid copepods,Hexanauplia,1,1,9,2.0,1.0,1.490566037735849,79.0,2.91133549548372,2.8729107138114816,21.171238000681065
+110,Chydorus sp,Branchiopoda,1,3,21,2.0,1.0,1.9268292682926829,26.333333333333332,2.133503401360544,2.6987169934194797,28.01574074074074
+112,Tanytarsus,Insecta,1,1,15,2.0,1.0,1.58,79.0,2.8995150350906806,1.9768892065439534,22.69989067432817
+114,Harpacticoid copepodids,Hexanauplia,1,1,5,2.0,1.0,1.9268292682926829,79.0,2.91133549548372,2.8729107138114816,21.171238000681065
+115,Cryptomonas;Chroomonas;Scenedesmus;Crucigenia;Rhabdoderma;Oocystis;Elaktothrix;Ankistrodesmus;Euastrum;Tetraiidron;Chroococcus;Merismopedia;Schroederia;Gomphosphaeria;Aphanothece,Cryptophyceae,15,0,13,1.0,0.0,1.9268292682926829,0.0,1.0,1.9268292682926829,0.0
+117,Mallomonas;Asterionella,Synurophyceae,2,0,7,1.0,0.0,2.0256410256410255,0.0,1.0,2.0256410256410255,0.0
+119,Xanthidium;Trachelomonas;Phacus;Quadrigula;Arthrodesmus;Spondylosium;Cosmarium;Pediastrum;Staurastrum,Zygnemophyceae,9,0,5,1.0,0.0,2.135135135135135,0.0,1.0,2.135135135135135,0.0
+124,Aphanocapsa;Dinobryon;Gloeothece;Coelosphaerium;Synura,Cyanophyceae,5,0,3,1.0,0.0,2.135135135135135,0.0,1.0,2.0803880803880803,0.0
+137,Tabellaria,Fragilariophyceae,1,0,11,1.0,0.0,1.0128205128205128,0.0,1.0,1.0128205128205128,0.0
+138,Synedra,Fragilariophyceae,1,0,9,1.0,0.0,1.0128205128205128,0.0,1.0,1.0128205128205128,0.0
+148,Fine organic matter detritus,detritus,1,0,23,1.0,0.0,0.8404255319148937,0.0,1.0,0.8404255319148937,0.0
+149,Spongilla lacustris;Corvomyenia everetti;Ephydatia muelleri,Demospongiae,3,1,2,2.0,1.0,1.144927536231884,79.0,2.0,1.144927536231884,79.0
+152,Zygnema;Bulbochaete;Groenbladia;Scytonema;Batrachospermum;Tribonema;Spirogyra;Desmidium;Microchaete;Oscillatoria;Plectonema;Microcoleus;Binuclearia;Rhizoclonium;Geminella;Mougeotia;Schizothrix;Phormidium;Oedogonium;Sphaerozosma;Hapalosiphon;Bambusina;Radiofilum;Hyalotheca;Lyngbya,Zygnematophyceae,25,0,3,1.0,0.0,1.161764705882353,0.0,1.0,1.161764705882353,0.0
+177,Anabaena,Cyanophyceae,1,0,1,1.0,0.0,2.0256410256410255,0.0,1.0,2.0803880803880803,0.0
+178,Bivalvia,Bivalvia,1,1,0,2.0,1.0,0.0,79.0,2.0,1.3335470085470085,79.0
