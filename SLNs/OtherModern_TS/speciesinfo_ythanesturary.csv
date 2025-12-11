@@ -1,0 +1,80 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Lutra lutra,aquatic mammal,1
+2,Phalacrocorax carbo,bird,1
+3,Ardea cinerea,bird,1
+4,Cygnus olor;Anas penelope,bird,2
+5,Tadorna tadorna,bird,1
+7,Somateria mollissima,bird,1
+8,Somateria mollissima,bird,1
+9,Haematopus ostralegus,bird,1
+10,Charadris hiaticula,bird,1
+11,Pluvialis apricaria,bird,1
+12,Pluvialis squatarola;Calidris alpina,bird,2
+13,Vanellus vanellus,bird,1
+15,Limos lapponica,bird,1
+16,Numenius arquata,bird,1
+17,Tringa totanus,bird,1
+18,Arenaria interpres,bird,1
+19,Larus canus,bird,1
+20,Larus ridibundus,bird,1
+21,Larus aragentatus,bird,1
+22,Larus marinus,bird,1
+23,Sterna Sandvicensis,bird,1
+24,Sterna hirundo,bird,1
+25,Sterna paradisea,bird,1
+26,Corvus frugilegus,bird,1
+27,Corvus corone,bird,1
+28,Sprattus sprattus;Clupea harengus,fish,2
+30,Anguilla anguilla,fish,1
+31,Sygnathus rostellatus,fish,1
+32,Pollachus virens,fish,1
+33,Ciliata mustella,fish,1
+34,Ammodytes tobianus,fish,1
+35,Pholis gunnellus,fish,1
+36,Zoarces viviparus,fish,1
+37,Pomatoschistus minutus,fish,1
+38,Pomatoschistus microps,fish,1
+39,Myxocephalus scorpius,fish,1
+40,Agonus cataphractus,fish,1
+41,Gasterosteus aculeatus,fish,1
+42,Pleuronectes platessa,fish,1
+43,Platichthys flesus,fish,1
+44,Platichthys flesus,fish,1
+45,Salmo trutta,fish,1
+46,Crangon crangon,crustacean,1
+47,Hyale nilssoni,crustacean,1
+48,Carcinus maenas,crustacean,1
+49,Hydrobia ulvae,gastropod,1
+50,Ostracoda,crustacean,1
+51,Calanoidea,crustacean,1
+52,Harpacticoidea,crustacean,1
+53,Semibalanus balanoides,barnacle,1
+54,Neomysis integer,crustacean,1
+55,Mya arenaria;Talitrus saltator;Bathyporeia pilosa;Idotea emarginata;Eurydice pulchra;Hesionidae;Parathemisto spp.;Aricia spp.;Tubifex costatus;Diptera larvae,bivalve,10
+57,Corophium volutator,crustacean,1
+59,Gammarus spp.,crustacean,1
+61,Jaera marina,crustacean,1
+63,Nototropis spp.,crustacean,1
+64,Nematoda,worm,1
+65,Diatomeae,phytoplankton ,1
+66,Nereis virens,worm,1
+67,Nereis diversicolor,worm,1
+70,Phyllodoce;Eteone,worm,2
+72,Pygospio elegans,worm,1
+73,Capitallidae,worm,1
+74,Manayunkia aestuarina,worm,1
+76,Arenicola marina,worm,1
+77,Tubificoides benedeni,worm,1
+79,Fucus ceranoides,macroalga,1
+80,Littorina littorea,gastropod,1
+81,Littorina saxatilis,gastropod,1
+82,Alderia modesta,gastropod,1
+83,Retusa obtusa,gastropod,1
+84,Macoma balthica,bivalve,1
+85,Mytilus edulis,bivalve,1
+86,Cerastoderma edule,bivalve,1
+87,Chironomid larvae,insect,1
+89,Acari,arachnid,1
+90,Foraminifera,zooplankton,1
+91,Enteromorpha,macroalga,1
+92,POM (detritus),detritus,1

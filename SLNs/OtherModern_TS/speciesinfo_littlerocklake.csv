@@ -1,0 +1,81 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Perca flavescens,Actinopteri,1
+2,Chaoborus punctipennis;Chaoborus albatus,Insecta,2
+3,Cladopelma;Nanocladius;Paratendipes;Chaetocladius;Micropsectra;Cricotopus;Glyptotendipes;Endochironomus;Corynoneura;Paratanytarsus;Microtendipes;Pseudochironomus;Stenochironomus,Insecta,13
+4,Albabesmyia;Guttipelopia;Djalmabatista;Larsia,Insecta,4
+5,Libellula;Sympetrum;Anisoptera epitheca,Insecta,3
+6,Ophryoxus gracilis,Branchiopoda,1
+7,Bosmina longirostris,Branchiopoda,1
+10,Micropterus salmoides,Actinopteri,1
+11,Fish eggs,Actinopteri,1
+12,Hydroporus,Insecta,1
+13,Enallagma,Insecta,1
+15,Macropelopis;Procladius;Clinotanypus,Insecta,3
+16,Campeloma decisum,Bivalvia,1
+17,Pomoxis nigromaculatus,Actinopteri,1
+18,Banksiola,Insecta,1
+19,Daphnia parvula;Daphnia galeata mendotae;Diaphanosoma birgei,Branchiopoda,3
+20,Ambloplites rupestris,Actinopteri,1
+22,Caenis,Insecta,1
+26,Cryptochironomus,Insecta,1
+27,Annelida Hirudinea,Clitellata,1
+28,Bezzia,Insecta,1
+30,Polypedilum;Parachironomus,Insecta,2
+33,Polycentropus,Insecta,1
+34,Turbellaria Tricladida,Turbellaria,1
+35,Epischura lacustris,Hexanauplia,1
+37,Sphaeriidae,Bivalvia,1
+40,Umbra,Actinopteri,1
+41,Hemiptera Notonectids,Insecta,1
+42,Leptophlebia,Insecta,1
+43,Leptodora kindtii;Polyphemus pediculus,Branchiopoda,2
+44,Holopedium gibberum,Branchiopoda,1
+45,Sphaeromais,Insecta,1
+46,Notemigonus crysoleucus,Actinopteri,1
+47,Limnephilus,Insecta,1
+48,Xenochironomus,Insecta,1
+49,Chironomus;Stictochironomus,Insecta,2
+52,Agrypnia,Insecta,1
+54,Arthropoda Hydracarina,Arachnida,1
+60,Tropocyclops prasinus,Hexanauplia,1
+62,Mesocyclops edax;Diacyclops thomasi,Hexanauplia,2
+64,Acantholeberis curvirostris,Branchiopoda,1
+66,Amphipoda Crangonyx gracilis,Malacostraca,1
+67,Magaloptera Sialis;Molanna,Insecta,2
+68,Oecetis,Insecta,1
+69,Hemiptera Gerris,Insecta,1
+71,Mystacides,Insecta,1
+72,Lepidoptera Pyralidae eoparagyractis,Insecta,1
+73,Diaptomus minutus,Hexanauplia,1
+74,Hemiptera Veliidae,Insecta,1
+75,Neuroptera Climacia,Insecta,1
+77,Gyrinus,Insecta,1
+78,Alona affinis;Alona quadrangularis;Alona intermedia;Alona rustica;Disparalona acutirostris;Alonella excisa,Branchiopoda,6
+80,Macrocyclops albidus;Microcyclops rubellus,Hexanauplia,2
+81,Kellicottia bostoniensis;Conochilus unicornis;Kellicottia longispina;Conochiloides,Monogononta,4
+82,Eubosmina,Branchiopoda,1
+83,Polyarthra vulgaris;Calanoid copepodids;Polyarthra remata,Monogononta,3
+84,Synchaeta;Nauplii;Gastropus;Trichocerca cylindrica,Monogononta,4
+86,Keratella crassa;Keratella hiemalis;Keratella taurocephala;Keratella cochlearis,Monogononta,4
+89,Scapholeberis kingi,Branchiopoda,1
+94,Cyclopoid copepodids,Hexanauplia,1
+97,Acanthocyclops;Eucyclops serrulatus,Hexanauplia,2
+98,Sida crystallina,Branchiopoda,1
+101,Asplanchna,Monogononta,1
+103,Chydorus spi,Branchiopoda,1
+104,Annelida Oligochaete,Clitellata,1
+107,Harpacticoid copepods,Hexanauplia,1
+110,Chydorus sp,Branchiopoda,1
+112,Tanytarsus,Insecta,1
+114,Harpacticoid copepodids,Hexanauplia,1
+115,Cryptomonas;Chroomonas;Scenedesmus;Crucigenia;Rhabdoderma;Oocystis;Elaktothrix;Ankistrodesmus;Euastrum;Tetraiidron;Chroococcus;Merismopedia;Schroederia;Gomphosphaeria;Aphanothece,Cryptophyceae,15
+117,Mallomonas;Asterionella,Synurophyceae,2
+119,Xanthidium;Trachelomonas;Phacus;Quadrigula;Arthrodesmus;Spondylosium;Cosmarium;Pediastrum;Staurastrum,Zygnemophyceae,9
+124,Aphanocapsa;Dinobryon;Gloeothece;Coelosphaerium;Synura,Cyanophyceae,5
+137,Tabellaria,Fragilariophyceae,1
+138,Synedra,Fragilariophyceae,1
+148,Fine organic matter detritus,detritus,1
+149,Spongilla lacustris;Corvomyenia everetti;Ephydatia muelleri,Demospongiae,3
+152,Zygnema;Bulbochaete;Groenbladia;Scytonema;Batrachospermum;Tribonema;Spirogyra;Desmidium;Microchaete;Oscillatoria;Plectonema;Microcoleus;Binuclearia;Rhizoclonium;Geminella;Mougeotia;Schizothrix;Phormidium;Oedogonium;Sphaerozosma;Hapalosiphon;Bambusina;Radiofilum;Hyalotheca;Lyngbya,Zygnematophyceae,25
+177,Anabaena,Cyanophyceae,1
+178,Bivalvia,Bivalvia,1

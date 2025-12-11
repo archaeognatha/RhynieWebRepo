@@ -1,0 +1,29 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1,aquatic detritus,1,0,8,1.0,0.0,2.7,0.0,1.0,2.7,0.0
+2,2,aquatic heterotroph bacteria,1,0,5,1.0,0.0,3.857142857142857,0.0,1.0,3.857142857142857,0.0
+3,3,sulfate-reducing bacteria,1,0,2,1.0,0.0,6.75,0.0,1.0,6.75,0.0
+4,4,aquatic protozoa,1,0,5,1.0,0.0,3.857142857142857,0.0,1.0,3.857142857142857,0.0
+5,5,Anechosoma,1,0,2,1.0,0.0,13.5,0.0,1.0,13.5,0.0
+6,6,aquatic unicellular/small algae (general),1,0,2,1.0,0.0,13.5,0.0,1.0,12.78,0.0
+7,7,aquatic unicellular/small algae (general),1,0,4,1.0,0.0,4.5,0.0,1.0,12.78,0.0
+8,8,aquatic unicellular/small algae (general),1,0,1,1.0,0.0,27.0,0.0,1.0,12.78,0.0
+9,9,aquatic unicellular/small algae (general),1,0,3,1.0,0.0,5.4,0.0,1.0,12.78,0.0
+10,10,aquatic unicellular/small algae (general),1,0,2,1.0,0.0,13.5,0.0,1.0,12.78,0.0
+11,11,planktic large colonial algae,1,0,3,1.0,0.0,5.4,0.0,1.0,5.4,0.0
+12,12;13;14;15;16,benthic filamentous algae,5,0,0,1.0,0.0,0.0,0.0,1.0,0.0,0.0
+17,17,other benthic/epiphytic algae,1,4,2,2.75,1.0,9.0,9.0,2.3125,6.75,17.4375
+18,18,other benthic/epiphytic algae,1,2,2,2.5,2.0,13.5,6.75,2.3125,6.75,17.4375
+19,19;22;24,other benthic/epiphytic algae,3,1,0,2.0,1.0,0.0,27.0,2.3125,6.75,17.4375
+20,20,other benthic/epiphytic algae,1,1,1,2.0,1.0,4.5,27.0,2.3125,6.75,17.4375
+21,21,charophytes,1,4,0,3.0,3.0,0.0,1.173913043478261,3.0,0.0,1.173913043478261
+23,23,partially terrestrial epilithic/epiphytic algae,1,1,1,2.0,1.0,27.0,27.0,2.0,27.0,27.0
+25,25;26;29,aquatic saprotrophs,3,1,0,2.0,1.0,0.0,27.0,2.0,0.0,15.299999999999999
+27,27,aquatic saprotrophs,1,5,0,2.0,1.0,0.0,5.4,2.0,0.0,15.299999999999999
+28,28,aquatic saprotrophs,1,2,0,2.0,1.0,0.0,13.5,2.0,0.0,15.299999999999999
+30,30;31,small algae parasites,2,10,0,2.0,1.0,0.0,2.7,2.0,0.0,2.7
+32,32;33,aquatic nematodes,2,1,0,2.0,1.0,0.0,27.0,2.0,0.0,27.0
+34,34,swimming filter feeders,1,3,0,2.0,1.0,0.0,9.0,2.0,0.0,9.0
+35,35,swimming scrapers,1,5,1,2.0,1.0,27.0,5.4,2.0,27.0,5.4
+36,36,arthropod omnivores,1,2,0,2.0,1.0,0.0,13.5,2.0,13.5,13.5
+37,37,arthropod omnivores,1,2,1,2.0,1.0,27.0,13.5,2.0,13.5,13.5
+38,38,benthic predators,1,1,0,2.0,1.0,0.0,27.0,2.0,0.0,27.0

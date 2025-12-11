@@ -1,31 +1,29 @@
-sp_name,guild,guild_no,guild_richness,guild_no_prey,guild_no_preds,terr,aqu,sp_no_prey,sp_no_preds
-1,terrestrial detritus,1,1,0,4,1,0,0,2
-2,land plants,2,1,0,4,1,0,0,2
-3,heterotrophic microbes,3,1,2,7,1,0,1,6
-4,terrestrial fungi,4,1,3,7,1,0,1,2
-5,terrestrial microbivores,5,1,3,8,1,0,2,3
-6,terrestrial detritivores,6,2,4,8,1,0,4,4
-7,terrestrial detritivores,6,2,4,8,1,0,1,5
-8,mites,7,2,5,8,1,0,3,4
-9,mites,7,2,5,8,1,0,2,5
-10,small terrestrial arthropod predators,8,3,9,8,1,0,5,4
-11,small terrestrial arthropod predators,8,3,9,8,1,0,6,3
-12,small terrestrial arthropod predators,8,3,9,8,1,0,9,4
-13,large terrestrial arthropod predators,9,5,13,5,1,0,1,1
-14,large terrestrial arthropod predators,9,5,13,5,1,0,3,2
-15,large terrestrial arthropod predators,9,5,13,5,1,0,1,2
-16,large terrestrial arthropod predators,9,5,13,5,1,0,3,1
-17,large terrestrial arthropod predators,9,5,13,5,1,0,13,2
-18,aquatic detritus,10,1,0,5,0,1,0,1
-19,aquatic heterotroph microbes,11,1,3,6,0,1,1,1
-20,planktonic algae,12,1,0,7,0,1,0,5
-21,benthic algae,13,1,0,10,1,1,0,6
-22,macrophytic algae,14,1,0,4,0,1,0,3
-23,aquatic fungi,15,1,5,4,0,1,3,2
-24,nematodes,16,1,5,8,1,1,3,4
-25,swimming filter feeders,17,2,2,2,0,1,1,1
-26,swimming filter feeders,17,2,2,2,0,1,1,1
-27,swimming scrapers,18,1,5,3,0,1,1,2
-28,arthropod omnivores,19,2,13,3,0,1,13,1
-29,arthropod omnivores,19,2,13,3,0,1,2,1
-30,benthic predators,20,1,4,2,0,1,1,1
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1,terrestrial detritus,1,0,2,1.0,0.0,1.0384615384615385,0.0,1.0,1.0384615384615385,0.0
+2,2,land plants,1,0,2,1.0,0.0,1.2272727272727273,0.0,1.0,1.2272727272727273,0.0
+3,3,heterotrophic microbes,1,1,6,2.0,1.0,1.0384615384615385,0.0,2.0,1.0384615384615385,0.0
+4,4,terrestrial fungi,1,1,2,2.0,1.0,1.2272727272727273,27.0,2.0,1.2272727272727273,27.0
+5,5,terrestrial microbivores,1,2,3,3.0,2.0,1.9285714285714286,6.75,3.0,1.9285714285714286,6.75
+6,6,terrestrial detritivores,1,4,4,2.3333333333333335,1.0,3.0,6.75,2.166666666666667,3.428571428571429,16.875
+7,7,terrestrial detritivores,1,1,5,2.0,1.0,3.857142857142857,27.0,2.166666666666667,3.428571428571429,16.875
+8,8,mites,1,3,4,2.0,1.0,3.375,9.0,2.5,3.616071428571429,6.75
+9,9,mites,1,2,5,3.0,2.0,3.857142857142857,4.5,2.5,3.616071428571429,6.75
+10,10,small terrestrial arthropod predators,1,5,4,3.9230769230769234,3.0,3.375,1.0384615384615385,3.8952343952343953,3.25,1.1711538461538462
+11,11,small terrestrial arthropod predators,1,6,3,3.9444444444444446,3.0,3.0,1.125,3.8952343952343953,3.25,1.1711538461538462
+12,12,small terrestrial arthropod predators,1,9,4,3.8181818181818183,2.0,3.375,1.35,3.8952343952343953,3.25,1.1711538461538462
+13,13,large terrestrial arthropod predators,1,1,1,5.0,4.0,4.5,2.076923076923077,4.252941176470588,7.971428571428572,1.5378846153846155
+14,14,large terrestrial arthropod predators,1,3,2,3.7142857142857144,4.0,13.5,0.675,4.252941176470588,7.971428571428572,1.5378846153846155
+15,15,large terrestrial arthropod predators,1,1,2,4.0,3.0,3.857142857142857,3.375,4.252941176470588,7.971428571428572,1.5378846153846155
+16,16,large terrestrial arthropod predators,1,3,1,4.285714285714286,4.0,9.0,0.5625,4.252941176470588,7.971428571428572,1.5378846153846155
+17,17,large terrestrial arthropod predators,1,13,2,4.264705882352941,3.0,9.0,1.0,4.252941176470588,7.971428571428572,1.5378846153846155
+18,18,aquatic detritus,1,0,1,1.0,0.0,27.0,0.0,1.0,27.0,0.0
+19,19;25;26,aquatic heterotroph microbes,3,1,1,2.0,1.0,27.0,27.0,2.0,27.0,27.0
+20,20,planktonic algae,1,0,3,1.0,0.0,9.0,0.0,1.0,9.0,0.0
+21,21,benthic algae,1,0,6,1.0,0.0,1.35,0.0,1.0,1.35,0.0
+22,22,macrophytic algae,1,0,3,1.0,0.0,1.08,0.0,1.0,1.08,0.0
+23,23,aquatic fungi,1,3,2,2.5,1.0,27.0,13.5,2.5,27.0,13.5
+24,24,nematodes,1,3,4,2.0,1.0,1.8,9.0,2.0,1.8,9.0
+27,27,swimming scrapers,1,1,2,2.0,1.0,13.5,27.0,2.0,13.5,27.0
+28,28,arthropod omnivores,1,11,1,3.0,2.0,0.0,1.9285714285714286,2.833333333333333,13.5,2.6517857142857144
+29,29,arthropod omnivores,1,2,1,2.6666666666666665,2.0,27.0,3.375,2.833333333333333,13.5,2.6517857142857144
+30,30,benthic predators,1,1,1,3.0,2.0,27.0,9.0,3.0,27.0,9.0

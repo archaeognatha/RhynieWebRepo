@@ -1,0 +1,12 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1,aquatic detritus,1,0,2,1.0,0.0,2.5,0.0,1.0,2.5,0.0
+2,2;11;12,aquatic heterotroph microbes,3,0,0,1.0,0.0,0.0,0.0,1.0,0.0,0.0
+3,3,planktonic algae,1,1,4,2.0,1.0,1.4285714285714286,0.0,2.0,1.4285714285714286,0.0
+4,4,benthic algae,1,2,2,2.5,1.0,3.3333333333333335,10.0,2.5,3.3333333333333335,10.0
+5,5,macrophytic algae,1,1,1,2.0,1.0,10.0,10.0,2.0,10.0,10.0
+6,6,aquatic fungi,1,3,1,2.5,1.0,10.0,3.3333333333333335,2.5,10.0,3.3333333333333335
+7,7,nematodes,1,1,2,2.0,1.0,5.0,10.0,2.0,5.0,10.0
+8,8,swimming filter feeders,1,5,1,3.5,2.0,0.0,1.0,2.75,5.0,2.166666666666667
+9,9,swimming filter feeders,1,1,1,2.0,2.0,10.0,3.3333333333333335,2.75,5.0,2.166666666666667
+10,10,swimming scrapers,1,1,1,2.0,1.0,0.0,0.0,2.0,0.0,0.0
+13,13,benthic predators,1,1,1,2.0,1.0,0.0,0.0,2.0,0.0,0.0

@@ -1,0 +1,31 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1,aquatic detritus,1,0,8,1.0,0.0,2.9,0.0,1.0,2.9,0.0
+2,2,aquatic heterotroph bacteria,1,0,8,1.0,0.0,3.625,0.0,1.0,3.625,0.0
+3,3,sulfate-reducing bacteria,1,0,4,1.0,0.0,7.25,0.0,1.0,7.25,0.0
+4,4,aquatic protozoa,1,0,8,1.0,0.0,3.625,0.0,1.0,3.625,0.0
+5,5;9,Anechosoma,2,0,6,1.0,0.0,4.833333333333333,0.0,1.0,4.833333333333333,0.0
+6,6,aquatic unicellular/small algae (general),1,0,4,1.0,0.0,7.25,0.0,1.0,6.473214285714286,0.0
+7,7,aquatic unicellular/small algae (general),1,0,7,1.0,0.0,4.142857142857143,0.0,1.0,6.473214285714286,0.0
+8,8,aquatic unicellular/small algae (general),1,0,3,1.0,0.0,9.666666666666666,0.0,1.0,6.473214285714286,0.0
+10,10,aquatic unicellular/small algae (general),1,0,6,1.0,0.0,4.833333333333333,0.0,1.0,6.473214285714286,0.0
+11,11,planktic large colonial algae,1,0,5,1.0,0.0,5.8,0.0,1.0,5.8,0.0
+12,12;13;14;15,benthic filamentous algae,4,0,1,1.0,0.0,29.0,0.0,1.0,14.5,0.0
+16,16,benthic filamentous algae,1,0,0,1.0,0.0,0.0,0.0,1.0,14.5,0.0
+17,17;23;24,other benthic/epiphytic algae,3,1,0,2.0,1.0,0.0,29.0,2.222222222222222,9.666666666666666,24.166666666666668
+18,18;20,other benthic/epiphytic algae,2,1,1,2.0,1.0,29.0,29.0,2.222222222222222,9.666666666666666,24.166666666666668
+19,19,other benthic/epiphytic algae,1,3,1,2.6666666666666665,1.0,0.0,14.5,2.222222222222222,9.666666666666666,24.166666666666668
+21,21,charophytes,1,1,0,3.0,2.0,0.0,9.666666666666666,3.0,0.0,9.666666666666666
+22,22,partially terrestrial epilithic/epiphytic algae,1,1,1,2.0,1.0,29.0,29.0,2.0,29.0,29.0
+25,25,aquatic saprotrophs,1,2,0,2.0,1.0,0.0,14.5,2.0,0.0,14.5
+26,26,aquatic saprotrophs,1,3,0,2.0,1.0,0.0,9.666666666666666,2.0,0.0,14.5
+27,27,aquatic saprotrophs,1,6,0,2.0,1.0,0.0,4.833333333333333,2.0,0.0,14.5
+28,28;29,aquatic saprotrophs,2,1,0,2.0,1.0,0.0,29.0,2.0,0.0,14.5
+30,30,small algae parasites,1,3,0,2.0,1.0,0.0,9.666666666666666,2.0,0.0,9.666666666666666
+31,31,aquatic macrophyte parasites,1,1,0,2.0,1.0,0.0,29.0,2.0,0.0,29.0
+32,32,aquatic nematodes,1,7,0,2.0,1.0,0.0,4.142857142857143,2.0,0.0,4.142857142857143
+33,33,swimming filter feeders,1,6,0,2.0,1.0,0.0,4.833333333333333,2.0,0.0,3.8666666666666663
+34,34,swimming filter feeders,1,10,0,2.0,1.0,0.0,2.9,2.0,0.0,3.8666666666666663
+35,35,swimming scrapers,1,6,0,2.0,1.0,0.0,4.833333333333333,2.0,0.0,4.833333333333333
+36,36,arthropod omnivores,1,2,0,2.0,1.0,0.0,14.5,2.0,0.0,14.5
+37,37,arthropod omnivores,1,2,0,2.0,1.0,0.0,14.5,2.0,0.0,14.5
+38,38,benthic predators,1,7,0,2.0,1.0,0.0,4.142857142857143,2.0,0.0,4.142857142857143

@@ -1,0 +1,12 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Roots,plants,1
+2,Detritus,detritus,1
+3,fungi,fungi,1
+4,bacteria,bacteria,1
+5,phytophagous nematodes,phytophagous nematodes,1
+6,fungivorous nematodes;collembola;cryptostigmatic mites;noncryptostigmatic mites,fungivorous nematodes,4
+7,bactieriophagous nematodes,bactieriophagous nematodes,1
+11,earthworms,earthworms,1
+12,enchytraeids,enchytraeids,1
+13,protozoa,protozoa,1
+14,predatory arthropods,predatory arthropods,1

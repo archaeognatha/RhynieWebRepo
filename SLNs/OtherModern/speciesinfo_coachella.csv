@@ -1,31 +1,31 @@
-sp_id,sp_name,guild
-1,plants,plants
-2,detritus,detritus
-3,carrion,carrion
-4,soil microbes,soil microbes
-5,soil microarthropods and nematodes,soil microarthropods and nematodes
-6,soil micropredators,soil micropredators
-7,soil macroarthropods,soil macroarthropods
-8,soil macroarthropod predators,soil macroarthropod predators
-9,surface arthropod detritivores,surface arthropod detritivores
-10,surface arthropod herbivores,surface arthropod herbivores
-11,small arthropod predators,small arthropod predators
-12,medium arthropod predators,medium arthropod predators
-13,large arthropod predators,large arthropod predators
-14,facultative arthropod predators,facultative arthropod predators
-15,life-history arthropod omnivore,life-history arthropod omnivore
-16,spider parasitoids,spider parasitoids
-17,primary parasitoids,primary parasitoids
-18,hyperparasitoids,hyperparasitoids
-19,facultative hyperparasitoids,facultative hyperparasitoids
-20,herbivorous mammals and reptiles,herbivorous mammals and reptiles
-21,primarily herbivorous mammals and birds,primarily herbivorous mammals and birds
-22,small omnivorous mammals and birds,small omnivorous mammals and birds
-23,predaceous mammals and birds,predaceous mammals and birds
-24,arthropodivorous snakes,arthropodivorous snakes
-25,primarily arthropodivorous lizards,primarily arthropodivorous lizards
-26,primarily carnivorous lizards,primarily carnivorous lizards
-27,primarily carnivorous snakes,primarily carnivorous snakes
-28,"large, primarily predaceous birds","large, primarily predaceous birds"
-29,"large, primarily predaceous mammals","large, primarily predaceous mammals"
-30,golden eagle,golden eagle
+sp_name,guild,sp_id
+plants,plants,1
+detritus,detritus,2
+carrion,detritus,3
+soil microbes,soil microbes,4
+soil microarthropods and nematodes,soil microarthropods and nematodes,5
+soil micropredators,soil micropredators,6
+soil macroarthropods,soil macroarthropods,7
+soil macroarthropod predators,soil macroarthropod predators,8
+surface arthropod detritivores,surface arthropod detritivores,9
+surface arthropod herbivores,surface arthropod herbivores,10
+small arthropod predators,small arthropod predators,11
+medium arthropod predators,medium arthropod predators,12
+large arthropod predators,large arthropod predators,13
+facultative arthropod predators,facultative arthropod predators,14
+life-history arthropod omnivore,life-history arthropod omnivore,15
+spider parasitoids,spider parasitoids,16
+primary parasitoids,primary parasitoids,17
+hyperparasitoids,hyperparasitoids,18
+facultative hyperparasitoids,facultative hyperparasitoids,19
+herbivorous mammals and reptiles,herbivorous mammals and reptiles,20
+primarily herbivorous mammals and birds,primarily herbivorous mammals and birds,21
+small omnivorous mammals and birds,small omnivorous mammals and birds,22
+predaceous mammals and birds,predaceous mammals and birds,23
+arthropodivorous snakes,arthropodivorous snakes,24
+primarily arthropodivorous lizards,primarily arthropodivorous lizards,25
+primarily carnivorous lizards,primarily carnivorous lizards,26
+primarily carnivorous snakes,primarily carnivorous snakes,27
+"large, primarily predaceous birds","large, primarily predaceous birds",28
+"large, primarily predaceous mammals","large, primarily predaceous mammals",29
+golden eagle,golden eagle,30

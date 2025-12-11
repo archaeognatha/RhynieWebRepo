@@ -1,0 +1,30 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,plants,plants,1
+2,detritus,detritus,1
+3,carrion,detritus,1
+4,soil microbes,soil microbes,1
+5,soil microarthropods and nematodes,soil microarthropods and nematodes,1
+6,soil micropredators,soil micropredators,1
+7,soil macroarthropods,soil macroarthropods,1
+8,soil macroarthropod predators,soil macroarthropod predators,1
+9,surface arthropod detritivores,surface arthropod detritivores,1
+10,surface arthropod herbivores,surface arthropod herbivores,1
+11,small arthropod predators;medium arthropod predators,small arthropod predators,2
+13,large arthropod predators,large arthropod predators,1
+14,facultative arthropod predators,facultative arthropod predators,1
+15,life-history arthropod omnivore,life-history arthropod omnivore,1
+16,spider parasitoids,spider parasitoids,1
+17,primary parasitoids,primary parasitoids,1
+18,hyperparasitoids,hyperparasitoids,1
+19,facultative hyperparasitoids,facultative hyperparasitoids,1
+20,herbivorous mammals and reptiles,herbivorous mammals and reptiles,1
+21,primarily herbivorous mammals and birds,primarily herbivorous mammals and birds,1
+22,small omnivorous mammals and birds,small omnivorous mammals and birds,1
+23,predaceous mammals and birds,predaceous mammals and birds,1
+24,arthropodivorous snakes,arthropodivorous snakes,1
+25,primarily arthropodivorous lizards,primarily arthropodivorous lizards,1
+26,primarily carnivorous lizards,primarily carnivorous lizards,1
+27,primarily carnivorous snakes,primarily carnivorous snakes,1
+28,"large, primarily predaceous birds","large, primarily predaceous birds",1
+29,"large, primarily predaceous mammals","large, primarily predaceous mammals",1
+30,golden eagle,golden eagle,1

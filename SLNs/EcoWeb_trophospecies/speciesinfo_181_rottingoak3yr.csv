@@ -1,22 +1,22 @@
-trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
-1,      1 Entomobrya ligate;      2 Isotoma sensibilis,      1 Entomobrya ligate,2,2,1,2.5,1.0
-3,      3 Neosmithurus clavatus,      3 Neosmithurus clavatus,1,1,1,3.0,2.0
-4,      4 Reticulitermes flavipes;     16 Elater nigricollis larvae;     17 Orthostethus infuscatus larvae;     18 Deltometopus amoenicornis larvae;     20 Elaterinae larvae (undet.);     21 Rhysodes americanus;     26 Hymenorus sp.;     30 Uloma imberbis;     31 Dioedus punctatus;     32 Scotobates carcaratus larvae;     33 Xylopinus saperdoides;     34 Alobates pennsylvanicus larvae;     35 Meracantha contracta larvae;     36 Strongylium crenatum larvae;     39 Platycerus quercus;     40 Ceruchus piceus;     41 Dorcus (brevis?);     43 Cloetus globosus;     44 Trichiotinus bidens larvae;     45 Phileurus valgus larvae;     46 Passalus cornutus;     48 Leptura proxima larvae;     49 Eupsalis minuta;     50 Scolecocampa liburna larvae;     61 lumbricid (undet.);     70 Cambala annulata;     71 Fontaria coriacea;     72 Polydesmus serratus;     73 Spirostephon lactarium,      4 Reticulitermes flavipes,29,1,0,2.0,1.0
-5,      5 Parcoblatta sp.;      7 Canosoma crassus;      9 Coproporus ventriculus;     10 Trachysectus confluentus;     12 Epierus regularis;     13 Epierus sp.;     22 Brontes dubius larvae;     23 Megalodacne fasciata;     24 Triplax thoracica;     25 mycetyphagid (undet.);     27 Platydema subcostatum;     28 P. ruficorne;     29 P. ruficolle,      5 Parcoblatta sp.,13,1,0,3.0,2.0
-6,      6 Tachyta nana,      6 Tachyta nana,1,4,0,3.75,2.0
-8,      8 Staphylinus violacens;     55 Camponotus herculeanus;     56 Crematogaster lineolata;     57 Leptothorax curvispinosus;     58 Ponera coarcta;     59 Proceratium croceum;     60 Pheidole sp.;     74 Scolopendra viridis;     75 Cryptops hyalina;     76 Otocryptops sexspinosus;     77 Bothropolys multidentatus;     78 Chelanops dentatus,      8 Staphylinus violacens,12,1,0,3.0,2.0
-11,     11 Actium sp.,     11 Actium sp.,1,2,0,4.0,3.0
-14,     14 Platysoma lecontei,     14 Platysoma lecontei,1,2,0,3.5,3.0
-15,     15 Dendroides bicolor larvae;     37 Synchroa punctata larvae;     62 Strobilops aena;     63 Polygyra fallax;     64 P. tridentata;     65 P. thyroideus;     66 Zonitoides arboreus;     67 Euconulus chersinus;     68 Retinella indentata;     69 Philomycus carolinensis,     15 Dendroides bicolor larvae,10,2,0,2.5,1.0
-19,     19 Alaus oculatus larvae,     19 Alaus oculatus larvae,1,1,0,3.0,2.0
-38,     38 Pseudolucanus capreole larvae;     42 Polymoecus brevipes larvae;     47 Derobrachus brunneus larvae,     38 Pseudolucanus capreole larvae,3,1,1,2.0,1.0
-51,     51 mycetophilid larvae (undet.),     51 mycetophilid larvae (undet.),1,1,1,3.0,2.0
-52,     52 cecidomyid larvae (undet.);     53 dolicopodid larvae (undet.),     52 cecidomyid larvae (undet.),2,1,1,2.0,1.0
-54,     54 Augochlora pura,     54 Augochlora pura,1,1,0,2.0,1.0
-79,     79 Podothrombium sp.;     80 Allothrombium pulvinus;     83 Pergamasus sp.;     84 Megisthanus sp.,     79 Podothrombium sp.,4,1,2,3.0,2.0
-81,     81 Zetes sp.;     82 Schelorabates sp.,     81 Zetes sp.,2,1,2,3.0,2.0
-85,     85 various larvae,     85 various larvae,1,2,2,2.5,1.0
-86,     86 rotting wood detritus,     86 rotting wood detritus,1,0,6,1.0,0.0
-87,     87 pollen (undet.),     87 pollen (undet.),1,0,1,1.0,0.0
-88,     88 microorganisms,     88 microorganisms,1,0,1,1.0,0.0
-89,     89 fungi (red rot),     89 fungi (red rot),1,1,7,2.0,1.0
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,      1 Entomobrya ligate;      2 Isotoma sensibilis,      1 Entomobrya ligate,2,2,1,2.5,1.0,20.0,10.0,2.5,20.0,10.0
+3,      3 Neosmithurus clavatus,      3 Neosmithurus clavatus,1,1,1,3.0,2.0,20.0,6.666666666666667,3.0,20.0,6.666666666666667
+4,      4 Reticulitermes flavipes;     16 Elater nigricollis larvae;     17 Orthostethus infuscatus larvae;     18 Deltometopus amoenicornis larvae;     20 Elaterinae larvae (undet.);     21 Rhysodes americanus;     26 Hymenorus sp.;     30 Uloma imberbis;     31 Dioedus punctatus;     32 Scotobates carcaratus larvae;     33 Xylopinus saperdoides;     34 Alobates pennsylvanicus larvae;     35 Meracantha contracta larvae;     36 Strongylium crenatum larvae;     39 Platycerus quercus;     40 Ceruchus piceus;     41 Dorcus (brevis?);     43 Cloetus globosus;     44 Trichiotinus bidens larvae;     45 Phileurus valgus larvae;     46 Passalus cornutus;     48 Leptura proxima larvae;     49 Eupsalis minuta;     50 Scolecocampa liburna larvae;     61 lumbricid (undet.);     70 Cambala annulata;     71 Fontaria coriacea;     72 Polydesmus serratus;     73 Spirostephon lactarium,      4 Reticulitermes flavipes,29,1,0,2.0,1.0,0.0,20.0,2.0,0.0,20.0
+5,      5 Parcoblatta sp.;      7 Canosoma crassus;      9 Coproporus ventriculus;     10 Trachysectus confluentus;     12 Epierus regularis;     13 Epierus sp.;     22 Brontes dubius larvae;     23 Megalodacne fasciata;     24 Triplax thoracica;     25 mycetyphagid (undet.);     27 Platydema subcostatum;     28 P. ruficorne;     29 P. ruficolle,      5 Parcoblatta sp.,13,1,0,3.0,2.0,0.0,6.666666666666667,3.0,0.0,6.666666666666667
+6,      6 Tachyta nana,      6 Tachyta nana,1,4,0,3.75,2.0,0.0,2.0,3.75,0.0,2.0
+8,      8 Staphylinus violacens;     55 Camponotus herculeanus;     56 Crematogaster lineolata;     57 Leptothorax curvispinosus;     58 Ponera coarcta;     59 Proceratium croceum;     60 Pheidole sp.;     74 Scolopendra viridis;     75 Cryptops hyalina;     76 Otocryptops sexspinosus;     77 Bothropolys multidentatus;     78 Chelanops dentatus,      8 Staphylinus violacens,12,1,0,3.0,2.0,0.0,4.0,3.0,0.0,4.0
+11,     11 Actium sp.,     11 Actium sp.,1,2,0,4.0,3.0,0.0,2.2222222222222223,4.0,0.0,2.2222222222222223
+14,     14 Platysoma lecontei,     14 Platysoma lecontei,1,2,0,3.5,3.0,0.0,2.2222222222222223,3.5,0.0,2.2222222222222223
+15,     15 Dendroides bicolor larvae;     37 Synchroa punctata larvae;     62 Strobilops aena;     63 Polygyra fallax;     64 P. tridentata;     65 P. thyroideus;     66 Zonitoides arboreus;     67 Euconulus chersinus;     68 Retinella indentata;     69 Philomycus carolinensis,     15 Dendroides bicolor larvae,10,2,0,2.5,1.0,0.0,10.0,2.5,0.0,10.0
+19,     19 Alaus oculatus larvae,     19 Alaus oculatus larvae,1,1,0,3.0,2.0,0.0,6.666666666666667,3.0,0.0,6.666666666666667
+38,     38 Pseudolucanus capreole larvae;     42 Polymoecus brevipes larvae;     47 Derobrachus brunneus larvae,     38 Pseudolucanus capreole larvae,3,1,1,2.0,1.0,20.0,20.0,2.0,20.0,20.0
+51,     51 mycetophilid larvae (undet.),     51 mycetophilid larvae (undet.),1,1,1,3.0,2.0,20.0,6.666666666666667,3.0,20.0,6.666666666666667
+52,     52 cecidomyid larvae (undet.);     53 dolicopodid larvae (undet.),     52 cecidomyid larvae (undet.),2,1,1,2.0,1.0,20.0,20.0,2.0,20.0,20.0
+54,     54 Augochlora pura,     54 Augochlora pura,1,1,0,2.0,1.0,0.0,20.0,2.0,0.0,20.0
+79,     79 Podothrombium sp.;     80 Allothrombium pulvinus;     83 Pergamasus sp.;     84 Megisthanus sp.,     79 Podothrombium sp.,4,1,2,3.0,2.0,10.0,4.0,3.0,10.0,4.0
+81,     81 Zetes sp.;     82 Schelorabates sp.,     81 Zetes sp.,2,1,2,3.0,2.0,10.0,6.666666666666667,3.0,10.0,6.666666666666667
+85,     85 various larvae,     85 various larvae,1,2,2,2.5,1.0,3.3333333333333335,10.0,2.5,3.3333333333333335,10.0
+86,     86 rotting wood detritus,     86 rotting wood detritus,1,0,6,1.0,0.0,0.7142857142857143,0.0,1.0,0.7142857142857143,0.0
+87,     87 pollen (undet.),     87 pollen (undet.),1,0,1,1.0,0.0,20.0,0.0,1.0,20.0,0.0
+88,     88 microorganisms,     88 microorganisms,1,0,1,1.0,0.0,6.666666666666667,0.0,1.0,6.666666666666667,0.0
+89,     89 fungi (red rot),     89 fungi (red rot),1,1,7,2.0,1.0,1.1764705882352942,20.0,2.0,1.1764705882352942,20.0

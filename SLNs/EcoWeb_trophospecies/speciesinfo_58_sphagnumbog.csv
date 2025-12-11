@@ -1,18 +1,18 @@
-trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
-1,       1 Sphagnum riparium;       2 algae,       1 Sphagnum riparium,2,0,1,1.0,0.0
-3,       3 detritus,       3 detritus,1,0,1,1.0,0.0
-4,       4 decomposing sphagnum detritus,       4 decomposing sphagnum detritus,1,0,2,1.0,0.0
-5,       5 angiosperms,       5 angiosperms,1,0,2,1.0,0.0
-6,       6 Psectrocladius larvae,       6 Psectrocladius larvae,1,1,2,2.0,1.0
-7,"       7 chironomid larvae, cladocerans, rotifers","       7 chironomid larvae, cladocerans, rotifers",1,1,3,2.0,1.0
-8,       8 fungi,       8 fungi,1,1,2,2.0,1.0
-9,       9 caterpillars,       9 caterpillars,1,1,1,2.0,1.0
-10,      10 Utricularia,      10 Utricularia,1,1,0,3.0,2.0
-11,      11 collembola,      11 collembola,1,2,0,2.5,1.0
-12,"      12 Chaoborus, Odonata larvae, Hemiptera, Coleoptera","      12 Chaoborus, Odonata larvae, Hemiptera, Coleoptera",1,2,1,3.0,2.0
-13,      13 Nematocera imagines,      13 Nematocera imagines,1,3,3,3.5,2.0
-14,      14 Drosera,      14 Drosera,1,1,0,4.0,3.0
-15,      15 ants,      15 ants,1,2,1,3.666666666666667,3.0
-16,      16 spiders,      16 spiders,1,2,1,4.4,3.0
-17,"      17 frogs, lizards, birds","      17 frogs, lizards, birds",1,3,1,4.0,4.0
-18,      18 birds of prey,      18 birds of prey,1,1,0,5.25,5.0
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,       1 Sphagnum riparium;       2 algae,       1 Sphagnum riparium,2,0,1,1.0,0.0,0.6956521739130435,0.0,1.0,0.6956521739130435,0.0
+3,       3 detritus,       3 detritus,1,0,1,1.0,0.0,0.64,0.0,1.0,0.64,0.0
+4,       4 decomposing sphagnum detritus,       4 decomposing sphagnum detritus,1,0,2,1.0,0.0,1.0,0.0,1.0,1.0,0.0
+5,       5 angiosperms,       5 angiosperms,1,0,2,1.0,0.0,4.0,0.0,1.0,4.0,0.0
+6,       6 Psectrocladius larvae,       6 Psectrocladius larvae,1,1,2,2.0,1.0,1.0666666666666667,16.0,2.0,1.0666666666666667,16.0
+7,"       7 chironomid larvae, cladocerans, rotifers","       7 chironomid larvae, cladocerans, rotifers",1,1,3,2.0,1.0,1.0,16.0,2.0,1.0,16.0
+8,       8 fungi,       8 fungi,1,1,2,2.0,1.0,1.4545454545454546,16.0,2.0,1.4545454545454546,16.0
+9,       9 caterpillars,       9 caterpillars,1,1,1,2.0,1.0,5.333333333333333,16.0,2.0,5.333333333333333,16.0
+10,      10 Utricularia,      10 Utricularia,1,1,0,3.0,2.0,0.0,5.333333333333333,3.0,0.0,5.333333333333333
+11,      11 collembola,      11 collembola,1,2,0,2.5,1.0,0.0,8.0,2.5,0.0,8.0
+12,"      12 Chaoborus, Odonata larvae, Hemiptera, Coleoptera","      12 Chaoborus, Odonata larvae, Hemiptera, Coleoptera",1,2,1,3.0,2.0,1.1428571428571428,2.6666666666666665,3.0,1.1428571428571428,2.6666666666666665
+13,      13 Nematocera imagines,      13 Nematocera imagines,1,3,3,3.5,2.0,2.0,2.2857142857142856,3.5,2.0,2.2857142857142856
+14,      14 Drosera,      14 Drosera,1,1,0,4.0,3.0,0.0,1.2307692307692308,4.0,0.0,1.2307692307692308
+15,      15 ants,      15 ants,1,2,1,3.666666666666667,3.0,2.6666666666666665,1.0,3.666666666666667,2.6666666666666665,1.0
+16,      16 spiders,      16 spiders,1,2,1,4.4,3.0,5.333333333333333,0.8421052631578947,4.4,5.333333333333333,0.8421052631578947
+17,"      17 frogs, lizards, birds","      17 frogs, lizards, birds",1,3,1,4.0,4.0,16.0,0.5161290322580645,4.0,16.0,0.5161290322580645
+18,      18 birds of prey,      18 birds of prey,1,1,0,5.25,5.0,0.0,0.36363636363636365,5.25,0.0,0.36363636363636365

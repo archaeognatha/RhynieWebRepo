@@ -1,14 +1,14 @@
-trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
-1,1 Phagocata,1 Phagocata,1,2,0,3.25,2.0
-2,"2 Decapoda--Orconectes, Cambarus","2 Decapoda--Orconectes, Cambarus",1,4,0,2.857142857142857,2.0
-3,"3 Plecoptera--Isoperia, Isogenus","3 Plecoptera--Isoperia, Isogenus",1,5,0,3.0,2.0
-4,"4 Megaloptera--Nigronia, Sialis","4 Megaloptera--Nigronia, Sialis",1,4,0,3.125,2.0
-5,"5 Pisces--Rhinichthys, Semotilus","5 Pisces--Rhinichthys, Semotilus",1,4,0,3.125,2.0
-6,6 Gammarus,6 Gammarus,1,5,3,2.888888888888889,2.0
-7,"7 Trichoptera--Diplectrona, Rhyacophila","7 Trichoptera--Diplectrona, Rhyacophila",1,4,4,2.6666666666666665,1.0
-8,8 Asellus,8 Asellus,1,2,5,2.0,1.0
-9,"9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon","9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon",1,2,4,2.0,1.0
-10,"10 Trichoptera--Neophylax, Glossosoma","10 Trichoptera--Neophylax, Glossosoma",1,2,3,2.0,1.0
-11,"11 Diptera--Tendipedidae, Simulium","11 Diptera--Tendipedidae, Simulium",1,2,5,2.0,1.0
-12,12 detritus,12 detritus,1,0,7,1.0,0.0
-13,13 diatoms,13 diatoms,1,0,5,1.0,0.0
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1 Phagocata,1 Phagocata,1,2,0,3.25,2.0,0.0,1.0,3.25,0.0,1.0
+2,"2 Decapoda--Orconectes, Cambarus","2 Decapoda--Orconectes, Cambarus",1,4,0,2.857142857142857,2.0,0.0,2.0,2.857142857142857,0.0,2.0
+3,"3 Plecoptera--Isoperia, Isogenus","3 Plecoptera--Isoperia, Isogenus",1,5,0,3.0,2.0,0.0,1.3333333333333333,3.0,0.0,1.3333333333333333
+4,"4 Megaloptera--Nigronia, Sialis","4 Megaloptera--Nigronia, Sialis",1,4,0,3.125,2.0,0.0,1.0,3.125,0.0,1.0
+5,"5 Pisces--Rhinichthys, Semotilus","5 Pisces--Rhinichthys, Semotilus",1,4,0,3.125,2.0,0.0,1.2,3.125,0.0,1.2
+6,6 Gammarus,6 Gammarus,1,5,3,2.888888888888889,2.0,4.0,1.7142857142857142,2.888888888888889,4.0,1.7142857142857142
+7,"7 Trichoptera--Diplectrona, Rhyacophila","7 Trichoptera--Diplectrona, Rhyacophila",1,4,4,2.6666666666666665,1.0,2.0,3.0,2.6666666666666665,2.0,3.0
+8,8 Asellus,8 Asellus,1,2,5,2.0,1.0,2.4,6.0,2.0,2.4,6.0
+9,"9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon","9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon",1,2,4,2.0,1.0,1.2,6.0,2.0,1.2,6.0
+10,"10 Trichoptera--Neophylax, Glossosoma","10 Trichoptera--Neophylax, Glossosoma",1,2,3,2.0,1.0,4.0,6.0,2.0,4.0,6.0
+11,"11 Diptera--Tendipedidae, Simulium","11 Diptera--Tendipedidae, Simulium",1,2,5,2.0,1.0,1.3333333333333333,6.0,2.0,1.3333333333333333,6.0
+12,12 detritus,12 detritus,1,0,7,1.0,0.0,0.8,0.0,1.0,0.8,0.0
+13,13 diatoms,13 diatoms,1,0,5,1.0,0.0,0.7058823529411765,0.0,1.0,0.7058823529411765,0.0

@@ -8,7 +8,7 @@ library(igraph)
 df <- read_csv("Rhynie_TS/WebMetrics_Rhynie_TS.csv")
 
 n = 1000 # number of SLNs to generate
-pathname = "Niche_TS/"
+pathname = "Niche_unlumped/"
 dir.create(pathname, showWarnings = FALSE)
 
 # create n niche models with C and S values drawn from Rhynie webs and output them as csv's along w sp. info files

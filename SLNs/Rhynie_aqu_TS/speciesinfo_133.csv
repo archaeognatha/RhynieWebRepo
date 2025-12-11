@@ -1,0 +1,26 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1,aquatic detritus,1,0,8,1.0,0.0,2.4,0.0,1.0,2.4,0.0
+2,2,aquatic heterotroph bacteria,1,0,6,1.0,0.0,3.0,0.0,1.0,3.0,0.0
+3,3,sulfate-reducing bacteria,1,0,5,1.0,0.0,4.8,0.0,1.0,4.8,0.0
+4,4,aquatic protozoa,1,0,3,1.0,0.0,8.0,0.0,1.0,8.0,0.0
+5,5,Anechosoma,1,0,5,1.0,0.0,3.4285714285714284,0.0,1.0,3.4285714285714284,0.0
+6,6,aquatic unicellular/small algae (general),1,0,7,1.0,0.0,2.6666666666666665,0.0,1.0,6.48888888888889,0.0
+7,7;10,aquatic unicellular/small algae (general),2,0,3,1.0,0.0,4.8,0.0,1.0,6.48888888888889,0.0
+8,8;9;12;13;14;15;16,aquatic unicellular/small algae (general),7,0,2,1.0,0.0,12.0,0.0,1.0,6.48888888888889,0.0
+11,11,planktic large colonial algae,1,0,4,1.0,0.0,4.0,0.0,1.0,4.0,0.0
+17,17,other benthic/epiphytic algae,1,2,1,2.5,1.0,0.0,24.0,2.25,12.0,24.0
+18,18;19;20;22,other benthic/epiphytic algae,4,1,1,2.0,1.0,24.0,24.0,2.25,12.0,24.0
+21,21,charophytes,1,5,0,3.0,2.0,0.0,1.411764705882353,3.0,0.0,1.411764705882353
+23,23;24,partially terrestrial epilithic/epiphytic algae,2,1,0,2.0,1.0,0.0,24.0,2.0,0.0,24.0
+25,25,aquatic saprotrophs,1,6,1,2.0,1.0,24.0,4.0,2.0,12.0,14.5
+26,26,aquatic saprotrophs,1,4,0,2.0,1.0,0.0,6.0,2.0,12.0,14.5
+27,27,aquatic saprotrophs,1,1,1,2.0,1.0,24.0,24.0,2.0,12.0,14.5
+28,28;29;35,aquatic saprotrophs,3,1,0,2.0,1.0,0.0,24.0,2.0,12.0,14.5
+30,30,small algae parasites,1,2,0,2.0,1.0,0.0,12.0,2.0,0.0,12.0
+31,31,aquatic macrophyte parasites,1,5,0,2.0,1.0,0.0,4.8,2.0,0.0,4.8
+32,32,aquatic nematodes,1,1,1,2.0,1.0,24.0,24.0,2.0,24.0,24.0
+33,33,swimming filter feeders,1,2,0,2.0,1.0,0.0,12.0,2.0,0.0,12.0
+34,34,swimming filter feeders,1,2,0,2.0,1.0,0.0,12.0,2.0,0.0,12.0
+36,36,arthropod omnivores,1,7,0,2.0,1.0,0.0,3.4285714285714284,2.0,0.0,3.2142857142857144
+37,37,arthropod omnivores,1,8,0,2.0,1.0,0.0,3.0,2.0,0.0,3.2142857142857144
+38,38,benthic predators,1,1,1,2.0,1.0,24.0,24.0,2.0,24.0,24.0

@@ -1,0 +1,20 @@
+trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+1,1,terrestrial detritus,1,0,4,1.0,0.0,0.782608695652174,0.0,1.0,0.782608695652174,0.0
+2,2,land plants,1,0,3,1.0,0.0,1.8,0.0,1.0,1.8,0.0
+3,3,heterotrophic microbes,1,2,5,2.5,1.0,1.8,18.0,2.5,1.8,18.0
+4,4,terrestrial fungi,1,2,3,2.0,1.0,2.25,9.0,2.0,2.25,9.0
+5,5,terrestrial microbivores,1,1,4,2.0,1.0,2.25,18.0,2.0,2.25,18.0
+6,6,terrestrial detritivores,1,1,2,2.0,1.0,2.25,18.0,2.3,4.125,10.5
+7,7,terrestrial detritivores,1,4,1,2.6,2.0,6.0,3.0,2.3,4.125,10.5
+8,8,mites,1,1,2,3.0,2.0,9.0,6.0,2.9375,4.5,4.285714285714286
+9,9,mites,1,5,0,2.875,2.0,0.0,2.5714285714285716,2.9375,4.5,4.285714285714286
+10,10,small terrestrial arthropod predators,1,2,2,4.0,2.0,3.0,4.5,3.8611111111111107,8.0,2.8529411764705883
+11,11,small terrestrial arthropod predators,1,1,2,4.0,3.0,3.0,3.0,3.8611111111111107,8.0,2.8529411764705883
+12,12,small terrestrial arthropod predators,1,6,2,3.583333333333333,2.0,18.0,1.0588235294117647,3.8611111111111107,8.0,2.8529411764705883
+13,13,large terrestrial arthropod predators,1,2,1,4.0,2.0,18.0,3.0,3.85,9.6,2.749090909090909
+14,14,large terrestrial arthropod predators,1,1,2,4.0,3.0,9.0,3.0,3.85,9.6,2.749090909090909
+15,15,large terrestrial arthropod predators,1,5,2,4.0,3.0,18.0,1.2,3.85,9.6,2.749090909090909
+16,16,large terrestrial arthropod predators,1,1,2,3.0,2.0,3.0,6.0,3.85,9.6,2.749090909090909
+17,17,large terrestrial arthropod predators,1,5,0,4.25,3.0,0.0,0.5454545454545454,3.85,9.6,2.749090909090909
+18,18,benthic algae,1,0,4,1.0,0.0,1.0,0.0,1.0,1.0,0.0
+19,19,nematodes,1,4,2,2.6,2.0,4.5,3.0,2.6,4.5,3.0

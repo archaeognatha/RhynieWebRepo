@@ -1,0 +1,22 @@
+trophospecies_id,sp_name,guild,n_lumped
+1,Anabaena circinalis;Chrysosphaerella longispina;Diceras sp.;Mallomonas-spiny sp. 1;Mallomonas-spiny sp. 2;Synura sp.,producer,6
+2,Ankyra judayi,producer,1
+3,Cryptomonas sp. 1;Chroococcus dispersus;Chroococcus limneticus;unclassified microflagellates;Chromulina sp.;Selenastrum minutum,producer,6
+4,Cryptomonas sp. 3;Cryptomonas sp. 4;Cosmarium sp.;Dactylococcopsis fascicularis;Dictyosphaerium pulchellum;Dinobryon sertularia;Sphaerocystis schroeteri;Glenodinium pulvisculus;Oocystis sp. 1;Oocystis sp. 2;Peridinium pulsillum;Schroederia setigera,producer,12
+9,Closteriopsis longissimus,producer,1
+11,Dinobryon bavaricum;Dinobryon cylindricum;Gloeocystis sp.;Microcystis aeruginosa;Peridinium limbatum;Quadrigula lacustris;Quadrigula sp. 2;Synedra sp.,producer,8
+26,Oscillatoria sp.,producer,1
+36,Ascomorpha eucadis,consumer,1
+37,Conochilus (colonial),consumer,1
+38,Conochiloides dossuarius,consumer,1
+39,Cyclops varians rubellus;Orthocyclops modestus,consumer,2
+40,Diaptomus oregonensis,consumer,1
+41,Daphnia pulex,consumer,1
+42,Daphnia rosea,consumer,1
+43,Gastropus hyptopus;Kellicottia bostoniensis;Kellicottia longispina;Keratella testudo;Polyarthra vulgaris;Trichocerca cylindrica;Trichocerca multicrinis,consumer,7
+44,Gastropus stylifer,consumer,1
+45,Holopedium gibberum,consumer,1
+48,Keratella cochlearis;Synchaeta sp.,consumer,2
+55,Tropocyclops prasinus,consumer,1
+56,Chaoborus punctipennis,consumer,1
+57,Micropterus salmoides,consumer,1
