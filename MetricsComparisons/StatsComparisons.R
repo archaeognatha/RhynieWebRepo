@@ -3,11 +3,13 @@
 library(tidyverse)
 
 # Read and inspect data
-df <- read_csv("TrophospeciesMetrics.csv")
+df <- read.csv("Combined_Data_TS.csv")
 
-# label webs as Devonian or Modern
+# label webs as Devonian, Eocene, Modern, or simulation (niche model)
 df <- df %>%
-  mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian","modern")) %>%
+  mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian", 
+                         ifelse(startsWith(Analysis, "Messel"),"eocene",
+                                ifelse(startsWith(Analysis, "Niche"), "simulation", "modern")))) %>%
   mutate(Period = as.factor(Period))
 
 # PERMUTATION + OVERLAP ANALYSIS #### 
@@ -17,18 +19,27 @@ metrics_results <- data.frame(Metric = character(), RhynieModernDiff = numeric()
                               RhynieNicheDiff = numeric(), normalizedDiff_niche = numeric(), PVal_niche = numeric(), ProportionWithin95ofNiche = numeric ())
 # Subset data
 df_rhynie <- df %>% filter(Analysis == "Rhynie_all_lumped")
-df_modern <- df %>% filter(Analysis %in% c("DigelSoil_TS", "EcoWeb_TS"))
+df_rhynie_full <- df %>% filter(Analysis == "Rhynie_all_TS")
+df_modern <- df %>% filter(Analysis %in% c("Digel_Soil", "EcoWeb", "DeRuiter_Soil,
+                                           Coachella, LittleRockLake, 
+                                           Tuesday Lake, YthanEstuary"))
+df_messel <- df %>% filter(Analysis == "Messel_all")
 df_niche <- df %>% filter(Analysis == "Niche_lumped")
 
-n_modern <- length(df_modern)
+n_modern <- length(df_modern[,1])
 
 # Pick the metrics of interest, e.g., "C"
-metrics = c("C", "L_D", "Mean_NTP", "Mean_NTP_norm", "Max_NTP", "TrOmniv", "q_inCoherence", "Mean_longest_chain", "Mean_path_len", "Std_path_len", "MeanInDegree", "StdInDegree", "Basal", "Herbiv", "Carniv", "Top")
+metrics = c("C", "L_D", "mean_NTP", "mean_NTP_norm", "max_NTP", "diameter", 
+            "TrOmniv", "q_inCoherence", "mean_longest_chain", "max_chain_len",
+            "Mean_path_len", "Std_path_len", "loop", 
+            "MeanInDegree", "StdInDegree", "Basal", "Herbiv", "Herbiv_true",
+            "Carniv", "Top")
 
 for (metric in metrics){
   # Extract the values
   rhynie_vals <- df_rhynie[[metric]]
   modern_vals <- df_modern[[metric]]
+  messel_vals <- df_modern[[metric]]
   niche_vals <- df_niche[[metric]]
   
   # Quantile analysis for modern webs:

@@ -5,7 +5,7 @@ library(igraph)
 
 
 # import Rhynie web metrics (change wd to SLNs and add relevant folder into pathname below, e.g., Rhynie_TS)
-df <- read_csv("Rhynie_TS/WebMetrics_Rhynie_TS.csv")
+df <- read.csv("Rhynie_TS/WebMetrics_Rhynie_TS.csv")
 
 n <- 1000 # number of SLNs to generate
 pathname <- "Niche_unlumped/"
@@ -27,7 +27,7 @@ for (i in 1:n){
   nichewebmatrix <- t(as.matrix(create_niche_model(S, C)))
 
   # output files
-  write.csv(speciesinfo, paste0(pathname, "speciesinfo_", i, ".csv"))
+  write.csv(speciesinfo, paste0(pathname, "speciesinfo_", i, ".csv"), row.names = FALSE)
   write.table(nichewebmatrix, paste0(pathname, "matrix_", i, ".csv"),
               sep = ",", row.names = FALSE, col.names = FALSE)
 }

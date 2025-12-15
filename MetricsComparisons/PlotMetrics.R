@@ -3,28 +3,39 @@
 library(tidyverse)
 
 # Read and inspect data
-df <- read_csv("TrophospeciesMetrics.csv")
+df <- read.csv("Combined_Data_TS.csv")
 
-# categorize modern vs Rhynie
+# label webs as Devonian, Eocene, Modern, or simulation (niche model)
 df <- df %>%
-  mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian","modern")) %>%
+  mutate(Period = ifelse(startsWith(Analysis, "Rhynie"),"devonian", 
+                         ifelse(startsWith(Analysis, "Messel"),"eocene",
+                                ifelse(startsWith(Analysis, "Niche"), "simulation", "modern")))) %>%
   mutate(Period = as.factor(Period))
 
 # PANEL SCATTERPLOT FIGURE 1: Modern webs vs. Rhynie complete, lumped, terrestrial, aquatic ####
 
-metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "TrOmniv", "q", 
-            "char_path_len", "std_path_len", "priConsumers", "secConsumers", "Top")
+metrics = c("C", "NTP_mean", "NTP_max", "diameter", "TrOmniv", "q", 
+            "mean_longest_chain", "max_chain_len", 
+            "char_path_len", "std_path_len", "loop",
+            "InDegree", "priConsumers", "herbivores", "secConsumers", "Top")
 
 ## Scatterplot 1 filter to analyses of interest and rename metrics and analyses #### 
 #     also, only include 100 SLNs for each Rhynie analysis so as not to crowd plots
 df_plot <- df %>%
-  filter(Analysis %in% c("DigelSoil_TS", "EcoWeb_TS", "Rhynie_all_TS", "Rhynie_all_lumped", "Rhynie_terr_lumped", "Rhynie_aqu_lumped")) %>%
-  mutate(Analysis = fct_recode(Analysis, "Modern_DigelSoil" = "DigelSoil_TS", "Modern_EcoWeb" = "EcoWeb_TS", 
+  filter(Analysis %in% c("DigelSoil_TS", "DeRuiter_Soil", "EcoWeb", 
+                        "Coachella", "LittleRockLake", "TuesdayLake", "YthanEstuary", 
+                        "Messel_all", "Messel_aqu", "Messel_terr",
+                        "Rhynie_all_TS", "Rhynie_all_lumped", "Rhynie_terr_lumped", "Rhynie_aqu_lumped")) %>%
+  mutate(Analysis = fct_recode(Analysis, "Modern_DigelSoil" = "DigelSoil_TS", 
+                               "Modern_DeRuiterSoil" = "DeRuiter_Soil", "Modern_EcoWeb" = "EcoWeb_TS", 
+                               "Modern_Coachella" = "Coachella", "Modern_LitleRock" = "LittleRockLake",
+                               "Modern_TuesLake" = "TuesdayLake", "Modern_Ythan" = "YthanEstuary",
+                               "Messel_complete" = "Messel_all", "Messel_aqu" = "Messel_aqu", "Messel_terr" = "Messel_terr",
                                "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped",
                                "Rhynie_terr" = "Rhynie_terr_lumped", "Rhynie_aqu" = "Rhynie_aqu_lumped" )) %>%
-  rename(NTP_mean = Mean_NTP, NTP_max = Max_NTP, q = q_inCoherence,
-         char_path_len = Mean_path_len, std_path_len = Std_path_len, 
-         InDegree = MeanInDegree, priConsumers = Herbiv, secConsumers = Carniv) %>%
+  rename(NTP_mean = mean_NTP, NTP_max = max_NTP, q = q_inCoherence,
+         char_path_len = mean_path_len, InDegree = meanInDegree, 
+         priConsumers = Herbiv, herbivores = Herbiv_true, secConsumers = Carniv) %>%
   group_by(Analysis) %>%
   slice_head(n = 100)
 
@@ -263,16 +274,15 @@ ggplot(df_small, aes(x = S, y = L_D, color = Analysis)) +
        y = "Link Density (L/S)")
 
 # mean trophic level (mean_NTP) vs S
-ggplot(df_small, aes(x = S, y = Mean_NTP, color = Analysis)) +
+ggplot(df_small, aes(x = S, y = mean_NTP, color = Analysis)) +
   geom_point(size = 2) +
   theme_classic() +
   labs(title = "Mean Trophic Position vs Species Richness",
        x = "Number of species (S)",
        y = "Mean Trophic Position")
 
-
 # max trophic level (mean_NTP) vs S
-ggplot(df_small, aes(x = S, y = Max_NTP, color = Analysis)) +
+ggplot(df_small, aes(x = S, y = max_NTP, color = Analysis)) +
   geom_point(size = 2) +
   theme_classic() +
   labs(title = "Max Trophic Position vs Species Richness",
@@ -280,7 +290,7 @@ ggplot(df_small, aes(x = S, y = Max_NTP, color = Analysis)) +
        y = "Max Trophic Position")
 
 # generality (mean_InDegree) vs S
-ggplot(df_small, aes(x = S, y = MeanInDegree, color = Analysis)) +
+ggplot(df_small, aes(x = S, y = meanInDegree, color = Analysis)) +
   geom_point(size = 2) +
   theme_classic() +
   labs(title = "Mean In Degree (generality) vs Species Richness",
