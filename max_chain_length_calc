@@ -1,0 +1,115 @@
+using CSV,DelimitedFiles,DataFrames,Random,Distributions,StatsPlots,LinearAlgebra,PoissonRandom,Graphs,Colors,FilePathsBase
+println(pwd())
+cd(@__DIR__)
+
+dir_path = "SLNs/Rhynie_terr_TS/" # user-defined path 
+analysis_name = "Rhynie_terr_unlumped"
+
+# store the filenames of the matrix files from the specified directory 
+matrix_files = sort(filter(f -> occursin(r"matrix_.*\.csv", f), readdir(dir_path; join=true)))
+info_files = sort(filter(f -> occursin(r"speciesinfo_.*\.csv", f), readdir(dir_path; join=true)))
+
+n_SLNs = length(matrix_files)
+
+#---------------------------------------------------#
+#   Robust Longest Chain Calculation (Handles Loops)
+#---------------------------------------------------#
+
+# 1. Define a recursive function to find depth
+#    'current_node': The species we are looking at
+#    'visited': A list of species already in this specific food chain
+
+function get_max_chain_depth(node_id, matrix, visited, start_time, time_limit)
+    
+    # Find all prey for this node (Where matrix row has 1s)
+    prey_list = findall(matrix[node_id, :] .== 1)
+    
+    # If no prey, this is the end of the line (Basal)
+    if isempty(prey_list)
+        return 1.0
+    end
+    
+    max_prey_depth = 0.0
+    
+    for prey in prey_list
+        # --- TIME CHECK ---
+        # Check time inside the loop. 
+        # If time runs out, we BREAK the loop but keep our current 'max_prey_depth'.
+        if (time() - start_time) > time_limit
+            break 
+        end
+        # ---------------------------
+
+        # Only proceed if we haven't eaten this species in this chain yet
+        if !(prey in visited)
+            
+            # Add prey to visited list for the next step
+            push!(visited, prey)
+            
+            # Go deeper
+            depth = get_max_chain_depth(prey, matrix, visited, start_time, time_limit)
+            
+            # Keep the largest depth found
+            if depth > max_prey_depth
+                max_prey_depth = depth
+            end
+            
+            # Backtrack: Remove prey from visited so other paths can use it
+            delete!(visited, prey)
+        end
+    end
+    
+    # My depth is 1 (me) + the deepest path below me
+    return 1.0 + max_prey_depth
+end
+
+# Create dataframe for storing results
+max_chain_df = DataFrame(SLN_ID = String[], max_chain_len = Int64[])
+
+# Loop over all webs in the folder 
+for index in 1:n_SLNs
+    ### File input ###
+    ## Read the species info and adjacency matrix files.
+    sp_P = CSV.read(info_files[index], DataFrame)
+    sp_A_df = CSV.read(matrix_files[index], DataFrame; header = false)
+    sp_A = Matrix(sp_A_df)
+
+    # FORCE CONVERT guild column to strings
+    sp_P.guild = string.(sp_P.guild)
+    
+    # pull the name/number of the network from the matrix filename
+    webname = match(r"matrix_(.*)\.csv", matrix_files[index])
+    SLN_ID = webname !== nothing ? webname.captures[1] : missing
+
+     no_species = size(sp_A)[1]
+
+
+    #  Run the following for every species in this web
+    #    (We re-initialize the 'visited' set for each species)
+    trophic_height = zeros(Float64, no_species)
+
+    for i in 1:no_species
+        # Capture the start time for this specific search
+        t0 = time()
+        # Set a time limit for each species search, in seconds
+        maxtime = 10
+        # Start the search with just the current species in the visited set
+        trophic_height[i] = get_max_chain_depth(i, sp_A, Set([i]), t0, maxtime)
+
+        # Print a warning if it actually timed out
+        if (time() - t0) > maxtime
+            println("  Warning: Search for species $i in $SLN_ID timed out. Result may be underestimated.")
+        end
+    end
+
+    # Calculate the metric
+    max_chain_len = maximum(trophic_height)
+
+    push!(max_chain_df, (SLN_ID, max_chain_len))
+end 
+
+# save SLN_stats_out as a csv
+CSV.write(joinpath(dir_path, "MAXCHAINLENS_$analysis_name.csv"), max_chain_df)
+
+println("$analysis_name average max chain length: ", mean(max_chain_df.max_chain_len))
+

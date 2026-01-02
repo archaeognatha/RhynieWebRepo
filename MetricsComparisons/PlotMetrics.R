@@ -1,4 +1,5 @@
 # START HERE ####
+# install.packages("tidyverse")
 # Load necessary libraries
 library(tidyverse)
 
@@ -14,23 +15,25 @@ df <- df %>%
 
 # PANEL SCATTERPLOT FIGURE 1: Modern webs vs. Rhynie complete, lumped, terrestrial, aquatic ####
 
-metrics = c("C", "NTP_mean", "NTP_max", "diameter", "TrOmniv", "q", 
-            "mean_longest_chain", "max_chain_len", 
+metrics = c("C", "InDegree",
+            "NTP_mean", "NTP_max", 
+            "diameter", "max_chain_len", 
             "char_path_len", "std_path_len", "loop",
-            "InDegree", "priConsumers", "herbivores", "secConsumers", "Top")
+            "TrOmniv", "q",
+            "priConsumers", "herbivores", "secConsumers", "Top")
 
 ## Scatterplot 1 filter to analyses of interest and rename metrics and analyses #### 
-#     also, only include 100 SLNs for each Rhynie analysis so as not to crowd plots
+#     also, only include 100 SLNs for each Rhynie analysis so as not to overcrowd plots
 df_plot <- df %>%
-  filter(Analysis %in% c("DigelSoil_TS", "DeRuiter_Soil", "EcoWeb", 
+  filter(Analysis %in% c("Digel_Soil", "DeRuiter_Soil", "EcoWeb", 
                         "Coachella", "LittleRockLake", "TuesdayLake", "YthanEstuary", 
-                        "Messel_all", "Messel_aqu", "Messel_terr",
+                        "Messel_all", "Messel_hicert",
                         "Rhynie_all_TS", "Rhynie_all_lumped", "Rhynie_terr_lumped", "Rhynie_aqu_lumped")) %>%
-  mutate(Analysis = fct_recode(Analysis, "Modern_DigelSoil" = "DigelSoil_TS", 
-                               "Modern_DeRuiterSoil" = "DeRuiter_Soil", "Modern_EcoWeb" = "EcoWeb_TS", 
+  mutate(Analysis = fct_recode(Analysis, "Modern_DigelSoil" = "Digel_Soil", 
+                               "Modern_DeRuiterSoil" = "DeRuiter_Soil", "Modern_EcoWeb" = "EcoWeb", 
                                "Modern_Coachella" = "Coachella", "Modern_LitleRock" = "LittleRockLake",
                                "Modern_TuesLake" = "TuesdayLake", "Modern_Ythan" = "YthanEstuary",
-                               "Messel_complete" = "Messel_all", "Messel_aqu" = "Messel_aqu", "Messel_terr" = "Messel_terr",
+                               "Messel_all" = "Messel_all", "Messel_high_certainty" = "Messel_hicert",
                                "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped",
                                "Rhynie_terr" = "Rhynie_terr_lumped", "Rhynie_aqu" = "Rhynie_aqu_lumped" )) %>%
   rename(NTP_mean = mean_NTP, NTP_max = max_NTP, q = q_inCoherence,
@@ -49,65 +52,103 @@ df_long <- df_plot %>%
 
 # re-code the levels in Analysis to make sure it plots in the right order
 df_long$Analysis <- factor(df_long$Analysis,
-                           levels = c("Modern_EcoWeb", "Modern_DigelSoil", "Rhynie_complete", "Rhynie_lumped", "Rhynie_terr", "Rhynie_aqu"))
+                           levels = c("Modern_DigelSoil", "Modern_DeRuiterSoil", 
+                                      "Modern_EcoWeb", "Modern_Coachella", "Modern_Ythan", 
+                                      "Modern_LittleRock", "Modern_TuesLake",
+                                      "Messel_all", "Messel_high_certainty",
+                                      "Rhynie_complete", "Rhynie_lumped", "Rhynie_terr", "Rhynie_aqu"))
 # re-code the levels in Metric to make sure the facets appear in the right order
 df_long$Metric <- factor(df_long$Metric, levels = metrics)
 
 ## Scatterplot 1 metric labels ####
 metric_labels <- c(C = "Connectance (C)", 
+                   InDegree = "In-degree", 
                    NTP_mean = "Mean ntp", 
                    NTP_max = "Max ntp", 
-                   InDegree = "In-degree", 
-                   TrOmniv = "Trophic omnivory", 
-                   q = "Coherence (q)", 
+                   diameter = "Network diameter", 
+                   max_chain_len = "Max chain length",
                    char_path_len = "Characteristic path length", 
                    std_path_len = "Path length std. dev.", 
+                   loop = "Loop frequency",
+                   TrOmniv = "Trophic omnivory", 
+                   q = "Coherence (q)", 
                    priConsumers = "Primary consumers",
+                   herbivores = "Herbivores", 
                    secConsumers= "Secondary consumers", 
                    Top = "Apex species")
 
 ## Scatterplot 1 color palette ####
 analysis_colors <- c(
-  "Modern_EcoWeb" = "#9CC104",
-  "Modern_DigelSoil" = "#7D845E",
+  "Modern_DigelSoil" = "#A58F52",
+  "Modern_DeRuiterSoil" = "chocolate4",
+  "Modern_EcoWeb" = "green",
+  "Modern_Coachella" = "#CBD44F",
+  "Modern_Ythan" = "#4FD489",
+  "Modern_LittleRock" = "#32B097",
+  "Modern_TuesLake" = "#32B065",
+  "Messel_all" = "red",
+  "Messel_high_certainty" = "red3",
   "Rhynie_complete" = "#DB90FF",
   "Rhynie_lumped" = "#D6016D",
   "Rhynie_terr" = "#E8BE21",
   "Rhynie_aqu" = "#2F9FDE"
 )
 
+
 ## Scatterplot 1 datapoint shapes ####
 analysis_shapes <- c(
-  "Modern_EcoWeb" = 15,"Modern_DigelSoil" = 15,
+  "Modern_DigelSoil" = 15, "Modern_DeRuiterSoil" = 15,
+  "Modern_EcoWeb" = 15, "Modern_Coachella" = 15,
+  "Modern_Ythan" = 15, "Modern_TuesLake" = 15,
+  "Messel_all" = 18, "Messel_high_certainty" = 18,
   "Rhynie_complete" = 20,"Rhynie_lumped" = 20,
   "Rhynie_terr" = 20, "Rhynie_aqu" = 20
 )
 
+# (optional) choose a subset of metrics to view:
+metrics_active <- metrics[11:15]
+df_long_view <- df_long %>%
+  filter(Metric %in% metrics_active)
+
 ## Scatterplot 1 GENERATE FIGURE (ggplot2 call) ####
-ggplot(df_long, aes(x = S, y = Value)) +
-  geom_point(alpha = 0.6, aes(colour = Analysis, shape = Analysis)) +
-  facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels)) +
+ggplot(df_long_view, aes(x = S, y = Value)) +
+  geom_point(alpha = 0.6, size = 1, aes(colour = Analysis, shape = Analysis)) +
+  facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels[metrics_active])) +
   scale_color_manual(values = analysis_colors,
-                     breaks = c("Modern_EcoWeb", "Modern_DigelSoil", 
+                     breaks = c("Modern_DigelSoil", "Modern_DeRuiterSoil",
+                                "Modern_EcoWeb", "Modern_Coachella", 
+                                "Modern_Ythan", "Modern_TuesLake",
+                                "Messel_all", "Messel_high_certainty",
                                 "Rhynie_complete", "Rhynie_lumped", 
                                 "Rhynie_terr", "Rhynie_aqu"),
-                     labels = c("Modern: EcoWeb", "Modern: Digel Soil", 
+                     labels = c("Modern: Digel Soil", "Modern_DeRuiterSoil",
+                                "Modern: EcoWeb", "Modern: Coachella",
+                                "Modern: Ythan Estuary",  "Modern: Tuesday Lake",
+                                "Messel: complete", "Messel: high certainty links",
                                 "Rhynie: complete", "Rhynie: lumped",
                                 "Rhynie: terrestrial", "Rhynie: aquatic")) +
   scale_shape_manual(values = analysis_shapes,
-                     breaks = c("Modern_EcoWeb", "Modern_DigelSoil", 
+                     breaks = c("Modern_DigelSoil", "Modern_DeRuiterSoil",
+                                "Modern_EcoWeb", "Modern_Coachella", 
+                                "Modern_Ythan", "Modern_TuesLake",
+                                "Messel_all", "Messel_high_certainty",
                                 "Rhynie_complete", "Rhynie_lumped", 
                                 "Rhynie_terr", "Rhynie_aqu"),
-                     labels = c("Modern: EcoWeb", "Modern: Digel Soil", 
+                     labels = c("Modern: Digel Soil", "Modern_DeRuiterSoil",
+                                "Modern: EcoWeb", "Modern: Coachella",
+                                "Modern: Ythan Estuary",  "Modern: Tuesday Lake",
+                                "Messel: complete", "Messel: high certainty links",
                                 "Rhynie: complete", "Rhynie: lumped",
                                 "Rhynie: terrestrial", "Rhynie: aquatic")) +
   scale_x_continuous(name = "S (Species Richness)") +
   theme_classic(base_size = 14) +
   theme(
-    axis.title = element_text(size = 16),
+    axis.title = element_text(size = 12),
     axis.text.x = element_text(angle = 30, hjust = 1),
-    legend.position = c(0.83,0.05),
+    legend.position = c(0.84,0.15),
     legend.title = element_blank(),
+    legend.text = element_text(size = 9),
+    legend.key.size = unit(0.5, "cm"),
     strip.background = element_blank(),
     strip.text = element_text(face = "bold"),
 ) +
@@ -117,17 +158,21 @@ ggplot(df_long, aes(x = S, y = Value)) +
 
 # PANEL BOXPLOT FIGURE 1: Rhynie (lumped + unlumped) vs. Niche Model results ####
 
-metrics = c("C", "NTP_mean", "NTP_max", "InDegree", "TrOmniv", "q", 
-            "char_path_len", "std_path_len", "priConsumers", "secConsumers", "Top")
+metrics = c("C", "InDegree",
+            "NTP_mean", "NTP_max", 
+            "diameter", "max_chain_len", 
+            "char_path_len", "std_path_len", "loop",
+            "TrOmniv", "q",
+            "priConsumers", "herbivores", "secConsumers", "Top")
 
 ## Boxplot 1 filter to only full/lumped Rhynie and Niche model, rename metrics and analyses #### 
 df_rhynie <- df %>%
-  filter(Analysis %in% c("Rhynie_all_TS", "Rhynie_all_lumped", "Niche_TS", "Niche_lumped")) %>%
+  filter(Analysis %in% c("Rhynie_all_TS", "Rhynie_all_lumped", "Niche_unlumped", "Niche_lumped")) %>%
   mutate(Analysis = fct_recode(Analysis, "Rhynie_complete" = "Rhynie_all_TS", "Rhynie_lumped" = "Rhynie_all_lumped", 
-                               "Niche_complete" = "Niche_TS", "Niche_lumped" = "Niche_lumped")) %>%
-  rename(NTP_mean = Mean_NTP, NTP_max = Max_NTP, q = q_inCoherence,
-         char_path_len = Mean_path_len, std_path_len = Std_path_len, 
-         InDegree = MeanInDegree, priConsumers = Herbiv, secConsumers = Carniv)
+                               "Niche_complete" = "Niche_unlumped", "Niche_lumped" = "Niche_lumped")) %>%
+  rename(NTP_mean = mean_NTP, NTP_max = max_NTP, q = q_inCoherence,
+         char_path_len = mean_path_len, InDegree = meanInDegree, 
+         priConsumers = Herbiv, herbivores = Herbiv_true, secConsumers = Carniv)
 
 # Reshape to long format
 df_rhynie_long <- df_rhynie %>%
@@ -145,16 +190,21 @@ df_rhynie_long$Metric <- factor(df_rhynie_long$Metric, levels = metrics)
 
 ## Boxplot 1 metric labels ####
 metric_labels <- c(C = "Connectance (C)", 
+                   InDegree = "In-degree", 
                    NTP_mean = "Mean ntp", 
                    NTP_max = "Max ntp", 
-                   InDegree = "In-degree", 
-                   TrOmniv = "Trophic omnivory", 
-                   q = "Coherence (q)", 
+                   diameter = "Network diameter", 
+                   max_chain_len = "Max chain length",
                    char_path_len = "Characteristic path length", 
                    std_path_len = "Path length std. dev.", 
+                   loop = "Loop frequency",
+                   TrOmniv = "Trophic omnivory", 
+                   q = "Coherence (q)", 
                    priConsumers = "Primary consumers",
+                   herbivores = "Herbivores", 
                    secConsumers= "Secondary consumers", 
                    Top = "Apex species")
+
 
 ## Boxplot 1 color palette ####
 analysis_colors <- c(
@@ -163,9 +213,13 @@ analysis_colors <- c(
   "Niche_complete" = "#093BC5",
   "Niche_lumped" = "#23D2E4"
 )
- 
+
+metrics_active <- metrics[11:15]
+df_rhynie_long_view <- df_rhynie_long %>%
+  filter(Metric %in% metrics_active)
+
 ## Boxplot 1 GENERATE FIGURE (ggplot2 call) ####
-ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
+ggplot(df_rhynie_long_view, aes(x = Analysis, y = Value, fill = Analysis)) +
   geom_boxplot(outlier.size = 0.5, alpha = 0.85) +
   facet_wrap(~ Metric, scales = "free_y", ncol = 3, labeller = labeller(Metric = metric_labels)) +
   scale_fill_manual(values = analysis_colors, 
@@ -178,7 +232,7 @@ ggplot(df_rhynie_long, aes(x = Analysis, y = Value, fill = Analysis)) +
     axis.text.x = element_blank(),
     axis.ticks.x = element_blank(),
     axis.line.x = element_blank(),
-    legend.position = c(0.84,0.1),
+    legend.position = c(0.84,0.15),
     legend.title = element_blank(),
     legend.key.width = unit(0.75, "cm"),
     legend.text = element_text(size = 10),
