@@ -106,7 +106,7 @@ analysis_shapes <- c(
 )
 
 # (optional) choose a subset of metrics to view:
-metrics_active <- metrics[11:15]
+metrics_active <- metrics[12:15]
 df_long_view <- df_long %>%
   filter(Metric %in% metrics_active)
 

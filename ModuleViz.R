@@ -1,10 +1,21 @@
-
 library(igraph)
 library(tidyverse)
 
+# choose which SLN to analyze (1-1000):
+SLNid <- 1
 
+path <- "SLNs/Rhynie_TS"
 
-rhynie.graph <- graph_from_adjacency_matrix(as.matrix(matrix))
+matrix <- read.csv(paste0(path, "/matrix_", SLNid, ".csv"), header = F) 
+sp_info <- read.csv(paste0(path, "/speciesinfo_", SLNid, ".csv"), header = T) 
+
+# store rhynie matrix as igraph object. t() transposes matrix 
+rhynie.graph <- graph_from_adjacency_matrix(t(matrix), mode = "directed", weighted = NULL)
+
+# associate species info with igraph object 
+V(rhynie.graph)$sp_ID    <- sp_info$trophospecies_id
+V(rhynie.graph)$guild    <- sp_info$guild
+V(rhynie.graph)$ntp      <- sp_info$sp_ntp
 
 # Modularity ----
 
@@ -21,16 +32,31 @@ rhynie.graph <- graph_from_adjacency_matrix(as.matrix(matrix))
 # cluster_walktrap. We will start with the Louvain algorithm to identify 
 # modules and then add them to the graph. All of the above functions return an object of the class 'communities'.
 
-mods.rhynie <- cluster_louvain(as.undirected(rhynie.graph))
-mods.rhynie
+mods.rhynie <- cluster_louvain(as_undirected(rhynie.graph))
 
-class(mods.rhynie) # check the class
+n_mods <- max(mods.rhynie$membership) # number of modules detected
+print(paste0("Modules detected in SLN ", SLNid ,": ", n_mods))
 
-plot(mods.rhynie,rhynie.graph)
+library(RColorBrewer)
+base_colors <- adjustcolor( c("gray50", "tomato", "gold", "yellowgreen", 'lightblue'), alpha=.6)
+colrs <- adjustcolor(colorRampPalette(base_colors)(n_mods), alpha = 0.6)
 
-# We can also make this look neater by changing the node colour instead of circling the four modules in 
-# the modern reef, and removing the labels.
+# use Kamada-Kawaito algorithm to set spacing between nodes
+lay <- layout_with_kk(rhynie.graph)
+lay <- norm_coords(lay, ymin = -1.75, ymax = 1.75, xmin = -1.75, xmax = 1.75)
 
-V(rhynie.graph)$community <- mods.rhynie$membership
-colrs <- adjustcolor( c("gray50", "tomato", "gold", "yellowgreen", 'lightblue'), alpha=.6)
-plot(rhynie.graph, vertex.color=colrs[V(rhynie.graph)$community])
+V(rhynie.graph)$module <- mods.rhynie$membership
+par(mar = c(0, 0, 2, 0))  # reset bottom, left, top, right margins — leaves room @ top for title
+plot(rhynie.graph,
+     main = paste0("SLN ", SLNid), # plot title
+     vertex.color = colrs[V(rhynie.graph)$module],
+     vertex.size = 10,             # default is 15
+     vertex.label.cex = 0.6,       # shrinks the numbers
+     vertex.label.color = "black",
+     edge.arrow.size = 0.2,        # default is 1
+     layout = lay,                 # spread nodes out,
+     rescale = FALSE
+)
+
+print(V(rhynie.graph)$guild)
+
