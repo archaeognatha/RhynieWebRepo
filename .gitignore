@@ -50,3 +50,6 @@ rsconnect/
 
 # Macos finder config files
 *.DS_Store
+
+# Temporary files created by MS Office
+~$*

@@ -1,15 +1,15 @@
-sp_name,guild,sp_id
-Roots,plants,1
-Detritus,detritus,2
-fungi,fungi,3
-bacteria,bacteria,4
-phytophagous nematodes,phytophagous nematodes,5
-fungivorous nematodes,fungivorous nematodes,6
-bactieriophagous nematodes,bactieriophagous nematodes,7
-collembola,collembola,8
-cryptostigmatic mites,cryptostigmatic mites,9
-noncryptostigmatic mites,noncryptostigmatic mites,10
-earthworms,earthworms,11
-enchytraeids,enchytraeids,12
-protozoa,protozoa,13
-predatory arthropods,predatory arthropods,14
+sp_name,guild,animal,sp_id
+Roots,plants,0,1
+Detritus,detritus,0,2
+fungi,fungi,0,3
+bacteria,bacteria,0,4
+phytophagous nematodes,phytophagous nematodes,1,5
+fungivorous nematodes,fungivorous nematodes,1,6
+bactieriophagous nematodes,bactieriophagous nematodes,1,7
+collembola,collembola,1,8
+cryptostigmatic mites,cryptostigmatic mites,1,9
+noncryptostigmatic mites,noncryptostigmatic mites,1,10
+earthworms,earthworms,1,11
+enchytraeids,enchytraeids,1,12
+protozoa,protozoa,0,13
+predatory arthropods,predatory arthropods,1,14

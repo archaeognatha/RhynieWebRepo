@@ -1,18 +1,18 @@
-sp_name,guild,sp_id
-Roots,plants,1
-Detritus,detritus,2
-fungi,fungi,3
-mycorrhizae,fungi,4
-bacteria,bacteria,5
-phytophagous nematodes,phytophagous nematodes,6
-fungivorous nematodes,fungivorous nematodes,7
-bacteriophagous nematodes,bactieriophagous nematodes,8
-predatory nematodes,predatory nematodes,9
-omnivorous nematodes,omnivorous nematodes,10
-collembola,collembola,11
-cryptostigmatic mites,cryptostigmatic mites,12
-noncryptostigmatic mites,noncryptostigmatic mites,13
-nematophagous mites,nematophagous mites,14
-predatory mites,predatory mites,15
-flagellates,flagellates,16
-amoebae,amoebae,17
+sp_name,guild,animal,sp_id
+Roots,plants,0,1
+Detritus,detritus,0,2
+fungi,fungi,0,3
+mycorrhizae,fungi,0,4
+bacteria,bacteria,0,5
+phytophagous nematodes,phytophagous nematodes,1,6
+fungivorous nematodes,fungivorous nematodes,1,7
+bacteriophagous nematodes,bactieriophagous nematodes,1,8
+predatory nematodes,predatory nematodes,1,9
+omnivorous nematodes,omnivorous nematodes,1,10
+collembola,collembola,1,11
+cryptostigmatic mites,cryptostigmatic mites,1,12
+noncryptostigmatic mites,noncryptostigmatic mites,1,13
+nematophagous mites,nematophagous mites,1,14
+predatory mites,predatory mites,1,15
+flagellates,flagellates,0,16
+amoebae,amoebae,0,17

@@ -1,10 +1,10 @@
-sp_name,guild,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain
-      1 Myiatropa sp.,      1 Myiatropa sp.,1,0,2.0,1.0
-      2 Prionocyphon sp.,      2 Prionocyphon sp.,1,0,2.0,1.0
-      3 Metriocnemus sp.,      3 Metriocnemus sp.,1,0,2.0,1.0
-      4 Dasyhelea sp.,      4 Dasyhelea sp.,1,0,2.0,1.0
-      5 Aedes sp.,      5 Aedes sp.,2,0,2.0,1.0
-      6 Anopheles sp.,      6 Anopheles sp.,1,0,2.0,1.0
-      7 large detritus particles,      7 large detritus particles,0,2,1.0,0.0
-      8 small detritus particles,      8 small detritus particles,0,3,1.0,0.0
-      9 dissolved organic matter detritus,      9 dissolved organic matter detritus,0,2,1.0,0.0
+sp_name,guild,animal,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,d_seed
+      1 Myiatropa sp.,      1 Myiatropa sp.,1,1,0,2,1,
+      2 Prionocyphon sp.,      2 Prionocyphon sp.,1,1,0,2,1,
+      3 Metriocnemus sp.,      3 Metriocnemus sp.,1,1,0,2,1,
+      4 Dasyhelea sp.,      4 Dasyhelea sp.,1,1,0,2,1,
+      5 Aedes sp.,      5 Aedes sp.,1,2,0,2,1,
+      6 Anopheles sp.,      6 Anopheles sp.,1,1,0,2,1,
+      7 large detritus particles,      7 large detritus particles,0,0,2,1,0,1
+      8 small detritus particles,      8 small detritus particles,0,0,3,1,0,1
+      9 dissolved organic matter detritus,      9 dissolved organic matter detritus,0,0,2,1,0,1

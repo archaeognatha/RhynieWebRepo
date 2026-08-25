@@ -1,19 +1,19 @@
-sp_name,guild,sp_id
-Roots,plants,1
-Detritus,detritus,2
-fungi,fungi,3
-bacteria,bacteria,4
-protozoa,protozoa,5
-enchytraeids,enchytraeids,6
-earthworms,earthworms,7
-phytophagous nematodes,phytophagous nematodes,8
-fungivorous nematodes,fungivorous nematodes,9
-bactieriophagous nematodes,bactieriophagous nematodes,10
-predatory nematodes,predatory nematodes,11
-microbivorous microarthropods,microbivorous microarthropods,12
-predatory microarthropods,predatory microarthropods,13
-herbage arthropods,herbage arthropods,14
-predatory herbage arthropods,predatory herbage arthropods,15
-macroarthropods,macroarthropods,16
-phytophagous macroarthropods,phytophagous macroarthropods,17
-predatory macroarthropods,predatory macroarthropods,18
+sp_name,guild,animal,sp_id
+Roots,plants,0,1
+Detritus,detritus,0,2
+fungi,fungi,0,3
+bacteria,bacteria,0,4
+protozoa,protozoa,0,5
+enchytraeids,enchytraeids,1,6
+earthworms,earthworms,1,7
+phytophagous nematodes,phytophagous nematodes,1,8
+fungivorous nematodes,fungivorous nematodes,1,9
+bactieriophagous nematodes,bactieriophagous nematodes,1,10
+predatory nematodes,predatory nematodes,1,11
+microbivorous microarthropods,microbivorous microarthropods,1,12
+predatory microarthropods,predatory microarthropods,1,13
+herbage arthropods,herbage arthropods,1,14
+predatory herbage arthropods,predatory herbage arthropods,1,15
+macroarthropods,macroarthropods,1,16
+phytophagous macroarthropods,phytophagous macroarthropods,1,17
+predatory macroarthropods,predatory macroarthropods,1,18
