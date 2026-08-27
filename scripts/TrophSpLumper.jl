@@ -2,26 +2,68 @@
 # these must be installed via the Julia repl or terminal environment. Do so with the following commands
 # using Pkg
 # Pkg.add("CSV")
-using CSV, DataFrames, FilePathsBase
+using CSV, DataFrames, FilePathsBase, Tables
+
+# Computed on the UNLUMPED web, so meaningless after lumping. These only
+# appear in legacy speciesinfo files (written by the old WebMetrics
+# notebook); speciesinfo files regenerated through the current pipeline won't have them.
+const DERIVED_COLS = ["sp_no_prey", "sp_no_preds", "sp_ntp", "sp_long_chain",
+                      "sp_out_closeness", "sp_in_closeness",
+                      "guild_ntp", "guild_out_closeness", "guild_in_closeness"]
+
+# Identifiers: always joined to a string, so the column has one type
+# whether or not a given trophospecies lumped anything.
+const ID_COLS = ["sp_id", "original_sp_id", "prev_id"]
+
+# Helper function for dealing with values in lumped trophospecies
+# All values identical -> that value, type preserved.
+# Otherwise -> semicolon-joined string.
+function collapse_values(x)
+    vals = collect(skipmissing(x))
+    isempty(vals) && return missing
+    u = unique(vals)
+    length(u) == 1 ? u[1] : join(string.(u), ";")
+end
+
+join_values(x) = join(string.(collect(skipmissing(x))), ";")
 
 function lump_trophospecies(input_dir::String, output_dir::String)
     # Create output directory if needed
     isdir(output_dir) || mkpath(output_dir)
 
     # Find input files
-    matrix_files = filter(f -> occursin(r"matrix_.*\.csv", f), readdir(input_dir; join=true))
-    info_files = filter(f -> occursin(r"speciesinfo_.*\.csv", f), readdir(input_dir; join=true))
+    matrix_files = sort(filter(f -> occursin(r"matrix_.*\.csv", f), readdir(input_dir; join=true)))
+    info_files = sort(filter(f -> occursin(r"speciesinfo_.*\.csv", f), readdir(input_dir; join=true)))
 
-    # create dataframe to store how many species were lumped in each web
-    lumping_summary = DataFrame(web_id = String[], n_lumped = Int[])
+    # create dataframe to store how many species were lumped in each web and whether any are from different guilds
+    lumping_summary = DataFrame(web_id = String[], n_lumped = Int[], n_cross_guild = Int[])
 
-    for (matrix_file, info_file) in zip(matrix_files, info_files)
-        name = match(r"matrix_(.*)\.csv", matrix_file).captures[1]
+    n_SLNs = length(matrix_files)
+
+    #### the main loop begins below ####
+    for index in 1:n_SLNs
+        ### File input ###
+        matrix_path = matrix_files[index]
+        # Extract the unique web ID (e.g., "messel", "103") from the matrix filename
+        ## Assumes filename format: "matrix_NAME.csv"
+        name = match(r"matrix_(.*)\.csv", basename(matrix_path)).captures[1]
+        # Find the corresponding species info file
+        ## We look for "speciesinfo_WEBID.csv" in the info_files list
+        expected_info_name = "speciesinfo_$(name).csv"
+        matching_info = filter(f -> basename(f) == expected_info_name, info_files)
+        if isempty(matching_info)
+            println("SKIPPING $name: Could not find $expected_info_name")
+            continue
+        end
+        info_path = matching_info[1]
+        println("Processing $name...")
+        println("   Matrix: ", basename(matrix_path))
+        println("   Info:   ", basename(info_path))
 
         ### 1. Load data ###
-        A_df = CSV.read(matrix_file, DataFrame; header=false)
+        A_df = CSV.read(matrix_path, DataFrame; header=false)
         A = Matrix(A_df)
-        species_df = CSV.read(info_file, DataFrame; missingstring="NA")
+        species_df = CSV.read(info_path, DataFrame; missingstring="NA")
         n = size(A, 1)
 
         ### 2. Get predator and prey sets for each species ###
@@ -63,26 +105,33 @@ function lump_trophospecies(input_dir::String, output_dir::String)
         end
 
         ### 6. Aggregate species info by trophospecies ###
+        keep = setdiff(names(species_df), vcat(DERIVED_COLS, ["trophospecies_id"]))
 
-        # Determine if optional sp_id column exists
-        has_sp_id = :sp_id in names(species_df)
-
-        # Build the list of transformations for grouping
-        transforms = [
-            :sp_name => (x -> join(skipmissing(x), ";")) => :sp_name,
-            :guild => (x -> first(skipmissing(x))) => :guild,
-            :sp_name => length => :n_lumped
-        ]
-        if has_sp_id
-            push!(transforms, :sp_id => (x -> join(string.(x), ";")) => :sp_ids)
+        transforms = Any[nrow => :n_lumped]
+        for col in keep
+            f = col in ID_COLS ? join_values : collapse_values
+            push!(transforms, col => f => col)
         end
 
         species_grouped = combine(groupby(species_df, :trophospecies_id), transforms...)
 
         # Count number of lumped taxa (i.e., groups with more than one original species)
         n_lumped_taxa = sum(species_grouped.n_lumped .> 1)
-        # Add this to the lumping summary table (assuming web_id is defined for this web)
-        push!(lumping_summary, (web_id = name, n_lumped = n_lumped_taxa))
+        
+        # Count + flag trophospecies that span more than one guild. Not an error:
+        # it means two species from different guilds ended up with identical
+        # links in this web. 
+        n_cross_guild = 0
+        if "guild" in names(species_df)
+            cross = combine(groupby(species_df, :trophospecies_id),
+                            :guild => (x -> length(unique(skipmissing(x))) > 1) => :multi)
+            n_cross_guild = sum(cross.multi)
+            n_cross_guild > 0 && @info "Trophospecies spanning multiple guilds" web=name n=n_cross_guild
+        end
+
+        # Add to lumping summary table
+        push!(lumping_summary, (web_id = name, n_lumped = n_lumped_taxa,
+                        n_cross_guild = n_cross_guild))
 
         ### 7. Write output ###
         CSV.write(joinpath(output_dir, "matrix_$name.csv"), Tables.table(A_reduced); writeheader=false)
@@ -92,4 +141,21 @@ function lump_trophospecies(input_dir::String, output_dir::String)
     CSV.write(joinpath(output_dir, "lumping_summary.csv"), lumping_summary)
 end
 
-lump_trophospecies("SLNs/DeRuiterSoil", "SLNs/DeRuiterSoil_TS")
+function opt_val(flag::String, default = nothing)
+    i = findfirst(==(flag), ARGS)
+    (i === nothing || i == length(ARGS)) ? default : ARGS[i + 1]
+end
+
+if abspath(PROGRAM_FILE) == @__FILE__
+    in_dir  = opt_val("--in-dir")
+    out_dir = opt_val("--out-dir")
+
+    in_dir  === nothing && error("--in-dir is required")
+    out_dir === nothing && error("--out-dir is required")
+    isdir(in_dir)       || error("--in-dir is not a directory: $in_dir")
+
+    println("troph_sp_lumper.jl")
+    println("  in-dir:  ", in_dir)
+    println("  out-dir: ", out_dir)
+    lump_trophospecies(in_dir, out_dir)
+end
