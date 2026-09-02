@@ -10,10 +10,12 @@
 #   julia scripts/web_metrics.jl --in-dir SLNs/Messel --name Messel
 #
 # Options:
-#   --in-dir DIR    folder holding matrix_*.csv and speciesinfo_*.csv  (required)
+#   --in-dir DIR    folder holding matrix_*.csv and speciesinfo_*.csv   (required)
 #   --name STR      label used in the output filename                  (required)
-#   --out FILE      metrics table path   (default: <in-dir>/WebMetrics_<name>.csv)
-#   --node-dir DIR  per-node output dir  (default: <in-dir>)
+#   --slns_root     DIR output root  (default: SLNs)
+#   --out FILE      metrics table path   (default: SLNs/<name>/WebMetrics_<name>.csv)
+#   --node-dir DIR  per-node output dir  (default: SLNs/<name>)
+#   --create        create the output folder if it doesn't exist
 #   --maxtime N     chain-search time limit per species, seconds (default: 10)
 # ============================================================
 
@@ -27,16 +29,14 @@ include(joinpath(@__DIR__, "max_chain_calcs.jl"))
 
 # ------------------------------------------------------------
 # Argument parsing
-#
-# ARGS is a vector of the strings typed after the script name in
-# the terminal, so julia web_metrics.jl --in-dir SLNs/Messel
-# gives ARGS == ["--in-dir", "SLNs/Messel"].
 # ------------------------------------------------------------
 
 function opt_val(flag::String, default = nothing)
     i = findfirst(==(flag), ARGS)
     (i === nothing || i == length(ARGS)) ? default : ARGS[i + 1]
 end
+
+opt_flag(flag::String) = flag in ARGS
 
 function parse_args()
     in_dir = opt_val("--in-dir")
@@ -46,11 +46,30 @@ function parse_args()
     name   === nothing && error("--name is required")
     isdir(in_dir)      || error("--in-dir is not a directory: $in_dir")
 
-    return (
+    slns_root = opt_val("--slns-root", "SLNs")
+    out       = opt_val("--out",      joinpath(slns_root, name, "WebMetrics_$(name).csv"))
+    node_dir  = opt_val("--node-dir", joinpath(slns_root, name))
+    create    = opt_flag("--create")
+
+    # Both outputs need their folder to exist. Missing folder is an error
+    # by default, because the usual cause is a typo in --name: without this
+    # guard a misspelling silently writes to a brand new directory.
+    for d in unique([node_dir, dirname(out)])
+        isempty(d) && continue          # bare filename, means current directory
+        if !isdir(d)
+            create || error("Output folder does not exist: $d\n" *
+                            "  Check --name matches the folder under $slns_root,\n" *
+                            "  or pass --create to make it.")
+            mkpath(d)
+            println("Created output folder: ", d)
+        end
+    end
+    
+  return (
         in_dir   = in_dir,
         name     = name,
-        out      = opt_val("--out", joinpath(in_dir, "WebMetrics_$(name).csv")),
-        node_dir = opt_val("--node-dir", in_dir),
+        out      = out,
+        node_dir = node_dir,
         maxtime  = parse(Float64, opt_val("--maxtime", "10")),
     )
 end
@@ -72,7 +91,10 @@ end
 function main(in_dir::String, name::String, out::String,
               node_dir::String, maxtime::Real)
 
-    isdir(node_dir) || mkpath(node_dir)
+    if !isdir(node_dir)
+        error("Output folder does not exist: $node_dir\n" *
+              "  Check --name matches the folder under $slns_root, or pass --node-dir.")
+    end
 
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],

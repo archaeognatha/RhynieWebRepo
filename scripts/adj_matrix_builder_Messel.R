@@ -1,6 +1,52 @@
-#setwd("~/Dropbox/Work/Devonian terr ecosystems/EcolNetworks/RhynieWebRepo/SLNs/Messel")
+#!/usr/bin/env Rscript
+# ============================================================
+# adj_matrix_builder.R
+#
+# Builds 6 versions of the Messel fossil food web from Dunne et
+# al. 2014 using a complete species info table + list of pairwise
+# links: the full web, aquatic + terrestrial subsets, and a high-
+# certainty version of each that excludes low-certainty links
+#
+# 3 functions: 
+#   hi_cert_web: creates a high-certainty subset web from a link list 
+#   and species info table
+#
+#   create_subset_matrix: creates a habitat subset web from a link list 
+#   and species info table
+#
+#   table_to_adjmatrix: makes a WebMetrics-readable adjacency matrix
+#   from a link list and species info table
+#
+# Usage:
+#   Rscript scripts/adj_matrix_builder.R \
+#     --speciesinfo data/messel/speciesinfo_messel.csv \
+#     --links data/messel/links_messel.csv \
+#     --out SLNs/Messel \
+# ============================================================
+
 library(igraph) 
 library(tidyverse)
+
+#### ---- argument parsing --------------------------------------------------
+
+args <- commandArgs(trailingOnly = TRUE)
+opt_val <- function(flag, default = NA_character_) {
+  i <- match(flag, args)
+  if (is.na(i) || i == length(args)) default else args[i + 1]
+}
+opt_flag <- function(flag) flag %in% args
+
+species_path <- opt_val("--speciesinfo", "data/messel/speciesinfo_messel.csv")
+links_path   <- opt_val("--links",       "data/messel/links_messel.csv")
+output_path  <- opt_val("--out",         "SLNs/Messel")
+
+for (p in c(species_path, links_path)) {
+  if (!file.exists(p)) stop("Input file not found: ", p, call. = FALSE)
+}
+dir.create(output_path, recursive = TRUE, showWarnings = FALSE)
+
+species_info <- read.csv(species_path)
+links        <- read.csv(links_path)
 
 #### Function to filter out low-certainty links and purge dangling nodes ####
 hi_cert_web <- function(links, species_info, min_certainty = 2) {
@@ -148,41 +194,48 @@ create_subset_matrix <- function(links, species_info, habitat_codes) {
   return(list(matrix = adj_matrix_sub, species_info = species_info_sub))
 }  
 
-#### load data ----
-links <- read.csv("links_messel.csv")
-
-species_info <- read.csv("speciesinfo_messel.csv")
-
 #### build matrices ----
 #### Make complete matrix (all links)
 matrix_all <- table_to_adjmatrix(links, species_info)
 
 # Write the result to a new CSV file.
-write.table(matrix_all$adj_matrix, "matrix_messel.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(matrix_all$adj_matrix, file.path(output_path, "matrix_messel.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(species_info, file.path(output_path, "speciesinfo_messel.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### generate terrestrial subset (all links)
 terr_subset <- create_subset_matrix(links, species_info, habitat_codes = c(1, 3))
-write.table(terr_subset$matrix, "matrix_messel_terr.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
-write.table(terr_subset$species_info, "speciesinfo_messel_terr.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
+write.table(terr_subset$matrix, file.path(output_path, "matrix_messel_terr.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(terr_subset$species_info, file.path(output_path, "speciesinfo_messel_terr.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### generate aquatic subset (all links)
 aqu_subset <- create_subset_matrix(links, species_info, habitat_codes = c(2, 3))
-write.table(aqu_subset$matrix, "matrix_messel_aqu.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
-write.table(aqu_subset$species_info, "speciesinfo_messel_aqu.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
+write.table(aqu_subset$matrix, file.path(output_path, "matrix_messel_aqu.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(aqu_subset$species_info, file.path(output_path, "speciesinfo_messel_aqu.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### Make high-certainty matrix (links with certainty > 2)
 hi_cert_data <- hi_cert_web(links, species_info, 2)
 hi_cert_final <- table_to_adjmatrix(hi_cert_data$links, hi_cert_data$species_info)
 # Write the resulting matrix and sp info files to new CSV files
-write.table(hi_cert_final$adj_matrix, "matrix_messel_hi_cert.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
-write.table(hi_cert_final$species_info, "speciesinfo_messel_hi_cert.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
+write.table(hi_cert_final$adj_matrix, file.path(output_path, "matrix_messel_hi_cert.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(hi_cert_final$species_info, file.path(output_path, "speciesinfo_messel_hi_cert.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### --- Generate high-certainty terrestrial subset
-terr_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_final$species_info, habitat_codes = c(1, 3))
-write.table(terr_hi_cert$matrix, "matrix_messel_terr_hi_cert.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
-write.table(terr_hi_cert$species_info, "speciesinfo_messel_terr_hi_cert.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
+terr_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_data$species_info, habitat_codes = c(1, 3))
+write.table(terr_hi_cert$matrix, file.path(output_path, "matrix_messel_terr_hi_cert.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(terr_hi_cert$species_info, file.path(output_path, "speciesinfo_messel_terr_hi_cert.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### --- Generate high-certainty aquatic subset
 aqu_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_data$species_info, habitat_codes = c(2, 3))
-write.table(aqu_hi_cert$matrix, "matrix_messel_aqu_hi_cert.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
-write.table(aqu_hi_cert$species_info, "speciesinfo_messel_aqu_hi_cert.csv", quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
+write.table(aqu_hi_cert$matrix, file.path(output_path, "matrix_messel_aqu_hi_cert.csv"), 
+            quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
+write.table(aqu_hi_cert$species_info, file.path(output_path, "speciesinfo_messel_aqu_hi_cert.csv"), quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
