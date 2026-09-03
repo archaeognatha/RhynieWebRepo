@@ -6,13 +6,13 @@
 # Computes network-level metrics for
 #    every SLN in a folder, plus per-node metrics written alongside.
 #
-# Usage:
-#   julia scripts/web_metrics.jl --in-dir SLNs/Messel --name Messel
+# Usage example:
+#   julia --project=. scripts/web_metrics.jl --in-dir SLNs/Messel --name Messel
 #
 # Options:
 #   --in-dir DIR    folder holding matrix_*.csv and speciesinfo_*.csv   (required)
 #   --name STR      label used in the output filename                  (required)
-#   --slns_root     DIR output root  (default: SLNs)
+#   --slns-root     DIR output root  (default: SLNs)
 #   --out FILE      metrics table path   (default: SLNs/<name>/WebMetrics_<name>.csv)
 #   --node-dir DIR  per-node output dir  (default: SLNs/<name>)
 #   --create        create the output folder if it doesn't exist
@@ -91,10 +91,6 @@ end
 function main(in_dir::String, name::String, out::String,
               node_dir::String, maxtime::Real)
 
-    if !isdir(node_dir)
-        error("Output folder does not exist: $node_dir\n" *
-              "  Check --name matches the folder under $slns_root, or pass --node-dir.")
-    end
 
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],

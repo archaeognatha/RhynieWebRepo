@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # ============================================================
-# adj_matrix_builder.R
+# sln_builder_Messel.R
 #
 # Builds 6 versions of the Messel fossil food web from Dunne et
 # al. 2014 using a complete species info table + list of pairwise
@@ -18,7 +18,7 @@
 #   from a link list and species info table
 #
 # Usage:
-#   Rscript scripts/adj_matrix_builder.R \
+#   Rscript scripts/sln_builder_Messel.R \
 #     --speciesinfo data/messel/speciesinfo_messel.csv \
 #     --links data/messel/links_messel.csv \
 #     --out SLNs/Messel \

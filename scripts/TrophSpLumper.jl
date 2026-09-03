@@ -2,9 +2,10 @@
 # these must be installed via the Julia repl or terminal environment. Do so with the following commands
 # using Pkg
 # Pkg.add("CSV")
+# can use saved environment in terminal using julia --project=. 
 using CSV, DataFrames, FilePathsBase, Tables
 
-# Computed on the UNLUMPED web, so meaningless after lumping. These only
+# metrics computed on the unlumped web, so meaningless after lumping. These only
 # appear in legacy speciesinfo files (written by the old WebMetrics
 # notebook); speciesinfo files regenerated through the current pipeline won't have them.
 const DERIVED_COLS = ["sp_no_prey", "sp_no_preds", "sp_ntp", "sp_long_chain",

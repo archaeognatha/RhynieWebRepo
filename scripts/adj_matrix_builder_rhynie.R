@@ -1,7 +1,16 @@
+#!/usr/bin/env Rscript
+# ============================================================
+# adj_matrix_builder_rhynie.R
+#
 # This script builds a guild-level adjacency matrix for the Rhynie Chert food web,
 # using interaction priority levels (1 is standard, 2 is priority) from the links file.
+# Usage:
+#   Rscript scripts/adj_matrix_builder_rhynie.R \
+#     --guilds data/rhynie/guilds.csv \
+#     --links data/rhynie/links.csv \
+#     --out data/rhynie \
+# ============================================================
 
-# setwd("~/Dropbox/Work/Devonian terr ecosystems/EcolNetworks/RhynieWebRepo")
 
 # load data ----
 guild_info <- read.csv("guilds.csv")
