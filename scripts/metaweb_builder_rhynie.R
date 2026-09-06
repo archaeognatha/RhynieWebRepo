@@ -2,23 +2,21 @@
 # ============================================================
 # metaweb_builder_rhynie.R
 #
-# This script takes a single Excel spreadsheet defining Rhynie
-# network structure as input and builds the following csv outputs:
-#      guilds.csv                     
-#      links.csv                      
-#      guild_matrix.csv               
-#      guilds_lumped.csv              
-#      links_lumped.csv   (for transparency)
-#      guild_matrix_lumped.csv        
+# Builds guild-level metawebs from RhynieGuildStructure.xlsx, one
+# folder per resolution x habitat variant:
+#   <out>/rhynie_unlumped_complete/{guilds.csv, links.csv, guild_matrix.csv}
+#   <out>/rhynie_unlumped_terr/...
+#   <out>/rhynie_lumped_aqu/...      etc.     
 #
 # Usage:
 #   Rscript scripts/metaweb_builder_rhynie.R \
-#     --workbook data/rhynie/RhynieGuildStructure.xlsx \
-#     --out data/rhynie \
-#
+#     --workbook default: data/rhynie/RhynieGuildStructure.xlsx \
+#     --out      default: data/rhynie \
+#     --resolutions unlumped,lumped \
+#     --habitats complete,terr,aqu
 # ============================================================
 
-#### ---- argument parsing --------------------------------------------------
+# ---- argument parsing --------------------------------------------------
 
 args <- commandArgs(trailingOnly = TRUE)
 opt_val <- function(flag, default = NA_character_) {
@@ -28,10 +26,13 @@ opt_val <- function(flag, default = NA_character_) {
 opt_flag <- function(flag) flag %in% args
 
 workbook  <- opt_val("--workbook", "data/rhynie/RhynieGuildStructure.xlsx")
-output_path  <- opt_val("--out",  "data/Rhynie")
+output_path  <- opt_val("--out",  "data/rhynie")
+resolutions <- strsplit(opt_val("--resolutions", "unlumped,lumped"), ",")[[1]]
+habitats <- strsplit(opt_val("--habitats", "complete,terr,aqu"), ",")[[1]]
 
+stopifnot(all(resolutions %in% c("unlumped", "lumped")))
+stopifnot(all(habitats %in% c("complete", "terr", "aqu")))
 if (!file.exists(workbook)) stop("Workbook not found: ", workbook, call. = FALSE)
-dir.create(output_path, recursive = TRUE, showWarnings = FALSE)
 
 suppressPackageStartupMessages(library(readxl))
 guilds <- as.data.frame(read_excel(workbook, sheet = "Guilds"))
@@ -46,13 +47,11 @@ parse_ids <- function(s) {
   out
 }
 
-#### ---- output guilds csv --------------------------------------------------
+# The schema every variant writes. og_guild_ids is appended for lumped and subset versions
+STD_COLS <- c("guild_no", "guild_name", "major_taxa", "G",
+              "priority_resources", "general_resources", "terr", "aqu")
 
-export_cols <- c("guild_no", "guild_name", "major_taxa", "G", "priority_resources",
-                 "general_resources", "terr", "aqu")
-write.csv(guilds[, export_cols], file.path(output_path,"guilds.csv"), row.names = FALSE)
-
-#### ---- make links table --------------------------------------------------
+# ---- make the full links table --------------------------------------------------
 
 P_COL <- "priority_resources"
 G_COL <- "general_resources"
@@ -70,24 +69,6 @@ links <- do.call(rbind, lapply(seq_len(nrow(guilds)), function(i) {
     if (length(g)) data.frame(consumer = cons, resource = g, priority.level = 1L)
   )
 }))
-
-write.csv(links, file.path(output_path,"links.csv"), row.names = FALSE)
-
-# Build adjacency matrix ----
-
-# Find the highest guild ID to define the size of the square matrix.
-num_guilds <- max(c(links$consumer, links$resource, guilds$guild_no), na.rm = TRUE)
-
-if (max(guilds$guild_no) != nrow(guilds)) {
-  stop("Guild IDs are not contiguous 1..n: ", nrow(guilds), " guilds, max ID ",
-       max(guilds$guild_no), call. = FALSE)
-}
-
-# Initialize a square matrix with rows & columns equal to the number of guilds, populated with zeros
-adj_matrix <- matrix(0, nrow = num_guilds, ncol = num_guilds)
-
-# The 'links.csv' file has a 'priority.level' column.
-# We can loop through the links and assign the value from that column.
 
 #### ---- integrity checks --------------------------------------------------
 
@@ -138,91 +119,195 @@ if (length(unlinked)) {
                 collapse = "; "), call. = FALSE)
 }
 
-#### ---- fill matrix -------------------------------------------------------
-adj_matrix <- matrix(0L, nrow = num_guilds, ncol = num_guilds)
-adj_matrix[cbind(links$consumer, links$resource)] <- links$priority.level
+# ---- lumping -----------------------------------------------------------
 
-# Write the adjacency matrix to a new CSV file.
-output_filename <- file.path(output_path, "guild_matrix.csv")
-write.table(adj_matrix, output_filename, sep = ",", row.names = FALSE, col.names = FALSE)
-
-# Build lumped adjacency matrix ----
-
-# Membership and richness come from the guilds sheet. Link existence is
-# derived: lumped A -> B exists if any member pair had a link. Priority
+# makes a taxonomically-lumped version of the guilds and links dataframes
+# g is the guilds sheet, l is the links table, lp contains priority overrides
+# lumped A -> B exists if any member pair had a link. Priority
 # defaults to 1 for resources of lumped guilds; priority-2 pairs are 
 # listed explicitly in the "Lumped priority" sheet, with a note giving reasoning.
+lump_metaweb <- function(g, l, lp) {
+  
+  lg <- unique(g[, c("lumped_id", "lumped_name", "lumped_G")])
+  if (anyDuplicated(lg$lumped_id))
+    stop("lumped_name or lumped_G disagree within a lumped_id", call. = FALSE)
+  lg <- lg[order(lg$lumped_id), ]
+  
+  # Habitat membership: present in a habitat if any member is
+  # og_guild_ids: original guild IDs making up each lumped guild.
+  hab     <- aggregate(cbind(terr, aqu) ~ lumped_id, data = g, FUN = max)
+  members <- aggregate(guild_no ~ lumped_id, data = g,
+                       FUN = function(x) paste(sort(x), collapse = ","))
+  names(members)[2] <- "og_guild_ids"
+  
+  lg <- merge(lg, hab,     by = "lumped_id", all.x = TRUE, sort = FALSE)
+  lg <- merge(lg, members, by = "lumped_id", all.x = TRUE, sort = FALSE)
+  lg <- lg[order(lg$lumped_id), ]
+  
+  to_lumped <- setNames(g$lumped_id, g$guild_no)   # original -> lumped
+  
+  # Effective priority before aggregation. A lumped consumer loses its
+  # specialized links; resource-side lumping keeps priority, so the highest 
+  # surviving link wins.
+  n_members <- table(g$lumped_id) # table of how many guilds in each lumped guild
+  lc  <- unname(to_lumped[as.character(l$consumer)]) # converted consumer IDs
+  lr  <- unname(to_lumped[as.character(l$resource)]) # converted resource IDs
+  eff <- ifelse(n_members[as.character(lc)] > 1, 1L, l$priority.level) # for lumped consumers, reset default link priority to 1  
+  
+  agg <- aggregate(list(priority.level = eff),
+                   by = list(consumer = lc, resource = lr), FUN = max)
+  lumped_links <- agg[order(agg$consumer, agg$resource), ]
+  
+  # Overrides reference lumped IDs from the complete web. In a habitat
+  # subset some of those guilds are absent, so their overrides are inapplicable. 
+  # Drop those first; anything left must still match a real link, 
+  # which is what the orphan check below is for.
+  lp <- lp[lp$consumer_lumped_id %in% lg$lumped_id &
+             lp$resource_lumped_id %in% lg$lumped_id, , drop = FALSE]
 
-lg <- unique(guilds[, c("lumped_id", "lumped_name", "lumped_G")])
-if (anyDuplicated(lg$lumped_id))
-  stop("lumped_name or lumped_G disagree within a lumped_id", call. = FALSE)
-lg <- lg[order(lg$lumped_id), ]
-if (!identical(as.integer(lg$lumped_id), seq_len(nrow(lg))))
-  stop("lumped_id must be contiguous 1..n", call. = FALSE)
-
-# Habitat membership: present in a habitat if any member is
-# og_guild_ids: original guild IDs making up each lumped guild.
-hab     <- aggregate(cbind(terr, aqu) ~ lumped_id, data = guilds, FUN = max)
-members <- aggregate(guild_no ~ lumped_id, data = guilds,
-                     FUN = function(x) paste(sort(x), collapse = ","))
-names(members)[2] <- "og_guild_ids"
-
-lg <- merge(lg, hab,     by = "lumped_id", all.x = TRUE, sort = FALSE)
-lg <- merge(lg, members, by = "lumped_id", all.x = TRUE, sort = FALSE)
-lg <- lg[order(lg$lumped_id), ]
-
-mixed <- lg$lumped_id[lg$terr == 1 & lg$aqu == 1]
-if (length(mixed)) {
-  message("Lumped guild(s) spanning both habitats: ",
-          paste(lg$lumped_name[lg$lumped_id %in% mixed], collapse = "; "))
+  if (nrow(lp)) {
+    key_all <- paste(lumped_links$consumer, lumped_links$resource)
+    key_ovr <- paste(lp$consumer_lumped_id, lp$resource_lumped_id)
+    
+    orphan <- setdiff(key_ovr, key_all)
+    if (length(orphan))
+      stop("Override given for pair(s) with no preexisting link: ",
+           paste(orphan, collapse = "; "), call. = FALSE)
+    if (!all(lp$priority %in% c(1, 2)))
+      stop("Override priority must be 1 or 2", call. = FALSE)
+    
+    m       <- match(key_all, key_ovr)
+    changed <- !is.na(m) & lumped_links$priority.level != lp$priority[m]
+    lumped_links$priority.level[!is.na(m)] <- as.integer(lp$priority[m[!is.na(m)]])
+    
+    message(sum(changed), " of ", nrow(lp), " override(s) changed a derived value")
+  }
+  
+  # Self-links created by lumping ---------------------------------------
+  # Kept only if a member guild ate itself in the unlumped web AND that
+  # guild had G == 1, i.e. the link was already a species-level self-loop.
+  # An original self-link on a G > 1 guild meant predation among distinct
+  # species, so collapsing it onto one node manufactures a new self-loop.
+  
+  g_of      <- setNames(lg$lumped_G, lg$lumped_id)      # lumped id -> richness
+  g1        <- g$guild_no[g$G == 1]
+  self_orig <- unique(unname(to_lumped[
+    as.character(intersect(l$consumer[l$consumer == l$resource], g1))]))
+  
+  cid       <- lumped_links$consumer
+  drop_rows <- (cid == lumped_links$resource) &
+    (unname(g_of[as.character(cid)]) == 1) &
+    !(cid %in% self_orig)
+  
+  if (any(drop_rows)) {
+    message("  removed ", sum(drop_rows),
+            " self-link(s) created by lumping: ",
+            paste(lg$lumped_name[match(cid[drop_rows], lg$lumped_id)],
+                  collapse = "; "))
+    lumped_links <- lumped_links[!drop_rows, , drop = FALSE]
+  }
+  
+  # standardize names for the writer function
+  lg$guild_no   <- lg$lumped_id
+  lg$guild_name <- lg$lumped_name
+  lg$G          <- lg$lumped_G
+  lg$major_taxa <- NA_character_
+  
+  return(list(guilds = lg, links = lumped_links))
 }
 
-to_lumped <- setNames(guilds$lumped_id, guilds$guild_no)   # original -> lumped
-
-# Effective priority before aggregation. A lumped consumer loses its
-# specialized links; resource-side lumping keeps priority, so the highest 
-# surviving link wins.
-n_members <- table(guilds$lumped_id) # table of how many guilds in each lumped guild
-lc  <- unname(to_lumped[as.character(links$consumer)]) # converted consumer IDs
-lr  <- unname(to_lumped[as.character(links$resource)]) # converted resource IDs
-eff <- ifelse(n_members[as.character(lc)] > 1, 1L, links$priority.level) # for lumped consumers, reset default link priority to 1  
-
-agg <- aggregate(list(priority.level = eff),
-                 by = list(consumer = lc, resource = lr), FUN = max)
-lumped_links <- agg[order(agg$consumer, agg$resource), ]
-
-# Manual overrides. Can promote or demote any existing link.
-if (nrow(lp)) {
-  key_all <- paste(lumped_links$consumer, lumped_links$resource)
-  key_ovr <- paste(lp$consumer_lumped_id, lp$resource_lumped_id)
-  
-  orphan <- setdiff(key_ovr, key_all)
-  if (length(orphan))
-    stop("Override given for pair(s) with no preexisting link: ",
-         paste(orphan, collapse = "; "), call. = FALSE)
-  if (!all(lp$priority %in% c(1, 2)))
-    stop("Override priority must be 1 or 2", call. = FALSE)
-  
-  m       <- match(key_all, key_ovr)
-  changed <- !is.na(m) & lumped_links$priority.level != lp$priority[m]
-  lumped_links$priority.level[!is.na(m)] <- as.integer(lp$priority[m[!is.na(m)]])
-  
-  message(sum(changed), " of ", nrow(lp), " override(s) changed a derived value")
+# ---- Habitat subset ---------------------------------------------------------
+# Keeps original IDs; renumbering happens later
+subset_habitat <- function(g, l, habitat) {
+  if (habitat == "complete") return(list(guilds = g, links = l))
+  keep <- g$guild_no[g[[habitat]] == 1]
+  list(
+    guilds = g[g$guild_no %in% keep, , drop = FALSE],
+    links  = l[l$consumer %in% keep & l$resource %in% keep, , drop = FALSE]
+  )
+}
+# ---- Renumber IDs --------------------------------------------------------
+# Close gaps in guild IDs so they run 1..n.
+renumber_ids <- function(g, l) {
+  old <- sort(unique(g$guild_no))
+  map <- setNames(seq_along(old), old)
+  g$guild_no  <- unname(map[as.character(g$guild_no)])
+  l$consumer  <- unname(map[as.character(l$consumer)])
+  l$resource  <- unname(map[as.character(l$resource)])
+  g <- g[order(g$guild_no), , drop = FALSE]
+  l <- l[order(l$consumer, l$resource), , drop = FALSE]
+  list(guilds = g, links = l)
 }
 
-self <- lumped_links$consumer == lumped_links$resource
-if (any(self))
-  warning("Lumping created self-link(s) in lumped guild(s): ",
-          paste(unique(lumped_links$consumer[self]), collapse = ", "), call. = FALSE)
+# Build adjacency matrix ----------------------------------------------------
+build_matrix <- function(l, n) {
+  m <- matrix(0L, n, n)
+  m[cbind(l$consumer, l$resource)] <- as.integer(l$priority.level)
+  m
+}
 
-n_l <- nrow(lg)
-lumped_matrix <- matrix(0L, n_l, n_l)
-lumped_matrix[cbind(lumped_links$consumer, lumped_links$resource)] <- lumped_links$priority.level
+#---- Refresh resource lists in guilds sheet -----------------------------------
+# Rebuild the two resource-list columns from links, so guilds.csv is
+# internally consistent after subsetting/renumbering
+refresh_resource_cols <- function(g, l) {
+  fmt <- function(gid, pr) {
+    ids <- sort(l$resource[l$consumer == gid & l$priority.level == pr])
+    if (!length(ids)) NA_character_ else paste(ids, collapse = ",")
+  }
+  g$priority_resources <- vapply(g$guild_no, fmt, character(1), pr = 2L)
+  g$general_resources  <- vapply(g$guild_no, fmt, character(1), pr = 1L)
+  g
+}
 
-## ---- lumped outputs ---------------------------
-write.csv(lg, file.path(output_path,"guilds_lumped.csv"), row.names = FALSE)
+# ---- writer function to output files ----------------------------------------
+write_metaweb <- function(g_full, l_full, lp, resolution, habitat) {
+  
+  tag <- sprintf("rhynie_%s_%s", resolution, habitat) #for folder naming later
+  message("Building ", tag)
+  
+  # habitat subset, on original guilds before lumping
+  s <- subset_habitat(g_full, l_full, habitat)
+  
+  # lump if asked
+  if (resolution == "lumped") {
+    s <- lump_metaweb(s$guilds, s$links, lp)
+  } else {
+    s$guilds$og_guild_ids <- NA_character_
+  }
+  
+  # renumber to 1..n
+  s <- renumber_ids(s$guilds, s$links)
+  g <- s$guilds; l <- s$links
+  
+  #    isolated-node check, per variant. Subsetting can strand a guild
+  #    whose only partners were in the other habitat.
+  isolated <- setdiff(g$guild_no, unique(c(l$consumer, l$resource)))
+  if (length(isolated)) {
+    warning(tag, ": guild(s) with no links after subsetting: ",
+            paste(g$guild_name[g$guild_no %in% isolated], collapse = "; "),
+            call. = FALSE)
+  }
+  
+  #   write
+  g   <- refresh_resource_cols(g, l)
+  dir <- file.path(output_path, tag)
+  dir.create(dir, recursive = TRUE, showWarnings = FALSE)
+  
+  keep_cols <- c(STD_COLS, if (resolution == "lumped") "og_guild_ids")
+  write.csv(g[, keep_cols], file.path(dir, "guilds.csv"), row.names = FALSE)
+  write.csv(l, file.path(dir, "links.csv"), row.names = FALSE)
+  write.table(build_matrix(l, nrow(g)), file.path(dir, "guild_matrix.csv"),
+              sep = ",", row.names = FALSE, col.names = FALSE)
+  
+  message(sprintf("  %d guilds, %d species, %d links",
+                  nrow(g), sum(g$G), nrow(l)))
+  invisible(NULL)
+}
 
-write.csv(lumped_links, file.path(output_path,"links_lumped.csv"), row.names = FALSE)
+#### ---- run every requested combination -----------------------------------
 
-output_filename_lumped <- file.path(output_path, "guild_matrix_lumped.csv")
-write.table(lumped_matrix, output_filename_lumped, sep = ",", row.names = FALSE, col.names = FALSE)
+for (res in resolutions) {
+  for (hab in habitats) {
+    write_metaweb(guilds, links, lp, res, hab)
+  }
+}

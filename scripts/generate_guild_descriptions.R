@@ -20,7 +20,7 @@ guilds <- read_csv("guilds.csv", show_col_types = FALSE)
 links  <- read_csv("links.csv",  show_col_types = FALSE)
 
 # Tidy column names so they're easier to reference
-names(guilds) <- c("guild_no", "guild_name", "major_taxa", "G", "sp_tp",
+names(guilds) <- c("guild_no", "guild_name", "major_taxa", "G",
                    "prio_resources", "gen_resources", "terr", "aqu")
 names(links)  <- c("consumer", "resource", "priority")
 
