@@ -38,7 +38,7 @@ opt_flag <- function(flag) flag %in% args
 
 species_path <- opt_val("--speciesinfo", "data/messel/speciesinfo_messel.csv")
 links_path   <- opt_val("--links",       "data/messel/links_messel.csv")
-output_path  <- opt_val("--out",         "SLNs/Messel")
+output_path  <- opt_val("--out",         "SLNs/messel/raw")
 
 for (p in c(species_path, links_path)) {
   if (!file.exists(p)) stop("Input file not found: ", p, call. = FALSE)

@@ -1,38 +1,39 @@
-# sources.csv - one row per WebMetrics file.,,,,,,,,,
-#,,,,,,,,,
-# HOW COVARIATES ARE JOINED,,,,,,,,,
-#   row_type = replicate : the whole file is one web (1000 stochastic,,,,,,,,,
-#                          replicates of it).,,,,,,,,,
-#                          Covariates come from webinfo Sheet1 matched on,,,,,,,,,
-#                          webinfo_key -> web_name.,,,,,,,,,
-#   row_type = web       : each row is a different web. Variation is real.,,,,,,,,,
-#                          Covariates come from webinfo Sheet1 matched,,,,,,,,,
-#                          per row on SLN_ID -> the new sln_id column.,,,,,,,,,
-#,,,,,,,,,
-# webinfo.xlsx Sheet1 is the covariate table,,,,,,,,,
-#,,,,,,,,,
-source_id,metrics_file,row_type,webinfo_key,rhynie_habitat,rhynie_lumping,TS_lumped,in_paper,sort_group,notes
-rhynie_complete_ts,SLNs/Rhynie_complete_TS/WebMetrics_Rhynie_complete_TS.csv,replicate,rhynie_complete,complete,unlumped,TRUE,TRUE,rhynie,primary reconstruction
-rhynie_terr_ts,SLNs/Rhynie_terr_TS/WebMetrics_Rhynie_terr_TS.csv,replicate,rhynie_terr,terr,unlumped,TRUE,TRUE,rhynie,
-rhynie_aqu_ts,SLNs/Rhynie_aqu_TS/WebMetrics_Rhynie_aqu_TS.csv,replicate,rhynie_aqu,aqu,unlumped,TRUE,TRUE,rhynie,
-rhynie_complete_lumped_ts,SLNs/Rhynie_complete_lumped_TS/WebMetrics_Rhynie_complete_lumped_TS.csv,replicate,rhynie_complete_lumped,complete,lumped,TRUE,TRUE,rhynie,resolution-matched to coarse modern webs
-rhynie_terr_lumped_ts,SLNs/Rhynie_terr_lumped_TS/WebMetrics_Rhynie_terr_lumped_TS.csv,replicate,rhynie_terr_lumped,terr,lumped,TRUE,TRUE,rhynie,
-rhynie_aqu_lumped_ts,SLNs/Rhynie_aqu_lumped_TS/WebMetrics_Rhynie_aqu_lumped_TS.csv,replicate,rhynie_aqu_lumped,aqu,lumped,TRUE,TRUE,rhynie,
-rhynie_complete_nots,SLNs/Rhynie_raw_SLNs_NO_TS/Rhynie_complete/WebMetrics_Rhynie_complete.csv,replicate,rhynie_complete,complete,unlumped,FALSE,TRUE,rhynie,trophic species sensitivity check
-rhynie_terr_nots,SLNs/Rhynie_raw_SLNs_NO_TS/Rhynie_terr/WebMetrics_Rhynie_terr.csv,replicate,rhynie_terr,terr,unlumped,FALSE,FALSE,rhynie,
-rhynie_aqu_nots,SLNs/Rhynie_raw_SLNs_NO_TS/Rhynie_aqu/WebMetrics_Rhynie_aqu.csv,replicate,rhynie_aqu,aqu,unlumped,FALSE,FALSE,rhynie,
-rhynie_complete_lumped_nots,SLNs/Rhynie_raw_SLNs_NO_TS/Rhynie_lumped/WebMetrics_Rhynie_lumped.csv,replicate,rhynie_complete_lumped,complete,lumped,FALSE,TRUE,rhynie,trophic species check on the lumped comparative web
-rhynie_terr_lumped_nots,SLNs/Rhynie_raw_SLNs_NO_TS/Rhynie_terr_lumped/WebMetrics_Rhynie_terr_lumped.csv,replicate,rhynie_terr_lumped,terr,lumped,FALSE,FALSE,rhynie,
-rhynie_aqu_lumped_nots,SLNs/Rhynie_raw_SLNs_NO_TS/Rhynie_aqu_lumped/WebMetrics_Rhynie_aqu_lumped.csv,replicate,rhynie_aqu_lumped,aqu,lumped,FALSE,FALSE,rhynie,
-niche_unlumped,SLNs/Niche_unlumped/WebMetrics_Niche_unlumped.csv,replicate,NA,complete,unlumped,TRUE,TRUE,niche,simulation - no webinfo row
-niche_lumped,SLNs/Niche_lumped/WebMetrics_Niche_lumped.csv,replicate,NA,complete,lumped,TRUE,TRUE,niche,simulation - no webinfo row
-messel_nots,SLNs/Messel/WebMetrics_Messel.csv,web,NA,NA,NA,FALSE,FALSE,small,unaggregated - run the lumper to replicate Dunne et al.
-messel_ts,SLNs/Messel_TS/WebMetrics_Messel_TS.csv,web,NA,NA,NA,TRUE,TRUE,small,"6 subset versions of one reconstructed fossil food web (link certainty = hi/lo, habitat = aqu/terr/both)"
-digel_nots,SLNs/DigelSoil/WebMetrics_DigelSoil.csv,web,NA,NA,NA,FALSE,FALSE,digel,superseded by TS version
-digel_ts,SLNs/DigelSoil_TS/WebMetrics_DigelSoil_TS.csv,web,NA,NA,NA,TRUE,TRUE,digel,48 plots in 3 regions (16 each) from one metaweb
-deruiter_nots,SLNs/DeRuiterSoil/WebMetrics_DeRuiterSoil.csv,web,NA,NA,NA,FALSE,FALSE,small,superseded by TS version
-deruiter_ts,SLNs/DeRuiterSoil_TS/WebMetrics_DeRuiterSoil_TS.csv,web,NA,NA,NA,TRUE,TRUE,small,4 webs
-ecoweb_nots,SLNs/EcoWeb/WebMetrics_EcoWeb.csv,web,NA,NA,NA,FALSE,FALSE,ecoweb,superseded by TS version
-ecoweb_ts,SLNs/EcoWeb_TS/WebMetrics_EcoWeb_TS.csv,web,NA,NA,NA,TRUE,TRUE,ecoweb,23 webs
-othermodern_nots,SLNs/OtherModern/WebMetrics_OtherModern.csv,web,NA,NA,NA,FALSE,FALSE,small,superseded by TS version
-othermodern_ts,SLNs/OtherModern_TS/WebMetrics_OtherModern_TS.csv,web,NA,NA,NA,TRUE,TRUE,small,4 webs
+# sources.csv - one row per WebMetrics file.,,,,,,,,,,,
+#,,,,,,,,,,,
+#   row_type = replicate : the whole file is one web (1000 stochastic,,,,,,,,,,,
+#                          replicates of it).,,,,,,,,,,,
+#                          Covariates come from webinfo Sheet1 matched on,,,,,,,,,,,
+#                          webinfo_key -> web_name.,,,,,,,,,,,
+#   row_type = web       : each row is a different web. Variation is real.,,,,,,,,,,,
+#                          Covariates come from webinfo Sheet1 matched,,,,,,,,,,,
+#                          per row on SLN_ID -> the new sln_id column.,,,,,,,,,,,
+#,,,,,,,,,,,
+# webinfo.xlsx Sheet1 is the covariate table,,,,,,,,,,,
+#,,,,,,,,,,,
+source_id,metrics_file,row_type,webinfo_key,rhynie_habitat,rhynie_lumping,kmodel,gamma,TS_lumped,in_paper,sort_group,notes
+rhynie_unlumped_complete_ts,SLNs/rhynie_unlumped_complete/ts/WebMetrics_rhynie_unlumped_complete_ts.csv,replicate,rhynie_unlumped_complete,complete,unlumped,prk,3,TRUE,TRUE,rhynie,primary reconstruction
+rhynie_unlumped_terr_ts,SLNs/rhynie_unlumped_terr/ts/WebMetrics_rhynie_unlumped_terr_ts.csv,replicate,rhynie_unlumped_terr,terr,unlumped,prk,3,TRUE,TRUE,rhynie,
+rhynie_unlumped_aqu_ts,SLNs/rhynie_unlumped_aqu/ts/WebMetrics_rhynie_unlumped_aqu_ts.csv,replicate,rhynie_unlumped_aqu,aqu,unlumped,prk,3,TRUE,TRUE,rhynie,
+rhynie_lumped_complete_ts,SLNs/rhynie_lumped_complete/ts/WebMetrics_rhynie_lumped_complete_ts.csv,replicate,rhynie_lumped_complete,complete,lumped,prk,3,TRUE,TRUE,rhynie,resolution-matched to coarse modern webs
+rhynie_lumped_terr_ts,SLNs/rhynie_lumped_terr/ts/WebMetrics_rhynie_lumped_terr_ts.csv,replicate,rhynie_lumped_terr,terr,lumped,prk,3,TRUE,TRUE,rhynie,
+rhynie_lumped_aqu_ts,SLNs/rhynie_lumped_aqu/ts/WebMetrics_rhynie_lumped_aqu_ts.csv,replicate,rhynie_lumped_aqu,aqu,lumped,prk,3,TRUE,TRUE,rhynie,
+rhynie_unlumped_complete_raw,SLNs/rhynie_unlumped_complete/raw/WebMetrics_rhynie_unlumped_complete_raw.csv,replicate,rhynie_unlumped_complete,complete,unlumped,prk,3,FALSE,TRUE,rhynie,trophic species sensitivity check
+rhynie_unlumped_terr_raw,SLNs/rhynie_unlumped_terr/raw/WebMetrics_rhynie_unlumped_terr_raw.csv,replicate,rhynie_unlumped_terr,terr,unlumped,prk,3,FALSE,FALSE,rhynie,
+rhynie_unlumped_aqu_raw,SLNs/rhynie_unlumped_aqu/raw/WebMetrics_rhynie_unlumped_aqu_raw.csv,replicate,rhynie_unlumped_aqu,aqu,unlumped,prk,3,FALSE,FALSE,rhynie,
+rhynie_lumped_complete_raw,SLNs/rhynie_lumped_complete/raw/WebMetrics_rhynie_lumped_complete_raw.csv,replicate,rhynie_lumped_complete,complete,lumped,prk,3,FALSE,TRUE,rhynie,trophic species check on the lumped comparative web
+rhynie_lumped_terr_raw,SLNs/rhynie_lumped_terr/raw/WebMetrics_rhynie_lumped_terr_raw.csv,replicate,rhynie_lumped_terr,terr,lumped,prk,3,FALSE,FALSE,rhynie,
+rhynie_lumped_aqu_raw,SLNs/rhynie_lumped_aqu/raw/WebMetrics_rhynie_lumped_aqu_raw.csv,replicate,rhynie_lumped_aqu,aqu,lumped,prk,3,FALSE,FALSE,rhynie,
+niche_unlumped_ts,SLNs/niche_unlumped/ts/WebMetrics_niche_unlumped_ts.csv,replicate,NA,complete,unlumped,NA,NA,TRUE,TRUE,niche,simulation - no webinfo row
+niche_lumped_ts,SLNs/niche_lumped/ts/WebMetrics_niche_lumped_ts.csv,replicate,NA,complete,lumped,NA,NA,TRUE,TRUE,niche,simulation - no webinfo row
+niche_unlumped_raw,SLNs/niche_unlumped/raw/WebMetrics_niche_unlumped_raw.csv,replicate,NA,complete,unlumped,NA,NA,FALSE,FALSE,niche,simulation - no webinfo row
+niche_lumped_raw,SLNs/niche_lumped/raw/WebMetrics_niche_lumped_raw.csv,replicate,NA,complete,lumped,NA,NA,FALSE,FALSE,niche,simulation - no webinfo row
+messel_raw,SLNs/messel/raw/WebMetrics_messel_raw.csv,web,NA,NA,NA,NA,NA,FALSE,FALSE,small,unaggregated - run the lumper to replicate Dunne et al.
+messel_ts,SLNs/messel/ts/WebMetrics_messel_ts.csv,web,NA,NA,NA,NA,NA,TRUE,TRUE,small,"6 subset versions of one reconstructed fossil food web (link certainty = hi/lo, habitat = aqu/terr/both)"
+digel_soil_raw,SLNs/digel_soil/raw/WebMetrics_digel_soil_raw.csv,web,NA,NA,NA,NA,NA,FALSE,FALSE,digel,superseded by TS version
+digel_soil_ts,SLNs/digel_soil/ts/WebMetrics_digel_soil_ts.csv,web,NA,NA,NA,NA,NA,TRUE,TRUE,digel,48 plots in 3 regions (16 each) from one metaweb
+deruiter_soil_raw,SLNs/deruiter_soil/raw/WebMetrics_deruiter_soil_raw.csv,web,NA,NA,NA,NA,NA,FALSE,FALSE,small,superseded by TS version
+deruiter_soil_ts,SLNs/deruiter_soil/ts/WebMetrics_deruiter_soil_ts.csv,web,NA,NA,NA,NA,NA,TRUE,TRUE,small,4 webs
+ecoweb_raw,SLNs/ecoweb/raw/WebMetrics_ecoweb_raw.csv,web,NA,NA,NA,NA,NA,FALSE,FALSE,ecoweb,superseded by TS version
+ecoweb_ts,SLNs/ecoweb/ts/WebMetrics_ecoweb_ts.csv,web,NA,NA,NA,NA,NA,TRUE,TRUE,ecoweb,23 webs
+other_modern_raw,SLNs/other_modern/raw/WebMetrics_other_modern_raw.csv,web,NA,NA,NA,NA,NA,FALSE,FALSE,small,superseded by TS version
+other_modern_ts,SLNs/other_modern/ts/WebMetrics_other_modern_ts.csv,web,NA,NA,NA,NA,NA,TRUE,TRUE,small,4 webs

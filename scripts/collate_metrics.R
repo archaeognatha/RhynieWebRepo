@@ -31,7 +31,7 @@ opt_flag <- function(flag) flag %in% args
 f_sources <- opt_val("--sources", "sources.csv")
 f_webinfo <- opt_val("--webinfo", "webinfo.xlsx")
 sheet     <- opt_val("--sheet",   "Sheet1")
-f_out     <- opt_val("--out",     "MetricsComparisons/CompleteMetrics.csv")
+f_out     <- opt_val("--out",     "results/CompleteMetrics.csv")
 in_paper_only <- opt_flag("--in-paper-only")
 strict        <- opt_flag("--strict")
 

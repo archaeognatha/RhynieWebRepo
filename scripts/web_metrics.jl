@@ -11,11 +11,9 @@
 #
 # Options:
 #   --in-dir DIR    folder holding matrix_*.csv and speciesinfo_*.csv   (required)
-#   --name STR      label used in the output filename                  (required)
-#   --slns-root     DIR output root  (default: SLNs)
-#   --out FILE      metrics table path   (default: SLNs/<name>/WebMetrics_<name>.csv)
-#   --node-dir DIR  per-node output dir  (default: SLNs/<name>)
-#   --create        create the output folder if it doesn't exist
+#   --name STR      label used in the output filename (default: slnid_stage e.g., rhynie_unlumped_complete_ts)                 
+#   --out FILE      metrics table path   (default: <in-dir>/WebMetrics_<name>.csv)
+#   --node-dir DIR  per-node output dir  (default: <in-dir>)
 #   --maxtime N     chain-search time limit per species, seconds (default: 10)
 # ============================================================
 
@@ -39,29 +37,23 @@ end
 opt_flag(flag::String) = flag in ARGS
 
 function parse_args()
-    in_dir = opt_val("--in-dir")
-    name   = opt_val("--name")
-
+    in_dir   = opt_val("--in-dir")                       # e.g., SLNs/rhynie_unlumped_complete/ts
     in_dir === nothing && error("--in-dir is required")
-    name   === nothing && error("--name is required")
+    in_dir = rstrip(in_dir, '/')                         # remove any trailing /'s 
     isdir(in_dir)      || error("--in-dir is not a directory: $in_dir")
 
-    slns_root = opt_val("--slns-root", "SLNs")
-    out       = opt_val("--out",      joinpath(slns_root, name, "WebMetrics_$(name).csv"))
-    node_dir  = opt_val("--node-dir", joinpath(slns_root, name))
-    create    = opt_flag("--create")
+    stage    = basename(in_dir)                          # "ts"
+    dsid     = basename(dirname(in_dir))                 # "rhynie_unlumped_complete"
+    name     = opt_val("--name", "$(dsid)_$(stage)")     # optional
 
-    # Both outputs need their folder to exist. Missing folder is an error
-    # by default, because the usual cause is a typo in --name: without this
-    # guard a misspelling silently writes to a brand new directory.
+    out       = opt_val("--out",      joinpath(in_dir, "WebMetrics_$(name).csv"))
+    node_dir = opt_val("--node-dir", in_dir)
+
     for d in unique([node_dir, dirname(out)])
-        isempty(d) && continue          # bare filename, means current directory
+        (isempty(d) || d == in_dir) && continue          # skips if neither one is explicitly named
         if !isdir(d)
-            create || error("Output folder does not exist: $d\n" *
-                            "  Check --name matches the folder under $slns_root,\n" *
-                            "  or pass --create to make it.")
             mkpath(d)
-            println("Created output folder: ", d)
+            println("Created output folder: ", d)        # flags user that a folder was created
         end
     end
     
@@ -81,10 +73,10 @@ end
 # Everything from notebook cell 4 goes in here, with these changes:
 #   dir_path       -> in_dir
 #   analysis_name  -> name
-#   line 390       -> CSV.write(joinpath(node_dir, "nodemetrics_$(web_id).csv"), sp_P)
+#   line 390       -> CSV.write(joinpath(node_dir, "nodemetrics_$(SLN_ID).csv"), sp_P)
 #   line 403       -> CSV.write(out, SLN_stats_out)
 #   chain_depths   -> pass maxtime through:
-#                     chain_depths(sp_A, no_species, web_id, maxtime = maxtime)
+#                     chain_depths(sp_A, no_species, SLN_ID, maxtime = maxtime)
 
 # ------------------------------------------------------------
 
@@ -118,17 +110,17 @@ function main(in_dir::String, name::String, out::String,
         matrix_path = matrix_files[index]
         # Extract the unique web ID (e.g., "messel", "103") from the matrix filename
         ## Assumes filename format: "matrix_WEBID.csv"
-        web_id = match(r"matrix_(.*)\.csv", basename(matrix_path)).captures[1]
+        SLN_ID = match(r"matrix_(.*)\.csv", basename(matrix_path)).captures[1]
         # Find the corresponding species info file
         ## We look for "speciesinfo_WEBID.csv" in the info_files list
-        expected_info_name = "speciesinfo_$(web_id).csv"
+        expected_info_name = "speciesinfo_$(SLN_ID).csv"
         matching_info = filter(f -> basename(f) == expected_info_name, info_files)
         if isempty(matching_info)
-            println("SKIPPING $web_id: Could not find $expected_info_name")
+            println("SKIPPING $SLN_ID: Could not find $expected_info_name")
             continue
         end
         info_path = matching_info[1]
-        println("Processing $web_id...")
+        println("Processing $SLN_ID...")
         println("   Matrix: ", basename(matrix_path))
         println("   Info:   ", basename(info_path))
 
@@ -144,14 +136,14 @@ function main(in_dir::String, name::String, out::String,
         sp_A = Matrix(sp_A_df)
 
         if nrow(sp_P) != size(sp_A, 1)
-            error("DIMENSION MISMATCH for $web_id: Matrix has $(size(sp_A, 1)) rows, but Species Info has $(nrow(sp_P)) rows.")
+            error("DIMENSION MISMATCH for $SLN_ID: Matrix has $(size(sp_A, 1)) rows, but Species Info has $(nrow(sp_P)) rows.")
         end
 
         # FORCE CONVERT guild column to strings
         sp_P.guild = string.(sp_P.guild)
         
-        # add web_id to species info for differentiating networks in node-level datasheet
-        sp_P[!, :web_id] .= web_id
+        # add SLN_ID to species info for differentiating networks in node-level datasheet
+        sp_P[!, :SLN_ID] .= SLN_ID
         
         #------------------------------------#
         ### Basic stats ###
@@ -438,8 +430,8 @@ function main(in_dir::String, name::String, out::String,
         #------------------------------------#
         ### Max chain length
         
-        trophic_height = chain_depths(sp_A, no_species, web_id, maxtime = maxtime)
-        max_chain_len = maximum(trophic_height)
+        trophic_heights = chain_depths(sp_A, no_species, SLN_ID, maxtime = maxtime)
+        max_chain_len = maximum(trophic_heights)
 
         #------------------------------------#
         ### Loop ###
@@ -486,13 +478,13 @@ function main(in_dir::String, name::String, out::String,
         append!(node_out, sp_P; cols = :union, promote = true)
 
         # push metrics to SLN_stats_out
-        push!(SLN_stats_out, (web_id, Detritus, no_species, interactions, L_D, C, 
+        push!(SLN_stats_out, (SLN_ID, Detritus, no_species, interactions, L_D, C, 
             Basal, Top, Herbiv_true, Herbiv, Carniv,
             meanInDegree, stdInDegree, mean_NTP, max_NTP, mean_NTP_norm,
             TrOmniv, q_inCoherence, diameter, max_chain_len,
             mean_path_len, std_path_len, loop, 0    
         ))  # Order must match column order
-        println("Updated species info file #$(web_id) and pushed metrics to dataframe.")
+        println("Updated species info file #$(SLN_ID) and pushed metrics to dataframe.")
     end
 
     # save SLN_stats_out as a csv

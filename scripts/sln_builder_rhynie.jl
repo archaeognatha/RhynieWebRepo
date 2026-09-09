@@ -67,7 +67,7 @@ function parse_args()
         stem = basename(in_dir)
         k_model == "prk"   || (stem *= "_$(k_model)")
         γ == 3             || (stem *= "_g$(gamma_str)")
-        out_dir = joinpath("SLNs", stem)
+        out_dir = joinpath("SLNs", stem, "raw")
     end
 
     if !isdir(out_dir)

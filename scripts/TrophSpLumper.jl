@@ -37,7 +37,7 @@ function lump_trophospecies(input_dir::String, output_dir::String)
     info_files = sort(filter(f -> occursin(r"speciesinfo_.*\.csv", f), readdir(input_dir; join=true)))
 
     # create dataframe to store how many species were lumped in each web and whether any are from different guilds
-    lumping_summary = DataFrame(web_id = String[], n_lumped = Int[], n_cross_guild = Int[])
+    lumping_summary = DataFrame(SLN_ID = String[], n_lumped = Int[], n_cross_guild = Int[])
 
     n_SLNs = length(matrix_files)
 
@@ -131,7 +131,7 @@ function lump_trophospecies(input_dir::String, output_dir::String)
         end
 
         # Add to lumping summary table
-        push!(lumping_summary, (web_id = name, n_lumped = n_lumped_taxa,
+        push!(lumping_summary, (SLN_ID = name, n_lumped = n_lumped_taxa,
                         n_cross_guild = n_cross_guild))
 
         ### 7. Write output ###

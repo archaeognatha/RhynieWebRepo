@@ -1,3 +1,10 @@
+# Food web replicates - replicable from data and crowd history
+SLNs/rhynie_*/**/matrix_*.csv
+SLNs/rhynie_*/**/speciesinfo_*.csv
+SLNs/niche_*/**/matrix_*.csv
+SLNs/niche_*/**/speciesinfo_*.csv
+archive/
+
 # History files
 .Rhistory
 .Rapp.history
