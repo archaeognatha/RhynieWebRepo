@@ -1,8 +1,10 @@
-# Food web replicates - replicable from data and crowd history
+# Generated SLN replicates - reproducible from sln_params.csv
 SLNs/rhynie_*/**/matrix_*.csv
 SLNs/rhynie_*/**/speciesinfo_*.csv
 SLNs/niche_*/**/matrix_*.csv
 SLNs/niche_*/**/speciesinfo_*.csv
+
+# old results
 archive/
 
 # History files
