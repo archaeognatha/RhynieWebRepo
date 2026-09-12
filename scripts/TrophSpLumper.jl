@@ -3,7 +3,7 @@
 # using Pkg
 # Pkg.add("CSV")
 # can use saved environment in terminal using julia --project=. 
-using CSV, DataFrames, FilePathsBase, Tables
+using CSV, DataFrames, Tables
 
 # metrics computed on the unlumped web, so meaningless after lumping. These only
 # appear in legacy speciesinfo files (written by the old WebMetrics
@@ -148,15 +148,17 @@ function opt_val(flag::String, default = nothing)
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    in_dir  = opt_val("--in-dir")
-    out_dir = opt_val("--out-dir")
+    in_dir = opt_val("--in-dir")
+    in_dir === nothing && error("--in-dir is required")
+    isdir(in_dir)      || error("--in-dir is not a directory: $in_dir")
 
-    in_dir  === nothing && error("--in-dir is required")
-    out_dir === nothing && error("--out-dir is required")
-    isdir(in_dir)       || error("--in-dir is not a directory: $in_dir")
+    # default: sibling "ts" folder next to in-dir (e.g. .../raw -> .../ts)
+    out_dir = opt_val("--out-dir",
+                      joinpath(dirname(rstrip(abspath(in_dir), ['/', '\\'])), "ts"))
 
     println("troph_sp_lumper.jl")
     println("  in-dir:  ", in_dir)
     println("  out-dir: ", out_dir)
     lump_trophospecies(in_dir, out_dir)
 end
+
