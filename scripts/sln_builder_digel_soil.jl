@@ -132,7 +132,8 @@ function main(in_dir::String, out_dir::String)
     rename!(species_master, Dict(
         :number => :sp_id,
         :species => :sp_name,
-        :group => :guild
+        :group => :guild,
+        :animal => :animal
     ))
 
     # big loop to create matrix and speciesinfo for each plot
@@ -183,7 +184,7 @@ function main(in_dir::String, out_dir::String)
         end
 
         # output species info file
-        select!(local_info, [:sp_name, :guild, :family, :sp_id])
+        select!(local_info, [:sp_name, :guild, :family, :sp_id, :animal])
         CSV.write(joinpath(out_dir, "speciesinfo_$plot.csv"), local_info)
         
     end
