@@ -24,7 +24,6 @@ opt_val <- function(flag, default = NA_character_) {
   i <- match(flag, args)
   if (is.na(i) || i == length(args)) default else args[i + 1]
 }
-opt_flag <- function(flag) flag %in% args
 
 in_dir <- opt_val("--in-dir")
 if (is.na(in_dir))  stop("--in-dir is required", call. = FALSE)
@@ -52,11 +51,8 @@ defaulted <- is.na(out_dir)
 if (defaulted) out_dir <- file.path("SLNs", paste0("niche_", resolution), "raw")
 
 if (!dir.exists(out_dir)) {
-  if (!defaulted) {
-    message("Output folder does not exist: ", out_dir, call. = FALSE)
-  }
+  message("Creating output folder: ", out_dir)
   dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
-  message("Created output folder: ", out_dir)
 }
 
 n_reps   <- as.integer(opt_val("--n-reps", "1000"))
@@ -116,5 +112,3 @@ write.csv(data.frame(
 ), file.path(out_dir, "niche_params.csv"), row.names = FALSE)
 
 message("Done: ", n_reps, " niche webs written to ", out_dir)
-sp_richnesses <- df$S
-connectances <- df$C

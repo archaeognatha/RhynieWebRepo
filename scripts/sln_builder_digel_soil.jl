@@ -176,7 +176,7 @@ function main(in_dir::String, out_dir::String)
         sort!(local_info, :sp_id)
 
         ### check for NA/invalid taxa in key fields
-        key_cols = [:sp_id, :sp_name, :guild]
+        key_cols = [:sp_id, :sp_name, :guild, :animal]
         missing_rows = filter(row -> any(ismissing, row[key_cols]), local_info)
         if nrow(missing_rows) > 0
             @warn "$plot includes $(nrow(missing_rows)) taxa with missing info: $(missing_rows.sp_id)"

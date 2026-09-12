@@ -7,7 +7,7 @@
 #   julia --project=. scripts/sln_builder_rhynie.jl \
 #       --in-dir  data/rhynie/rhynie_unlumped_complete \
 #       --out-dir SLNs/rhynie_unlumped_complete \
-#       --n-reps 1000 --gamma 3 --seed 20260906 --create
+#       --n-reps 1000 --gamma 3 --seed 20260906
 #
 # Reads  <in-dir>/guilds.csv and <in-dir>/guild_matrix.csv
 #        (one variant folder written by metaweb_builder_rhynie.R)
@@ -36,8 +36,6 @@ function opt_val(flag::String, default = nothing)
     (i === nothing || i == length(ARGS)) ? default : ARGS[i + 1]
 end
 
-opt_flag(flag::String) = flag in ARGS
-
 const K_MODELS = ("prk", "max_ent", "pfim", "uniform")
 
 function parse_args()
@@ -62,19 +60,16 @@ function parse_args()
     γ = parse(Float64, gamma_str)
 
     out_dir = opt_val("--out-dir")
-    defaulted = out_dir === nothing
-    if defaulted
+    if out_dir === nothing
         stem = basename(in_dir)
-        k_model == "prk"   || (stem *= "_$(k_model)")
-        γ == 3             || (stem *= "_g$(gamma_str)")
+        k_model == "prk" || (stem *= "_$(k_model)")
+        γ == 3           || (stem *= "_g$(gamma_str)")
         out_dir = joinpath("SLNs", stem, "raw")
     end
 
     if !isdir(out_dir)
-        (defaulted || opt_flag("--create")) || error("Output folder does not exist: $out_dir\n" *
-                                                     " Pass --create to make it.")
+        println("Creating output folder: ", out_dir)
         mkpath(out_dir)
-        println("Created output folder: ", out_dir)
     end
 
     seed_str = opt_val("--seed")
@@ -175,7 +170,7 @@ function main(a)
     # ========================================================
     
     # Make empty dataframe for species data
-    template = DataFrame(sp_name = Int64[], guild = String[], guild_no = Int64[], guild_richness = Int64[], guild_no_prey = Int64[], guild_no_preds = Int64[], terr = Int64[], aqu = Int64[], sp_no_prey = Int64[], sp_no_preds = Int64[])
+    template = DataFrame(sp_name = Int64[], guild = String[], guild_no = Int64[], guild_richness = Int64[], guild_no_prey = Int64[], guild_no_preds = Int64[], terr = Int64[], aqu = Int64[], animal = Int64[], sp_no_prey = Int64[], sp_no_preds = Int64[])
 
     # Push guild data
     begin
@@ -183,7 +178,7 @@ function main(a)
         for i = 1:no_guilds
             guild_richness = P[i,:G]
             for j = 1:guild_richness
-                push!(template, [tally1[1], P[i,:guild_name], i, P[i,:G], P[i,:no_prey], P[i,:no_preds], P[i,:terr], P[i,:aqu],0,0])
+                push!(template, [tally1[1], P[i,:guild_name], i, P[i,:G], P[i,:no_prey], P[i,:no_preds], P[i,:terr], P[i,:aqu], P[i,:animal], 0,0])
                 tally1[1] = tally1[1] + 1
             end
         end

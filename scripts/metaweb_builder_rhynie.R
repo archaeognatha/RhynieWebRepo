@@ -49,7 +49,7 @@ parse_ids <- function(s) {
 
 # The schema every variant writes. og_guild_ids is appended for lumped and subset versions
 STD_COLS <- c("guild_no", "guild_name", "major_taxa", "G",
-              "priority_resources", "general_resources", "terr", "aqu")
+              "priority_resources", "general_resources", "terr", "aqu", "animal")
 
 # ---- make the full links table --------------------------------------------------
 
@@ -133,9 +133,9 @@ lump_metaweb <- function(g, l, lp) {
     stop("lumped_name or lumped_G disagree within a lumped_id", call. = FALSE)
   lg <- lg[order(lg$lumped_id), ]
   
-  # Habitat membership: present in a habitat if any member is
+  # Habitat and animal flags: 1 if any member is
   # og_guild_ids: original guild IDs making up each lumped guild.
-  hab     <- aggregate(cbind(terr, aqu) ~ lumped_id, data = g, FUN = max)
+  hab     <- aggregate(cbind(terr, aqu, animal) ~ lumped_id, data = g, FUN = max)
   members <- aggregate(guild_no ~ lumped_id, data = g,
                        FUN = function(x) paste(sort(x), collapse = ","))
   names(members)[2] <- "og_guild_ids"
