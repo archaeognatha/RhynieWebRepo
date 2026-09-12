@@ -1,6 +1,6 @@
 #!/usr/bin/env julia
 # ============================================================
-# sln_builder_Digel.jl
+# sln_builder_digel_soil.jl
 # Converts Digel occurrence data, species info, and links into 
 #   SLN data: adjacency matrix and speciesinfo table
 # Usage example:
@@ -10,7 +10,7 @@
 #   --in-dir DIR    folder holding digel SpeciesInfo, 
 #                   SpeciesOccurrencesData, MetawebInteractions  
 #                   (default: data/digel)
-#   --out-dir DIR      output file path (default: SLNs/DigelSoil)
+#   --out-dir DIR      output file path (default: SLNs/digel_soil/raw)
 # ============================================================
 
 # load necessary Julia libraries

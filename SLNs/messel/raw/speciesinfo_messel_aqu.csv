@@ -1,107 +1,107 @@
-sp_name,guild,guild_1,guild_2,sp_id,higher_taxon,certainty,habitat,original_sp_id
-detritus,detritus,organics,,1,detritus,3,3,1
-dead animal material,detritus,organics,,2,carrion,3,3,2
-sulphate reducing bacteria,chemotroph ,chemotroph,,3,gram-negative bacteria,2,2,3
-iron bacteria,chemotroph ,chemotroph,,4,gram-negative bacteria,3,3,5
-vibroid bacteria,chemotroph ,chemotroph,,5,gram-negative bacteria,3,3,6
-nitrate-reducing bacteria,chemotroph ,chemotroph,,6,gram-negative bacteria,2,3,7
-iron-reducing bacteria,chemotroph ,chemotroph,,7,gram-negative bacteria,2,3,8
-manganese-reducing bacteria,chemotroph ,chemotroph,,8,gram-negative bacteria,2,3,9
-rods,chemotroph ,chemotroph,,9,?gram-negative bacteria,3,3,10
-coccibacilli,chemotroph ,chemotroph,,10,gram-negative/positive bacteria,3,3,11
-hydrogen bacteria (?Propionibacteriaceae),chemotroph ,chemotroph,,11,gram-positive bacteria,2,3,12
-coccoid bacteria,chemotroph ,chemotroph,,12,gram-positive bacteria,3,3,13
-curved rod bacteria,chemotroph ,chemotroph,,13,gram-positive bacteria,3,3,14
-ammonia oxidizing bacteria,chemotroph ,chemotroph,,14,Proteobacteria,2,3,15
-Pseudmonadiaceae-like bacteria,heterotroph ,heterotroph,,15,Proteobacteria-alpha,2,3,16
-phosphate-reducing bacteria,chemotroph ,chemotroph,,16,Proteobacteria-alpha,3,3,17
-nitrite-oxidizing bacteria,chemotroph ,chemotroph,,17,Proteobacteria-beta,2,3,18
-methanogens,heterotroph ,heterotroph,,18,Proteobacteria-beta/gamma,2,3,19
-sulfur-oxidizing bacteria,chemotroph ,chemotroph,,19,Proteobacteria-gamma,2,3,20
-gram-positive anaerobes (?clostridia),chemotroph ,chemotroph,,20,Proteobacteria-gamma,3,3,21
-Bacillariophyceae (Navicula mutica),myxotroph ,myxotroph,,21,Pennales,3,2,22
-Bacillariophyceae (Fragilaria cf. ulna),myxotroph ,myxotroph,,22,Pennales,3,2,23
-Bacillariophyceae (Surirella angusta),myxotroph ,myxotroph,,23,Pennales,3,2,24
-Bacillariophyceae (Cyclotella or Cyclostephanus sp.),myxotroph ,myxotroph,,24,Centrales,3,2,25
-Bacillariophyceae (Melosira granulata),myxotroph ,myxotroph,,25,Centrales,1,2,26
-dinoflagellate incertae sedis (Geiselodinium sp.),myxotroph ,myxotroph,,26,Pyrrhophyta,3,2,27
-Order indet.,autotroph ,autotroph,,27,Chrysophyta,1,2,28
-Zygnemataceae (Ovoidites sp.),autotroph ,autotroph,,28,Zygnematales,1,3,29
-Botryococcaceae (Botryococcus sp.),myxotroph ,myxotroph,,29,Chlorococcales,3,3,30
-Botryococcaceae (Tetraedron sp.),myxotroph ,myxotroph,,30,Chlorococcales,3,3,31
-indeterminate filamentous algae,autotroph ,autotroph,,31,Chlorophyta,1,2,32
-Characeae (Chara sp.),autotroph ,autotroph,,32,Charales,1,2,33
-Dicranaceae (Dicranites†),autotroph ,autotroph,,33,Dicraniales,1,3,34
-Nympheaceae (Monocolpopollenites crassiexinus),autotroph ,autotroph,,34,Nympheales,3,2,69
-Hydrocharitaceae (Punctilongisulcites microechinatus),autotroph ,autotroph,,35,Alismatales,3,2,71
-Typhaceae (gen. et sp. indet.),autotroph ,autotroph,,36,Typhales,3,3,83
-Sparaganiaceae (Sparganiaceaepollenites sp. 1),autotroph ,autotroph,,37,Typhales,3,3,84
-Sparaganiaceae (Sparganiaceaepollenites sp. 2),autotroph ,autotroph,,38,Typhales,3,3,85
-Zingiberaceae (gen. et sp. indet.),autotroph ,autotroph,,39,Zingiberales,3,3,90
-tubiform structures,saprobe ,saprobe,,40,Fungi,2,2,231
-Hydrobiidae (gen. et sp. indet.),detritivore ,detritivore,,41,Sorbeoconcha,3,2,232
-Spongillidae (Lutetiospongilla heili),omnivore (FF) ,omnivore (FF),,42,Haplosclerida,3,2,233
-Spongillidae (Ephydatia gutenbergiana),omnivore (FF) ,omnivore (FF),,43,Haplosclerida,3,2,234
-Order incertae sedis,omnivore (FF) ,omnivore (FF),,44,Entoprocta,3,2,235
-Unionidae (gen. et sp. indet.),omnivore (FF) ,omnivore (FF),,45,Unionoida,3,2,236
-Bivalvia (Mytilidae and cf. Anodonta),omnivore (FF) ,omnivore (FF),,46,Mytiloidea,3,2,237
-Gastropoda: Fam. Indet. (Toxocoprulus weitzeli),omnivore (FF) ,omnivore (FF),,47,?Sorbeoconcha,3,2,240
-Gastropoda: Pleuroceridae (gen. et sp. indet.),herbivore (EFF) ,herbivore (EFF),,48,Sorbeoconcha,3,2,241
-Fam. indet.,omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),49,Branchiopoda,3,2,242
-Moinidae (Moina macrocopa),omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),50,Cladocera,3,2,243
-Cf. Bosminidae,omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),51,Cladocera,3,2,244
-Daphniidae (Ctenodaphnia magna),detritivore detritivore,detritivore,detritivore,52,Cladocera,3,2,245
-Daphniidae (Daphnia pulex),detritivore detritivore,detritivore,detritivore,53,Cladocera,3,2,246
-Fam. indet.,omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),54,Ostracoda,3,2,247
-Cf. Ovjurium or Monoleiolophus),omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),55,Conchostraca,3,2,248
-Atyidae (gen. et sp. indet.),predator predator,predator,predator,56,Decapoda,3,2,249
-Baetidae or Siphlonuridae,detritivore nonfeeding,detritivore,nonfeeding,57,Ephemeroptera,3,3,250
-Fam. indet. and sp. 1,insectivore insectivore,insectivore,insectivore,58,Odonata,2,3,251
-Fam. indet. and sp. 2,insectivore insectivore,insectivore,insectivore,59,Odonata,2,3,252
-Anisoptera (Aeschnidae gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,60,Odonata,3,3,253
-Zygoptera (Coenagrionidae indet. and DT76),insectivore insectivore,insectivore,insectivore,61,Odonata,3,3,254
-Zygoptera (Coenagrionidae indet. and DT 54),insectivore insectivore,insectivore,insectivore,62,Odonata,2,3,255
-Zygoptera (fam. indet. and DT100),insectivore insectivore,insectivore,insectivore,63,Odonata,2,3,256
-Fam. indet.,detritivore detritivore,detritivore,detritivore,64,Plecoptera,3,3,257
-Gerridae (Gerris sp.),insectivore insectivore,insectivore,insectivore,65,Hemiptera,3,2,295
-Gerridae (Cylindrobates messelensis),insectivore insectivore,insectivore,insectivore,66,Hemiptera,3,2,296
-Notonectidae (gen. et sp. indet.),insectivore herbivore (P&S),insectivore,herbivore (P&S),67,Hemiptera,3,2,297
-Hydrophilidae (Eubrianax),detritivore omnivore,detritivore,omnivore,68,Coleoptera,3,2,304
-Dytiscidae (gen. et sp. indet.),insectivore predator,insectivore,predator,69,Coleoptera,3,2,305
-Tipulidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),70,Diptera,3,3,437
-Limoniidae (gen. et sp. indet.),detritivore nonfeeding,detritivore,nonfeeding,71,Diptera,3,3,438
-Chaoboridae (gen. indet. and larva),detritivore parasite,detritivore,parasite,72,Diptera,2,3,439
-Chironomidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,73,Diptera,2,3,440
-Culicidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,74,Diptera,3,3,441
-Syrphidae (gen. et sp. indet.),fungivore herbivore (PO),fungivore,herbivore (PO),75,Diptera,3,3,464
-Limnephilidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),76,Trichoptera,2,3,500
-Fam. indet. (larval cases),detritivore herbivore (SFF),detritivore,herbivore (SFF),77,Trichoptera,2,3,501
-Lepisosteidae (Atractosteus kinkelini),piscivore ,piscivore,,78,Lepisosteiformes,3,2,558
-Lepisosteidae (Masillosteus kelleri),predator ,predator,,79,Lepisosteiformes,3,2,559
-Amiidae (Cyclurus kehreri),piscivore predator,piscivore,predator,80,Amiiformes,3,2,560
-Thaumaturidae (Thaumaturus intermedius),omnivore predator,omnivore,predator,81,Clupeocephala,3,2,561
-Anguillidae (Anguilla ignota),insectivore ,insectivore,,82,Angulliformes,3,2,562
-Moronidae (Palaeoperca proxima),insectivore ,insectivore,,83,Perciformes,3,2,563
-Moronidae (Rhenanoperca minuta),insectivore ,insectivore,,84,Perciformes,3,2,564
-Percichthyidae (Amphiperca multiformis),piscivore ,piscivore,,85,Perciformes,3,2,565
-Pelobatidae (Eopelobates wagneri),predator ,predator,,86,Anura,3,3,566
-Palaeobatrachidae (Messelobatrachus tobieni),insectivore ,insectivore,,87,Anura,3,3,567
-Fam. indet. (Lutetiobatrachus gracilis),insectivore ,insectivore,,88,Anura,3,3,568
-Xenopidae (gen. et sp. indet.),predator ,predator,,89,Anura,3,2,569
-Salamandridae (Chelotriton robustus),insectivore ,insectivore,,90,Urodela,3,3,570
-Fam. indet. (?Juvemys sp.),piscivore ,piscivore,,91,Testudines,2,2,588
-Fam. indet. (Francellia messeliana),predator ,predator,,92,Testudines,3,2,589
-Fam. indet. (Euroemys kehreri),predator ,predator,,93,Testudines,3,2,590
-Emydidae (Allaeochelys gracilis),omnivore ,omnivore,,94,Testudines,3,2,591
-Carettochelyidae (Allaeochelys crassesculptata),omnivore ,omnivore,,95,Testudines,3,2,592
-Trionychidae ('Trionyx' messelianus),predator ,predator,,96,Testudines,3,2,593
-Leidyosuchidae (Diplocynodon darwini),piscivore ,piscivore,,97,Crocodylia,3,3,594
-Leidyosuchidae (Diplocynodon ebertsi),piscivore ,piscivore,,98,Crocodylia,3,3,595
-Leidyosuchidae (Baryphracta deponiae),predator ,predator,,99,Crocodylia,3,3,596
-Crocodylidae (Asiatosuchus germanicus),predator ,predator,,100,Crocodylia,3,3,597
-Alligatoridae (Allognathosuchus haupti),predator molluscivore,predator,molluscivore,101,Crocodylia,3,3,598
-Pristichampsidae (Pristichampsus rollinati),piscivore ,piscivore,,102,Crocodylia,3,3,599
-Tomastomidae (gen. et sp. indet),piscivore ,piscivore,,103,Crocodylia,3,3,601
-Sulidae (Masillastega rectirostris),piscivore ,piscivore,,104,Pelecaniformes,3,3,606
-Idiornithidae (Idiornis cf. itardiensis),predator ,predator,,105,Gruiformes',3,3,610
-Fam. Indet. (Quasisyndactylus longibrachis),piscivore ,piscivore,,106,Alcediiformes,3,3,641
+sp_name,guild,guild_1,guild_2,sp_id,higher_taxon,certainty,habitat,animal,original_sp_id
+detritus,detritus,organics,,1,detritus,3,3,0,1
+dead animal material,detritus,organics,,2,carrion,3,3,0,2
+sulphate reducing bacteria,chemotroph ,chemotroph,,3,gram-negative bacteria,2,2,0,3
+iron bacteria,chemotroph ,chemotroph,,4,gram-negative bacteria,3,3,0,5
+vibroid bacteria,chemotroph ,chemotroph,,5,gram-negative bacteria,3,3,0,6
+nitrate-reducing bacteria,chemotroph ,chemotroph,,6,gram-negative bacteria,2,3,0,7
+iron-reducing bacteria,chemotroph ,chemotroph,,7,gram-negative bacteria,2,3,0,8
+manganese-reducing bacteria,chemotroph ,chemotroph,,8,gram-negative bacteria,2,3,0,9
+rods,chemotroph ,chemotroph,,9,?gram-negative bacteria,3,3,0,10
+coccibacilli,chemotroph ,chemotroph,,10,gram-negative/positive bacteria,3,3,0,11
+hydrogen bacteria (?Propionibacteriaceae),chemotroph ,chemotroph,,11,gram-positive bacteria,2,3,0,12
+coccoid bacteria,chemotroph ,chemotroph,,12,gram-positive bacteria,3,3,0,13
+curved rod bacteria,chemotroph ,chemotroph,,13,gram-positive bacteria,3,3,0,14
+ammonia oxidizing bacteria,chemotroph ,chemotroph,,14,Proteobacteria,2,3,0,15
+Pseudmonadiaceae-like bacteria,heterotroph ,heterotroph,,15,Proteobacteria-alpha,2,3,0,16
+phosphate-reducing bacteria,chemotroph ,chemotroph,,16,Proteobacteria-alpha,3,3,0,17
+nitrite-oxidizing bacteria,chemotroph ,chemotroph,,17,Proteobacteria-beta,2,3,0,18
+methanogens,heterotroph ,heterotroph,,18,Proteobacteria-beta/gamma,2,3,0,19
+sulfur-oxidizing bacteria,chemotroph ,chemotroph,,19,Proteobacteria-gamma,2,3,0,20
+gram-positive anaerobes (?clostridia),chemotroph ,chemotroph,,20,Proteobacteria-gamma,3,3,0,21
+Bacillariophyceae (Navicula mutica),myxotroph ,myxotroph,,21,Pennales,3,2,0,22
+Bacillariophyceae (Fragilaria cf. ulna),myxotroph ,myxotroph,,22,Pennales,3,2,0,23
+Bacillariophyceae (Surirella angusta),myxotroph ,myxotroph,,23,Pennales,3,2,0,24
+Bacillariophyceae (Cyclotella or Cyclostephanus sp.),myxotroph ,myxotroph,,24,Centrales,3,2,0,25
+Bacillariophyceae (Melosira granulata),myxotroph ,myxotroph,,25,Centrales,1,2,0,26
+dinoflagellate incertae sedis (Geiselodinium sp.),myxotroph ,myxotroph,,26,Pyrrhophyta,3,2,0,27
+Order indet.,autotroph ,autotroph,,27,Chrysophyta,1,2,0,28
+Zygnemataceae (Ovoidites sp.),autotroph ,autotroph,,28,Zygnematales,1,3,0,29
+Botryococcaceae (Botryococcus sp.),myxotroph ,myxotroph,,29,Chlorococcales,3,3,0,30
+Botryococcaceae (Tetraedron sp.),myxotroph ,myxotroph,,30,Chlorococcales,3,3,0,31
+indeterminate filamentous algae,autotroph ,autotroph,,31,Chlorophyta,1,2,0,32
+Characeae (Chara sp.),autotroph ,autotroph,,32,Charales,1,2,0,33
+Dicranaceae (Dicranites†),autotroph ,autotroph,,33,Dicraniales,1,3,0,34
+Nympheaceae (Monocolpopollenites crassiexinus),autotroph ,autotroph,,34,Nympheales,3,2,0,69
+Hydrocharitaceae (Punctilongisulcites microechinatus),autotroph ,autotroph,,35,Alismatales,3,2,0,71
+Typhaceae (gen. et sp. indet.),autotroph ,autotroph,,36,Typhales,3,3,0,83
+Sparaganiaceae (Sparganiaceaepollenites sp. 1),autotroph ,autotroph,,37,Typhales,3,3,0,84
+Sparaganiaceae (Sparganiaceaepollenites sp. 2),autotroph ,autotroph,,38,Typhales,3,3,0,85
+Zingiberaceae (gen. et sp. indet.),autotroph ,autotroph,,39,Zingiberales,3,3,0,90
+tubiform structures,saprobe ,saprobe,,40,Fungi,2,2,0,231
+Hydrobiidae (gen. et sp. indet.),detritivore ,detritivore,,41,Sorbeoconcha,3,2,1,232
+Spongillidae (Lutetiospongilla heili),omnivore (FF) ,omnivore (FF),,42,Haplosclerida,3,2,1,233
+Spongillidae (Ephydatia gutenbergiana),omnivore (FF) ,omnivore (FF),,43,Haplosclerida,3,2,1,234
+Order incertae sedis,omnivore (FF) ,omnivore (FF),,44,Entoprocta,3,2,1,235
+Unionidae (gen. et sp. indet.),omnivore (FF) ,omnivore (FF),,45,Unionoida,3,2,1,236
+Bivalvia (Mytilidae and cf. Anodonta),omnivore (FF) ,omnivore (FF),,46,Mytiloidea,3,2,1,237
+Gastropoda: Fam. Indet. (Toxocoprulus weitzeli),omnivore (FF) ,omnivore (FF),,47,?Sorbeoconcha,3,2,1,240
+Gastropoda: Pleuroceridae (gen. et sp. indet.),herbivore (EFF) ,herbivore (EFF),,48,Sorbeoconcha,3,2,1,241
+Fam. indet.,omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),49,Branchiopoda,3,2,1,242
+Moinidae (Moina macrocopa),omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),50,Cladocera,3,2,1,243
+Cf. Bosminidae,omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),51,Cladocera,3,2,1,244
+Daphniidae (Ctenodaphnia magna),detritivore detritivore,detritivore,detritivore,52,Cladocera,3,2,1,245
+Daphniidae (Daphnia pulex),detritivore detritivore,detritivore,detritivore,53,Cladocera,3,2,1,246
+Fam. indet.,omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),54,Ostracoda,3,2,1,247
+Cf. Ovjurium or Monoleiolophus),omnivore (FF) omnivore (FF),omnivore (FF),omnivore (FF),55,Conchostraca,3,2,1,248
+Atyidae (gen. et sp. indet.),predator predator,predator,predator,56,Decapoda,3,2,1,249
+Baetidae or Siphlonuridae,detritivore nonfeeding,detritivore,nonfeeding,57,Ephemeroptera,3,3,1,250
+Fam. indet. and sp. 1,insectivore insectivore,insectivore,insectivore,58,Odonata,2,3,1,251
+Fam. indet. and sp. 2,insectivore insectivore,insectivore,insectivore,59,Odonata,2,3,1,252
+Anisoptera (Aeschnidae gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,60,Odonata,3,3,1,253
+Zygoptera (Coenagrionidae indet. and DT76),insectivore insectivore,insectivore,insectivore,61,Odonata,3,3,1,254
+Zygoptera (Coenagrionidae indet. and DT 54),insectivore insectivore,insectivore,insectivore,62,Odonata,2,3,1,255
+Zygoptera (fam. indet. and DT100),insectivore insectivore,insectivore,insectivore,63,Odonata,2,3,1,256
+Fam. indet.,detritivore detritivore,detritivore,detritivore,64,Plecoptera,3,3,1,257
+Gerridae (Gerris sp.),insectivore insectivore,insectivore,insectivore,65,Hemiptera,3,2,1,295
+Gerridae (Cylindrobates messelensis),insectivore insectivore,insectivore,insectivore,66,Hemiptera,3,2,1,296
+Notonectidae (gen. et sp. indet.),insectivore herbivore (P&S),insectivore,herbivore (P&S),67,Hemiptera,3,2,1,297
+Hydrophilidae (Eubrianax),detritivore omnivore,detritivore,omnivore,68,Coleoptera,3,2,1,304
+Dytiscidae (gen. et sp. indet.),insectivore predator,insectivore,predator,69,Coleoptera,3,2,1,305
+Tipulidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),70,Diptera,3,3,1,437
+Limoniidae (gen. et sp. indet.),detritivore nonfeeding,detritivore,nonfeeding,71,Diptera,3,3,1,438
+Chaoboridae (gen. indet. and larva),detritivore parasite,detritivore,parasite,72,Diptera,2,3,1,439
+Chironomidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,73,Diptera,2,3,1,440
+Culicidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,74,Diptera,3,3,1,441
+Syrphidae (gen. et sp. indet.),fungivore herbivore (PO),fungivore,herbivore (PO),75,Diptera,3,3,1,464
+Limnephilidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),76,Trichoptera,2,3,1,500
+Fam. indet. (larval cases),detritivore herbivore (SFF),detritivore,herbivore (SFF),77,Trichoptera,2,3,1,501
+Lepisosteidae (Atractosteus kinkelini),piscivore ,piscivore,,78,Lepisosteiformes,3,2,1,558
+Lepisosteidae (Masillosteus kelleri),predator ,predator,,79,Lepisosteiformes,3,2,1,559
+Amiidae (Cyclurus kehreri),piscivore predator,piscivore,predator,80,Amiiformes,3,2,1,560
+Thaumaturidae (Thaumaturus intermedius),omnivore predator,omnivore,predator,81,Clupeocephala,3,2,1,561
+Anguillidae (Anguilla ignota),insectivore ,insectivore,,82,Angulliformes,3,2,1,562
+Moronidae (Palaeoperca proxima),insectivore ,insectivore,,83,Perciformes,3,2,1,563
+Moronidae (Rhenanoperca minuta),insectivore ,insectivore,,84,Perciformes,3,2,1,564
+Percichthyidae (Amphiperca multiformis),piscivore ,piscivore,,85,Perciformes,3,2,1,565
+Pelobatidae (Eopelobates wagneri),predator ,predator,,86,Anura,3,3,1,566
+Palaeobatrachidae (Messelobatrachus tobieni),insectivore ,insectivore,,87,Anura,3,3,1,567
+Fam. indet. (Lutetiobatrachus gracilis),insectivore ,insectivore,,88,Anura,3,3,1,568
+Xenopidae (gen. et sp. indet.),predator ,predator,,89,Anura,3,2,1,569
+Salamandridae (Chelotriton robustus),insectivore ,insectivore,,90,Urodela,3,3,1,570
+Fam. indet. (?Juvemys sp.),piscivore ,piscivore,,91,Testudines,2,2,1,588
+Fam. indet. (Francellia messeliana),predator ,predator,,92,Testudines,3,2,1,589
+Fam. indet. (Euroemys kehreri),predator ,predator,,93,Testudines,3,2,1,590
+Emydidae (Allaeochelys gracilis),omnivore ,omnivore,,94,Testudines,3,2,1,591
+Carettochelyidae (Allaeochelys crassesculptata),omnivore ,omnivore,,95,Testudines,3,2,1,592
+Trionychidae ('Trionyx' messelianus),predator ,predator,,96,Testudines,3,2,1,593
+Leidyosuchidae (Diplocynodon darwini),piscivore ,piscivore,,97,Crocodylia,3,3,1,594
+Leidyosuchidae (Diplocynodon ebertsi),piscivore ,piscivore,,98,Crocodylia,3,3,1,595
+Leidyosuchidae (Baryphracta deponiae),predator ,predator,,99,Crocodylia,3,3,1,596
+Crocodylidae (Asiatosuchus germanicus),predator ,predator,,100,Crocodylia,3,3,1,597
+Alligatoridae (Allognathosuchus haupti),predator molluscivore,predator,molluscivore,101,Crocodylia,3,3,1,598
+Pristichampsidae (Pristichampsus rollinati),piscivore ,piscivore,,102,Crocodylia,3,3,1,599
+Tomastomidae (gen. et sp. indet),piscivore ,piscivore,,103,Crocodylia,3,3,1,601
+Sulidae (Masillastega rectirostris),piscivore ,piscivore,,104,Pelecaniformes,3,3,1,606
+Idiornithidae (Idiornis cf. itardiensis),predator ,predator,,105,Gruiformes',3,3,1,610
+Fam. Indet. (Quasisyndactylus longibrachis),piscivore ,piscivore,,106,Alcediiformes,3,3,1,641

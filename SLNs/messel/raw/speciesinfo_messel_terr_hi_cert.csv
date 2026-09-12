@@ -1,650 +1,650 @@
-sp_name,guild,guild_1,guild_2,sp_id,higher_taxon,certainty,habitat,original_sp_id
-detritus,detritus,organics,,1,detritus,3,3,1
-dead animal material,detritus,organics,,2,carrion,3,3,2
-Enterobacteriaceae,chemotroph ,chemotroph,,3,gram-negative bacteria,2,1,4
-iron bacteria,chemotroph ,chemotroph,,4,gram-negative bacteria,3,3,5
-vibroid bacteria,chemotroph ,chemotroph,,5,gram-negative bacteria,3,3,6
-nitrate-reducing bacteria,chemotroph ,chemotroph,,6,gram-negative bacteria,2,3,7
-iron-reducing bacteria,chemotroph ,chemotroph,,7,gram-negative bacteria,2,3,8
-manganese-reducing bacteria,chemotroph ,chemotroph,,8,gram-negative bacteria,2,3,9
-rods,chemotroph ,chemotroph,,9,?gram-negative bacteria,3,3,10
-coccibacilli,chemotroph ,chemotroph,,10,gram-negative/positive bacteria,3,3,11
-hydrogen bacteria (?Propionibacteriaceae),chemotroph ,chemotroph,,11,gram-positive bacteria,2,3,12
-coccoid bacteria,chemotroph ,chemotroph,,12,gram-positive bacteria,3,3,13
-curved rod bacteria,chemotroph ,chemotroph,,13,gram-positive bacteria,3,3,14
-ammonia oxidizing bacteria,chemotroph ,chemotroph,,14,Proteobacteria,2,3,15
-Pseudmonadiaceae-like bacteria,heterotroph ,heterotroph,,15,Proteobacteria-alpha,2,3,16
-phosphate-reducing bacteria,chemotroph ,chemotroph,,16,Proteobacteria-alpha,3,3,17
-nitrite-oxidizing bacteria,chemotroph ,chemotroph,,17,Proteobacteria-beta,2,3,18
-methanogens,heterotroph ,heterotroph,,18,Proteobacteria-beta/gamma,2,3,19
-sulfur-oxidizing bacteria,chemotroph ,chemotroph,,19,Proteobacteria-gamma,2,3,20
-gram-positive anaerobes (?clostridia),chemotroph ,chemotroph,,20,Proteobacteria-gamma,3,3,21
-Zygnemataceae (Ovoidites sp.),autotroph ,autotroph,,21,Zygnematales,1,3,29
-Botryococcaceae (Botryococcus sp.),myxotroph ,myxotroph,,22,Chlorococcales,3,3,30
-Botryococcaceae (Tetraedron sp.),myxotroph ,myxotroph,,23,Chlorococcales,3,3,31
-Dicranaceae (Dicranites†),autotroph ,autotroph,,24,Dicraniales,1,3,34
-Jungermanniaceae (cf. Frullania),autotroph ,autotroph,,25,Jungermanniales,1,1,35
-Muscites†,autotroph ,autotroph,,26,Muscales,3,1,36
-Selaginellaceae (gen. et sp. indet.),autotroph ,autotroph,,27,Lycopodiales,3,1,37
-Selaginellaceae (Selaginella sp.),autotroph ,autotroph,,28,Lycopodiales,3,1,38
-?Marattiaceae (gen. et sp. indet.),autotroph ,autotroph,,29,Filicales,2,1,39
-Lygodiaceae (Lygodium kaulfussi and Leiotriletes maxoides),autotroph ,autotroph,,30,Filicales,3,1,40
-Osmundaceae (Osmunda lignitum and Baculatisporites primarius),autotroph ,autotroph,,31,Filicales,3,1,41
-Adiantaceae (Acrostichum sp.),autotroph ,autotroph,,32,Filicales,3,1,42
-Polypodiaceae (Laevigatosporites discordatus),autotroph ,autotroph,,33,Filicales,3,1,43
-Polypodiaceae (Laevigatosporites haardtii),autotroph ,autotroph,,34,Filicales,3,1,44
-Polypodiaceae (Verrucatosphorites tenellis),autotroph ,autotroph,,35,Filicales,3,1,45
-Polypodiaceae (Rumohra recentior),autotroph ,autotroph,,36,Filicales,3,1,46
-Polypodiaceae (gen. et sp. indet.),autotroph ,autotroph,,37,Filicales,3,1,47
-Polypodiaceae (Polypodiaceoisporites lusaticus),autotroph ,autotroph,,38,Filicales,3,1,48
-Polypodiaceae (Verrucatosporites favus),autotroph ,autotroph,,39,Filicales,3,1,49
-Polypodiaceae (Verrucatosporites undulatus),autotroph ,autotroph,,40,Filicales,2,1,50
-Schizaeaceae (Ruffordia subcretacea and Cicatricosisporites paradorogensis),autotroph ,autotroph,,41,Filicales,3,1,51
-Schizaeaceae (Lygodium kaulfussi),autotroph ,autotroph,,42,Filicales,3,1,52
-Schizaeaceae (Lygodium microadriennis),autotroph ,autotroph,,43,Filicales,3,1,53
-Schizaeaceae (Schizaea sp.),autotroph ,autotroph,,44,Filicales,3,1,54
-Blechnaceae (gen. et sp. indet.),autotroph ,autotroph,,45,Filicales,3,1,55
-Gleicheniaeae (gen. et sp. indet.),autotroph ,autotroph,,46,Filicales,3,1,56
-Parkeriaceae (gen. et sp. indet.),autotroph ,autotroph,,47,Filicales,3,1,57
-Cephalotaxaceae (Cephalotaxus cf. messelensis),autotroph ,autotroph,,48,Coniferales,3,1,58
-Cupressaceae (Cupressacites insulipapillatus),autotroph ,autotroph,,49,Coniferales,3,1,59
-Cupressaceae (Libocedrites salicorniodes),autotroph ,autotroph,,50,Coniferales,3,1,60
-Cupressaceae (Sciadopitys sp.),autotroph ,autotroph,,51,Coniferales,3,1,61
-Cupressaceae (Glyptostrobus sp.),autotroph ,autotroph,,52,Coniferales,3,1,62
-Cupressaceae (Inaperturopollenites concedipites),autotroph ,autotroph,,53,Coniferales,3,1,63
-Cupressaceae (Doliostrobus sp.),autotroph ,autotroph,,54,Coniferales,3,1,64
-Pinaceae (Pityosporites microalatus ),autotroph ,autotroph,,55,Coniferales,3,1,66
-Pinaceae (Pityosporites labdacus ),autotroph ,autotroph,,56,Coniferales,3,1,67
-Ephedraceae (Ephedripites eocenipites),autotroph ,autotroph,,57,Gnetales,3,1,68
-Araceae (sp. indet. 1),autotroph ,autotroph,,58,Alismatales,3,1,70
-Araceae (sp. indet. 2),autotroph ,autotroph,,59,Alismatales,3,1,72
-Araceae (sp. indet. 3),autotroph ,autotroph,,60,Alismatales,3,1,73
-Smilacaceae (cf. Smilax sp.),autotroph ,autotroph,,61,Liliales,3,1,74
-Pandanaceae (gen. et sp. indet.),autotroph ,autotroph,,62,Pandanales,3,1,75
-Arecaceae (Monocolpopollenites tranquillus),autotroph ,autotroph,,63,Arecales,3,1,76
-Arecaceae (Phoenicites sp.),autotroph ,autotroph,,64,Arecales,3,1,77
-Arecaceae (cf. Arecoideae: flower type A),autotroph ,autotroph,,65,Arecales,3,1,78
-Arecaceae (cf. Lepidocaryoideae: pinnate leaf),autotroph ,autotroph,,66,Arecales,3,1,79
-Arecaceae (flower type B),autotroph ,autotroph,,67,Arecales,3,1,80
-Arecaceae (Sabalitides sp.),autotroph ,autotroph,,68,Arecales,3,1,81
-Cyclanthaceae (gen. et sp. indet.),autotroph ,autotroph,,69,Arecales,3,1,82
-Typhaceae (gen. et sp. indet.),autotroph ,autotroph,,70,Typhales,3,3,83
-Sparaganiaceae (Sparganiaceaepollenites sp. 1),autotroph ,autotroph,,71,Typhales,3,3,84
-Sparaganiaceae (Sparganiaceaepollenites sp. 2),autotroph ,autotroph,,72,Typhales,3,3,85
-Cyperaceae (Caricoidea sp.),autotroph ,autotroph,,73,Juncales,3,1,86
-Cyperaceae (gen. et sp. indet.),autotroph ,autotroph,,74,Juncales,2,1,87
-Restoniaceae (Milfordia hungarica),autotroph ,autotroph,,75,Poales,3,1,88
-Restoniaceae (Milfordia incerta),autotroph ,autotroph,,76,Poales,3,1,89
-Zingiberaceae (gen. et sp. indet.),autotroph ,autotroph,,77,Zingiberales,3,3,90
-Magnoliaceae (sp. indet. 1),autotroph ,autotroph,,78,Magnoliales,3,1,91
-Magnoliaceae (sp. indet. 2),autotroph ,autotroph,,79,Magnoliales,3,1,92
-Annonaceae (gen. et sp. indet.),autotroph ,autotroph,,80,Magnoliales,3,1,93
-Chloranthaceae (Emmapollis pseudoemmaensis),autotroph ,autotroph,,81,Laurales,3,1,94
-Lauraceae (cf. Laurophyllum lanigeroides†),autotroph ,autotroph,,82,Laurales,3,1,95
-Lauraceae (cf. Daphnogene†),autotroph ,autotroph,,83,Laurales,3,1,96
-Lauraceae (gen. et sp. indet),autotroph ,autotroph,,84,Laurales,3,1,97
-Illiciaceae (gen. et sp. indet.),autotroph ,autotroph,,85,Illiciales,3,1,98
-Menispermaceae (Tinospora sp.),autotroph ,autotroph,,86,Ranunculales,3,1,99
-Menispermaceae (gen. et sp. indet.),autotroph ,autotroph,,87,Ranunculales,3,1,100
-Berberidaceae (gen et sp. indet.),autotroph ,autotroph,,88,Ranunculales,3,1,101
-Sargentodoxaceae (cf. Sargentodoxa sp.),autotroph ,autotroph,,89,Ranunculales,3,1,102
-Eucommiaceae ( Eucommia and Tricolpopollenites parmularius ),autotroph ,autotroph,,90,Eucommiales,3,1,103
-Buxaceae (gen et sp. indet).,autotroph ,autotroph,,91,Proteales',3,1,104
-Platanaceae (cf. Platanus),autotroph ,autotroph,,92,Proteales,3,1,105
-Vitaceae† gen. et sp. indet.,autotroph ,autotroph,,93,Vitales,3,1,106
-Vitaceae (Vitis sp. and ?Tricolporopollenites marcodurensis),autotroph ,autotroph,,94,Vitales,3,1,107
-Vitaceae Tetrastigma sp.),autotroph ,autotroph,,95,Vitales,3,1,108
-Vitaceae (Cissus sp.),autotroph ,autotroph,,96,Vitales,3,1,109
-Vitaceae (Ampelopsis sp.),autotroph ,autotroph,,97,Vitales,3,1,110
-Rhamnaceae (Tricolporopollenites sp.),autotroph ,autotroph,,98,Vitales,3,1,111
-Nyctaginaceae (gen. et sp. indet.),autotroph ,autotroph,,99,Caryophyllales,3,1,112
-Cercidiphyllaceae (Cercidiphyllum sp.),autotroph ,autotroph,,100,Saxifragales,3,1,113
-Hamamelidaceae (Compositioipollenites rhizophorus),autotroph ,autotroph,,101,Saxifragales,3,1,114
-?Hamamelidaceae (Labrapollis labraferus),autotroph ,autotroph,,102,Saxifragales,3,1,115
-Olacaceae (Olaxipollis matthesii ),autotroph ,autotroph,,103,Santalales,3,1,116
-Loranthaceae (Gothanipollis gothanii),epiphyte ,epiphyte,,104,Santalales,3,1,117
-Staphyleaceae (Tapiscia sp.),autotroph ,autotroph,,105,Geraniales,3,1,118
-Icacinaceae (Stemonurus sp.),autotroph ,autotroph,,106,Celastrales,3,1,119
-Icacinaceae (Compositoipollenites rhizophorus),autotroph ,autotroph,,107,Celastrales,3,1,120
-Icacinaceae (Compositopollenites minimus),autotroph ,autotroph,,108,Celastrales,3,1,121
-Malpighiaceae (Tetrapteris sp.),autotroph ,autotroph,,109,Malpighiales,3,1,122
-Salicaceae (Salix and Tricolpopollenties retiformis),autotroph ,autotroph,,110,Malpighiales,3,1,123
-Euphorbiaceae (Spinaepollis spinosus),autotroph ,autotroph,,111,Malpighiales,3,1,124
-Fabaceae (sp. indet. 1),myxotroph ,myxotroph,,112,Fabales,3,1,125
-Fabaceae (sp. indet. 2),myxotroph ,myxotroph,,113,Fabales,3,1,126
-Rosaceae (sp. indet. 1),autotroph ,autotroph,,114,Rosales,3,1,127
-Rosaceae (sp. indet. 2),autotroph ,autotroph,,115,Rosales,3,1,128
-Rosaceae (cf. Rosa or Rubus),autotroph ,autotroph,,116,Rosales,3,1,129
-Moraceae (Ficus sp.),autotroph ,autotroph,,117,Rosales,3,1,130
-Celtidiaceae (Celtipollenites intrastructurus),autotroph ,autotroph,,118,Rosales,3,1,131
-Celtidiaceae (Celtipollenites laevigatus),autotroph ,autotroph,,119,Rosales,3,1,132
-Ulmaceae (Polyporopollenites undulosus),autotroph ,autotroph,,120,Rosales,3,1,133
-Ulmaceae (Polyporopollenites verrucatus),autotroph ,autotroph,,121,Rosales,3,1,134
-Ulmaceae (Ulmus sp. and ?Polyporopollenites eoulmoides),autotroph ,autotroph,,122,Rosales,3,1,135
-Ulmaceae (Zelkova sp.),autotroph ,autotroph,,123,Rosales,3,1,136
-Myricaceae (Comptonia sp. and Triatriopollenites excelsus),myxotroph ,myxotroph,,124,Fagales,3,1,137
-Myricaceae (Triatriopollenites rurensis),myxotroph ,myxotroph,,125,Fagales,3,1,138
-Myricaceae (Triatriopollenites bituitus),myxotroph ,myxotroph,,126,Fagales,3,1,139
-Betulaceae (Alnipollenites verus ),myxotroph ,myxotroph,,127,Fagales,3,1,140
-Betulaceae (Trivestibulopollenites betuloides ),autotroph ,autotroph,,128,Fagales,3,1,141
-Betulaceae (Carpinus sp.),autotroph ,autotroph,,129,Fagales,3,1,142
-Betulaceae (Ostrya sp.),autotroph ,autotroph,,130,Fagales,3,1,143
-Juglandaceae (Carya sp. 1 and Caryapollenites triangularus),autotroph ,autotroph,,131,Fagales,3,1,144
-Juglandaceae (Carya sp. 2 and Caryapollenites circulus),autotroph ,autotroph,,132,Fagales,3,1,145
-Juglandaceae (Engelhardia sp. and Momipites punctatus),autotroph ,autotroph,,133,Fagales,3,1,146
-Juglandaceae cf. Juglans and ?Subtriporopollenites anulatus),autotroph ,autotroph,,134,Fagales,3,1,147
-Juglandaceae (Platycarya sp. 1 and Platycaryapollenites platycaryoides),autotroph ,autotroph,,135,Fagales,3,1,148
-Juglandaceae (Platycarya sp. 2 and Platycaryapollenites miocaenicus),autotroph ,autotroph,,136,Fagales,3,1,149
-Juglandaceae (Plicatopollis hungaricus),autotroph ,autotroph,,137,Fagales,3,1,150
-Juglandaceae (Plicatopollis lunatus),autotroph ,autotroph,,138,Fagales,3,1,151
-Juglandaceae (Plicatopollis plicatus),autotroph ,autotroph,,139,Fagales,3,1,152
-Juglandaceae (Plicatopollis potoniei),autotroph ,autotroph,,140,Fagales,3,1,153
-Juglandaceae (Pterocarya sp. and Pterocaryapollenites stellatus),autotroph ,autotroph,,141,Fagales,3,1,154
-Fagaceae (Quercus sp. and Tricolpopollenites asper),autotroph ,autotroph,,142,Fagales,3,1,155
-Fagaceae (Tricolpopollenites liblarensis),autotroph ,autotroph,,143,Fagales,3,1,156
-Fagaceae (Tricolporopollenites cingulum),autotroph ,autotroph,,144,Fagales,3,1,157
-Myrtaceae (Rhodomyrtophyllum rossmassleri),autotroph ,autotroph,,145,Myrtales,3,1,158
-Myrtaceae (Rhodomyrtus sinuata ),autotroph ,autotroph,,146,Myrtales,3,1,159
-Myrtaceae (Duplopollis myrtoides),autotroph ,autotroph,,147,Myrtales,3,1,160
-Lythraceae (gen. et sp. indet.),autotroph ,autotroph,,148,Myrtales,3,1,161
-Thymelaeaceae (gen. et sp. indet.),autotroph ,autotroph,,149,Malvales,3,1,162
-Tiliaceae (Dombeya sp.),autotroph ,autotroph,,150,Malvales,3,1,163
-Tiliaceae (Intratiporopollenites ceciliensis),autotroph ,autotroph,,151,Malvales,3,1,164
-Tiliaceae (Intratiporopollenites minimus),autotroph ,autotroph,,152,Malvales,3,1,165
-Bombacaceae (Bombacacidites kettigensis ),autotroph ,autotroph,,153,Malvales,3,1,166
-Bombacaceae (Bombacacidites tilioides ),autotroph ,autotroph,,154,Malvales,3,1,167
-Bombacaceae (Bombacacidites sp. ),autotroph ,autotroph,,155,Malvales,3,1,168
-Sterculiaceae (Reevesiapollis triangulus or eucaenicus),autotroph ,autotroph,,156,Malvales,3,1,169
-Anacardiaceae (cf. Pentoperculum†),autotroph ,autotroph,,157,Sapindales,3,1,170
-Anacardiaceae (gen. et sp. indet.),autotroph ,autotroph,,158,Sapindales,3,1,171
-Rutaceae (Toddalia ovata),autotroph ,autotroph,,159,Sapindales,3,1,172
-Rutaceae (Rutaspermum sp.),autotroph ,autotroph,,160,Sapindales,3,1,173
-Rutaceae (Rutaspermum chandlerae),autotroph ,autotroph,,161,Sapindales,3,1,174
-Rutaceae (Rutaspermum messelense),autotroph ,autotroph,,162,Sapindales,3,1,175
-Simaroubaceae (Ailanthus sp.),autotroph ,autotroph,,163,Sapindales,3,1,176
-Sapindaceae (Acer and Aceripollis striatus ),autotroph ,autotroph,,164,Sapindales,3,1,177
-Burseraceae (Canarium sp.),autotroph ,autotroph,,165,Sapindales,3,1,178
-Cornaceae (gen. et sp. indet.),autotroph ,autotroph,,166,Cornales,3,1,179
-Mastixiaceae (Tricolporopollenites satzveyensis),autotroph ,autotroph,,167,Cornales,3,1,180
-Nyssaceae (Nyssa and Nyssapollenites kruschii ),autotroph ,autotroph,,168,Cornales,3,1,181
-?Clethraceae (Tricolporopollenites megaexactus),autotroph ,autotroph,,169,Ericales,2,1,182
-Cyrillaceae (sp. indet. 2),autotroph ,autotroph,,170,Ericales,3,1,183
-Cyrillaceae (cf. Cyrilla sp.),autotroph ,autotroph,,171,Ericales,3,1,184
-Lecythidaceae (gen. et sp. indet.),autotroph ,autotroph,,172,Ericales,3,1,185
-Ericaceae (Ericipites ericius),autotroph ,autotroph,,173,Ericales,3,1,186
-Ericaceae (Ericipites callidus),autotroph ,autotroph,,174,Ericales,3,1,187
-Theaceae (cf. Polyspora saxonica),autotroph ,autotroph,,175,Ericales,3,1,188
-Theaceae (cf. Ternstroemites 'dentatus'),autotroph ,autotroph,,176,Ericales,3,1,189
-Theaceae (gen. et sp. indet.),autotroph ,autotroph,,177,Ericales,3,1,190
-Symplocaceae (Porocolpopollenites calauensis),autotroph ,autotroph,,178,Ericales,3,1,191
-Symplocaceae (Porocolpopollenites rarobaculatus),autotroph ,autotroph,,179,Ericales,3,1,192
-Sapotaceae (Tetracolporopollenites sapotoides),autotroph ,autotroph,,180,Ericales,3,1,193
-Sapotaceae (Tetracolporopollenites manifestus),autotroph ,autotroph,,181,Ericales,3,1,194
-Rubiaceae (gen. et sp. indet.),autotroph ,autotroph,,182,Gentianales,3,1,195
-Apocynaceae (Apocynophyllum sp.),autotroph ,autotroph,,183,Gentianales,3,1,196
-Apocynaceae (gen. et sp. indet.),autotroph ,autotroph,,184,Gentianales,3,1,197
-Oleaceae (Tricolporopollenites microreticulatus),autotroph ,autotroph,,185,Lamiales,3,1,198
-Verbenaceae (gen. et sp. indet.),autotroph ,autotroph,,186,Lamiales,3,1,199
-Aquifoliaceae (Ilexpollenites iliacus ),autotroph ,autotroph,,187,Aquifoliales,3,1,200
-Aquifoliaceae (Ilexpollenites margaritatus ),autotroph ,autotroph,,188,Aquifoliales,3,1,201
-Araliaceae (Araliaceoipollenites reticuloides),autotroph ,autotroph,,189,Apiales,3,1,202
-Araliaceae (Araliaceoipollenites euphorii),autotroph ,autotroph,,190,Apiales,3,1,203
-Caprifoliaceae (Sambucus sp.),autotroph ,autotroph,,191,Dipsacales,3,1,204
-Fam. incertae (Punigiphyllum waltheri),autotroph ,autotroph,,192,Angiospermopsida,3,1,205
-monocot incertae,autotroph ,autotroph,,193,Angiospermopsida,3,1,206
-unknown dicot fruit (gen. 1),autotroph ,autotroph,,194,Angiospermopsida,3,1,207
-dicot incertae (gen. 2),autotroph ,autotroph,,195,Angiospermopsida,3,1,208
-dicot incertae: twig 1,autotroph ,autotroph,,196,Angiospermopsida,3,1,209
-dicot incertae: twig 2,autotroph ,autotroph,,197,Angiospermopsida,3,1,210
-dicot incertae: twig 3,autotroph ,autotroph,,198,Angiospermopsida,3,1,211
-dicot incertae (Tricolporopollenites edmundii),autotroph ,autotroph,,199,Angiospermopsida,3,1,212
-dicot incertae (Tricolpopollenites vegetus),autotroph ,autotroph,,200,Angiospermopsida,3,1,213
-dicot incertae (Tricolporopollenites microporitus),autotroph ,autotroph,,201,Angiospermopsida,3,1,214
-dicot incertae (Tricolporopollenites mansfeldensis),autotroph ,autotroph,,202,Angiospermopsida,3,1,215
-dicot incertae (Tricolporopollenites messelensis),autotroph ,autotroph,,203,Angiospermopsida,3,1,216
-dicot incertae (Tricolporopollenites belgicus),autotroph ,autotroph,,204,Angiospermopsida,3,1,217
-dicot incertae (Tricolporopollenites eocaenicus),autotroph ,autotroph,,205,Angiospermopsida,3,1,218
-dicot incertae (Tricolporopollenites abbreviatus),autotroph ,autotroph,,206,Angiospermopsida,3,1,219
-unknown fruit (gen. 3),autotroph ,autotroph,,207,Angiospermopsida,3,1,220
-lichen,saprobe ,saprobe,,208,lichen,2,1,221
-Rhytismatales epiphyllous asomycete (cf. Rhytisma sp.),saprobe ,saprobe,,209,Ascomycetes,3,1,222
-epiphyllous fungal species 2,saprobe ,saprobe,,210,Basidiomycetes,2,1,223
-epiphyllous fungal species 3,saprobe ,saprobe,,211,Basidiomycetes,2,1,224
-epiphyllous fungi species and DT58 undifferentiated (host 1),saprobe ,saprobe,,212,Basidiomycetes,3,1,225
-epiphyllous fungi species and DT58 undifferentiated (host 2),saprobe ,saprobe,,213,Basidiomycetes,3,1,226
-Agaricales (Fam. incertae),saprobe ,saprobe,,214,Basidiomycetes,2,1,227
-litter fungus,saprobe ,saprobe,,215,Ascomycetes,3,1,228
-wood rot (perithecia),saprobe ,saprobe,,216,Ascomycetes,3,1,229
-intestinal fungi,saprobe ,saprobe,,217,Fungi,3,1,230
-Gastropoda (Vivaparidae: Vivaparus sp.),omnivore (FF) ,omnivore (FF),,218,Streptoneura,3,1,238
-Gastropoda: Planorbidae (Australorbis cf. pseudoammonius),omnivore (FF) ,omnivore (FF),,219,Pulmonata,3,1,239
-Baetidae or Siphlonuridae,detritivore nonfeeding,detritivore,nonfeeding,220,Ephemeroptera,3,3,250
-Fam. indet. and sp. 1,insectivore insectivore,insectivore,insectivore,221,Odonata,2,3,251
-Fam. indet. and sp. 2,insectivore insectivore,insectivore,insectivore,222,Odonata,2,3,252
-Anisoptera (Aeschnidae gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,223,Odonata,3,3,253
-Zygoptera (Coenagrionidae indet. and DT76),insectivore insectivore,insectivore,insectivore,224,Odonata,3,3,254
-Zygoptera (Coenagrionidae indet. and DT 54),insectivore insectivore,insectivore,insectivore,225,Odonata,2,3,255
-Zygoptera (fam. indet. and DT100),insectivore insectivore,insectivore,insectivore,226,Odonata,2,3,256
-Fam. indet.,detritivore detritivore,detritivore,detritivore,227,Plecoptera,3,3,257
-Gryllacrididae,herbivore (RF) herbivore (RF),herbivore (RF),herbivore (RF),228,Orthoptera,3,1,258
-Tettigoniidae,herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),229,Orthoptera,3,1,259
-Fam. indet. (DT12 and DT13 and DT14),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),230,Orthoptera,1,1,260
-Fam. indet,detritivore omnivore,detritivore,omnivore,231,Dermaptera,3,1,261
-Blattidae (Periplaneta eocaenica),detritivore detritivore,detritivore,detritivore,232,Blattodea,3,1,262
-Blattidae (Periplaneta relicta),detritivore detritivore,detritivore,detritivore,233,Blattodea,3,1,263
-Mastotermitidae (Mastotermes krishnorum),detritivore detritivore,detritivore,detritivore,234,Isoptera,3,1,264
-Hodotermitidae?,detritivore detritivore,detritivore,detritivore,235,Isoptera,3,1,265
-Fam. indet. (DT12),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),236,Phasmatodea,3,1,266
-Phyllidae (Eophyllium messelensis),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),237,Phasmatodea,3,1,267
-Coccoidea (fam. indet. 1 and DT157),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),238,Hemiptera,2,1,268
-Coccoidea (fam. indet. 2. DT183,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),239,Hemiptera,3,1,269
-Coccoidea (fam. indet. 3 and DT132),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),240,Hemiptera,3,1,270
-Diaspididae (Aspidiotinae sp. 1 and DT191,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),241,Hemiptera,3,1,271
-Diaspididae (Aspidiotinae sp. 2 and DT168,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),242,Hemiptera,3,1,272
-Aphididae (gen. sp. indet. and DT146,herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),243,Hemiptera,3,1,273
-Aphididae ('Hamamelistes' sp. and DT205,herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),244,Hemiptera,3,1,274
-Aphididae (cf. Pemphigus sp. and DT169,herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),245,Hemiptera,3,1,275
-Aphididae (Trioza sp. and DT32),herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),246,Hemiptera,3,1,276
-Aphididae (gen. et sp. indet. and DT190),herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),247,Hemiptera,3,1,277
-Fulgoridae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),248,Hemiptera,3,1,278
-Cercopidae (gen. indet.,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),249,Hemiptera,3,1,279
-Cicadidae gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),250,Hemiptera,3,1,280
-Cf. Membracidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),251,Hemiptera,3,1,281
-Cf. Ricaniidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),252,Hemiptera,3,1,282
-Flatidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),253,Hemiptera,3,1,283
-Dictyopharidae (Dictyopharinae gen. et sp. indet),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),254,Hemiptera,3,1,284
-Cyndidae (Cydnopsis meunieri),herbivore (RF) herbivore (RF),herbivore (RF),herbivore (RF),255,Hemiptera,3,1,285
-Cyndidae (Cydnopsis nana),herbivore (RF) herbivore (RF),herbivore (RF),herbivore (RF),256,Hemiptera,3,1,286
-Lygaeidae (gen. et sp. indet.),herbivore (P&S) herbivore (SP),herbivore (P&S),herbivore (SP),257,Hemiptera,3,1,287
-Miridae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),258,Hemiptera,3,1,288
-Tingidae (Lutetiacader petrefactus),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),259,Hemiptera,3,1,289
-Tingidae (Exmesselensis disspinosus),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),260,Hemiptera,3,1,290
-Tingidae (Chorotingioites priscus),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),261,Hemiptera,3,1,291
-Tingidae (Oblongomorpha lutetia and DT199,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),262,Hemiptera,3,1,292
-Pentatomidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),263,Hemiptera,3,1,293
-Reduviidae (Amphibolus disponsi),insectivore insectivore,insectivore,insectivore,264,Hemiptera,3,1,294
-Fam. indet.,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),265,Thysanoptera,3,1,298
-Mantispidae (Symphrasites eocenicus),parasitoid insectivore,parasitoid,insectivore,266,Neuroptera,3,1,299
-Cupedidae (Tenomerga messelense),herbivore (WB) nonfeeding,herbivore (WB),nonfeeding,267,Coleoptera,3,1,300
-Carabidae (?Harpalus sp.),insectivore insectivore,insectivore,insectivore,268,Coleoptera,3,1,301
-Carabidae (?Scarites sp.),insectivore insectivore,insectivore,insectivore,269,Coleoptera,3,1,302
-Staphylinidae (gen. indet.),insectivore fungivore,insectivore,fungivore,270,Coleoptera,3,1,303
-Histeridae (cf. Dendrophilus),insectivore insectivore,insectivore,insectivore,271,Coleoptera,3,1,306
-Polyphaga (fam. indet. and DT219,herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),272,Coleoptera,2,1,307
-Polyphaga (fam. indet. and DT09),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),273,Coleoptera,2,1,308
-Buprestidae (Psiloptera transversovittata),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),274,Coleoptera,3,1,309
-Buprestidae (Psiloptera weigelti),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),275,Coleoptera,3,1,310
-Buprestidae (Psiloptera sp. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),276,Coleoptera,3,1,311
-Buprestidae (?Psiloptera sp. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),277,Coleoptera,3,1,312
-Buprestidae (?Psiloptera sp. 3),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),278,Coleoptera,3,1,313
-Buprestidae (?Psiloptera sp. 4),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),279,Coleoptera,3,1,314
-Buprestidae (Touzalinia/Psiloptera gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),280,Coleoptera,3,1,315
-Buprestidae (Psilopterini and gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),281,Coleoptera,3,1,316
-Buprestidae (Psiloptera/Dicercomorpha gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),282,Coleoptera,3,1,317
-Buprestidae (Psiloptera/Diceromorpha gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),283,Coleoptera,3,1,318
-Buprestidae (Psiloptera/Diceromorpha gen. 3),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),284,Coleoptera,3,1,319
-Buprestidae (Touzalinia/Diceromorpha gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),285,Coleoptera,3,1,320
-Buprestidae (Touzalinia/Diceromorpha gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),286,Coleoptera,3,1,321
-Buprestidae (Psiloptera/Dicera gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),287,Coleoptera,3,1,322
-Buprestidae (Psiloptera/Dicera gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),288,Coleoptera,3,1,323
-Buprestidae (Psilopterini/Dicerini gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),289,Coleoptera,3,1,324
-Buprestidae (Psilopterini/Dicerini gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),290,Coleoptera,3,1,325
-Buprestidae (Dicerca? ),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),291,Coleoptera,3,1,326
-Buprestidae (Eurythyrea? ),herbivore herbivore (PO),herbivore,herbivore (PO),292,Coleoptera,3,1,327
-Buprestidae (Eurythyrea? bilyi),herbivore herbivore (PO),herbivore,herbivore (PO),293,Coleoptera,3,1,328
-Buprestidae (Anthaxini?),herbivore herbivore (PO),herbivore,herbivore (PO),294,Coleoptera,3,1,329
-Buprestidae (Anthaxia?),herbivore herbivore (PO),herbivore,herbivore (PO),295,Coleoptera,3,1,330
-Buprestidae (Coroebini? gen. 1),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),296,Coleoptera,3,1,331
-Buprestidae (Coroebini? gen. 2),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),297,Coleoptera,3,1,332
-Buprestidae (Coroebini? gen. 3),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),298,Coleoptera,3,1,333
-Buprestidae (Coroebini? gen. 4),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),299,Coleoptera,3,1,334
-Buprestidae (Coroebini? gen. 5),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),300,Coleoptera,3,1,335
-Buprestidae (Coroebini? gen. 6),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),301,Coleoptera,3,1,336
-Buprestidae (Coroebini? gen. 7),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),302,Coleoptera,3,1,337
-Buprestidae (Coroebini? gen. 8),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),303,Coleoptera,3,1,338
-Buprestidae (Coroebini? gen. 9),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),304,Coleoptera,3,1,339
-Buprestidae (Agrilini? gen. 1),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),305,Coleoptera,3,1,340
-Buprestidae (Agrilini? gen. 2),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),306,Coleoptera,3,1,341
-Buprestidae (Agrilinae gen. 1),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),307,Coleoptera,3,1,342
-Buprestidae (Agrilinae gen. 2),herbivore (GA) herbivore (PO),herbivore (GA),herbivore (PO),308,Coleoptera,3,1,343
-Buprestidae (Agrilinae gen. 3),herbivore (GA) herbivore (PO),herbivore (GA),herbivore (PO),309,Coleoptera,3,1,344
-Buprestidae (Agrilinae gen. 4),herbivore (GA) herbivore (PO),herbivore (GA),herbivore (PO),310,Coleoptera,3,1,345
-Buprestidae (Agrilinae gen. 5),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),311,Coleoptera,3,1,346
-Buprestidae (Agrilinae gen. 6),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),312,Coleoptera,3,1,347
-Buprestidae (Agrilinae gen. 7),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),313,Coleoptera,3,1,348
-Throscidae (gen. et sp. indet.),fungivore herbivore (PO),fungivore,herbivore (PO),314,Coleoptera,3,1,349
-Eucnemidae (gen. et sp. indet.),fungivore detritivore,fungivore,detritivore,315,Coleoptera,3,1,350
-Elateridae (Agrypnus? sp. 1),herbivore (RF) omnivore,herbivore (RF),omnivore,316,Coleoptera,3,1,351
-Elateridae (Agrypnus? sp. 2),herbivore (RF) omnivore,herbivore (RF),omnivore,317,Coleoptera,3,1,352
-Elateridae (Agrypnus? sp. 3),herbivore (RF) omnivore,herbivore (RF),omnivore,318,Coleoptera,3,1,353
-Elateridae (Agrypnus? sp. 4),herbivore (RF) omnivore,herbivore (RF),omnivore,319,Coleoptera,3,1,354
-Elateridae (Agrypnus? aff. ?costipennis),herbivore (RF) omnivore,herbivore (RF),omnivore,320,Coleoptera,3,1,355
-Elateridae (Agrypnus sp. 5),insectivore omnivore,insectivore,omnivore,321,Coleoptera,3,1,356
-Elateridae (Agrypnus? sp. 6),insectivore omnivore,insectivore,omnivore,322,Coleoptera,3,1,357
-Elateridae (Agrypnus? sp. 7),insectivore omnivore,insectivore,omnivore,323,Coleoptera,3,1,358
-Elateridae (Agrypnus? sp. 8),insectivore omnivore,insectivore,omnivore,324,Coleoptera,3,1,359
-Elateridae (Agrypnus? sp. 9),insectivore omnivore,insectivore,omnivore,325,Coleoptera,3,1,360
-Elateridae (Lacon? sp. 1),insectivore omnivore,insectivore,omnivore,326,Coleoptera,3,1,361
-Elateridae (Group 1),insectivore omnivore,insectivore,omnivore,327,Coleoptera,3,1,362
-Elateridae (Group 2),insectivore omnivore,insectivore,omnivore,328,Coleoptera,3,1,363
-Elateridae (Group 3),herbivore (SP) omnivore,herbivore (SP),omnivore,329,Coleoptera,3,1,364
-Elateridae (Group 4),herbivore (SP) omnivore,herbivore (SP),omnivore,330,Coleoptera,3,1,365
-Elateridae (Group 5),herbivore (RF) omnivore,herbivore (RF),omnivore,331,Coleoptera,3,1,366
-Elateridae (Group 6),herbivore (RF) omnivore,herbivore (RF),omnivore,332,Coleoptera,3,1,367
-Elateridae (Group 7),herbivore (RF) omnivore,herbivore (RF),omnivore,333,Coleoptera,3,1,368
-Elateridae (Group 8),insectivore omnivore,insectivore,omnivore,334,Coleoptera,3,1,369
-Elateridae (Group 9),insectivore omnivore,insectivore,omnivore,335,Coleoptera,3,1,370
-Elateridae (Group 10),insectivore omnivore,insectivore,omnivore,336,Coleoptera,3,1,371
-Elateridae (Group 11),insectivore omnivore,insectivore,omnivore,337,Coleoptera,3,1,372
-Elateridae (Group 12),insectivore omnivore,insectivore,omnivore,338,Coleoptera,3,1,373
-Elateridae (Group 13),insectivore omnivore,insectivore,omnivore,339,Coleoptera,3,1,374
-Elateridae (Group 14),insectivore herbivore (SFF),insectivore,herbivore (SFF),340,Coleoptera,3,1,375
-Elateridae (Macropunctum angulosum),herbivore (RF) omnivore,herbivore (RF),omnivore,341,Coleoptera,3,1,376
-Elateridae (Macropunctum meuneri),herbivore (RF) omnivore,herbivore (RF),omnivore,342,Coleoptera,3,1,377
-Elateridae (Macropunctum promptum),herbivore (RF) omnivore,herbivore (RF),omnivore,343,Coleoptera,3,1,378
-Elateridae (Macropunctum messelensis),herbivore (RF) omnivore,herbivore (RF),omnivore,344,Coleoptera,3,1,379
-Elateridae (Macropunctum eocaenicum),herbivore (RF) omnivore,herbivore (RF),omnivore,345,Coleoptera,3,1,380
-Elateridae (Macropunctum senckenbergi),herbivore (RF) omnivore,herbivore (RF),omnivore,346,Coleoptera,3,1,381
-Elateridae (Macropunctum latiscutellum),herbivore (RF) omnivore,herbivore (RF),omnivore,347,Coleoptera,3,1,382
-Elateridae (Macropunctum angustiscutellum),herbivore (RF) omnivore,herbivore (RF),omnivore,348,Coleoptera,3,1,383
-Elateridae (Macropunctum rebugense),herbivore (RF) omnivore,herbivore (RF),omnivore,349,Coleoptera,3,1,384
-Elateridae (Lanelater verae),herbivore (RF) omnivore,herbivore (RF),omnivore,350,Coleoptera,3,1,385
-Elateridae (Lanelater sp. 1),herbivore (RF) omnivore,herbivore (RF),omnivore,351,Coleoptera,3,1,386
-Elateridae (Lanelater sp. 2),herbivore (RF) omnivore,herbivore (RF),omnivore,352,Coleoptera,3,1,387
-Elateridae (Lanelater sp. 3),herbivore (RF) omnivore,herbivore (RF),omnivore,353,Coleoptera,3,1,388
-Cantharoidea (gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,354,Coleoptera,3,1,389
-Elateridae ('Ancyclochira' agilis),insectivore detritivore,insectivore,detritivore,355,Coleoptera,3,1,390
-Tenebrionidae (Ceropria? messelense),fungivore omnivore,fungivore,omnivore,356,Coleoptera,3,1,391
-Tenebrionidae (gen. et sp. indet.),detritivore herbivore (EFF),detritivore,herbivore (EFF),357,Coleoptera,3,1,392
-Lucanidae (Protognathinus spielbergi),detritivore herbivore (SFF),detritivore,herbivore (SFF),358,Coleoptera,3,1,393
-Scarabaeidae (Gymnopleurus eocaenicus),detritivore herbivore (PO),detritivore,herbivore (PO),359,Coleoptera,3,1,394
-Scarabaeidae (?Geotrupes messelensis),detritivore herbivore (SFF),detritivore,herbivore (SFF),360,Coleoptera,3,1,395
-Scarabaeidae (?Geotrupes sp.),detritivore herbivore (SFF),detritivore,herbivore (SFF),361,Coleoptera,3,1,396
-Scarabaeidae (?Onthophagus sp.),detritivore herbivore (SFF),detritivore,herbivore (SFF),362,Coleoptera,3,1,397
-Scarabaeidae (?Onitis sp.),detritivore herbivore (SFF),detritivore,herbivore (SFF),363,Coleoptera,3,1,398
-Dascillidae (Eubrianax sp.),herbivore (RF) nonfeeding,herbivore (RF),nonfeeding,364,Coleoptera,3,1,399
-Colydiidae cf. Orthocerus,fungivore herbivore (EFF),fungivore,herbivore (EFF),365,Coleoptera,3,1,400
-Ptinidae (gen. et sp. indet.),detritivore detritivore,detritivore,detritivore,366,Coleoptera,3,1,401
-Trogossitidae (Trogossita eocaenica),insectivore insectivore,insectivore,insectivore,367,Coleoptera,3,1,402
-Oedemeridae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),368,Coleoptera,3,1,403
-Phytophaga' (fam. indet. 1 and DT08),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),369,Coleoptera,1,1,404
-Phytophaga' (fam. indet. 2 and DT15),herbivore (EFF) herbivore (SP),herbivore (EFF),herbivore (SP),370,Coleoptera,1,1,405
-Phytophaga' (fam. indet. 3 and DT30),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),371,Coleoptera,2,1,406
-Phytophaga' (fam. indet. 3 and DT63),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),372,Coleoptera,2,1,407
-Phytophaga' (fam. indet. 4 and DT216),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),373,Coleoptera,2,1,408
-Phytophaga' (fam. indet. 5 and DT143),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),374,Coleoptera,2,1,409
-Phytophaga' (fam.indet. 6 and DT211,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),375,Coleoptera,2,1,410
-Phytophaga' (fam. indet. 7 and DT207),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),376,Coleoptera,2,1,411
-Phytophaga' (fam. indet. 8 and DT220),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),377,Coleoptera,2,1,412
-Phytophaga' (fam. indet. 9 and DT137),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),378,Coleoptera,2,1,413
-Phytophaga' (fam. indet 10 and DT12),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),379,Coleoptera,1,1,414
-Phytophaga' (fam. indet. 11 and DT14),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),380,Coleoptera,1,1,415
-Phytophaga' (fam. indet. 11 and DT13),herbivore (EFF) herbivore (PO),herbivore (EFF),herbivore (PO),381,Coleoptera,1,1,416
-Cerambycidae (Lamiinae),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),382,Coleoptera,3,1,417
-Cerambycidae (Prioninae),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),383,Coleoptera,3,1,418
-Cerambycidae (gen. et sp. indet. and DT212,herbivore (WB) herbivore (EFF),herbivore (WB),herbivore (EFF),384,Coleoptera,3,1,419
-Chrysomelidae (Sagra sp.),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),385,Coleoptera,3,1,420
-Chrysomelidae (Lina sp. and DT57),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),386,Coleoptera,3,1,421
-Chrysomelidae (gen. et sp. indet. and DT08),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),387,Coleoptera,2,1,422
-Chrysomelidae (Cassidinae indet. 1 and DT203 ),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),388,Coleoptera,3,1,423
-Chrysomelidae (Cassidinae indet. 2 and DT192),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),389,Coleoptera,3,1,424
-Chrysomelidae (gen. et sp. indet. and DT193,herbivore (LM) herbivore (EFF),herbivore (LM),herbivore (EFF),390,Coleoptera,3,1,425
-Chrysomelidae (Bruchinae indet.),herbivore (SP) omnivore,herbivore (SP),omnivore,391,Coleoptera,3,1,426
-cf. Brenthidae,herbivore (WB) herbivore (EFF),herbivore (WB),herbivore (EFF),392,Coleoptera,3,1,427
-Apionidae (gen. et sp. indet.),herbivore (SP) herbivore (EFF),herbivore (SP),herbivore (EFF),393,Coleoptera,3,1,428
-Curculionidae (gen. et sp. indet. 1),herbivore herbivore (EFF),herbivore,herbivore (EFF),394,Coleoptera,3,1,429
-Curculionidae (gen. et sp. indet. 2 and DT74),herbivore (SP) herbivore (SP),herbivore (SP),herbivore (SP),395,Coleoptera,3,1,430
-Curculionidae (gen. et sp. indet. 3 and DT07),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),396,Coleoptera,2,1,431
-Curculionidae (aff. Balaninus and DT167),herbivore (SP) herbivore (SP),herbivore (SP),herbivore (SP),397,Coleoptera,3,1,432
-Fam. indet. (DT195),herbivore (LM) insectivore,herbivore (LM),insectivore,398,Coleoptera,2,1,433
-Fam. indet. (DT29),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),399,Coleoptera,2,1,434
-Myrmecolacidae (Stichotrema sp.),parasitoid nonfeeding,parasitoid,nonfeeding,400,Strepsiptera,2,1,435
-Fam. indet.,detritivore detritivore,detritivore,detritivore,401,Mecoptera,3,1,436
-Tipulidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),402,Diptera,3,3,437
-Limoniidae (gen. et sp. indet.),detritivore nonfeeding,detritivore,nonfeeding,403,Diptera,3,3,438
-Chaoboridae (gen. indet. and larva),detritivore parasite,detritivore,parasite,404,Diptera,2,3,439
-Chironomidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,405,Diptera,2,3,440
-Culicidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,406,Diptera,3,3,441
-Cecidomyiidae (gen. et sp. indet. 1 and DT80,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),407,Diptera,2,1,442
-Cecidomyiidae (gen. et sp. indet. 2 and DT188,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),408,Diptera,2,1,443
-Cecidomyiidae (gen. et sp. indet. 3 and DT11 and DT197,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),409,Diptera,3,1,444
-Cecidomyiidae (gen. et sp. indet. 4 and DT83),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),410,Diptera,3,1,445
-Cecidomyiidae (gen. et sp. indet. 5 and DT84),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),411,Diptera,2,1,446
-Cecidomyiidae (gen. et sp. indet. 6 and DT215),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),412,Diptera,3,1,447
-Cecidomyiidae (gen. et sp. indet. 7 and DT213,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),413,Diptera,3,1,448
-Cecidomyiidae (gen. et sp. indet. 8 and DT149,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),414,Diptera,3,1,449
-Cecidomyiidae (gen. et sp. indet. 9 and DT218),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),415,Diptera,3,1,450
-Cecidomyiidae (gen. et sp. indet. 10 and DT217,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),416,Diptera,3,1,451
-Cecidomyiidae (gen. et sp. indet. 11 and DT34),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),417,Diptera,2,1,452
-Cecidomyiidae (gen. et sp. indet. 12 and DT145,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),418,Diptera,3,1,453
-Cecidomyiidae (Asphondyliini and DT163 and DT206,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),419,Diptera,2,1,454
-Cecidomyiidae (gen et sp. indet. 13 and DT204),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),420,Diptera,3,1,455
-Cecidomyiidae (Cecidomyia sp. and DT49),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),421,Diptera,2,1,456
-Cecidomyiidae (Dasyneura sp. and DT85),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),422,Diptera,2,1,457
-Cecidomyiidae (gen. et sp. indet and DT33),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),423,Diptera,3,1,458
-Nemestrinidae (cf. Hirmoneura sp.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),424,Diptera,3,1,459
-Tabanidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,425,Diptera,3,1,460
-Stratiomyiidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),426,Diptera,3,1,461
-Athericidae (gen. et sp. indet.),insectivore parasite,insectivore,parasite,427,Diptera,3,1,462
-Asilidae (gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,428,Diptera,3,1,463
-Syrphidae (gen. et sp. indet.),fungivore herbivore (PO),fungivore,herbivore (PO),429,Diptera,3,3,464
-Brachycera (fam. indet.),parasitoid parasite,parasitoid,parasite,430,Diptera,3,1,465
-Tephritidae (gen. et sp. indet and DT117),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),431,Diptera,3,1,466
-Agromyzidae (gen. et sp. indet. and DT185,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),432,Diptera,2,1,467
-Agromyzidae (gen. et sp. indet. and DT109),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),433,Diptera,2,1,468
-Cecidomyiidae (gen. et sp. indet. DT80,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),434,Diptera,2,1,469
-Tenthredinoidea (fam. indet. and DT78),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),435,Hymenoptera,3,1,470
-Tenthredinidae (gen. et sp. indet. and DT187),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),436,Hymenoptera,3,1,471
-Torymidae (gen. et sp. indet. 1 and DT62),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),437,Hymenoptera,3,1,472
-Torymidae (gen. sp. indet. 2 and DT213,parasitoid herbivore (SFF),parasitoid,herbivore (SFF),438,Hymenoptera,3,1,473
-Eulophidae (gen. et sp. indet. and DT189),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),439,Hymenoptera,2,1,474
-Eucharitidae (gen. et sp. indet. and DT83),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),440,Hymenoptera,3,1,475
-Chalcididae (Chalcidinae),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),441,Hymenoptera,3,1,476
-Proctotrupoidea (fam. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),442,Hymenoptera,3,1,477
-Ichneumonidae (gen. et sp. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),443,Hymenoptera,3,1,478
-Braconidae (gen. et sp. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),444,Hymenoptera,3,1,479
-Cynipidae (gen. et sp. indet. and DT209,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),445,Hymenoptera,1,1,480
-Cynipidae (gen. et sp. indet. 2 and DT186,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),446,Hymenoptera,3,1,481
-Formicidae (Dolichoderinae),insectivore insectivore,insectivore,insectivore,447,Hymenoptera,3,1,482
-Formicidae (Formicinae),insectivore insectivore,insectivore,insectivore,448,Hymenoptera,3,1,483
-Formicidae (Formicium giganteum),insectivore insectivore,insectivore,insectivore,449,Hymenoptera,3,1,484
-Formicidae (Formicium simillimum),insectivore insectivore,insectivore,insectivore,450,Hymenoptera,3,1,485
-Formicidae (Myrmiciinae),insectivore insectivore,insectivore,insectivore,451,Hymenoptera,3,1,486
-Formicidae (Ponerinae),insectivore insectivore,insectivore,insectivore,452,Hymenoptera,3,1,487
-Formicidae (cf. Attini and DT214,fungivore predator,fungivore,predator,453,Hymenoptera,3,1,488
-Pompilidae (gen. et sp. indet.),parasitoid insectivore,parasitoid,insectivore,454,Hymenoptera,3,1,489
-Scoliidae (gen. et sp. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),455,Hymenoptera,3,1,490
-Tiphiidae (gen. et sp. indet.),parasitoid omnivore,parasitoid,omnivore,456,Hymenoptera,3,1,491
-Sphecidae (gen. et sp. indet.),parasitoid insectivore,parasitoid,insectivore,457,Hymenoptera,3,1,492
-Eumenidae (gen. et sp. indet.),insectivore predator,insectivore,predator,458,Hymenoptera,3,1,493
-Vespidae (gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,459,Hymenoptera,3,1,494
-Anthophoridae (gen. et sp. indet.),herbivore (SFF) herbivore (PO),herbivore (SFF),herbivore (PO),460,Hymenoptera,3,1,495
-Megachilidae (gen. et sp. indet. and DT81),detritivore (PO) herbivore (PO),detritivore (PO),herbivore (PO),461,Hymenoptera,3,1,496
-Apidae (Pygomelissa lutetia),detritivore (SFF) herbivore (SFF),detritivore (SFF),herbivore (SFF),462,Hymenoptera,3,1,497
-Apidae (Protobombus messelensis),detritivore (SFF) herbivore (SFF),detritivore (SFF),herbivore (SFF),463,Hymenoptera,3,1,498
-Apidae (Ecfeldapis electrapoides),herbivore herbivore (PO),herbivore,herbivore (PO),464,Hymenoptera,2,1,499
-Limnephilidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),465,Trichoptera,2,3,500
-Fam. indet. (larval cases),detritivore herbivore (SFF),detritivore,herbivore (SFF),466,Trichoptera,2,3,501
-Micropterygidae (gen. et sp. indet.),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),467,Lepidoptera,2,1,502
-Nepticulidae (gen. et sp. indet. 1 and DT41),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),468,Lepidoptera,3,1,503
-Nepticulidae (gen. et sp. indet. 2 and DT44),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),469,Lepidoptera,3,1,504
-Nepticulidae (gen. et sp. indet. 3 and DT171),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),470,Lepidoptera,3,1,505
-Nepticulidae (gen et sp. indet. 4 and DT45),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),471,Lepidoptera,2,1,506
-Nepticulidae (gen. et sp. indet. 5 and DT176,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),472,Lepidoptera,2,1,507
-Nepticulidae: Stigmellites messelensis,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),473,Lepidoptera,3,1,508
-Bucculatrigidae (Bucculatrix sp. and DT170,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),474,Lepidoptera,3,1,509
-Gracillariidae (?Phyllonorycter sp. and DT208,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),475,Lepidoptera,3,1,510
-Gracillariidae (gen. et sp. indet. 1 and DT164),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),476,Lepidoptera,3,1,511
-Gracillariidae (gen. et sp. indet. 2 and DT210),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),477,Lepidoptera,2,1,512
-Gracillariidae (gen. et sp. indet. 3 and DT152,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),478,Lepidoptera,2,1,513
-Gracillariidae (gen. et sp. indet. 4 and DT222),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),479,Lepidoptera,3,1,514
-Gracillariidae (gen. et sp. indet. 5 and DT37),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),480,Lepidoptera,3,1,515
-Coleophoridae (cf. Homaledra and DT182,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),481,Lepidoptera,3,1,516
-Coleophoridae (gen. et sp. indet. and DT224,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),482,Lepidoptera,3,1,517
-Incurvariidae (gen. et sp. indet. 1 and DT38),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),483,Lepidoptera,3,1,518
-Incurvariidae (gen. et sp. indet. 2 and DT223,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),484,Lepidoptera,3,1,519
-Cosmopterygidae (gen. et sp. indet.),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),485,Lepidoptera,2,1,520
-Geometridae (gen. et sp. indet. and DT22 and DT196,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),486,Lepidoptera,3,1,521
-Ditrysia (fam. indet. 1 and DT27),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),487,Lepidoptera,3,1,522
-Ditrysia (fam. indet. 2 and DT16),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),488,Lepidoptera,3,1,523
-Ditrysia (fam. indet. 3 and DT17),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),489,Lepidoptera,2,1,524
-Ditrysia (fam. indet. 4 and DT14),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),490,Lepidoptera,1,1,525
-Ditrysia (fam. indet. 5 and DT79),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),491,Lepidoptera,3,1,526
-Ditrysia (fam. indet. 6 and DT142,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),492,Lepidoptera,2,1,527
-Ditrysia (fam. indet. 7 and DT202,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),493,Lepidoptera,3,1,528
-Ditrysia (fam. indet. 8 and DT201,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),494,Lepidoptera,3,1,529
-Ditrysia (fam. indet 9 and DT22),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),495,Lepidoptera,3,1,530
-Ditrysia (fam. indet. 10 and DT61),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),496,Lepidoptera,2,1,531
-Ditrysia (fam. indet. 11 and DT50),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),497,Lepidoptera,2,1,532
-Ditrysia (fam. indet. 12 and DT19),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),498,Lepidoptera,3,1,533
-Ditrysia (fam. indet. 13 and DT06),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),499,Lepidoptera,3,1,534
-Ditrysia (fam. indet. 14 and DT26),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),500,Lepidoptera,2,1,535
-Ditrysia (fam. indet. 15 and DT05),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),501,Lepidoptera,1,1,536
-Ditrysia (fam. indet. 16 and DT13),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),502,Lepidoptera,1,1,537
-Papilionoidea (fam. indet.),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),503,Lepidoptera,3,1,538
-(order indet. 1 and DT87),herbivore (GA) ─,herbivore (GA),─,504,Insecta,1,1,539
-(order indet. 2 and DT55),herbivore (GA) ─,herbivore (GA),─,505,Insecta,1,1,540
-(order indet. 3 and DT01),herbivore (EFF) ─,herbivore (EFF),─,506,Insecta,1,1,541
-(order indet. 4 and DT02),herbivore (EFF) insectivore,herbivore (EFF),insectivore,507,Insecta,1,1,542
-(order indet. 5 and DT12),herbivore (EFF) insectivore,herbivore (EFF),insectivore,508,Insecta,1,1,543
-(order indet. 6 and DT14),herbivore (EFF) ─,herbivore (EFF),─,509,Insecta,1,1,544
-(order indet. 7 and DT13),herbivore (EFF) insectivore,herbivore (EFF),insectivore,510,Insecta,1,1,545
-(order indet. 8 and DT15),herbivore (EFF) ─,herbivore (EFF),─,511,Insecta,1,1,546
-(order indet. 9 and DT03),herbivore (EFF) ─,herbivore (EFF),─,512,Insecta,1,1,547
-(order indet. 10 and DT04),herbivore (EFF) insectivore,herbivore (EFF),insectivore,513,Insecta,1,1,548
-Eriophyidae (gen. et sp. indet. 1 and DT147),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),514,Acari,3,1,549
-Eriophyidae (gen. et sp. indet. 2 and DT189),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),515,Acari,2,1,550
-Eriophyidae (gen. et sp. indet. 3 and DT32),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),516,Acari,2,1,551
-Eriophyidae (gen. et sp. indet. 4 and DT62),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),517,Acari,3,1,552
-Eriophyidae (gen. et sp. indet. 5 and DT11),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),518,Acari,3,1,553
-Eriophyidae (gen. et sp. indet. 6 and DT150,herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),519,Acari,3,1,554
-Eriophyidae (gen. et sp. indet. 7 and DT120),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),520,Acari,3,1,555
-Phalangiida (fam. indet.),detritivore detritivore,detritivore,detritivore,521,Phalangiida,3,1,556
-Araneidae (cf. Singa),predator predator,predator,predator,522,Araneida,3,1,557
-Pelobatidae (Eopelobates wagneri),predator ,predator,,523,Anura,3,3,566
-Palaeobatrachidae (Messelobatrachus tobieni),insectivore ,insectivore,,524,Anura,3,3,567
-Fam. indet. (Lutetiobatrachus gracilis),insectivore ,insectivore,,525,Anura,3,3,568
-Salamandridae (Chelotriton robustus),insectivore ,insectivore,,526,Urodela,3,3,570
-Cf. Iguanidae (gen. et sp. indet.),herbivore ,herbivore,,527,Lacertilia,3,1,571
-Iguanidae (Geiseltaliellus longicaudus),omnivore ,omnivore,,528,Lacertilia,3,1,572
-Fam. Indet. 'small species',predator ,predator,,529,Lacertilia,3,1,573
-Scincidae (aff. Scincomorpha sp.),insectivore ,insectivore,,530,Lacertilia,3,1,574
-Scincidae (gen. et sp. indet.),herbivore ,herbivore,,531,Lacertilia,3,1,575
-Anguidae (Xestops abderhaldeni),molluscivore insectivore,molluscivore,insectivore,532,Lacertilia,3,1,576
-Anguidae (Ophisauriscus quadrupes),insectivore molluscivore,insectivore,molluscivore,533,Lacertilia,3,1,577
-Necrosauridae (Genus A),predator ,predator,,534,Lacertilia,3,1,578
-Necrosauridae ('Saniwa' feisti),predator ,predator,,535,Lacertilia,3,1,579
-Necrosauridae (Genus C),predator ,predator,,536,Lacertilia,3,1,580
-Lacertidae (Eolacerta robusta),insectivore ,insectivore,,537,Lacertilia,3,1,581
-Boidae (Palaeopython fischeri),predator ,predator,,538,Serpentes,3,1,582
-Boidae (Paleryx nov. sp.),predator ,predator,,539,Serpentes,3,1,583
-Boidae (Messelophis ermannorum),predator ,predator,,540,Serpentes,3,1,584
-Boidae (Messelophis variatus),predator ,predator,,541,Serpentes,3,1,585
-Aniliidae (gen. et sp. 1 nov.),predator ,predator,,542,Serpentes,3,1,586
-Aniliidae (gen. et sp. 2 nov.),predator ,predator,,543,Lacertilia,3,1,587
-Leidyosuchidae (Diplocynodon darwini),piscivore ,piscivore,,544,Crocodylia,3,3,594
-Leidyosuchidae (Diplocynodon ebertsi),piscivore ,piscivore,,545,Crocodylia,3,3,595
-Leidyosuchidae (Baryphracta deponiae),predator ,predator,,546,Crocodylia,3,3,596
-Crocodylidae (Asiatosuchus germanicus),predator ,predator,,547,Crocodylia,3,3,597
-Alligatoridae (Allognathosuchus haupti),predator molluscivore,predator,molluscivore,548,Crocodylia,3,3,598
-Pristichampsidae (Pristichampsus rollinati),piscivore ,piscivore,,549,Crocodylia,3,3,599
-Bergisuchidae (Bergisuchus dietrichbergi),predator ,predator,,550,Crocodylia,3,1,600
-Tomastomidae (gen. et sp. indet),piscivore ,piscivore,,551,Crocodylia,3,3,601
-Palaeotididae (Palaeotis weigelti),herbivore ,herbivore,,552,Palaeognathae,3,1,602
-Gallinuloididae (Paraortygoides messelensis),herbivore ,herbivore,,553,Galliformes,3,1,603
-Gastornithidae (Gastornis geiselensis),predator ,predator,,554,Anseriformes,3,1,604
-Phoenicopteridae (Juncitarsus merkeli),insectivore ,insectivore,,555,Phoenicopteriformes,3,1,605
-Sulidae (Masillastega rectirostris),piscivore ,piscivore,,556,Pelecaniformes,3,3,606
-Threskiornithidae (Rhynchaeitites messelensis),piscivore insectivore,piscivore,insectivore,557,Ciconiiformes,3,1,607
-?Phorusrhacidae (Aenigmavis sapea),predator ,predator,,558,Gruiformes',3,1,608
-Idiornithidae (Idiornis tuberculata),predator ,predator,,559,Gruiformes',3,1,609
-Idiornithidae (Idiornis cf. itardiensis),predator ,predator,,560,Gruiformes',3,3,610
-Messelornithidae (Messelornis cristata),omnivore ,omnivore,,561,Gruiformes',3,1,611
-Salmilidae (Salmila robusta),omnivore ,omnivore,,562,Gruiformes',3,1,612
-Fam. indet. (Pumiliornis tessellatus),insectivore ,insectivore,,563,Order Incertae Sedis A,3,1,613
-Fam. indet. (gen. et sp. indet.),predator ,predator,,564,Charadriiformes,3,1,614
-Accipitridae (Masillaraptor parvunguis),predator ,predator,,565,Falconiformes,3,1,615
-Messelasturidae (Messelastur gratulator),predator ,predator,,566,?Falconiformes,3,1,616
-Pseudasturidae (Pseudasturides macrocephalus),omnivore ,omnivore,,567,Psittaciformes,3,1,617
-Pseudasturidae (Serudaptus pohli),insectivore ,insectivore,,568,Psittaciformes,3,1,618
-Pseudasturidae (?Pseudastur sp.),omnivore ,omnivore,,569,Psittaciformes,3,1,619
-Fam. indet. (Psittacopes lepidus),herbivore (SP) ,herbivore (SP),,570,Psittaciformes,3,1,620
-Palaeoglaucidae (Palaeoglaux artophoron),insectivore ,insectivore,,571,Strigiformes,3,1,621
-Sandcoleidae (Eoglaucidium pallas),herbivore (SP) ,herbivore (SP),,572,Coliiformes,3,1,622
-Sandcoleidae (Eoglaucidium sp.),herbivore (SP) ,herbivore (SP),,573,Coliiformes,3,1,623
-Sandcoleidae (cf. Anneavis sp.),omnivore ,omnivore,,574,Coliiformes,3,1,624
-?Sandcoleidae (Chasacocoliius cacicirostris),insectivore ,insectivore,,575,Coliiformes,3,1,625
-Coliidae (Masillacolius brevidactylus),omnivore ,omnivore,,576,Coliiformes,3,1,626
-Fluvioviridavidae (Fluvioviridavis platyrhamphus),insectivore ,insectivore,,577,Order Incertae Sedis B,3,1,628
-Fluvioviridavidae (Eurofluvioviridavis robustipes),insectivore ,insectivore,,578,Order Incertae Sedis B,3,1,629
-Podargidae (Masillapodargus longipes),insectivore ,insectivore,,579,Order Incertae Sedis C,3,1,630
-Apodidae (Scaniacypselus szarskii),insectivore ,insectivore,,580,Cypselomorphae,3,1,631
-Nyctibiidae (Paraprefica kelleri),insectivore ,insectivore,,581,Cypselomorphae,3,1,632
-Nyctibiidae (Paraprefica major),insectivore ,insectivore,,582,Cypselomorphae,3,1,633
-Archaeotrogonidae (Hassiavis laticauda),insectivore ,insectivore,,583,Cypselomorphae,3,1,634
-Apodidae (gen. et sp. indet.),insectivore ,insectivore,,584,Cypselomorphae,2,1,635
-Cypselomorphidae (Protocypselomorphus manfredkelleri),insectivore ,insectivore,,585,Cypselomorphae,3,1,636
-Cf. Jungornithidae (cf. Argornis sp.),herbivore (SFF) ,herbivore (SFF),,586,Cypselomorphae,3,1,637
-?Leptosomidae (Plesiocathartes kelleri),insectivore ,insectivore,,587,Order Incertae Sedis D,3,1,638
-Eocoraciidae (Eocoracias brachyptera),omnivore ,omnivore,,588,Coraciiformes,3,1,639
-Atelornithidae (gen. et sp. indet.),predator ,predator,,589,Coraciiformes,3,1,640
-Fam. Indet. (Quasisyndactylus longibrachis),piscivore ,piscivore,,590,Alcediiformes,3,3,641
-Messelirrisoridae (Messelirrisor parvus),insectivore ,insectivore,,591,Upupiformes,3,1,642
-Messelirrisoridae (Messelirrisor halcyrostris),insectivore ,insectivore,,592,Upupiformes,3,1,643
-Messelirrisoridae (Messelirrisor grandis),insectivore ,insectivore,,593,Upupiformes,3,1,644
-Primobucconidae (?Primobucco sp.),insectivore ,insectivore,,594,Order Incertae Sedis E,3,1,645
-Primoscenidae (Primozygodactylus danielsi),insectivore herbivore (SP),insectivore,herbivore (SP),595,Piciformes,2,1,646
-Primoscenidae (Primozygodactylus major),insectivore herbivore (SP),insectivore,herbivore (SP),596,Piciformes,2,1,647
-Primoscenidae (Primozygodactylus ballmanni),omnivore ,omnivore,,597,Piciformes,3,1,648
-Gracilitarsidae (Gracilitarsus mirabilis),herbivore (SFF) ,herbivore (SFF),,598,Order Incertae Sedis F,3,1,649
-Trogonidae (?Primotrogon pumilio),insectivore ,insectivore,,599,Trogoniformes,3,1,650
-Trogonidae (Primotrogon wintersteini),insectivore ,insectivore,,600,Trogoniformes,3,1,651
-Fam. Indet. Palaeopsittacus cf. georgei,insectivore ,insectivore,,601,?Caprimugliformes,3,1,652
-Trochilidae (Eurotrochilus inexpectatus),herbivore (SFF) ,herbivore (SFF),,602,Trochiliiformes,3,1,653
-Trochilidae (Parargornis messelensis),insectivore ,insectivore,,603,Trochiliiformes,3,1,654
-Herpetotheriidae (Amphiperatherium cf. maximum),omnivore ,omnivore,,604,Metatheria,3,1,655
-Herpetotheriidae (Amphiperatherium goethei),omnivore ,omnivore,,605,Metatheria,3,1,656
-Herpetotheriidae (Amphiperatherium or Peratherium),omnivore ,omnivore,,606,Metatheria,3,1,657
-?Peradectidae ('Peradectes' sp.),omnivore ,omnivore,,607,Metatheria,3,1,658
-Pantolestidae (Buxolestes minor),piscivore ,piscivore,,608,Proteutheria,3,1,659
-Pantolestidae (Buxolestes piscator),piscivore herbivore (SP),piscivore,herbivore (SP),609,Proteutheria,3,1,660
-Paroxyclaenidae ('Paroxyclaenus' sp.),herbivore ,herbivore,,610,Proteutheria,3,1,661
-Paroxyclaenidae (Kopidodon macrognathus),herbivore (SP) herbivore (EFF),herbivore (SP),herbivore (EFF),611,Proteutheria,3,1,662
-Pseudorhynchocyonidae (Lepticidium nasutum),predator ,predator,,612,Proteutheria,3,1,663
-Pseudorhynchocyonidae (Lepticidium auderiense),insectivore ,insectivore,,613,Proteutheria,3,1,664
-Pseudorhynchocyonidae (Lepticidium tobieni),predator insectivore,predator,insectivore,614,Proteutheria,3,1,665
-Apatemyidae (Heterohyus nanus),insectivore ,insectivore,,615,Proteutheria,3,1,666
-Myrmecophagidae (Eurotamandua joresi),insectivore herbivore,insectivore,herbivore,616,Xenarthra,3,1,667
-Amphilemuridae (Macrocranion tupaidon),omnivore ,omnivore,,617,Lipotyphla,3,1,668
-Amphilemuridae (Macrocranion tenerum),insectivore ,insectivore,,618,Lipotyphla,3,1,669
-Amphilemuridae (Pholidocercus hassiacus),insectivore ,insectivore,,619,Lipotyphla,3,1,670
-Archaeonycterididae (Archaeonyceris trigonodon),insectivore ,insectivore,,620,Chiroptera,3,1,671
-Archaeonycterididae (Archaeonyceris pollex),insectivore ,insectivore,,621,Chiroptera,3,1,672
-Palaeochiropterygidae (Palaeochiropteryx tupaiodon),insectivore ,insectivore,,622,Chiroptera,3,1,673
-Palaeochiropterygidae (Palaeochiropteryx spiegeli),insectivore ,insectivore,,623,Chiroptera,3,1,674
-Hassianycterididae (Hassianycteris messelensis),insectivore ,insectivore,,624,Chiroptera,3,1,675
-Hassianycterididae (?Hassianycteris revilliodi),insectivore ,insectivore,,625,Chiroptera,3,1,676
-Hassianycterididae (Hassianycteris magna),insectivore ,insectivore,,626,Chiroptera,3,1,677
-Emballonuridae (Tachypteron franzeni),insectivore ,insectivore,,627,Chiroptera,3,1,678
-Hyaenodontidae (Lesmesodon behnkeae),omnivore ,omnivore,,628,Creodonta,3,1,679
-Hyaenodontidae (Lesmesodon edingeri),predator ,predator,,629,Creodonta,3,1,680
-Manidae (Eomanis krebsi),insectivore ,insectivore,,630,Pholidota,3,1,681
-Manidae (Eomanis waldi),herbivore (EFF) ,herbivore (EFF),,631,Pholidota,3,1,682
-Miacidae (Parodectes feisti),predator ,predator,,632,Carnivora,3,1,683
-Miacidae (Messelogale kessleri),predator ,predator,,633,Carnivora,3,1,684
-Helaletidae (Hyrachus minimus),herbivore (EFF) ,herbivore (EFF),,634,Perissodactyla,3,1,685
-Lophiodontidae (Lophiodon sp.),herbivore (EFF) ,herbivore (EFF),,635,Perissodactyla,3,1,686
-Equidae (Propalaeotherium hassiacum),herbivore (SP) ,herbivore (SP),,636,Perissodactyla,3,1,687
-Equidae (Propalaeotherium parvulum),herbivore (SP) herbivore (EFF),herbivore (SP),herbivore (EFF),637,Perissodactyla,3,1,688
-Equidae (Hallensia matthesi),herbivore ,herbivore,,638,Perissodactyla,3,1,689
-Dichobunidae (Messelobunodon schaeferi),fungivore herbivore (SP),fungivore,herbivore (SP),639,Artiodactyla,3,1,690
-Haplobunodontidae (Masillabune martini),herbivore (EFF) ,herbivore (EFF),,640,Artiodactyla,3,1,691
-Diacodexeidae (Aumelasia cf. gabineaudi),herbivore (SP) ,herbivore (SP),,641,Artiodactyla,3,1,692
-Notharctidae (Europolemur kelleri),predator ,predator,,642,Primates,3,1,693
-Notharctidae (Godinotia neglecta),omnivore ,omnivore,,643,Primates,3,1,694
-Notharctidae (Europolemur koenigswaldi),omnivore ,omnivore,,644,Primates,3,1,695
-Gliridae (Eogliravus wildi),herbivore (SP) ,herbivore (SP),,645,Rodentia,3,1,696
-Ischyromyidae (Ailuravus macrurus),herbivore (EFF) herbivore (SP),herbivore (EFF),herbivore (SP),646,Rodentia,3,1,697
-Ischyromyridae (Hartenbergeromys parvus),insectivore ,insectivore,,647,Rodentia,3,1,698
-Ischyromyridae (Masillamys beegeri),insectivore ,insectivore,,648,Rodentia,3,1,699
-Gen. et sp. indet.,omnivore ,omnivore,,649,Rodentia,3,1,700
+sp_name,guild,guild_1,guild_2,sp_id,higher_taxon,certainty,habitat,animal,original_sp_id
+detritus,detritus,organics,,1,detritus,3,3,0,1
+dead animal material,detritus,organics,,2,carrion,3,3,0,2
+Enterobacteriaceae,chemotroph ,chemotroph,,3,gram-negative bacteria,2,1,0,4
+iron bacteria,chemotroph ,chemotroph,,4,gram-negative bacteria,3,3,0,5
+vibroid bacteria,chemotroph ,chemotroph,,5,gram-negative bacteria,3,3,0,6
+nitrate-reducing bacteria,chemotroph ,chemotroph,,6,gram-negative bacteria,2,3,0,7
+iron-reducing bacteria,chemotroph ,chemotroph,,7,gram-negative bacteria,2,3,0,8
+manganese-reducing bacteria,chemotroph ,chemotroph,,8,gram-negative bacteria,2,3,0,9
+rods,chemotroph ,chemotroph,,9,?gram-negative bacteria,3,3,0,10
+coccibacilli,chemotroph ,chemotroph,,10,gram-negative/positive bacteria,3,3,0,11
+hydrogen bacteria (?Propionibacteriaceae),chemotroph ,chemotroph,,11,gram-positive bacteria,2,3,0,12
+coccoid bacteria,chemotroph ,chemotroph,,12,gram-positive bacteria,3,3,0,13
+curved rod bacteria,chemotroph ,chemotroph,,13,gram-positive bacteria,3,3,0,14
+ammonia oxidizing bacteria,chemotroph ,chemotroph,,14,Proteobacteria,2,3,0,15
+Pseudmonadiaceae-like bacteria,heterotroph ,heterotroph,,15,Proteobacteria-alpha,2,3,0,16
+phosphate-reducing bacteria,chemotroph ,chemotroph,,16,Proteobacteria-alpha,3,3,0,17
+nitrite-oxidizing bacteria,chemotroph ,chemotroph,,17,Proteobacteria-beta,2,3,0,18
+methanogens,heterotroph ,heterotroph,,18,Proteobacteria-beta/gamma,2,3,0,19
+sulfur-oxidizing bacteria,chemotroph ,chemotroph,,19,Proteobacteria-gamma,2,3,0,20
+gram-positive anaerobes (?clostridia),chemotroph ,chemotroph,,20,Proteobacteria-gamma,3,3,0,21
+Zygnemataceae (Ovoidites sp.),autotroph ,autotroph,,21,Zygnematales,1,3,0,29
+Botryococcaceae (Botryococcus sp.),myxotroph ,myxotroph,,22,Chlorococcales,3,3,0,30
+Botryococcaceae (Tetraedron sp.),myxotroph ,myxotroph,,23,Chlorococcales,3,3,0,31
+Dicranaceae (Dicranites†),autotroph ,autotroph,,24,Dicraniales,1,3,0,34
+Jungermanniaceae (cf. Frullania),autotroph ,autotroph,,25,Jungermanniales,1,1,0,35
+Muscites†,autotroph ,autotroph,,26,Muscales,3,1,0,36
+Selaginellaceae (gen. et sp. indet.),autotroph ,autotroph,,27,Lycopodiales,3,1,0,37
+Selaginellaceae (Selaginella sp.),autotroph ,autotroph,,28,Lycopodiales,3,1,0,38
+?Marattiaceae (gen. et sp. indet.),autotroph ,autotroph,,29,Filicales,2,1,0,39
+Lygodiaceae (Lygodium kaulfussi and Leiotriletes maxoides),autotroph ,autotroph,,30,Filicales,3,1,0,40
+Osmundaceae (Osmunda lignitum and Baculatisporites primarius),autotroph ,autotroph,,31,Filicales,3,1,0,41
+Adiantaceae (Acrostichum sp.),autotroph ,autotroph,,32,Filicales,3,1,0,42
+Polypodiaceae (Laevigatosporites discordatus),autotroph ,autotroph,,33,Filicales,3,1,0,43
+Polypodiaceae (Laevigatosporites haardtii),autotroph ,autotroph,,34,Filicales,3,1,0,44
+Polypodiaceae (Verrucatosphorites tenellis),autotroph ,autotroph,,35,Filicales,3,1,0,45
+Polypodiaceae (Rumohra recentior),autotroph ,autotroph,,36,Filicales,3,1,0,46
+Polypodiaceae (gen. et sp. indet.),autotroph ,autotroph,,37,Filicales,3,1,0,47
+Polypodiaceae (Polypodiaceoisporites lusaticus),autotroph ,autotroph,,38,Filicales,3,1,0,48
+Polypodiaceae (Verrucatosporites favus),autotroph ,autotroph,,39,Filicales,3,1,0,49
+Polypodiaceae (Verrucatosporites undulatus),autotroph ,autotroph,,40,Filicales,2,1,0,50
+Schizaeaceae (Ruffordia subcretacea and Cicatricosisporites paradorogensis),autotroph ,autotroph,,41,Filicales,3,1,0,51
+Schizaeaceae (Lygodium kaulfussi),autotroph ,autotroph,,42,Filicales,3,1,0,52
+Schizaeaceae (Lygodium microadriennis),autotroph ,autotroph,,43,Filicales,3,1,0,53
+Schizaeaceae (Schizaea sp.),autotroph ,autotroph,,44,Filicales,3,1,0,54
+Blechnaceae (gen. et sp. indet.),autotroph ,autotroph,,45,Filicales,3,1,0,55
+Gleicheniaeae (gen. et sp. indet.),autotroph ,autotroph,,46,Filicales,3,1,0,56
+Parkeriaceae (gen. et sp. indet.),autotroph ,autotroph,,47,Filicales,3,1,0,57
+Cephalotaxaceae (Cephalotaxus cf. messelensis),autotroph ,autotroph,,48,Coniferales,3,1,0,58
+Cupressaceae (Cupressacites insulipapillatus),autotroph ,autotroph,,49,Coniferales,3,1,0,59
+Cupressaceae (Libocedrites salicorniodes),autotroph ,autotroph,,50,Coniferales,3,1,0,60
+Cupressaceae (Sciadopitys sp.),autotroph ,autotroph,,51,Coniferales,3,1,0,61
+Cupressaceae (Glyptostrobus sp.),autotroph ,autotroph,,52,Coniferales,3,1,0,62
+Cupressaceae (Inaperturopollenites concedipites),autotroph ,autotroph,,53,Coniferales,3,1,0,63
+Cupressaceae (Doliostrobus sp.),autotroph ,autotroph,,54,Coniferales,3,1,0,64
+Pinaceae (Pityosporites microalatus ),autotroph ,autotroph,,55,Coniferales,3,1,0,66
+Pinaceae (Pityosporites labdacus ),autotroph ,autotroph,,56,Coniferales,3,1,0,67
+Ephedraceae (Ephedripites eocenipites),autotroph ,autotroph,,57,Gnetales,3,1,0,68
+Araceae (sp. indet. 1),autotroph ,autotroph,,58,Alismatales,3,1,0,70
+Araceae (sp. indet. 2),autotroph ,autotroph,,59,Alismatales,3,1,0,72
+Araceae (sp. indet. 3),autotroph ,autotroph,,60,Alismatales,3,1,0,73
+Smilacaceae (cf. Smilax sp.),autotroph ,autotroph,,61,Liliales,3,1,0,74
+Pandanaceae (gen. et sp. indet.),autotroph ,autotroph,,62,Pandanales,3,1,0,75
+Arecaceae (Monocolpopollenites tranquillus),autotroph ,autotroph,,63,Arecales,3,1,0,76
+Arecaceae (Phoenicites sp.),autotroph ,autotroph,,64,Arecales,3,1,0,77
+Arecaceae (cf. Arecoideae: flower type A),autotroph ,autotroph,,65,Arecales,3,1,0,78
+Arecaceae (cf. Lepidocaryoideae: pinnate leaf),autotroph ,autotroph,,66,Arecales,3,1,0,79
+Arecaceae (flower type B),autotroph ,autotroph,,67,Arecales,3,1,0,80
+Arecaceae (Sabalitides sp.),autotroph ,autotroph,,68,Arecales,3,1,0,81
+Cyclanthaceae (gen. et sp. indet.),autotroph ,autotroph,,69,Arecales,3,1,0,82
+Typhaceae (gen. et sp. indet.),autotroph ,autotroph,,70,Typhales,3,3,0,83
+Sparaganiaceae (Sparganiaceaepollenites sp. 1),autotroph ,autotroph,,71,Typhales,3,3,0,84
+Sparaganiaceae (Sparganiaceaepollenites sp. 2),autotroph ,autotroph,,72,Typhales,3,3,0,85
+Cyperaceae (Caricoidea sp.),autotroph ,autotroph,,73,Juncales,3,1,0,86
+Cyperaceae (gen. et sp. indet.),autotroph ,autotroph,,74,Juncales,2,1,0,87
+Restoniaceae (Milfordia hungarica),autotroph ,autotroph,,75,Poales,3,1,0,88
+Restoniaceae (Milfordia incerta),autotroph ,autotroph,,76,Poales,3,1,0,89
+Zingiberaceae (gen. et sp. indet.),autotroph ,autotroph,,77,Zingiberales,3,3,0,90
+Magnoliaceae (sp. indet. 1),autotroph ,autotroph,,78,Magnoliales,3,1,0,91
+Magnoliaceae (sp. indet. 2),autotroph ,autotroph,,79,Magnoliales,3,1,0,92
+Annonaceae (gen. et sp. indet.),autotroph ,autotroph,,80,Magnoliales,3,1,0,93
+Chloranthaceae (Emmapollis pseudoemmaensis),autotroph ,autotroph,,81,Laurales,3,1,0,94
+Lauraceae (cf. Laurophyllum lanigeroides†),autotroph ,autotroph,,82,Laurales,3,1,0,95
+Lauraceae (cf. Daphnogene†),autotroph ,autotroph,,83,Laurales,3,1,0,96
+Lauraceae (gen. et sp. indet),autotroph ,autotroph,,84,Laurales,3,1,0,97
+Illiciaceae (gen. et sp. indet.),autotroph ,autotroph,,85,Illiciales,3,1,0,98
+Menispermaceae (Tinospora sp.),autotroph ,autotroph,,86,Ranunculales,3,1,0,99
+Menispermaceae (gen. et sp. indet.),autotroph ,autotroph,,87,Ranunculales,3,1,0,100
+Berberidaceae (gen et sp. indet.),autotroph ,autotroph,,88,Ranunculales,3,1,0,101
+Sargentodoxaceae (cf. Sargentodoxa sp.),autotroph ,autotroph,,89,Ranunculales,3,1,0,102
+Eucommiaceae ( Eucommia and Tricolpopollenites parmularius ),autotroph ,autotroph,,90,Eucommiales,3,1,0,103
+Buxaceae (gen et sp. indet).,autotroph ,autotroph,,91,Proteales',3,1,0,104
+Platanaceae (cf. Platanus),autotroph ,autotroph,,92,Proteales,3,1,0,105
+Vitaceae† gen. et sp. indet.,autotroph ,autotroph,,93,Vitales,3,1,0,106
+Vitaceae (Vitis sp. and ?Tricolporopollenites marcodurensis),autotroph ,autotroph,,94,Vitales,3,1,0,107
+Vitaceae Tetrastigma sp.),autotroph ,autotroph,,95,Vitales,3,1,0,108
+Vitaceae (Cissus sp.),autotroph ,autotroph,,96,Vitales,3,1,0,109
+Vitaceae (Ampelopsis sp.),autotroph ,autotroph,,97,Vitales,3,1,0,110
+Rhamnaceae (Tricolporopollenites sp.),autotroph ,autotroph,,98,Vitales,3,1,0,111
+Nyctaginaceae (gen. et sp. indet.),autotroph ,autotroph,,99,Caryophyllales,3,1,0,112
+Cercidiphyllaceae (Cercidiphyllum sp.),autotroph ,autotroph,,100,Saxifragales,3,1,0,113
+Hamamelidaceae (Compositioipollenites rhizophorus),autotroph ,autotroph,,101,Saxifragales,3,1,0,114
+?Hamamelidaceae (Labrapollis labraferus),autotroph ,autotroph,,102,Saxifragales,3,1,0,115
+Olacaceae (Olaxipollis matthesii ),autotroph ,autotroph,,103,Santalales,3,1,0,116
+Loranthaceae (Gothanipollis gothanii),epiphyte ,epiphyte,,104,Santalales,3,1,0,117
+Staphyleaceae (Tapiscia sp.),autotroph ,autotroph,,105,Geraniales,3,1,0,118
+Icacinaceae (Stemonurus sp.),autotroph ,autotroph,,106,Celastrales,3,1,0,119
+Icacinaceae (Compositoipollenites rhizophorus),autotroph ,autotroph,,107,Celastrales,3,1,0,120
+Icacinaceae (Compositopollenites minimus),autotroph ,autotroph,,108,Celastrales,3,1,0,121
+Malpighiaceae (Tetrapteris sp.),autotroph ,autotroph,,109,Malpighiales,3,1,0,122
+Salicaceae (Salix and Tricolpopollenties retiformis),autotroph ,autotroph,,110,Malpighiales,3,1,0,123
+Euphorbiaceae (Spinaepollis spinosus),autotroph ,autotroph,,111,Malpighiales,3,1,0,124
+Fabaceae (sp. indet. 1),myxotroph ,myxotroph,,112,Fabales,3,1,0,125
+Fabaceae (sp. indet. 2),myxotroph ,myxotroph,,113,Fabales,3,1,0,126
+Rosaceae (sp. indet. 1),autotroph ,autotroph,,114,Rosales,3,1,0,127
+Rosaceae (sp. indet. 2),autotroph ,autotroph,,115,Rosales,3,1,0,128
+Rosaceae (cf. Rosa or Rubus),autotroph ,autotroph,,116,Rosales,3,1,0,129
+Moraceae (Ficus sp.),autotroph ,autotroph,,117,Rosales,3,1,0,130
+Celtidiaceae (Celtipollenites intrastructurus),autotroph ,autotroph,,118,Rosales,3,1,0,131
+Celtidiaceae (Celtipollenites laevigatus),autotroph ,autotroph,,119,Rosales,3,1,0,132
+Ulmaceae (Polyporopollenites undulosus),autotroph ,autotroph,,120,Rosales,3,1,0,133
+Ulmaceae (Polyporopollenites verrucatus),autotroph ,autotroph,,121,Rosales,3,1,0,134
+Ulmaceae (Ulmus sp. and ?Polyporopollenites eoulmoides),autotroph ,autotroph,,122,Rosales,3,1,0,135
+Ulmaceae (Zelkova sp.),autotroph ,autotroph,,123,Rosales,3,1,0,136
+Myricaceae (Comptonia sp. and Triatriopollenites excelsus),myxotroph ,myxotroph,,124,Fagales,3,1,0,137
+Myricaceae (Triatriopollenites rurensis),myxotroph ,myxotroph,,125,Fagales,3,1,0,138
+Myricaceae (Triatriopollenites bituitus),myxotroph ,myxotroph,,126,Fagales,3,1,0,139
+Betulaceae (Alnipollenites verus ),myxotroph ,myxotroph,,127,Fagales,3,1,0,140
+Betulaceae (Trivestibulopollenites betuloides ),autotroph ,autotroph,,128,Fagales,3,1,0,141
+Betulaceae (Carpinus sp.),autotroph ,autotroph,,129,Fagales,3,1,0,142
+Betulaceae (Ostrya sp.),autotroph ,autotroph,,130,Fagales,3,1,0,143
+Juglandaceae (Carya sp. 1 and Caryapollenites triangularus),autotroph ,autotroph,,131,Fagales,3,1,0,144
+Juglandaceae (Carya sp. 2 and Caryapollenites circulus),autotroph ,autotroph,,132,Fagales,3,1,0,145
+Juglandaceae (Engelhardia sp. and Momipites punctatus),autotroph ,autotroph,,133,Fagales,3,1,0,146
+Juglandaceae cf. Juglans and ?Subtriporopollenites anulatus),autotroph ,autotroph,,134,Fagales,3,1,0,147
+Juglandaceae (Platycarya sp. 1 and Platycaryapollenites platycaryoides),autotroph ,autotroph,,135,Fagales,3,1,0,148
+Juglandaceae (Platycarya sp. 2 and Platycaryapollenites miocaenicus),autotroph ,autotroph,,136,Fagales,3,1,0,149
+Juglandaceae (Plicatopollis hungaricus),autotroph ,autotroph,,137,Fagales,3,1,0,150
+Juglandaceae (Plicatopollis lunatus),autotroph ,autotroph,,138,Fagales,3,1,0,151
+Juglandaceae (Plicatopollis plicatus),autotroph ,autotroph,,139,Fagales,3,1,0,152
+Juglandaceae (Plicatopollis potoniei),autotroph ,autotroph,,140,Fagales,3,1,0,153
+Juglandaceae (Pterocarya sp. and Pterocaryapollenites stellatus),autotroph ,autotroph,,141,Fagales,3,1,0,154
+Fagaceae (Quercus sp. and Tricolpopollenites asper),autotroph ,autotroph,,142,Fagales,3,1,0,155
+Fagaceae (Tricolpopollenites liblarensis),autotroph ,autotroph,,143,Fagales,3,1,0,156
+Fagaceae (Tricolporopollenites cingulum),autotroph ,autotroph,,144,Fagales,3,1,0,157
+Myrtaceae (Rhodomyrtophyllum rossmassleri),autotroph ,autotroph,,145,Myrtales,3,1,0,158
+Myrtaceae (Rhodomyrtus sinuata ),autotroph ,autotroph,,146,Myrtales,3,1,0,159
+Myrtaceae (Duplopollis myrtoides),autotroph ,autotroph,,147,Myrtales,3,1,0,160
+Lythraceae (gen. et sp. indet.),autotroph ,autotroph,,148,Myrtales,3,1,0,161
+Thymelaeaceae (gen. et sp. indet.),autotroph ,autotroph,,149,Malvales,3,1,0,162
+Tiliaceae (Dombeya sp.),autotroph ,autotroph,,150,Malvales,3,1,0,163
+Tiliaceae (Intratiporopollenites ceciliensis),autotroph ,autotroph,,151,Malvales,3,1,0,164
+Tiliaceae (Intratiporopollenites minimus),autotroph ,autotroph,,152,Malvales,3,1,0,165
+Bombacaceae (Bombacacidites kettigensis ),autotroph ,autotroph,,153,Malvales,3,1,0,166
+Bombacaceae (Bombacacidites tilioides ),autotroph ,autotroph,,154,Malvales,3,1,0,167
+Bombacaceae (Bombacacidites sp. ),autotroph ,autotroph,,155,Malvales,3,1,0,168
+Sterculiaceae (Reevesiapollis triangulus or eucaenicus),autotroph ,autotroph,,156,Malvales,3,1,0,169
+Anacardiaceae (cf. Pentoperculum†),autotroph ,autotroph,,157,Sapindales,3,1,0,170
+Anacardiaceae (gen. et sp. indet.),autotroph ,autotroph,,158,Sapindales,3,1,0,171
+Rutaceae (Toddalia ovata),autotroph ,autotroph,,159,Sapindales,3,1,0,172
+Rutaceae (Rutaspermum sp.),autotroph ,autotroph,,160,Sapindales,3,1,0,173
+Rutaceae (Rutaspermum chandlerae),autotroph ,autotroph,,161,Sapindales,3,1,0,174
+Rutaceae (Rutaspermum messelense),autotroph ,autotroph,,162,Sapindales,3,1,0,175
+Simaroubaceae (Ailanthus sp.),autotroph ,autotroph,,163,Sapindales,3,1,0,176
+Sapindaceae (Acer and Aceripollis striatus ),autotroph ,autotroph,,164,Sapindales,3,1,0,177
+Burseraceae (Canarium sp.),autotroph ,autotroph,,165,Sapindales,3,1,0,178
+Cornaceae (gen. et sp. indet.),autotroph ,autotroph,,166,Cornales,3,1,0,179
+Mastixiaceae (Tricolporopollenites satzveyensis),autotroph ,autotroph,,167,Cornales,3,1,0,180
+Nyssaceae (Nyssa and Nyssapollenites kruschii ),autotroph ,autotroph,,168,Cornales,3,1,0,181
+?Clethraceae (Tricolporopollenites megaexactus),autotroph ,autotroph,,169,Ericales,2,1,0,182
+Cyrillaceae (sp. indet. 2),autotroph ,autotroph,,170,Ericales,3,1,0,183
+Cyrillaceae (cf. Cyrilla sp.),autotroph ,autotroph,,171,Ericales,3,1,0,184
+Lecythidaceae (gen. et sp. indet.),autotroph ,autotroph,,172,Ericales,3,1,0,185
+Ericaceae (Ericipites ericius),autotroph ,autotroph,,173,Ericales,3,1,0,186
+Ericaceae (Ericipites callidus),autotroph ,autotroph,,174,Ericales,3,1,0,187
+Theaceae (cf. Polyspora saxonica),autotroph ,autotroph,,175,Ericales,3,1,0,188
+Theaceae (cf. Ternstroemites 'dentatus'),autotroph ,autotroph,,176,Ericales,3,1,0,189
+Theaceae (gen. et sp. indet.),autotroph ,autotroph,,177,Ericales,3,1,0,190
+Symplocaceae (Porocolpopollenites calauensis),autotroph ,autotroph,,178,Ericales,3,1,0,191
+Symplocaceae (Porocolpopollenites rarobaculatus),autotroph ,autotroph,,179,Ericales,3,1,0,192
+Sapotaceae (Tetracolporopollenites sapotoides),autotroph ,autotroph,,180,Ericales,3,1,0,193
+Sapotaceae (Tetracolporopollenites manifestus),autotroph ,autotroph,,181,Ericales,3,1,0,194
+Rubiaceae (gen. et sp. indet.),autotroph ,autotroph,,182,Gentianales,3,1,0,195
+Apocynaceae (Apocynophyllum sp.),autotroph ,autotroph,,183,Gentianales,3,1,0,196
+Apocynaceae (gen. et sp. indet.),autotroph ,autotroph,,184,Gentianales,3,1,0,197
+Oleaceae (Tricolporopollenites microreticulatus),autotroph ,autotroph,,185,Lamiales,3,1,0,198
+Verbenaceae (gen. et sp. indet.),autotroph ,autotroph,,186,Lamiales,3,1,0,199
+Aquifoliaceae (Ilexpollenites iliacus ),autotroph ,autotroph,,187,Aquifoliales,3,1,0,200
+Aquifoliaceae (Ilexpollenites margaritatus ),autotroph ,autotroph,,188,Aquifoliales,3,1,0,201
+Araliaceae (Araliaceoipollenites reticuloides),autotroph ,autotroph,,189,Apiales,3,1,0,202
+Araliaceae (Araliaceoipollenites euphorii),autotroph ,autotroph,,190,Apiales,3,1,0,203
+Caprifoliaceae (Sambucus sp.),autotroph ,autotroph,,191,Dipsacales,3,1,0,204
+Fam. incertae (Punigiphyllum waltheri),autotroph ,autotroph,,192,Angiospermopsida,3,1,0,205
+monocot incertae,autotroph ,autotroph,,193,Angiospermopsida,3,1,0,206
+unknown dicot fruit (gen. 1),autotroph ,autotroph,,194,Angiospermopsida,3,1,0,207
+dicot incertae (gen. 2),autotroph ,autotroph,,195,Angiospermopsida,3,1,0,208
+dicot incertae: twig 1,autotroph ,autotroph,,196,Angiospermopsida,3,1,0,209
+dicot incertae: twig 2,autotroph ,autotroph,,197,Angiospermopsida,3,1,0,210
+dicot incertae: twig 3,autotroph ,autotroph,,198,Angiospermopsida,3,1,0,211
+dicot incertae (Tricolporopollenites edmundii),autotroph ,autotroph,,199,Angiospermopsida,3,1,0,212
+dicot incertae (Tricolpopollenites vegetus),autotroph ,autotroph,,200,Angiospermopsida,3,1,0,213
+dicot incertae (Tricolporopollenites microporitus),autotroph ,autotroph,,201,Angiospermopsida,3,1,0,214
+dicot incertae (Tricolporopollenites mansfeldensis),autotroph ,autotroph,,202,Angiospermopsida,3,1,0,215
+dicot incertae (Tricolporopollenites messelensis),autotroph ,autotroph,,203,Angiospermopsida,3,1,0,216
+dicot incertae (Tricolporopollenites belgicus),autotroph ,autotroph,,204,Angiospermopsida,3,1,0,217
+dicot incertae (Tricolporopollenites eocaenicus),autotroph ,autotroph,,205,Angiospermopsida,3,1,0,218
+dicot incertae (Tricolporopollenites abbreviatus),autotroph ,autotroph,,206,Angiospermopsida,3,1,0,219
+unknown fruit (gen. 3),autotroph ,autotroph,,207,Angiospermopsida,3,1,0,220
+lichen,saprobe ,saprobe,,208,lichen,2,1,0,221
+Rhytismatales epiphyllous asomycete (cf. Rhytisma sp.),saprobe ,saprobe,,209,Ascomycetes,3,1,0,222
+epiphyllous fungal species 2,saprobe ,saprobe,,210,Basidiomycetes,2,1,0,223
+epiphyllous fungal species 3,saprobe ,saprobe,,211,Basidiomycetes,2,1,0,224
+epiphyllous fungi species and DT58 undifferentiated (host 1),saprobe ,saprobe,,212,Basidiomycetes,3,1,0,225
+epiphyllous fungi species and DT58 undifferentiated (host 2),saprobe ,saprobe,,213,Basidiomycetes,3,1,0,226
+Agaricales (Fam. incertae),saprobe ,saprobe,,214,Basidiomycetes,2,1,0,227
+litter fungus,saprobe ,saprobe,,215,Ascomycetes,3,1,0,228
+wood rot (perithecia),saprobe ,saprobe,,216,Ascomycetes,3,1,0,229
+intestinal fungi,saprobe ,saprobe,,217,Fungi,3,1,0,230
+Gastropoda (Vivaparidae: Vivaparus sp.),omnivore (FF) ,omnivore (FF),,218,Streptoneura,3,1,1,238
+Gastropoda: Planorbidae (Australorbis cf. pseudoammonius),omnivore (FF) ,omnivore (FF),,219,Pulmonata,3,1,1,239
+Baetidae or Siphlonuridae,detritivore nonfeeding,detritivore,nonfeeding,220,Ephemeroptera,3,3,1,250
+Fam. indet. and sp. 1,insectivore insectivore,insectivore,insectivore,221,Odonata,2,3,1,251
+Fam. indet. and sp. 2,insectivore insectivore,insectivore,insectivore,222,Odonata,2,3,1,252
+Anisoptera (Aeschnidae gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,223,Odonata,3,3,1,253
+Zygoptera (Coenagrionidae indet. and DT76),insectivore insectivore,insectivore,insectivore,224,Odonata,3,3,1,254
+Zygoptera (Coenagrionidae indet. and DT 54),insectivore insectivore,insectivore,insectivore,225,Odonata,2,3,1,255
+Zygoptera (fam. indet. and DT100),insectivore insectivore,insectivore,insectivore,226,Odonata,2,3,1,256
+Fam. indet.,detritivore detritivore,detritivore,detritivore,227,Plecoptera,3,3,1,257
+Gryllacrididae,herbivore (RF) herbivore (RF),herbivore (RF),herbivore (RF),228,Orthoptera,3,1,1,258
+Tettigoniidae,herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),229,Orthoptera,3,1,1,259
+Fam. indet. (DT12 and DT13 and DT14),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),230,Orthoptera,1,1,1,260
+Fam. indet,detritivore omnivore,detritivore,omnivore,231,Dermaptera,3,1,1,261
+Blattidae (Periplaneta eocaenica),detritivore detritivore,detritivore,detritivore,232,Blattodea,3,1,1,262
+Blattidae (Periplaneta relicta),detritivore detritivore,detritivore,detritivore,233,Blattodea,3,1,1,263
+Mastotermitidae (Mastotermes krishnorum),detritivore detritivore,detritivore,detritivore,234,Isoptera,3,1,1,264
+Hodotermitidae?,detritivore detritivore,detritivore,detritivore,235,Isoptera,3,1,1,265
+Fam. indet. (DT12),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),236,Phasmatodea,3,1,1,266
+Phyllidae (Eophyllium messelensis),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),237,Phasmatodea,3,1,1,267
+Coccoidea (fam. indet. 1 and DT157),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),238,Hemiptera,2,1,1,268
+Coccoidea (fam. indet. 2. DT183,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),239,Hemiptera,3,1,1,269
+Coccoidea (fam. indet. 3 and DT132),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),240,Hemiptera,3,1,1,270
+Diaspididae (Aspidiotinae sp. 1 and DT191,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),241,Hemiptera,3,1,1,271
+Diaspididae (Aspidiotinae sp. 2 and DT168,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),242,Hemiptera,3,1,1,272
+Aphididae (gen. sp. indet. and DT146,herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),243,Hemiptera,3,1,1,273
+Aphididae ('Hamamelistes' sp. and DT205,herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),244,Hemiptera,3,1,1,274
+Aphididae (cf. Pemphigus sp. and DT169,herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),245,Hemiptera,3,1,1,275
+Aphididae (Trioza sp. and DT32),herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),246,Hemiptera,3,1,1,276
+Aphididae (gen. et sp. indet. and DT190),herbivore (GA) herbivore (P&S),herbivore (GA),herbivore (P&S),247,Hemiptera,3,1,1,277
+Fulgoridae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),248,Hemiptera,3,1,1,278
+Cercopidae (gen. indet.,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),249,Hemiptera,3,1,1,279
+Cicadidae gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),250,Hemiptera,3,1,1,280
+Cf. Membracidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),251,Hemiptera,3,1,1,281
+Cf. Ricaniidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),252,Hemiptera,3,1,1,282
+Flatidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),253,Hemiptera,3,1,1,283
+Dictyopharidae (Dictyopharinae gen. et sp. indet),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),254,Hemiptera,3,1,1,284
+Cyndidae (Cydnopsis meunieri),herbivore (RF) herbivore (RF),herbivore (RF),herbivore (RF),255,Hemiptera,3,1,1,285
+Cyndidae (Cydnopsis nana),herbivore (RF) herbivore (RF),herbivore (RF),herbivore (RF),256,Hemiptera,3,1,1,286
+Lygaeidae (gen. et sp. indet.),herbivore (P&S) herbivore (SP),herbivore (P&S),herbivore (SP),257,Hemiptera,3,1,1,287
+Miridae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),258,Hemiptera,3,1,1,288
+Tingidae (Lutetiacader petrefactus),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),259,Hemiptera,3,1,1,289
+Tingidae (Exmesselensis disspinosus),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),260,Hemiptera,3,1,1,290
+Tingidae (Chorotingioites priscus),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),261,Hemiptera,3,1,1,291
+Tingidae (Oblongomorpha lutetia and DT199,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),262,Hemiptera,3,1,1,292
+Pentatomidae (gen. et sp. indet.),herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),263,Hemiptera,3,1,1,293
+Reduviidae (Amphibolus disponsi),insectivore insectivore,insectivore,insectivore,264,Hemiptera,3,1,1,294
+Fam. indet.,herbivore (P&S) herbivore (P&S),herbivore (P&S),herbivore (P&S),265,Thysanoptera,3,1,1,298
+Mantispidae (Symphrasites eocenicus),parasitoid insectivore,parasitoid,insectivore,266,Neuroptera,3,1,1,299
+Cupedidae (Tenomerga messelense),herbivore (WB) nonfeeding,herbivore (WB),nonfeeding,267,Coleoptera,3,1,1,300
+Carabidae (?Harpalus sp.),insectivore insectivore,insectivore,insectivore,268,Coleoptera,3,1,1,301
+Carabidae (?Scarites sp.),insectivore insectivore,insectivore,insectivore,269,Coleoptera,3,1,1,302
+Staphylinidae (gen. indet.),insectivore fungivore,insectivore,fungivore,270,Coleoptera,3,1,1,303
+Histeridae (cf. Dendrophilus),insectivore insectivore,insectivore,insectivore,271,Coleoptera,3,1,1,306
+Polyphaga (fam. indet. and DT219,herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),272,Coleoptera,2,1,1,307
+Polyphaga (fam. indet. and DT09),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),273,Coleoptera,2,1,1,308
+Buprestidae (Psiloptera transversovittata),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),274,Coleoptera,3,1,1,309
+Buprestidae (Psiloptera weigelti),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),275,Coleoptera,3,1,1,310
+Buprestidae (Psiloptera sp. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),276,Coleoptera,3,1,1,311
+Buprestidae (?Psiloptera sp. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),277,Coleoptera,3,1,1,312
+Buprestidae (?Psiloptera sp. 3),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),278,Coleoptera,3,1,1,313
+Buprestidae (?Psiloptera sp. 4),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),279,Coleoptera,3,1,1,314
+Buprestidae (Touzalinia/Psiloptera gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),280,Coleoptera,3,1,1,315
+Buprestidae (Psilopterini and gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),281,Coleoptera,3,1,1,316
+Buprestidae (Psiloptera/Dicercomorpha gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),282,Coleoptera,3,1,1,317
+Buprestidae (Psiloptera/Diceromorpha gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),283,Coleoptera,3,1,1,318
+Buprestidae (Psiloptera/Diceromorpha gen. 3),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),284,Coleoptera,3,1,1,319
+Buprestidae (Touzalinia/Diceromorpha gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),285,Coleoptera,3,1,1,320
+Buprestidae (Touzalinia/Diceromorpha gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),286,Coleoptera,3,1,1,321
+Buprestidae (Psiloptera/Dicera gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),287,Coleoptera,3,1,1,322
+Buprestidae (Psiloptera/Dicera gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),288,Coleoptera,3,1,1,323
+Buprestidae (Psilopterini/Dicerini gen. 1),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),289,Coleoptera,3,1,1,324
+Buprestidae (Psilopterini/Dicerini gen. 2),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),290,Coleoptera,3,1,1,325
+Buprestidae (Dicerca? ),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),291,Coleoptera,3,1,1,326
+Buprestidae (Eurythyrea? ),herbivore herbivore (PO),herbivore,herbivore (PO),292,Coleoptera,3,1,1,327
+Buprestidae (Eurythyrea? bilyi),herbivore herbivore (PO),herbivore,herbivore (PO),293,Coleoptera,3,1,1,328
+Buprestidae (Anthaxini?),herbivore herbivore (PO),herbivore,herbivore (PO),294,Coleoptera,3,1,1,329
+Buprestidae (Anthaxia?),herbivore herbivore (PO),herbivore,herbivore (PO),295,Coleoptera,3,1,1,330
+Buprestidae (Coroebini? gen. 1),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),296,Coleoptera,3,1,1,331
+Buprestidae (Coroebini? gen. 2),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),297,Coleoptera,3,1,1,332
+Buprestidae (Coroebini? gen. 3),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),298,Coleoptera,3,1,1,333
+Buprestidae (Coroebini? gen. 4),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),299,Coleoptera,3,1,1,334
+Buprestidae (Coroebini? gen. 5),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),300,Coleoptera,3,1,1,335
+Buprestidae (Coroebini? gen. 6),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),301,Coleoptera,3,1,1,336
+Buprestidae (Coroebini? gen. 7),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),302,Coleoptera,3,1,1,337
+Buprestidae (Coroebini? gen. 8),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),303,Coleoptera,3,1,1,338
+Buprestidae (Coroebini? gen. 9),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),304,Coleoptera,3,1,1,339
+Buprestidae (Agrilini? gen. 1),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),305,Coleoptera,3,1,1,340
+Buprestidae (Agrilini? gen. 2),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),306,Coleoptera,3,1,1,341
+Buprestidae (Agrilinae gen. 1),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),307,Coleoptera,3,1,1,342
+Buprestidae (Agrilinae gen. 2),herbivore (GA) herbivore (PO),herbivore (GA),herbivore (PO),308,Coleoptera,3,1,1,343
+Buprestidae (Agrilinae gen. 3),herbivore (GA) herbivore (PO),herbivore (GA),herbivore (PO),309,Coleoptera,3,1,1,344
+Buprestidae (Agrilinae gen. 4),herbivore (GA) herbivore (PO),herbivore (GA),herbivore (PO),310,Coleoptera,3,1,1,345
+Buprestidae (Agrilinae gen. 5),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),311,Coleoptera,3,1,1,346
+Buprestidae (Agrilinae gen. 6),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),312,Coleoptera,3,1,1,347
+Buprestidae (Agrilinae gen. 7),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),313,Coleoptera,3,1,1,348
+Throscidae (gen. et sp. indet.),fungivore herbivore (PO),fungivore,herbivore (PO),314,Coleoptera,3,1,1,349
+Eucnemidae (gen. et sp. indet.),fungivore detritivore,fungivore,detritivore,315,Coleoptera,3,1,1,350
+Elateridae (Agrypnus? sp. 1),herbivore (RF) omnivore,herbivore (RF),omnivore,316,Coleoptera,3,1,1,351
+Elateridae (Agrypnus? sp. 2),herbivore (RF) omnivore,herbivore (RF),omnivore,317,Coleoptera,3,1,1,352
+Elateridae (Agrypnus? sp. 3),herbivore (RF) omnivore,herbivore (RF),omnivore,318,Coleoptera,3,1,1,353
+Elateridae (Agrypnus? sp. 4),herbivore (RF) omnivore,herbivore (RF),omnivore,319,Coleoptera,3,1,1,354
+Elateridae (Agrypnus? aff. ?costipennis),herbivore (RF) omnivore,herbivore (RF),omnivore,320,Coleoptera,3,1,1,355
+Elateridae (Agrypnus sp. 5),insectivore omnivore,insectivore,omnivore,321,Coleoptera,3,1,1,356
+Elateridae (Agrypnus? sp. 6),insectivore omnivore,insectivore,omnivore,322,Coleoptera,3,1,1,357
+Elateridae (Agrypnus? sp. 7),insectivore omnivore,insectivore,omnivore,323,Coleoptera,3,1,1,358
+Elateridae (Agrypnus? sp. 8),insectivore omnivore,insectivore,omnivore,324,Coleoptera,3,1,1,359
+Elateridae (Agrypnus? sp. 9),insectivore omnivore,insectivore,omnivore,325,Coleoptera,3,1,1,360
+Elateridae (Lacon? sp. 1),insectivore omnivore,insectivore,omnivore,326,Coleoptera,3,1,1,361
+Elateridae (Group 1),insectivore omnivore,insectivore,omnivore,327,Coleoptera,3,1,1,362
+Elateridae (Group 2),insectivore omnivore,insectivore,omnivore,328,Coleoptera,3,1,1,363
+Elateridae (Group 3),herbivore (SP) omnivore,herbivore (SP),omnivore,329,Coleoptera,3,1,1,364
+Elateridae (Group 4),herbivore (SP) omnivore,herbivore (SP),omnivore,330,Coleoptera,3,1,1,365
+Elateridae (Group 5),herbivore (RF) omnivore,herbivore (RF),omnivore,331,Coleoptera,3,1,1,366
+Elateridae (Group 6),herbivore (RF) omnivore,herbivore (RF),omnivore,332,Coleoptera,3,1,1,367
+Elateridae (Group 7),herbivore (RF) omnivore,herbivore (RF),omnivore,333,Coleoptera,3,1,1,368
+Elateridae (Group 8),insectivore omnivore,insectivore,omnivore,334,Coleoptera,3,1,1,369
+Elateridae (Group 9),insectivore omnivore,insectivore,omnivore,335,Coleoptera,3,1,1,370
+Elateridae (Group 10),insectivore omnivore,insectivore,omnivore,336,Coleoptera,3,1,1,371
+Elateridae (Group 11),insectivore omnivore,insectivore,omnivore,337,Coleoptera,3,1,1,372
+Elateridae (Group 12),insectivore omnivore,insectivore,omnivore,338,Coleoptera,3,1,1,373
+Elateridae (Group 13),insectivore omnivore,insectivore,omnivore,339,Coleoptera,3,1,1,374
+Elateridae (Group 14),insectivore herbivore (SFF),insectivore,herbivore (SFF),340,Coleoptera,3,1,1,375
+Elateridae (Macropunctum angulosum),herbivore (RF) omnivore,herbivore (RF),omnivore,341,Coleoptera,3,1,1,376
+Elateridae (Macropunctum meuneri),herbivore (RF) omnivore,herbivore (RF),omnivore,342,Coleoptera,3,1,1,377
+Elateridae (Macropunctum promptum),herbivore (RF) omnivore,herbivore (RF),omnivore,343,Coleoptera,3,1,1,378
+Elateridae (Macropunctum messelensis),herbivore (RF) omnivore,herbivore (RF),omnivore,344,Coleoptera,3,1,1,379
+Elateridae (Macropunctum eocaenicum),herbivore (RF) omnivore,herbivore (RF),omnivore,345,Coleoptera,3,1,1,380
+Elateridae (Macropunctum senckenbergi),herbivore (RF) omnivore,herbivore (RF),omnivore,346,Coleoptera,3,1,1,381
+Elateridae (Macropunctum latiscutellum),herbivore (RF) omnivore,herbivore (RF),omnivore,347,Coleoptera,3,1,1,382
+Elateridae (Macropunctum angustiscutellum),herbivore (RF) omnivore,herbivore (RF),omnivore,348,Coleoptera,3,1,1,383
+Elateridae (Macropunctum rebugense),herbivore (RF) omnivore,herbivore (RF),omnivore,349,Coleoptera,3,1,1,384
+Elateridae (Lanelater verae),herbivore (RF) omnivore,herbivore (RF),omnivore,350,Coleoptera,3,1,1,385
+Elateridae (Lanelater sp. 1),herbivore (RF) omnivore,herbivore (RF),omnivore,351,Coleoptera,3,1,1,386
+Elateridae (Lanelater sp. 2),herbivore (RF) omnivore,herbivore (RF),omnivore,352,Coleoptera,3,1,1,387
+Elateridae (Lanelater sp. 3),herbivore (RF) omnivore,herbivore (RF),omnivore,353,Coleoptera,3,1,1,388
+Cantharoidea (gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,354,Coleoptera,3,1,1,389
+Elateridae ('Ancyclochira' agilis),insectivore detritivore,insectivore,detritivore,355,Coleoptera,3,1,1,390
+Tenebrionidae (Ceropria? messelense),fungivore omnivore,fungivore,omnivore,356,Coleoptera,3,1,1,391
+Tenebrionidae (gen. et sp. indet.),detritivore herbivore (EFF),detritivore,herbivore (EFF),357,Coleoptera,3,1,1,392
+Lucanidae (Protognathinus spielbergi),detritivore herbivore (SFF),detritivore,herbivore (SFF),358,Coleoptera,3,1,1,393
+Scarabaeidae (Gymnopleurus eocaenicus),detritivore herbivore (PO),detritivore,herbivore (PO),359,Coleoptera,3,1,1,394
+Scarabaeidae (?Geotrupes messelensis),detritivore herbivore (SFF),detritivore,herbivore (SFF),360,Coleoptera,3,1,1,395
+Scarabaeidae (?Geotrupes sp.),detritivore herbivore (SFF),detritivore,herbivore (SFF),361,Coleoptera,3,1,1,396
+Scarabaeidae (?Onthophagus sp.),detritivore herbivore (SFF),detritivore,herbivore (SFF),362,Coleoptera,3,1,1,397
+Scarabaeidae (?Onitis sp.),detritivore herbivore (SFF),detritivore,herbivore (SFF),363,Coleoptera,3,1,1,398
+Dascillidae (Eubrianax sp.),herbivore (RF) nonfeeding,herbivore (RF),nonfeeding,364,Coleoptera,3,1,1,399
+Colydiidae cf. Orthocerus,fungivore herbivore (EFF),fungivore,herbivore (EFF),365,Coleoptera,3,1,1,400
+Ptinidae (gen. et sp. indet.),detritivore detritivore,detritivore,detritivore,366,Coleoptera,3,1,1,401
+Trogossitidae (Trogossita eocaenica),insectivore insectivore,insectivore,insectivore,367,Coleoptera,3,1,1,402
+Oedemeridae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),368,Coleoptera,3,1,1,403
+Phytophaga' (fam. indet. 1 and DT08),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),369,Coleoptera,1,1,1,404
+Phytophaga' (fam. indet. 2 and DT15),herbivore (EFF) herbivore (SP),herbivore (EFF),herbivore (SP),370,Coleoptera,1,1,1,405
+Phytophaga' (fam. indet. 3 and DT30),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),371,Coleoptera,2,1,1,406
+Phytophaga' (fam. indet. 3 and DT63),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),372,Coleoptera,2,1,1,407
+Phytophaga' (fam. indet. 4 and DT216),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),373,Coleoptera,2,1,1,408
+Phytophaga' (fam. indet. 5 and DT143),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),374,Coleoptera,2,1,1,409
+Phytophaga' (fam.indet. 6 and DT211,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),375,Coleoptera,2,1,1,410
+Phytophaga' (fam. indet. 7 and DT207),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),376,Coleoptera,2,1,1,411
+Phytophaga' (fam. indet. 8 and DT220),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),377,Coleoptera,2,1,1,412
+Phytophaga' (fam. indet. 9 and DT137),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),378,Coleoptera,2,1,1,413
+Phytophaga' (fam. indet 10 and DT12),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),379,Coleoptera,1,1,1,414
+Phytophaga' (fam. indet. 11 and DT14),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),380,Coleoptera,1,1,1,415
+Phytophaga' (fam. indet. 11 and DT13),herbivore (EFF) herbivore (PO),herbivore (EFF),herbivore (PO),381,Coleoptera,1,1,1,416
+Cerambycidae (Lamiinae),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),382,Coleoptera,3,1,1,417
+Cerambycidae (Prioninae),herbivore (WB) herbivore (SFF),herbivore (WB),herbivore (SFF),383,Coleoptera,3,1,1,418
+Cerambycidae (gen. et sp. indet. and DT212,herbivore (WB) herbivore (EFF),herbivore (WB),herbivore (EFF),384,Coleoptera,3,1,1,419
+Chrysomelidae (Sagra sp.),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),385,Coleoptera,3,1,1,420
+Chrysomelidae (Lina sp. and DT57),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),386,Coleoptera,3,1,1,421
+Chrysomelidae (gen. et sp. indet. and DT08),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),387,Coleoptera,2,1,1,422
+Chrysomelidae (Cassidinae indet. 1 and DT203 ),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),388,Coleoptera,3,1,1,423
+Chrysomelidae (Cassidinae indet. 2 and DT192),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),389,Coleoptera,3,1,1,424
+Chrysomelidae (gen. et sp. indet. and DT193,herbivore (LM) herbivore (EFF),herbivore (LM),herbivore (EFF),390,Coleoptera,3,1,1,425
+Chrysomelidae (Bruchinae indet.),herbivore (SP) omnivore,herbivore (SP),omnivore,391,Coleoptera,3,1,1,426
+cf. Brenthidae,herbivore (WB) herbivore (EFF),herbivore (WB),herbivore (EFF),392,Coleoptera,3,1,1,427
+Apionidae (gen. et sp. indet.),herbivore (SP) herbivore (EFF),herbivore (SP),herbivore (EFF),393,Coleoptera,3,1,1,428
+Curculionidae (gen. et sp. indet. 1),herbivore herbivore (EFF),herbivore,herbivore (EFF),394,Coleoptera,3,1,1,429
+Curculionidae (gen. et sp. indet. 2 and DT74),herbivore (SP) herbivore (SP),herbivore (SP),herbivore (SP),395,Coleoptera,3,1,1,430
+Curculionidae (gen. et sp. indet. 3 and DT07),herbivore (EFF) herbivore (EFF),herbivore (EFF),herbivore (EFF),396,Coleoptera,2,1,1,431
+Curculionidae (aff. Balaninus and DT167),herbivore (SP) herbivore (SP),herbivore (SP),herbivore (SP),397,Coleoptera,3,1,1,432
+Fam. indet. (DT195),herbivore (LM) insectivore,herbivore (LM),insectivore,398,Coleoptera,2,1,1,433
+Fam. indet. (DT29),herbivore (WB) herbivore (PO),herbivore (WB),herbivore (PO),399,Coleoptera,2,1,1,434
+Myrmecolacidae (Stichotrema sp.),parasitoid nonfeeding,parasitoid,nonfeeding,400,Strepsiptera,2,1,1,435
+Fam. indet.,detritivore detritivore,detritivore,detritivore,401,Mecoptera,3,1,1,436
+Tipulidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),402,Diptera,3,3,1,437
+Limoniidae (gen. et sp. indet.),detritivore nonfeeding,detritivore,nonfeeding,403,Diptera,3,3,1,438
+Chaoboridae (gen. indet. and larva),detritivore parasite,detritivore,parasite,404,Diptera,2,3,1,439
+Chironomidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,405,Diptera,2,3,1,440
+Culicidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,406,Diptera,3,3,1,441
+Cecidomyiidae (gen. et sp. indet. 1 and DT80,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),407,Diptera,2,1,1,442
+Cecidomyiidae (gen. et sp. indet. 2 and DT188,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),408,Diptera,2,1,1,443
+Cecidomyiidae (gen. et sp. indet. 3 and DT11 and DT197,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),409,Diptera,3,1,1,444
+Cecidomyiidae (gen. et sp. indet. 4 and DT83),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),410,Diptera,3,1,1,445
+Cecidomyiidae (gen. et sp. indet. 5 and DT84),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),411,Diptera,2,1,1,446
+Cecidomyiidae (gen. et sp. indet. 6 and DT215),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),412,Diptera,3,1,1,447
+Cecidomyiidae (gen. et sp. indet. 7 and DT213,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),413,Diptera,3,1,1,448
+Cecidomyiidae (gen. et sp. indet. 8 and DT149,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),414,Diptera,3,1,1,449
+Cecidomyiidae (gen. et sp. indet. 9 and DT218),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),415,Diptera,3,1,1,450
+Cecidomyiidae (gen. et sp. indet. 10 and DT217,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),416,Diptera,3,1,1,451
+Cecidomyiidae (gen. et sp. indet. 11 and DT34),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),417,Diptera,2,1,1,452
+Cecidomyiidae (gen. et sp. indet. 12 and DT145,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),418,Diptera,3,1,1,453
+Cecidomyiidae (Asphondyliini and DT163 and DT206,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),419,Diptera,2,1,1,454
+Cecidomyiidae (gen et sp. indet. 13 and DT204),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),420,Diptera,3,1,1,455
+Cecidomyiidae (Cecidomyia sp. and DT49),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),421,Diptera,2,1,1,456
+Cecidomyiidae (Dasyneura sp. and DT85),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),422,Diptera,2,1,1,457
+Cecidomyiidae (gen. et sp. indet and DT33),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),423,Diptera,3,1,1,458
+Nemestrinidae (cf. Hirmoneura sp.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),424,Diptera,3,1,1,459
+Tabanidae (gen. et sp. indet.),detritivore parasite,detritivore,parasite,425,Diptera,3,1,1,460
+Stratiomyiidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),426,Diptera,3,1,1,461
+Athericidae (gen. et sp. indet.),insectivore parasite,insectivore,parasite,427,Diptera,3,1,1,462
+Asilidae (gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,428,Diptera,3,1,1,463
+Syrphidae (gen. et sp. indet.),fungivore herbivore (PO),fungivore,herbivore (PO),429,Diptera,3,3,1,464
+Brachycera (fam. indet.),parasitoid parasite,parasitoid,parasite,430,Diptera,3,1,1,465
+Tephritidae (gen. et sp. indet and DT117),herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),431,Diptera,3,1,1,466
+Agromyzidae (gen. et sp. indet. and DT185,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),432,Diptera,2,1,1,467
+Agromyzidae (gen. et sp. indet. and DT109),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),433,Diptera,2,1,1,468
+Cecidomyiidae (gen. et sp. indet. DT80,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),434,Diptera,2,1,1,469
+Tenthredinoidea (fam. indet. and DT78),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),435,Hymenoptera,3,1,1,470
+Tenthredinidae (gen. et sp. indet. and DT187),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),436,Hymenoptera,3,1,1,471
+Torymidae (gen. et sp. indet. 1 and DT62),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),437,Hymenoptera,3,1,1,472
+Torymidae (gen. sp. indet. 2 and DT213,parasitoid herbivore (SFF),parasitoid,herbivore (SFF),438,Hymenoptera,3,1,1,473
+Eulophidae (gen. et sp. indet. and DT189),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),439,Hymenoptera,2,1,1,474
+Eucharitidae (gen. et sp. indet. and DT83),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),440,Hymenoptera,3,1,1,475
+Chalcididae (Chalcidinae),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),441,Hymenoptera,3,1,1,476
+Proctotrupoidea (fam. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),442,Hymenoptera,3,1,1,477
+Ichneumonidae (gen. et sp. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),443,Hymenoptera,3,1,1,478
+Braconidae (gen. et sp. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),444,Hymenoptera,3,1,1,479
+Cynipidae (gen. et sp. indet. and DT209,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),445,Hymenoptera,1,1,1,480
+Cynipidae (gen. et sp. indet. 2 and DT186,herbivore (GA) herbivore (SFF),herbivore (GA),herbivore (SFF),446,Hymenoptera,3,1,1,481
+Formicidae (Dolichoderinae),insectivore insectivore,insectivore,insectivore,447,Hymenoptera,3,1,1,482
+Formicidae (Formicinae),insectivore insectivore,insectivore,insectivore,448,Hymenoptera,3,1,1,483
+Formicidae (Formicium giganteum),insectivore insectivore,insectivore,insectivore,449,Hymenoptera,3,1,1,484
+Formicidae (Formicium simillimum),insectivore insectivore,insectivore,insectivore,450,Hymenoptera,3,1,1,485
+Formicidae (Myrmiciinae),insectivore insectivore,insectivore,insectivore,451,Hymenoptera,3,1,1,486
+Formicidae (Ponerinae),insectivore insectivore,insectivore,insectivore,452,Hymenoptera,3,1,1,487
+Formicidae (cf. Attini and DT214,fungivore predator,fungivore,predator,453,Hymenoptera,3,1,1,488
+Pompilidae (gen. et sp. indet.),parasitoid insectivore,parasitoid,insectivore,454,Hymenoptera,3,1,1,489
+Scoliidae (gen. et sp. indet.),parasitoid herbivore (SFF),parasitoid,herbivore (SFF),455,Hymenoptera,3,1,1,490
+Tiphiidae (gen. et sp. indet.),parasitoid omnivore,parasitoid,omnivore,456,Hymenoptera,3,1,1,491
+Sphecidae (gen. et sp. indet.),parasitoid insectivore,parasitoid,insectivore,457,Hymenoptera,3,1,1,492
+Eumenidae (gen. et sp. indet.),insectivore predator,insectivore,predator,458,Hymenoptera,3,1,1,493
+Vespidae (gen. et sp. indet.),insectivore insectivore,insectivore,insectivore,459,Hymenoptera,3,1,1,494
+Anthophoridae (gen. et sp. indet.),herbivore (SFF) herbivore (PO),herbivore (SFF),herbivore (PO),460,Hymenoptera,3,1,1,495
+Megachilidae (gen. et sp. indet. and DT81),detritivore (PO) herbivore (PO),detritivore (PO),herbivore (PO),461,Hymenoptera,3,1,1,496
+Apidae (Pygomelissa lutetia),detritivore (SFF) herbivore (SFF),detritivore (SFF),herbivore (SFF),462,Hymenoptera,3,1,1,497
+Apidae (Protobombus messelensis),detritivore (SFF) herbivore (SFF),detritivore (SFF),herbivore (SFF),463,Hymenoptera,3,1,1,498
+Apidae (Ecfeldapis electrapoides),herbivore herbivore (PO),herbivore,herbivore (PO),464,Hymenoptera,2,1,1,499
+Limnephilidae (gen. et sp. indet.),detritivore herbivore (SFF),detritivore,herbivore (SFF),465,Trichoptera,2,3,1,500
+Fam. indet. (larval cases),detritivore herbivore (SFF),detritivore,herbivore (SFF),466,Trichoptera,2,3,1,501
+Micropterygidae (gen. et sp. indet.),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),467,Lepidoptera,2,1,1,502
+Nepticulidae (gen. et sp. indet. 1 and DT41),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),468,Lepidoptera,3,1,1,503
+Nepticulidae (gen. et sp. indet. 2 and DT44),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),469,Lepidoptera,3,1,1,504
+Nepticulidae (gen. et sp. indet. 3 and DT171),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),470,Lepidoptera,3,1,1,505
+Nepticulidae (gen et sp. indet. 4 and DT45),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),471,Lepidoptera,2,1,1,506
+Nepticulidae (gen. et sp. indet. 5 and DT176,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),472,Lepidoptera,2,1,1,507
+Nepticulidae: Stigmellites messelensis,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),473,Lepidoptera,3,1,1,508
+Bucculatrigidae (Bucculatrix sp. and DT170,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),474,Lepidoptera,3,1,1,509
+Gracillariidae (?Phyllonorycter sp. and DT208,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),475,Lepidoptera,3,1,1,510
+Gracillariidae (gen. et sp. indet. 1 and DT164),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),476,Lepidoptera,3,1,1,511
+Gracillariidae (gen. et sp. indet. 2 and DT210),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),477,Lepidoptera,2,1,1,512
+Gracillariidae (gen. et sp. indet. 3 and DT152,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),478,Lepidoptera,2,1,1,513
+Gracillariidae (gen. et sp. indet. 4 and DT222),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),479,Lepidoptera,3,1,1,514
+Gracillariidae (gen. et sp. indet. 5 and DT37),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),480,Lepidoptera,3,1,1,515
+Coleophoridae (cf. Homaledra and DT182,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),481,Lepidoptera,3,1,1,516
+Coleophoridae (gen. et sp. indet. and DT224,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),482,Lepidoptera,3,1,1,517
+Incurvariidae (gen. et sp. indet. 1 and DT38),herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),483,Lepidoptera,3,1,1,518
+Incurvariidae (gen. et sp. indet. 2 and DT223,herbivore (LM) herbivore (SFF),herbivore (LM),herbivore (SFF),484,Lepidoptera,3,1,1,519
+Cosmopterygidae (gen. et sp. indet.),herbivore (LM) herbivore (PO),herbivore (LM),herbivore (PO),485,Lepidoptera,2,1,1,520
+Geometridae (gen. et sp. indet. and DT22 and DT196,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),486,Lepidoptera,3,1,1,521
+Ditrysia (fam. indet. 1 and DT27),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),487,Lepidoptera,3,1,1,522
+Ditrysia (fam. indet. 2 and DT16),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),488,Lepidoptera,3,1,1,523
+Ditrysia (fam. indet. 3 and DT17),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),489,Lepidoptera,2,1,1,524
+Ditrysia (fam. indet. 4 and DT14),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),490,Lepidoptera,1,1,1,525
+Ditrysia (fam. indet. 5 and DT79),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),491,Lepidoptera,3,1,1,526
+Ditrysia (fam. indet. 6 and DT142,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),492,Lepidoptera,2,1,1,527
+Ditrysia (fam. indet. 7 and DT202,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),493,Lepidoptera,3,1,1,528
+Ditrysia (fam. indet. 8 and DT201,herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),494,Lepidoptera,3,1,1,529
+Ditrysia (fam. indet 9 and DT22),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),495,Lepidoptera,3,1,1,530
+Ditrysia (fam. indet. 10 and DT61),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),496,Lepidoptera,2,1,1,531
+Ditrysia (fam. indet. 11 and DT50),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),497,Lepidoptera,2,1,1,532
+Ditrysia (fam. indet. 12 and DT19),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),498,Lepidoptera,3,1,1,533
+Ditrysia (fam. indet. 13 and DT06),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),499,Lepidoptera,3,1,1,534
+Ditrysia (fam. indet. 14 and DT26),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),500,Lepidoptera,2,1,1,535
+Ditrysia (fam. indet. 15 and DT05),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),501,Lepidoptera,1,1,1,536
+Ditrysia (fam. indet. 16 and DT13),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),502,Lepidoptera,1,1,1,537
+Papilionoidea (fam. indet.),herbivore (EFF) herbivore (SFF),herbivore (EFF),herbivore (SFF),503,Lepidoptera,3,1,1,538
+(order indet. 1 and DT87),herbivore (GA) ─,herbivore (GA),─,504,Insecta,1,1,1,539
+(order indet. 2 and DT55),herbivore (GA) ─,herbivore (GA),─,505,Insecta,1,1,1,540
+(order indet. 3 and DT01),herbivore (EFF) ─,herbivore (EFF),─,506,Insecta,1,1,1,541
+(order indet. 4 and DT02),herbivore (EFF) insectivore,herbivore (EFF),insectivore,507,Insecta,1,1,1,542
+(order indet. 5 and DT12),herbivore (EFF) insectivore,herbivore (EFF),insectivore,508,Insecta,1,1,1,543
+(order indet. 6 and DT14),herbivore (EFF) ─,herbivore (EFF),─,509,Insecta,1,1,1,544
+(order indet. 7 and DT13),herbivore (EFF) insectivore,herbivore (EFF),insectivore,510,Insecta,1,1,1,545
+(order indet. 8 and DT15),herbivore (EFF) ─,herbivore (EFF),─,511,Insecta,1,1,1,546
+(order indet. 9 and DT03),herbivore (EFF) ─,herbivore (EFF),─,512,Insecta,1,1,1,547
+(order indet. 10 and DT04),herbivore (EFF) insectivore,herbivore (EFF),insectivore,513,Insecta,1,1,1,548
+Eriophyidae (gen. et sp. indet. 1 and DT147),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),514,Acari,3,1,1,549
+Eriophyidae (gen. et sp. indet. 2 and DT189),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),515,Acari,2,1,1,550
+Eriophyidae (gen. et sp. indet. 3 and DT32),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),516,Acari,2,1,1,551
+Eriophyidae (gen. et sp. indet. 4 and DT62),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),517,Acari,3,1,1,552
+Eriophyidae (gen. et sp. indet. 5 and DT11),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),518,Acari,3,1,1,553
+Eriophyidae (gen. et sp. indet. 6 and DT150,herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),519,Acari,3,1,1,554
+Eriophyidae (gen. et sp. indet. 7 and DT120),herbivore (GA) herbivore (EFF),herbivore (GA),herbivore (EFF),520,Acari,3,1,1,555
+Phalangiida (fam. indet.),detritivore detritivore,detritivore,detritivore,521,Phalangiida,3,1,1,556
+Araneidae (cf. Singa),predator predator,predator,predator,522,Araneida,3,1,1,557
+Pelobatidae (Eopelobates wagneri),predator ,predator,,523,Anura,3,3,1,566
+Palaeobatrachidae (Messelobatrachus tobieni),insectivore ,insectivore,,524,Anura,3,3,1,567
+Fam. indet. (Lutetiobatrachus gracilis),insectivore ,insectivore,,525,Anura,3,3,1,568
+Salamandridae (Chelotriton robustus),insectivore ,insectivore,,526,Urodela,3,3,1,570
+Cf. Iguanidae (gen. et sp. indet.),herbivore ,herbivore,,527,Lacertilia,3,1,1,571
+Iguanidae (Geiseltaliellus longicaudus),omnivore ,omnivore,,528,Lacertilia,3,1,1,572
+Fam. Indet. 'small species',predator ,predator,,529,Lacertilia,3,1,1,573
+Scincidae (aff. Scincomorpha sp.),insectivore ,insectivore,,530,Lacertilia,3,1,1,574
+Scincidae (gen. et sp. indet.),herbivore ,herbivore,,531,Lacertilia,3,1,1,575
+Anguidae (Xestops abderhaldeni),molluscivore insectivore,molluscivore,insectivore,532,Lacertilia,3,1,1,576
+Anguidae (Ophisauriscus quadrupes),insectivore molluscivore,insectivore,molluscivore,533,Lacertilia,3,1,1,577
+Necrosauridae (Genus A),predator ,predator,,534,Lacertilia,3,1,1,578
+Necrosauridae ('Saniwa' feisti),predator ,predator,,535,Lacertilia,3,1,1,579
+Necrosauridae (Genus C),predator ,predator,,536,Lacertilia,3,1,1,580
+Lacertidae (Eolacerta robusta),insectivore ,insectivore,,537,Lacertilia,3,1,1,581
+Boidae (Palaeopython fischeri),predator ,predator,,538,Serpentes,3,1,1,582
+Boidae (Paleryx nov. sp.),predator ,predator,,539,Serpentes,3,1,1,583
+Boidae (Messelophis ermannorum),predator ,predator,,540,Serpentes,3,1,1,584
+Boidae (Messelophis variatus),predator ,predator,,541,Serpentes,3,1,1,585
+Aniliidae (gen. et sp. 1 nov.),predator ,predator,,542,Serpentes,3,1,1,586
+Aniliidae (gen. et sp. 2 nov.),predator ,predator,,543,Lacertilia,3,1,1,587
+Leidyosuchidae (Diplocynodon darwini),piscivore ,piscivore,,544,Crocodylia,3,3,1,594
+Leidyosuchidae (Diplocynodon ebertsi),piscivore ,piscivore,,545,Crocodylia,3,3,1,595
+Leidyosuchidae (Baryphracta deponiae),predator ,predator,,546,Crocodylia,3,3,1,596
+Crocodylidae (Asiatosuchus germanicus),predator ,predator,,547,Crocodylia,3,3,1,597
+Alligatoridae (Allognathosuchus haupti),predator molluscivore,predator,molluscivore,548,Crocodylia,3,3,1,598
+Pristichampsidae (Pristichampsus rollinati),piscivore ,piscivore,,549,Crocodylia,3,3,1,599
+Bergisuchidae (Bergisuchus dietrichbergi),predator ,predator,,550,Crocodylia,3,1,1,600
+Tomastomidae (gen. et sp. indet),piscivore ,piscivore,,551,Crocodylia,3,3,1,601
+Palaeotididae (Palaeotis weigelti),herbivore ,herbivore,,552,Palaeognathae,3,1,1,602
+Gallinuloididae (Paraortygoides messelensis),herbivore ,herbivore,,553,Galliformes,3,1,1,603
+Gastornithidae (Gastornis geiselensis),predator ,predator,,554,Anseriformes,3,1,1,604
+Phoenicopteridae (Juncitarsus merkeli),insectivore ,insectivore,,555,Phoenicopteriformes,3,1,1,605
+Sulidae (Masillastega rectirostris),piscivore ,piscivore,,556,Pelecaniformes,3,3,1,606
+Threskiornithidae (Rhynchaeitites messelensis),piscivore insectivore,piscivore,insectivore,557,Ciconiiformes,3,1,1,607
+?Phorusrhacidae (Aenigmavis sapea),predator ,predator,,558,Gruiformes',3,1,1,608
+Idiornithidae (Idiornis tuberculata),predator ,predator,,559,Gruiformes',3,1,1,609
+Idiornithidae (Idiornis cf. itardiensis),predator ,predator,,560,Gruiformes',3,3,1,610
+Messelornithidae (Messelornis cristata),omnivore ,omnivore,,561,Gruiformes',3,1,1,611
+Salmilidae (Salmila robusta),omnivore ,omnivore,,562,Gruiformes',3,1,1,612
+Fam. indet. (Pumiliornis tessellatus),insectivore ,insectivore,,563,Order Incertae Sedis A,3,1,1,613
+Fam. indet. (gen. et sp. indet.),predator ,predator,,564,Charadriiformes,3,1,1,614
+Accipitridae (Masillaraptor parvunguis),predator ,predator,,565,Falconiformes,3,1,1,615
+Messelasturidae (Messelastur gratulator),predator ,predator,,566,?Falconiformes,3,1,1,616
+Pseudasturidae (Pseudasturides macrocephalus),omnivore ,omnivore,,567,Psittaciformes,3,1,1,617
+Pseudasturidae (Serudaptus pohli),insectivore ,insectivore,,568,Psittaciformes,3,1,1,618
+Pseudasturidae (?Pseudastur sp.),omnivore ,omnivore,,569,Psittaciformes,3,1,1,619
+Fam. indet. (Psittacopes lepidus),herbivore (SP) ,herbivore (SP),,570,Psittaciformes,3,1,1,620
+Palaeoglaucidae (Palaeoglaux artophoron),insectivore ,insectivore,,571,Strigiformes,3,1,1,621
+Sandcoleidae (Eoglaucidium pallas),herbivore (SP) ,herbivore (SP),,572,Coliiformes,3,1,1,622
+Sandcoleidae (Eoglaucidium sp.),herbivore (SP) ,herbivore (SP),,573,Coliiformes,3,1,1,623
+Sandcoleidae (cf. Anneavis sp.),omnivore ,omnivore,,574,Coliiformes,3,1,1,624
+?Sandcoleidae (Chasacocoliius cacicirostris),insectivore ,insectivore,,575,Coliiformes,3,1,1,625
+Coliidae (Masillacolius brevidactylus),omnivore ,omnivore,,576,Coliiformes,3,1,1,626
+Fluvioviridavidae (Fluvioviridavis platyrhamphus),insectivore ,insectivore,,577,Order Incertae Sedis B,3,1,1,628
+Fluvioviridavidae (Eurofluvioviridavis robustipes),insectivore ,insectivore,,578,Order Incertae Sedis B,3,1,1,629
+Podargidae (Masillapodargus longipes),insectivore ,insectivore,,579,Order Incertae Sedis C,3,1,1,630
+Apodidae (Scaniacypselus szarskii),insectivore ,insectivore,,580,Cypselomorphae,3,1,1,631
+Nyctibiidae (Paraprefica kelleri),insectivore ,insectivore,,581,Cypselomorphae,3,1,1,632
+Nyctibiidae (Paraprefica major),insectivore ,insectivore,,582,Cypselomorphae,3,1,1,633
+Archaeotrogonidae (Hassiavis laticauda),insectivore ,insectivore,,583,Cypselomorphae,3,1,1,634
+Apodidae (gen. et sp. indet.),insectivore ,insectivore,,584,Cypselomorphae,2,1,1,635
+Cypselomorphidae (Protocypselomorphus manfredkelleri),insectivore ,insectivore,,585,Cypselomorphae,3,1,1,636
+Cf. Jungornithidae (cf. Argornis sp.),herbivore (SFF) ,herbivore (SFF),,586,Cypselomorphae,3,1,1,637
+?Leptosomidae (Plesiocathartes kelleri),insectivore ,insectivore,,587,Order Incertae Sedis D,3,1,1,638
+Eocoraciidae (Eocoracias brachyptera),omnivore ,omnivore,,588,Coraciiformes,3,1,1,639
+Atelornithidae (gen. et sp. indet.),predator ,predator,,589,Coraciiformes,3,1,1,640
+Fam. Indet. (Quasisyndactylus longibrachis),piscivore ,piscivore,,590,Alcediiformes,3,3,1,641
+Messelirrisoridae (Messelirrisor parvus),insectivore ,insectivore,,591,Upupiformes,3,1,1,642
+Messelirrisoridae (Messelirrisor halcyrostris),insectivore ,insectivore,,592,Upupiformes,3,1,1,643
+Messelirrisoridae (Messelirrisor grandis),insectivore ,insectivore,,593,Upupiformes,3,1,1,644
+Primobucconidae (?Primobucco sp.),insectivore ,insectivore,,594,Order Incertae Sedis E,3,1,1,645
+Primoscenidae (Primozygodactylus danielsi),insectivore herbivore (SP),insectivore,herbivore (SP),595,Piciformes,2,1,1,646
+Primoscenidae (Primozygodactylus major),insectivore herbivore (SP),insectivore,herbivore (SP),596,Piciformes,2,1,1,647
+Primoscenidae (Primozygodactylus ballmanni),omnivore ,omnivore,,597,Piciformes,3,1,1,648
+Gracilitarsidae (Gracilitarsus mirabilis),herbivore (SFF) ,herbivore (SFF),,598,Order Incertae Sedis F,3,1,1,649
+Trogonidae (?Primotrogon pumilio),insectivore ,insectivore,,599,Trogoniformes,3,1,1,650
+Trogonidae (Primotrogon wintersteini),insectivore ,insectivore,,600,Trogoniformes,3,1,1,651
+Fam. Indet. Palaeopsittacus cf. georgei,insectivore ,insectivore,,601,?Caprimugliformes,3,1,1,652
+Trochilidae (Eurotrochilus inexpectatus),herbivore (SFF) ,herbivore (SFF),,602,Trochiliiformes,3,1,1,653
+Trochilidae (Parargornis messelensis),insectivore ,insectivore,,603,Trochiliiformes,3,1,1,654
+Herpetotheriidae (Amphiperatherium cf. maximum),omnivore ,omnivore,,604,Metatheria,3,1,1,655
+Herpetotheriidae (Amphiperatherium goethei),omnivore ,omnivore,,605,Metatheria,3,1,1,656
+Herpetotheriidae (Amphiperatherium or Peratherium),omnivore ,omnivore,,606,Metatheria,3,1,1,657
+?Peradectidae ('Peradectes' sp.),omnivore ,omnivore,,607,Metatheria,3,1,1,658
+Pantolestidae (Buxolestes minor),piscivore ,piscivore,,608,Proteutheria,3,1,1,659
+Pantolestidae (Buxolestes piscator),piscivore herbivore (SP),piscivore,herbivore (SP),609,Proteutheria,3,1,1,660
+Paroxyclaenidae ('Paroxyclaenus' sp.),herbivore ,herbivore,,610,Proteutheria,3,1,1,661
+Paroxyclaenidae (Kopidodon macrognathus),herbivore (SP) herbivore (EFF),herbivore (SP),herbivore (EFF),611,Proteutheria,3,1,1,662
+Pseudorhynchocyonidae (Lepticidium nasutum),predator ,predator,,612,Proteutheria,3,1,1,663
+Pseudorhynchocyonidae (Lepticidium auderiense),insectivore ,insectivore,,613,Proteutheria,3,1,1,664
+Pseudorhynchocyonidae (Lepticidium tobieni),predator insectivore,predator,insectivore,614,Proteutheria,3,1,1,665
+Apatemyidae (Heterohyus nanus),insectivore ,insectivore,,615,Proteutheria,3,1,1,666
+Myrmecophagidae (Eurotamandua joresi),insectivore herbivore,insectivore,herbivore,616,Xenarthra,3,1,1,667
+Amphilemuridae (Macrocranion tupaidon),omnivore ,omnivore,,617,Lipotyphla,3,1,1,668
+Amphilemuridae (Macrocranion tenerum),insectivore ,insectivore,,618,Lipotyphla,3,1,1,669
+Amphilemuridae (Pholidocercus hassiacus),insectivore ,insectivore,,619,Lipotyphla,3,1,1,670
+Archaeonycterididae (Archaeonyceris trigonodon),insectivore ,insectivore,,620,Chiroptera,3,1,1,671
+Archaeonycterididae (Archaeonyceris pollex),insectivore ,insectivore,,621,Chiroptera,3,1,1,672
+Palaeochiropterygidae (Palaeochiropteryx tupaiodon),insectivore ,insectivore,,622,Chiroptera,3,1,1,673
+Palaeochiropterygidae (Palaeochiropteryx spiegeli),insectivore ,insectivore,,623,Chiroptera,3,1,1,674
+Hassianycterididae (Hassianycteris messelensis),insectivore ,insectivore,,624,Chiroptera,3,1,1,675
+Hassianycterididae (?Hassianycteris revilliodi),insectivore ,insectivore,,625,Chiroptera,3,1,1,676
+Hassianycterididae (Hassianycteris magna),insectivore ,insectivore,,626,Chiroptera,3,1,1,677
+Emballonuridae (Tachypteron franzeni),insectivore ,insectivore,,627,Chiroptera,3,1,1,678
+Hyaenodontidae (Lesmesodon behnkeae),omnivore ,omnivore,,628,Creodonta,3,1,1,679
+Hyaenodontidae (Lesmesodon edingeri),predator ,predator,,629,Creodonta,3,1,1,680
+Manidae (Eomanis krebsi),insectivore ,insectivore,,630,Pholidota,3,1,1,681
+Manidae (Eomanis waldi),herbivore (EFF) ,herbivore (EFF),,631,Pholidota,3,1,1,682
+Miacidae (Parodectes feisti),predator ,predator,,632,Carnivora,3,1,1,683
+Miacidae (Messelogale kessleri),predator ,predator,,633,Carnivora,3,1,1,684
+Helaletidae (Hyrachus minimus),herbivore (EFF) ,herbivore (EFF),,634,Perissodactyla,3,1,1,685
+Lophiodontidae (Lophiodon sp.),herbivore (EFF) ,herbivore (EFF),,635,Perissodactyla,3,1,1,686
+Equidae (Propalaeotherium hassiacum),herbivore (SP) ,herbivore (SP),,636,Perissodactyla,3,1,1,687
+Equidae (Propalaeotherium parvulum),herbivore (SP) herbivore (EFF),herbivore (SP),herbivore (EFF),637,Perissodactyla,3,1,1,688
+Equidae (Hallensia matthesi),herbivore ,herbivore,,638,Perissodactyla,3,1,1,689
+Dichobunidae (Messelobunodon schaeferi),fungivore herbivore (SP),fungivore,herbivore (SP),639,Artiodactyla,3,1,1,690
+Haplobunodontidae (Masillabune martini),herbivore (EFF) ,herbivore (EFF),,640,Artiodactyla,3,1,1,691
+Diacodexeidae (Aumelasia cf. gabineaudi),herbivore (SP) ,herbivore (SP),,641,Artiodactyla,3,1,1,692
+Notharctidae (Europolemur kelleri),predator ,predator,,642,Primates,3,1,1,693
+Notharctidae (Godinotia neglecta),omnivore ,omnivore,,643,Primates,3,1,1,694
+Notharctidae (Europolemur koenigswaldi),omnivore ,omnivore,,644,Primates,3,1,1,695
+Gliridae (Eogliravus wildi),herbivore (SP) ,herbivore (SP),,645,Rodentia,3,1,1,696
+Ischyromyidae (Ailuravus macrurus),herbivore (EFF) herbivore (SP),herbivore (EFF),herbivore (SP),646,Rodentia,3,1,1,697
+Ischyromyridae (Hartenbergeromys parvus),insectivore ,insectivore,,647,Rodentia,3,1,1,698
+Ischyromyridae (Masillamys beegeri),insectivore ,insectivore,,648,Rodentia,3,1,1,699
+Gen. et sp. indet.,omnivore ,omnivore,,649,Rodentia,3,1,1,700

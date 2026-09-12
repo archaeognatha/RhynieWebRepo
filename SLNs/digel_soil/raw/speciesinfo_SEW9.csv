@@ -1,0 +1,90 @@
+sp_name,guild,family,sp_id
+Deuteraphorura inermis,Collembola,Onychiuridae,8
+Folsomia quadrioculata,Collembola,Isotomidae,14
+Isotomiella minor,Collembola,Isotomidae,22
+Lepidocyrtus lanuginosus,Collembola,Entomobryidae,25
+Parisotoma notabilis,Collembola,Isotomidae,40
+Lithobius sp4,Chilopoda,Lithobiidae,73
+Notiophilus rufipes (juv),Coleoptera,Carabidae,93
+Agriotes aterrimus (juv),Coleoptera,Elateridae,108
+Athous sp. (juv),Coleoptera,Elateridae,117
+Dalopius marginatus (juv) {m},Coleoptera,Elateridae,118
+Aleocharinae sp1 (juv),Coleoptera,Stapylinidae,130
+Habrocerus capillaricornis,Coleoptera,Stapylinidae,142
+Othius sp. (juv),Coleoptera,Stapylinidae,150
+Oxypoda annularis,Coleoptera,Stapylinidae,151
+Quedius sp. (juv),Coleoptera,Stapylinidae,154
+Tachyusa sp. (juv),Coleoptera,Stapylinidae,158
+Xantholininae sp1 (juv),Coleoptera,Stapylinidae,161
+Amaurobius sp (juv),Araneae,Amaurobiidae,164
+Diplocephalus picinus (ad),Araneae,Linyphiidae,172
+Linyphiidae (juv),Araneae,Linyphiidae,178
+Microneta viaria (ad),Araneae,Linyphiidae,180
+Neobisium sp,Pseudoscorpiones,Neobisidae,182
+Robertus lividus (ad),Araneae,Theridiidae,186
+Tapinocyba insecta (ad),Araneae,Linyphiidae,189
+Hypoaspis aculeifer (ad),Mesostigmata,Hypoaspididae,213
+Macrocheles cf opacus aciculatus (ad),Mesostigmata,Macrochelidae,224
+Pergamasinae (juv) {xs},Mesostigmata,Pergamasinae,234
+Trachytes aegrota (ad),Mesostigmata,Trachytidae,242
+Uropoda minima (ad),Mesostigmata,Uropodidae,251
+Uropoda minima (juv),Mesostigmata,Uropodidae,252
+Veigaia nemorensis (ad),Mesostigmata,Veigaiaidae,263
+Veigaia sp (juv),Mesostigmata,Veigaiaidae,265
+Dendrobaena octaedra (ad),Lumbricidae,Lumbricidae,289
+Achipteria coleoptrata,Oribatida,Achipteriidae,295
+Chamobates cuspidatus,Oribatida,Chamobatidae,307
+Chamobates voigtsi,Oribatida,Chamobatidae,308
+Damaeus riparius,Oribatida,Damaeidae,311
+Oribatida juv.,Oribatida,,323
+Microppia minus,Oribatida,Oppiidae,331
+Nanhermannia nana,Oribatida,Nanhermanniidae,332
+Oppiella nova,Oribatida,Oppiidae,338
+Protaphorura sp.,Collembola,Onychiuridae,361
+Steganacarus magnus,Oribatida,Phthiracaridae,365
+plants,Basal,Plants,401
+roots,Basal,Roots,402
+root exudates,Basal,Roots,403
+mykorrhiza,Basal,Fungi,404
+saphrophytes,Basal,Fungi,405
+bacterivor nematodes,Basal,Nematoda,406
+fungivor nematodes,Basal,Nematoda,407
+root feeding nematodes,Basal,Nematoda,408
+predatious nematodes,Basal,Nematoda,409
+omniv. Nematodes,Basal,Nematoda,410
+bacteria,Basal,Bacteria,411
+flagelata,Basal,Protozoa,412
+ciliata,Basal,Protozoa,413
+amoeba,Basal,Protozoa,414
+algae,Basal,Algae,415
+enchitraeidae,Enchitraeidae,Enchitraeidae,416
+dead organic matter detritus,Basal detritus,detritus,417
+Hypoaspis aculeifer (juv),Mesostigmata,Hypoaspididae,422
+Lasioseius lawrencei (ad),Mesostigmata,Podocinidae,423
+Pergamasus norvegicus (ad),Mesostigmata,Pergamasinae,439
+litter detritus,Basal detritus,detritus,442
+Vulgarogamasus sp (ad),Mesostigmata,Parasitidae,461
+Macrargus rufus (ad),Araneae,Linyphiidae,473
+Julidae spec,Diplopoda,Julidae,486
+Carabodes ornatus,Oribatida,Carabodidae,496
+Rhysotritia duplicata,Oribatida,Euphthiracaroidae,517
+Serica sp. (juv),Coleoptera,Scarabeidae,550
+Suctobelbella spp.,Oribatida,Suctobelbidae,625
+Lepidocyrtus curvicolis,Collembola,Entomobryidae,687
+Lepidocyrtus lignorum,Collembola,Entomobryidae,688
+Lepidocyrtus juv.,Collembola,Entomobryidae,689
+Neanura muscorum,Collembola,Neanuridae,696
+Lithobius curtipes {l},Chilopoda,Lithobiidae,702
+Elateridae sp1 (juv) {l},Coleoptera,Elateridae,724
+Parasitidae (juv) {s},Mesostigmata,Parasitidae,734
+Trachytes aegrota (juv) {s},Mesostigmata,Trachytidae,737
+Campodea sp {l},Diplura,Campodeidae,749
+Linyphiidae cf Erigoniinae (juv) {m},Araneae,Linyphiidae,759
+Staphylinidae spec,Coleoptera,Stapylinidae,858
+Abax parallelepipedus,Coleoptera,Carabidae,860
+Brachyderinae spec,Coleoptera,Curculionidae,871
+Scolytidae spec,Coleoptera,Scolytidae,903
+Euophrys frontalis,Araneae,Salticidae,936
+Salticidae spec juv,Araneae,Salticidae,947
+Lycosidae spec juv,Araneae,Lycosidae,973
+Euophrys herbigrada,Araneae,Salticidae,974

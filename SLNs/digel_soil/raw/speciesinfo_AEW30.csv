@@ -1,0 +1,115 @@
+sp_name,guild,family,sp_id
+Ceratophysella denticulata,Collembola,Hypogastruridae,4
+Folsomia quadrioculata,Collembola,Isotomidae,14
+Isotomiella minor,Collembola,Isotomidae,22
+Megalothorax minimus,Collembola,Neelidae,27
+Mesaphorura sp.,Collembola,Tullbergiidae,28
+Parisotoma notabilis,Collembola,Isotomidae,40
+Proisotoma minima,Collembola,Isotomidae,41
+Protaphorura armata,Collembola,Onychiuridae,42
+Sminthurinus aureus,Collembola,Katiannidae,48
+Lithobius cf. dentatus juv,Chilopoda,Lithobiidae,68
+Lithobius sp2 {s},Chilopoda,Lithobiidae,71
+Lithobius sp4,Chilopoda,Lithobiidae,73
+Geophilus ribauti,Chilopoda,Geophilidae,74
+Strigamia acuminata,Chilopoda,Dignathodontidae,79
+Otiorhynchus sp.,Coleoptera,Curculionidae,104
+Athous subfuscus (juv) {m},Coleoptera,Elateridae,113
+Athous sp. (juv),Coleoptera,Elateridae,117
+Plectophoreus fischeri,Coleoptera,Pselaphidae,124
+Aleocharinae sp1 (juv),Coleoptera,Stapylinidae,130
+Geostiba circellaris,Coleoptera,Stapylinidae,140
+Xantholinus sp. (juv),Coleoptera,Stapylinidae,160
+Diplocephalus picinus (ad),Araneae,Linyphiidae,172
+Linyphiidae (juv),Araneae,Linyphiidae,178
+Microneta viaria (ad),Araneae,Linyphiidae,180
+Phalangiidae (juv),Opiliones,Phalangiidae,185
+Robertus lividus (ad),Araneae,Theridiidae,186
+Saloca diceros (ad),Araneae,Linyphiidae,188
+Walckenaeria cucullata (ad),Araneae,Linyphiidae,194
+Dinychus perforatus (ad),Mesostigmata,Urodinychidae,203
+Dinychus perforatus juv,Mesostigmata,Urodinychidae,204
+Lysigamasus cornutus (ad),Mesostigmata,Pergamasinae,218
+Macrocheles dentatus (ad),Mesostigmata,Macrochelidae,225
+Aporrectodea rosea (ad),Lumbricidae,Lumbricidae,274
+Aporrectodea rosea (juv),Lumbricidae,Lumbricidae,275
+Lumbricus rubellus (ad) {xl},Lumbricidae,Lumbricidae,280
+cf Octolasion sp (juv),Lumbricidae,Lumbricidae,288
+Atropacarus striculus,Oribatida,Phthiracaridae,298
+Ceratozetes gracilis,Oribatida,Ceratozetidae,305
+Dissorhina ornata,Oribatida,Oppiidae,312
+Eulohmannia ribagai,Oribatida,Eulohmanniidae,314
+Oribatida juv.,Oribatida,,323
+Oppiella nova,Oribatida,Oppiidae,338
+Pantelozetes paolii,Oribatida,Thyrisomidae,344
+Ligidium hypnorum,Isopoda,Ligiidae,379
+Haplophthalmus mengei,Isopoda,Trichoniscidae,381
+plants,Basal,Plants,401
+roots,Basal,Roots,402
+root exudates,Basal,Roots,403
+mykorrhiza,Basal,Fungi,404
+saphrophytes,Basal,Fungi,405
+bacterivor nematodes,Basal,Nematoda,406
+fungivor nematodes,Basal,Nematoda,407
+root feeding nematodes,Basal,Nematoda,408
+predatious nematodes,Basal,Nematoda,409
+omniv. Nematodes,Basal,Nematoda,410
+bacteria,Basal,Bacteria,411
+flagelata,Basal,Protozoa,412
+ciliata,Basal,Protozoa,413
+amoeba,Basal,Protozoa,414
+algae,Basal,Algae,415
+enchitraeidae,Enchitraeidae,Enchitraeidae,416
+dead organic matter detritus,Basal detritus,detritus,417
+Pachylaelaps laeuchlii (ad),Mesostigmata,Pachylaelapidae,436
+litter detritus,Basal detritus,detritus,442
+Erigonella hiemalis (ad),Araneae,Linyphiidae,466
+Julidae spec,Diplopoda,Julidae,486
+Scheloribates initialis,Oribatida,Scheloribatidae,518
+Steganacarus herculeanus,Oribatida,Phthiracaridae,519
+Aporectodea longa (juv),Lumbricidae,Lumbricidae,574
+Aporectodea longa (ad),Lumbricidae,Lumbricidae,575
+Lumbricus sp. (juv),Lumbricidae,Lumbricidae,576
+Clubionidae (juv),Araneae,Clubionidae,584
+Pardosa sp (juv),Araneae,Lycosidae,590
+Geophilus studeri,Chilopoda,Geophilidae,596
+Suctobelbella spp.,Oribatida,Suctobelbidae,625
+Porcellio montanus,Isopoda,Porcellionidae,644
+Zerconidae (juv),Mesostigmata,Eviphididae,649
+Rhodacarus agrestis (ad),Mesostigmata,Rhodacaridae,663
+Lepidocyrtus lignorum,Collembola,Entomobryidae,688
+Lepidocyrtus juv.,Collembola,Entomobryidae,689
+Mesaphorura tenuisensillata,Collembola,Tullbergiidae,693
+Neotullbergia ramicuspis,Collembola,Onychiuridae,698
+Scutigerella immaculata {m},Symphyla,Scutigerellidae,718
+Scolopendrella sp./subnuda {m},Symphyla,Scolopendrellidae,719
+Athous zebei (juv) {l},Coleoptera,Elateridae,722
+Robertus sp (juv) {l},Araneae,Theridiidae,733
+Pergamasinae (juv) {s},Mesostigmata,Pergamasinae,735
+Trachytes pauperior (ad) {s},Mesostigmata,Trachytidae,738
+Lumbricus terrestris (juv) {xxxl},Lumbricidae,Lumbricidae,746
+Octolasion tyrtaeum (juv) {xxl},Lumbricidae,Lumbricidae,748
+Trichoniscus pusillus {m},Isopoda,Trichoniscidae,750
+Monachoides incarnatus,Gastropoda,Hygromiidae,807
+Monachoides incarnatus juv,Gastropoda,Hygromiidae,808
+Aegopinella nitens,Gastropoda,Oxychilidae,809
+Aegopinella nitens juv,Gastropoda,Oxychilidae,810
+Arion silvaticus,Gastropoda,Arionidae,815
+Trichia striolata juv,Gastropoda,Helicidae,817
+Arion fuscus,Gastropoda,Arionidae,820
+Euconulus fulvus,Gastropoda,Euconulidae,821
+Limacidae spec,Gastropoda,Limacidae,822
+Cantharidae spec,Coleoptera,Cantharidae,851
+Staphylinidae spec,Coleoptera,Stapylinidae,858
+Coleoptera spec,Coleoptera,Coleoptera spec,863
+Carabidae spec,Coleoptera,Carabidae,875
+Abax spec,Coleoptera,Carabidae,881
+Cantharidae spec juv,Coleoptera,Cantharidae,890
+Trichoniscus spec,Isopoda,Trichoniscidae,911
+Porcellio conspersum,Isopoda,Porcellionidae,917
+Glomeris spec,Diplopoda,Glomeridae,920
+Tenuiphantes tenuis,Araneae,Linyphiidae,940
+Theridiidae juv spec,Araneae,Theridiidae,942
+Linyphia hortensis,Araneae,Linyphiidae,946
+Salticidae spec juv,Araneae,Salticidae,947
+Thomisidae spec juv,Araneae,Thomisidae,954
