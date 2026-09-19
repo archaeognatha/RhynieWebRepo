@@ -17,8 +17,7 @@
 #   --maxtime N     chain-search time limit per species, seconds (default: 10)
 # ============================================================
 
-using CSV, DelimitedFiles, DataFrames, Random, Distributions, StatsPlots,
-      LinearAlgebra, PoissonRandom, Graphs, Colors, FilePathsBase
+using CSV, DataFrames, Graphs, Statistics
 
 # @__DIR__ is the folder holding THIS script, so the includes resolve
 # no matter which directory you launch julia from.
@@ -66,23 +65,16 @@ function parse_args()
     )
 end
 
+# Closeness = (S-1) / sum of finite distances to all other nodes; 0 if no finite distances.
+function closeness(dists, self, S, INF)
+    s = sum(d for (k, d) in enumerate(dists) if k != self && d < INF; init = 0)
+    s > 0 ? (S - 1) / s : 0.0
+end
 
 # ------------------------------------------------------------
 # main
-#
-# Everything from notebook cell 4 goes in here, with these changes:
-#   dir_path       -> in_dir
-#   analysis_name  -> name
-#   line 390       -> CSV.write(joinpath(node_dir, "nodemetrics_$(SLN_ID).csv"), sp_P)
-#   line 403       -> CSV.write(out, SLN_stats_out)
-#   chain_depths   -> pass maxtime through:
-#                     chain_depths(sp_A, no_species, SLN_ID, maxtime = maxtime)
-
-# ------------------------------------------------------------
-
-function main(in_dir::String, name::String, out::String,
-              node_dir::String, maxtime::Real)
-
+function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
+              node_dir::AbstractString, maxtime::Real)
 
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],
@@ -139,7 +131,7 @@ function main(in_dir::String, name::String, out::String,
             error("DIMENSION MISMATCH for $SLN_ID: Matrix has $(size(sp_A, 1)) rows, but Species Info has $(nrow(sp_P)) rows.")
         end
 
-        # FORCE CONVERT guild column to strings
+        # convert guild column to strings
         sp_P.guild = string.(sp_P.guild)
         
         # add SLN_ID to species info for differentiating networks in node-level datasheet
@@ -155,6 +147,13 @@ function main(in_dir::String, name::String, out::String,
         L_D = interactions/no_species
         ## connectance
         C = interactions/(no_species*(no_species-1))
+
+        #------------------------------------#
+        ### Shortest paths (consumer -> resource direction) ###
+        # D[i,j] = number of links in the shortest path from i down to j; INF if unreachable.
+        # Everything below (long chain, closeness, NTP, diameter) reads from D.
+        D   = floyd_warshall_shortest_paths(SimpleDiGraph(sp_A)).dists
+        INF = typemax(eltype(D))
 
         #------------------------------------#
         ### Check if no_preds and no_prey columns are missing/empty and fill in if so
@@ -186,7 +185,8 @@ function main(in_dir::String, name::String, out::String,
 
         # Identify basal species (no incoming links)
         is_basal = [sum(sp_A[i, j] for j in 1:no_species) == 0 for i in 1:no_species]
-        # Identify how many of the taxa are detritus and reports how many detrital nodes are reported in the web
+        
+        # Identify how many of the taxa are detritus and report how many detrital nodes are in the web
         detritalnodes = findall(occursin.("detritus", sp_P.guild))
         Detritus = length(detritalnodes)
 
@@ -234,139 +234,47 @@ function main(in_dir::String, name::String, out::String,
         stdInDegree = std(sp_P.sp_no_prey[sp_P.sp_no_prey .!= 0])
 
         #------------------------------------#
-        ### Chain length/NTP analyses ###
+        ### Closeness centrality, Chain length, NTP analyses ###
 
         # store number of guilds for later use
-        # no_guilds = maximum(sp_P.guild_no)
-        # add columns to the species dataframe to store the longest chain and ntp
-        sp_P[!, :sp_ntp] = fill(0.0, nrow(sp_P))
+        #   no_guilds = maximum(sp_P.guild_no)
+        # add columns to the species dataframe to store the longest chain
         sp_P[!, :sp_long_chain] = fill(0.0, nrow(sp_P))
 
-        #initialize pathways matrix
-        paths = Array{Int64}(undef,no_species,no_species)
-        paths = deepcopy(sp_A)
-        #longest possible pathway. for rhynie this is the number of guilds, but here is generalized for networks not drawn from a guild metaweb
-        P_max = min(no_species - 1, 30) # max of 30 to avoid computational overload in large food webs
-        #set initial longest path for each species
-        for i = 1:no_species
-            if sp_P[i,:sp_no_prey] > 0
-                sp_P[i,:sp_long_chain] = 1
-            end
-        end
-            
-        #calculate pathways by raising binary adjacency matrix to pathway lengths
-        for i = 1:P_max
-            A2 = sp_A^i
-            for j = 1:no_species
-                for k = 1:no_species
-                    #if path now exists between species
-                    if paths[j,k]==0 && A2[j,k]>0
-                        #update the pathways matrix
-                        paths[j,k] = i
-                    end
-                end
-                #list as longest chain if one exists
-                if sum(paths[j,:]) != 0
-                    sp_P[j,:sp_long_chain] = maximum(paths[j,:])
-                end
-            end       
-            if sum(A2)==0
-                break
-            end
-        end
+        sp_P[!, :sp_long_chain] = [maximum(D[j, k] for k in 1:no_species if k != j && D[j, k] < INF; init = 0)
+                           for j in 1:no_species]
         
         ## Closeness Centrality    
         ### OUTBOUND closeness (how accessible resources are to consumers) -- probably more useful
         ## new column in sp_P to record Outbound closeness centrality
-        sp_P[!, :sp_out_closeness] = fill(0.0, nrow(sp_P))
+        sp_P[!, :sp_out_closeness] = [closeness(D[:, i], i, no_species, INF) for i in 1:no_species]
 
-        for i in 1:no_species
-            # Extract distances from species 'i' to everyone else
-            dists = paths[:, i]
-            
-            # filter valid interactions
-            # only sum paths that are > 0 (reachable) AND not to itself (index != i)
-            valid_paths = [dists[k] for k in 1:no_species if dists[k] > 0 && k != i]
-            
-            # Sum the shortest pathways
-            sum_paths = sum(valid_paths)
-            
-            # Apply the formula: (N-1) / Sum
-            # We check if sum_paths > 0 to avoid dividing by zero (for species with no prey)
-            if sum_paths > 0
-                sp_P.sp_out_closeness[i] = (no_species - 1) / sum_paths
-            else
-                sp_P.sp_out_closeness[i] = 0.0
-            end
-        end
         ### INBOUND closeness (how connected consumers are to resources)
         ## new column in sp_P to record Inbound closeness centrality
-        sp_P[!, :sp_in_closeness] = fill(0.0, nrow(sp_P))
-
-        for i in 1:no_species
-            # Extract distances to species 'i' from everyone else
-            dists = paths[i, :]
-            
-            # filter valid interactions
-            # only sum paths that are > 0 (reachable) AND not to itself (index != i)
-            valid_paths = [dists[k] for k in 1:no_species if dists[k] > 0 && k != i]
-            
-            # Sum the shortest pathways
-            sum_paths = sum(valid_paths)
-            
-            # Apply the formula: (N-1) / Sum
-            # We check if sum_paths > 0 to avoid dividing by zero (for species with no prey)
-            if sum_paths > 0
-                sp_P.sp_in_closeness[i] = (no_species - 1) / sum_paths
-            else
-                sp_P.sp_in_closeness[i] = 0.0
-            end
-        end
+        sp_P[!, :sp_in_closeness]  = [closeness(D[i, :], i, no_species, INF) for i in 1:no_species]
 
         #calculate ntps
-        #build vector of primary producers
-        prods = Int64[]
-        for i = 1:no_species
-            if sp_P[i,:sp_no_prey] == 0
-                push!(prods,i)
-            end
-        end
+        is_prod = sp_P.sp_no_prey .== 0
+        prods   = findall(is_prod)
 
-        #calculate path length of prey to producers
-        for i = 1:no_species
-            if sp_P[i,:sp_no_prey]==0 #if producer
-                sp_P[i,:sp_ntp] = 1
-                elseif sp_P[i,:sp_no_prey]>0 #else if consumer
-                    #list prey
-                    its_prey = Int64[]
-                    path_length = 0
-                    no_paths = 0
-                    for j = 1:no_species
-                        #if species is producer prey of i
-                        if paths[i,j] == 1 && sp_P[j,:sp_no_prey] == 0
-                            no_paths+=1
+        sp_P[!, :sp_ntp] = map(1:no_species) do i
+            is_prod[i] && return 1.0
+            path_length = 0
+            no_paths    = 0
+            for j in findall(sp_A[i, :] .== 1)          # direct prey of i
+                if is_prod[j]
+                    no_paths += 1
+                else                                     # consumer prey: count paths on to producers
+                    for k in prods
+                        if D[j, k] < INF
+                            path_length += D[j, k]
+                            no_paths    += 1
                         end
-                        #if species is consumer prey of i
-                        if paths[i,j] == 1 && sp_P[j,:sp_no_prey] > 0
-                            #record path lengths to producers
-                            for k = 1:no_species
-                                if paths[j,k]!=0 && sp_P[k,:sp_no_prey]==0
-                                    path_length = path_length + paths[j,k]
-                                    no_paths+=1
-                                end
-                            end
-                        end 
-                    end
-                    #if herbivore
-                    if path_length==0
-                        sp_P[i,:sp_ntp] = 2.0
-                    elseif path_length > 0
-                        #if not herbivore
-                        sp_P[i,:sp_ntp] = 2.0 + (Float64(path_length)/Float64(no_paths))
-                        #println(species[i,6])
                     end
                 end
             end
+            path_length == 0 ? 2.0 : 2.0 + path_length / no_paths
+        end
 
         ## mean net trophic position (ntp)
         mean_NTP = mean(sp_P.sp_ntp)
@@ -409,19 +317,8 @@ function main(in_dir::String, name::String, out::String,
         #------------------------------------#
         ### Diameter ####
 
-        # Compute all-pairs shortest paths
-        all_paths = floyd_warshall_shortest_paths(SimpleDiGraph(sp_A))
-
         # Extract all finite path lengths
-        lengths = Float64[]
-        for i in 1:no_species
-            for j in 1:no_species
-                d = all_paths.dists[i, j]
-                if i != j && (d) < 100000
-                    push!(lengths, d)
-                end
-            end
-        end
+        lengths = [D[i, j] for i in 1:no_species, j in 1:no_species if i != j && D[i, j] < INF]
         
         diameter = maximum(lengths)
         mean_path_len = mean(lengths)
