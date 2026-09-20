@@ -79,11 +79,11 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],
         Basal = Float64[], Top = Float64[], Herbiv_true = Float64[], Herbiv = Float64[], Carniv = Float64[],
-        meanInDegree = Float64[], stdInDegree = Float64[], 
-        mean_NTP = Float64[], max_NTP = Float64[], mean_NTP_norm = Float64[], 
+        meanInDegree = Float64[], sdInDegree = Float64[], 
+        mean_NTP = Float64[], sd_NTP = Float64[], max_NTP = Float64[], 
         TrOmniv = Float64[], q_inCoherence = Float64[], 
         diameter = Float64[], max_chain_len = Float64[],
-        mean_path_len = Float64[], std_path_len = Float64[],
+        mean_path_len = Float64[], sd_path_len = Float64[],
         loop = Float64[], Modularity = Float64[]
     )
    
@@ -231,7 +231,7 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         ## Mean and st. dev. in-degree (generality), mean # of prey species
 
         meanInDegree = sum(sp_P.sp_no_prey)/consumers
-        stdInDegree = std(sp_P.sp_no_prey[sp_P.sp_no_prey .!= 0])
+        sdInDegree = std(sp_P.sp_no_prey[sp_P.sp_no_prey .!= 0])
 
         #------------------------------------#
         ### Closeness centrality, Chain length, NTP analyses ###
@@ -276,12 +276,10 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
             path_length == 0 ? 2.0 : 2.0 + path_length / no_paths
         end
 
-        ## mean net trophic position (ntp)
+        ## net trophic position (ntp) summary stats
         mean_NTP = mean(sp_P.sp_ntp)
-
-        ## max and normalized mean ntp (divide by max value of ntp)
-        max_NTP = maximum(sp_P.sp_ntp)
-        mean_NTP_norm = mean_NTP / max_NTP
+        sd_NTP   = std(sp_P.sp_ntp)
+        max_NTP  = maximum(sp_P.sp_ntp)
 
         ## Trophic Omnivory: fraction of consumer species that eat across trophic levels
         num_integers = count(x -> isfinite(x) && x % 1 == 0, sp_P.sp_ntp)
@@ -322,7 +320,7 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         
         diameter = maximum(lengths)
         mean_path_len = mean(lengths)
-        std_path_len = std(lengths)
+        sd_path_len = std(lengths)
 
         #------------------------------------#
         ### Max chain length
@@ -377,9 +375,9 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         # push metrics to SLN_stats_out
         push!(SLN_stats_out, (SLN_ID, Detritus, no_species, interactions, L_D, C, 
             Basal, Top, Herbiv_true, Herbiv, Carniv,
-            meanInDegree, stdInDegree, mean_NTP, max_NTP, mean_NTP_norm,
+            meanInDegree, sdInDegree, mean_NTP, sd_NTP, max_NTP,
             TrOmniv, q_inCoherence, diameter, max_chain_len,
-            mean_path_len, std_path_len, loop, 0    
+            mean_path_len, sd_path_len, loop, 0    
         ))  # Order must match column order
         println("Updated species info file #$(SLN_ID) and pushed metrics to dataframe.")
     end
