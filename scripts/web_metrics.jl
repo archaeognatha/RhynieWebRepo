@@ -17,7 +17,7 @@
 #   --maxtime N     chain-search time limit per species, seconds (default: 10)
 # ============================================================
 
-using CSV, DataFrames, Graphs, Statistics
+using CSV, DataFrames, Graphs, LinearAlgebra, Statistics
 
 # @__DIR__ is the folder holding THIS script, so the includes resolve
 # no matter which directory you launch julia from.
@@ -71,6 +71,49 @@ function closeness(dists, self, S, INF)
     s > 0 ? (S - 1) / s : 0.0
 end
 
+# Green fraction: the share of a node's resource intake that traces back to living
+# producers rather than detritus. 
+# Returns (propagated, direct); direct is the one-step version, NaN for basal nodes.
+function green_fraction(A::AbstractMatrix, is_detritus::AbstractVector{Bool})
+    S     = size(A, 1)
+    k     = vec(sum(A, dims = 2))                  # number of resources per node
+    cons  = findall(>(0), k)
+    basal = findall(==(0), k)
+    prods = [j for j in basal if !is_detritus[j]]  # living producers
+
+    g = zeros(Float64, S)
+    g[prods] .= 1.0
+
+    direct = fill(NaN, S)
+    for i in cons
+        direct[i] = sum(@view A[i, prods]) / k[i]
+    end
+
+    isempty(cons) && return g, direct
+
+    W = A[cons, :] ./ k[cons]                      # row-normalised consumer rows
+    try
+        g[cons] = (I - W[:, cons]) \ (W[:, basal] * g[basal])
+    catch err
+        err isa SingularException || rethrow()
+        @warn "green_fraction: singular system — no path from some consumer to a basal node"
+        return fill(NaN, S), direct
+    end
+    return g, direct
+end
+
+# Basal node report to flag potential errors
+# Only lists unique basal node compositions (avoids repeating across replicates).
+function report_basal(SLN_ID, guilds, is_basal, is_detritus, seen)
+    comp = sort(unique([(guilds[i], is_detritus[i]) for i in findall(is_basal)]))
+    hash(comp) in seen && return
+    push!(seen, hash(comp))
+    println("   BASAL REPORT ($SLN_ID) — new basal composition:")
+    for (guild, det) in comp
+        println("      ", det ? "detritus  " : "producer  ", guild)
+    end
+end
+
 # ------------------------------------------------------------
 # main
 function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
@@ -79,6 +122,8 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],
         Basal = Float64[], Top = Float64[], Herbiv_true = Float64[], Herbiv = Float64[], Carniv = Float64[],
+        green_frac_mean = Float64[], green_frac_sd = Float64[],
+        green_direct_mean = Float64[], green_direct_sd = Float64[],
         meanInDegree = Float64[], sdInDegree = Float64[], 
         mean_NTP = Float64[], sd_NTP = Float64[], max_NTP = Float64[], 
         TrOmniv = Float64[], q_inCoherence = Float64[], 
@@ -95,6 +140,8 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
     info_files = sort(filter(f -> occursin(r"speciesinfo_.*\.csv", f), readdir(in_dir; join=true)))
 
     n_SLNs = length(matrix_files)
+
+    seen_basal = Set{UInt64}()
 
     #### the main loop begins below ####
     for index in 1:n_SLNs
@@ -187,8 +234,11 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         is_basal = [sum(sp_A[i, j] for j in 1:no_species) == 0 for i in 1:no_species]
         
         # Identify how many of the taxa are detritus and report how many detrital nodes are in the web
-        detritalnodes = findall(occursin.("detritus", sp_P.guild))
-        Detritus = length(detritalnodes)
+        is_detritus   = occursin.("detritus", sp_P.guild)
+        detritalnodes = findall(is_detritus)
+        Detritus      = length(detritalnodes)
+
+        report_basal(SLN_ID, sp_P.guild, is_basal, is_detritus, seen_basal)
 
         Basal = (sum(is_basal)-length(detritalnodes))/(no_species-length(detritalnodes))
 
@@ -227,6 +277,19 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         Carniv = carnivores/consumers
         
         Herbiv_true = herbivores_true/consumers
+
+        #------------------------------------#
+        ### Green fraction: share of resource intake derived from living producers
+        green_frac, green_direct = green_fraction(sp_A, is_detritus)
+        sp_P[!, :sp_green_frac]   = green_frac
+        sp_P[!, :sp_green_direct] = green_direct
+
+        cons_idx          = findall(>(0), vec(sum(sp_A, dims = 2)))
+        green_frac_mean   = mean(green_frac[cons_idx])
+        green_frac_sd     = std(green_frac[cons_idx])
+        green_direct_mean = mean(green_direct[cons_idx])
+        green_direct_sd   = std(green_direct[cons_idx])
+
         #------------------------------------#
         ## Mean and st. dev. in-degree (generality), mean # of prey species
 
@@ -239,7 +302,6 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         # store number of guilds for later use
         #   no_guilds = maximum(sp_P.guild_no)
         # add columns to the species dataframe to store the longest chain
-        sp_P[!, :sp_long_chain] = fill(0.0, nrow(sp_P))
 
         sp_P[!, :sp_long_chain] = [maximum(D[j, k] for k in 1:no_species if k != j && D[j, k] < INF; init = 0)
                            for j in 1:no_species]
@@ -375,6 +437,7 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         # push metrics to SLN_stats_out
         push!(SLN_stats_out, (SLN_ID, Detritus, no_species, interactions, L_D, C, 
             Basal, Top, Herbiv_true, Herbiv, Carniv,
+            green_frac_mean, green_frac_sd, green_direct_mean, green_direct_sd,
             meanInDegree, sdInDegree, mean_NTP, sd_NTP, max_NTP,
             TrOmniv, q_inCoherence, diameter, max_chain_len,
             mean_path_len, sd_path_len, loop, 0    
