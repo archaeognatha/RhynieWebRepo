@@ -48,48 +48,47 @@ dir.create(output_path, recursive = TRUE, showWarnings = FALSE)
 species_info <- read.csv(species_path)
 links        <- read.csv(links_path)
 
-#### Function to filter out low-certainty links and purge dangling nodes ####
-hi_cert_web <- function(links, species_info, min_certainty = 2) {
+#### ---- function to purge stranded consumer nodes --------------------------------------------------
 
-  # 1. Filter out low-certainty links
-  links_hi_cert <- links %>% filter(Certainty >= min_certainty)
-  
-  # 2. Build a directed graph to analyze connectivity
+# Keep only nodes with a resource path to a basal guild
+# Nodes with no links in 'links' drop out
+purge_stranded <- function(links, species_info, label = "") {
+  # Build a directed graph to analyze connectivity
   # first format the df to match igraph expectations
-  graph_hi_cert <- data.frame(from = links_hi_cert$Resource, to = links_hi_cert$Consumer, 
-                              Certainty = links_hi_cert$Certainty)
-  g <- graph_from_data_frame(graph_hi_cert, directed = TRUE)
+  g <- graph_from_data_frame(
+    data.frame(from = links$Resource, to = links$Consumer),  # edge: resource -> consumer
+    directed = TRUE)
   
-  # 3. Identify Basal Resources (In-degree = 0)
-  basal_nodes <- V(g)[degree(g, mode = "in") == 0]
-
-  # 4. Purge Dangling Nodes (Reachability Check)
+  # Identify "proper" basal nodes 
+  basal_guilds <- c("autotroph", "myxotroph", "chemotroph", "epiphyte", "detritus")
+  basal_ids <- intersect(V(g)$name,
+                         as.character(species_info$sp_id[trimws(species_info$guild) %in% basal_guilds]))
+  
+  # Purge Dangling Nodes (Reachability Check)
   # We want to keep ONLY nodes that can reach a Basal node (directly or indirectly).
   # We calculate the shortest path from every node TO the set of basal nodes.
-  if(length(basal_nodes) > 0) {
-    # 'distances' calculates path lengths. If no path exists, it returns Inf.
-    dists <- distances(g, v = V(g), to = basal_nodes, mode = "in")
-    
-    # A node is valid if it has a finite distance to AT LEAST one basal node
-    has_path_to_basal <- apply(dists, 1, function(x) any(is.finite(x)))
-    valid_species_ids <- names(has_path_to_basal)[has_path_to_basal]
-    
-  } else {
-    warning("No basal species found! Returning empty web.")
-    valid_species_ids <- character(0)
-  }  
+  d <- distances(g, v = V(g), to = basal_ids, mode = "in") # distances calculates path lengths. If no path exists, it returns Inf.
+  keep <- rownames(d)[apply(d, 1, function(x) any(is.finite(x)))] # a node is valid if it has a finite distance to AT LEAST one basal node
+
+  n_purged <- length(setdiff(V(g)$name, keep))
+  message(label, ": purged ", n_purged, " stranded consumer node(s)")
   
-  # 5. Filter the df based on the valid IDs
-  # We convert to character to ensure safe matching with igraph names
-  links_hi_cert_clean <- links_hi_cert[as.character(links_hi_cert$Consumer) %in% valid_species_ids & 
-                                   as.character(links_hi_cert$Resource) %in% valid_species_ids, ]
-  
-  species_info_hi_cert_clean <- species_info[as.character(species_info$sp_id) %in% valid_species_ids, ]
-  
-  return(list(species_info = species_info_hi_cert_clean, links = links_hi_cert_clean))
+  list(links = links[as.character(links$Consumer) %in% keep &
+                       as.character(links$Resource) %in% keep, ],
+       species_info = species_info[as.character(species_info$sp_id) %in% keep, ])
 }
 
-#### Function to convert link table to adjacency matrix ####
+#### ---- function to filter out low-certainty links --------------------------------------------------
+hi_cert_web <- function(links, species_info, max_uncertainty = 2, label = "") {
+
+  # Filter out low-certainty links NOTE: lower "un"certainty score value corresponds to greater certainty
+  links_hi_cert <- links %>% filter(Certainty <= max_uncertainty)
+  
+  return(purge_stranded(links_hi_cert, species_info, label = label))
+  
+}
+
+#### ---- function to convert link table to adjacency matrix --------------------------------------------------
 
 table_to_adjmatrix <- function(links, species_info) {
 
@@ -141,9 +140,9 @@ table_to_adjmatrix <- function(links, species_info) {
 return(list(adj_matrix = adj_matrix, species_info_final = species_info_fun))
 }
 
-#### Subset function ----
+#### Habitat subset function ----####
 # --- Function to create and save a subset matrix based on habitat ---
-create_subset_matrix <- function(links, species_info, habitat_codes) {
+create_subset_matrix <- function(links, species_info, habitat_codes, label = "") {
   
   # --- Subset species by habitat ---
   # Habitat codes: 1=terrestrial, 2=aquatic, 3=both
@@ -152,6 +151,11 @@ create_subset_matrix <- function(links, species_info, habitat_codes) {
   # --- Subset links where both species are in the habitat ---
   valid_ids <- species_info_sub$sp_id
   links_sub <- links[links$Consumer %in% valid_ids & links$Resource %in% valid_ids, ]
+  
+  # --- Purge consumers stranded by the habitat subset (e.g. amphibious taxa feeding only in the other realm) ---
+  purged <- purge_stranded(links_sub, species_info_sub, label = label)
+  links_sub <- purged$links
+  species_info_sub <- purged$species_info
   
   # --- Rename original sp_id and create new consecutive sp_id if it doesn't already exist ---
   # --- Create a map from previous unsubsetted IDs to new consecutive IDs ---
@@ -205,21 +209,21 @@ write.table(species_info, file.path(output_path, "speciesinfo_messel.csv"),
             quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### generate terrestrial subset (all links)
-terr_subset <- create_subset_matrix(links, species_info, habitat_codes = c(1, 3))
+terr_subset <- create_subset_matrix(links, species_info, habitat_codes = c(1, 3), label = "messel_terr")
 write.table(terr_subset$matrix, file.path(output_path, "matrix_messel_terr.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
 write.table(terr_subset$species_info, file.path(output_path, "speciesinfo_messel_terr.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### generate aquatic subset (all links)
-aqu_subset <- create_subset_matrix(links, species_info, habitat_codes = c(2, 3))
+aqu_subset <- create_subset_matrix(links, species_info, habitat_codes = c(2, 3), label = "messel_aqu")
 write.table(aqu_subset$matrix, file.path(output_path, "matrix_messel_aqu.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
 write.table(aqu_subset$species_info, file.path(output_path, "speciesinfo_messel_aqu.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### Make high-certainty matrix (links with certainty > 2)
-hi_cert_data <- hi_cert_web(links, species_info, 2)
+hi_cert_data <- hi_cert_web(links, species_info, 2, label = "messel_hi_cert")
 hi_cert_final <- table_to_adjmatrix(hi_cert_data$links, hi_cert_data$species_info)
 # Write the resulting matrix and sp info files to new CSV files
 write.table(hi_cert_final$adj_matrix, file.path(output_path, "matrix_messel_hi_cert.csv"), 
@@ -228,14 +232,14 @@ write.table(hi_cert_final$species_info, file.path(output_path, "speciesinfo_mess
             quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### --- Generate high-certainty terrestrial subset
-terr_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_data$species_info, habitat_codes = c(1, 3))
+terr_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_data$species_info, habitat_codes = c(1, 3), label = "messel_terr_hi_cert")
 write.table(terr_hi_cert$matrix, file.path(output_path, "matrix_messel_terr_hi_cert.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
 write.table(terr_hi_cert$species_info, file.path(output_path, "speciesinfo_messel_terr_hi_cert.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
 #### --- Generate high-certainty aquatic subset
-aqu_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_data$species_info, habitat_codes = c(2, 3))
+aqu_hi_cert <- create_subset_matrix(hi_cert_data$links, hi_cert_data$species_info, habitat_codes = c(2, 3), label = "messel_aqu_hi_cert")
 write.table(aqu_hi_cert$matrix, file.path(output_path, "matrix_messel_aqu_hi_cert.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
 write.table(aqu_hi_cert$species_info, file.path(output_path, "speciesinfo_messel_aqu_hi_cert.csv"), quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
