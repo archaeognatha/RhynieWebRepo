@@ -1,0 +1,2 @@
+in_dir,k_model,gamma,n_reps,seed,no_guilds,no_species,webs_repaired,max_repairs,repair_guilds
+data/rhynie/rhynie_lumped_complete,prk,3.0,1000,20260932,20,30,22,4,terrestrial arthropod predators (1):36; terrestrial arthropod predators (2):15; arthropod omnivores:2
