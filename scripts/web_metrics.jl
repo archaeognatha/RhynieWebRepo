@@ -71,46 +71,50 @@ function closeness(dists, self, S, INF)
     s > 0 ? (S - 1) / s : 0.0
 end
 
-# Green fraction: the share of a node's resource intake that traces back to living
-# producers rather than detritus. 
+# Function to calculate share of a node's resource intake that traces back to 
+# basal nodes with a given weight. Equivalent to the expected weight reached 
+# by a walk down resource links, choosing uniformly among a node's resources
+# at each step. Weights on non-basal nodes are currently ignored
 # Returns (propagated, direct); direct is the one-step version, NaN for basal nodes.
-function green_fraction(A::AbstractMatrix, is_detritus::AbstractVector{Bool})
+function basal_derived_fraction(A::AbstractMatrix, basal_weight::AbstractVector{<:Real})
     S     = size(A, 1)
-    k     = vec(sum(A, dims = 2))                  # number of resources per node
+    k     = vec(sum(A, dims = 2))      # number of resources per node
     cons  = findall(>(0), k)
     basal = findall(==(0), k)
-    prods = [j for j in basal if !is_detritus[j]]  # living producers
 
     g = zeros(Float64, S)
-    g[prods] .= 1.0
-
     direct = fill(NaN, S)
-    for i in cons
-        direct[i] = sum(@view A[i, prods]) / k[i]
-    end
-
+    g[basal] .= basal_weight[basal]
     isempty(cons) && return g, direct
 
-    W = A[cons, :] ./ k[cons]                      # row-normalised consumer rows
+    W = A[cons, :] ./ k[cons]          # row-normalised consumer rows
+    b = W[:, basal] * g[basal]         # one-step share drawn from weighted basal nodes
+    direct[cons] = b
     try
-        g[cons] = (I - W[:, cons]) \ (W[:, basal] * g[basal])
+        g[cons] = (I - W[:, cons]) \ b
     catch err
         err isa SingularException || rethrow()
-        @warn "green_fraction: no path from some consumer to a basal node"
+        @warn "basal_derived_fraction: no path from some consumer to a basal node"
         return fill(NaN, S), direct
     end
     return g, direct
 end
 
-# Basal node report to flag potential errors
-# Only lists unique basal node compositions (avoids repeating across replicates).
+# Basal node report to flag miscoded basal species/detritus
+# Lists unique basal node compositions (avoids repeating across replicates)
+# Splits lumped trophospecies on ';'
 function report_basal(SLN_ID, guilds, is_basal, is_detritus, seen)
-    comp = sort(unique([(guilds[i], is_detritus[i]) for i in findall(is_basal)]))
-    hash(comp) in seen && return
-    push!(seen, hash(comp))
-    println("   BASAL REPORT ($SLN_ID) — new basal composition:")
-    for (guild, det) in comp
-        println("      ", det ? "detritus  " : "producer  ", guild)
+    new_rows = Tuple{String, Bool}[]
+    for i in findall(is_basal)
+        parts = [(String(p), is_detritus[i]) for p in split(guilds[i], ';')]
+        any(p -> !(p in seen), parts) || continue
+        union!(seen, parts)
+        push!(new_rows, (guilds[i], is_detritus[i]))
+    end
+    isempty(new_rows) && return
+    println("   BASAL REPORT ($SLN_ID) — basal guilds not seen before:")
+    for (g, det) in sort(new_rows)
+        println("      ", det ? "detritus  " : "producer  ", g)
     end
 end
 
@@ -122,9 +126,11 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],
         Basal = Float64[], Top = Float64[], Carniv = Float64[], Herbiv = Float64[], Herbiv_true = Float64[], ProdFeed = Float64[],
-        Animals = Float64[], AnimHerbiv_true = Float64[], AnimPred = Float64[],
+        Animals = Float64[], BasalAnimals = Float64[], AnimHerbiv_true = Float64[], AnimPred = Float64[],
         green_frac_mean = Float64[], green_frac_sd = Float64[],
         green_direct_mean = Float64[], green_direct_sd = Float64[],
+        cross_habitat_L = Float64[], aqu_from_terr = Float64[],
+        terr_from_aqu = Float64[], terr_with_aqu = Float64[],       
         meanInDegree = Float64[], sdInDegree = Float64[], 
         mean_NTP = Float64[], sd_NTP = Float64[], max_NTP = Float64[], 
         TrOmniv = Float64[], q_inCoherence = Float64[], 
@@ -142,7 +148,7 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
 
     n_SLNs = length(matrix_files)
 
-    seen_basal = Set{UInt64}()
+    seen_basal = Set{Tuple{String, Bool}}()
 
     #### the main loop begins below ####
     for index in 1:n_SLNs
@@ -203,6 +209,18 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         D   = floyd_warshall_shortest_paths(SimpleDiGraph(sp_A)).dists
         INF = typemax(eltype(D))
 
+        # consumers with no path down to any basal node (breaks basal_derived_fraction)
+        basal_idx = findall(==(0), vec(sum(sp_A, dims = 2)))
+        stranded  = isempty(basal_idx) ? Int[] :
+                    [i for i in 1:no_species if !(i in basal_idx) &&
+                                                all(D[i, j] == INF for j in basal_idx)]
+        if !isempty(stranded)
+            println("   STRANDED ($SLN_ID): $(length(stranded)) consumer(s) with no path to a basal node")
+            for i in stranded
+                println("      ", sp_P.guild[i], "  (prey: ", sum(sp_A[i, :]), ")")
+            end
+        end
+
         #------------------------------------#
         ### Check if no_preds and no_prey columns are missing/empty and fill in if so
 
@@ -252,10 +270,12 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         
         has_animal  = hasproperty(sp_P, :animal)         # check the web has "animal" column
         is_animal   = has_animal ? (coalesce.(sp_P.animal, 0) .== 1) : falses(no_species) # animal nodes
-        is_producer = is_basal .& .!is_detritus          # primary producers (non-detritus + basal)
-
+        is_producer = is_basal .& .!is_detritus .& .!is_animal    # primary producers (basal + non-detritus + non-animal)
+        BasalAnimals = sum(is_basal .& is_animal)/no_species  # animals with no recorded diet (resolution gap)
+        BasalAnimals > 0 && println("**Warning: $SLN_ID contains $(BasalAnimals*no_species) animal node(s) without resources. **")
+        
         consumers = 0; herbivores = 0; carnivores = 0; herbivores_true = 0
-        anim_herb_true = 0           # animals eating only basal nodes and at least one primary producer
+        anim_herb_true = 0      # animals eating only basal nodes and at least one primary producer
         prod_feeders   = 0      # nodes with at least one living-producer resource
         anim_predators = 0      # animals eating at least one animal node
 
@@ -292,7 +312,9 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         
         #------------------------------------#
         ### Green fraction: share of resource intake derived from living producers
-        green_frac, green_direct = green_fraction(sp_A, is_detritus)
+        green_frac, green_direct = BasalAnimals == 0 ?
+            basal_derived_fraction(sp_A, Float64.(is_producer)) :
+            (fill(NaN, no_species), fill(NaN, no_species))        
         sp_P[!, :sp_green_frac]   = green_frac
         sp_P[!, :sp_green_direct] = green_direct
 
@@ -303,7 +325,41 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         green_direct_sd   = std(green_direct[cons_idx])
 
         #------------------------------------#
-        ## Mean and st. dev. in-degree (generality), mean # of prey species
+        ### Habitat connectivity (only for webs with multiple habitat assignments):
+        # Quantifies terrestrial nodes with direct or indirect aquatic basal resources, and vice versa
+        # This is a minimum estimate for cross-habitat subsidies, as it excludes transfer
+        # of detritus between habitats, and for Rhynie interhabitat predation is not included. 
+        # Dual-habitat basal nodes are divided evenly half to each habitat.
+        has_habitat = hasproperty(sp_P, :terr) && hasproperty(sp_P, :aqu)
+        is_terr = has_habitat ? (coalesce.(sp_P.terr, 0) .== 1) : falses(no_species)
+        is_aqu  = has_habitat ? (coalesce.(sp_P.aqu,  0) .== 1) : falses(no_species)
+        terr_only = is_terr .& .!is_aqu
+        aqu_only  = is_aqu  .& .!is_terr
+
+        if has_habitat && any(terr_only) && any(aqu_only)  # only calculate for webs with both terrestrial and aquatic nodes
+            # links whose consumer and resource share no habitat
+            n_cross = 0
+            for i in 1:no_species, j in findall(sp_A[i, :] .== 1)
+                ((is_terr[i] && is_terr[j]) || (is_aqu[i] && is_aqu[j])) || (n_cross += 1)
+            end
+            cross_habitat_L = n_cross/interactions # fraction of cross-habitat links
+
+            aqu_weight = ifelse.(aqu_only, 1.0, ifelse.(is_aqu .& is_terr, 0.5, 0.0))
+            aqu_derived, _ = basal_derived_fraction(sp_A, aqu_weight)
+            sp_P[!, :sp_aqu_derived] = aqu_derived
+
+            tcons = intersect(cons_idx, findall(terr_only))
+            acons = intersect(cons_idx, findall(aqu_only))
+            aqu_from_terr = isempty(acons) ? NaN : mean(1 .- aqu_derived[acons]) # mean proportion of resource pathways to aqu. consumers that is terrestrially-derived
+            terr_from_aqu = isempty(tcons) ? NaN : mean(aqu_derived[tcons]) # mean proportion of resource pathways to terr. consumers that is aquatically-derived 
+            terr_with_aqu = isempty(tcons) ? NaN : mean(aqu_derived[tcons] .> 1e-12) # fraction of terr. consumers with at least one pathway to an aquatic basal resource
+        else
+            sp_P[!, :sp_aqu_derived] = fill(NaN, no_species)
+            cross_habitat_L = aqu_from_terr = terr_from_aqu = terr_with_aqu = NaN
+        end
+
+        #------------------------------------#
+        ### Mean and st. dev. in-degree (generality), mean # of prey species
 
         meanInDegree = sum(sp_P.sp_no_prey)/consumers
         sdInDegree = std(sp_P.sp_no_prey[sp_P.sp_no_prey .!= 0])
@@ -449,8 +505,9 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         # push metrics to SLN_stats_out
         push!(SLN_stats_out, (SLN_ID, Detritus, no_species, interactions, L_D, C, 
             Basal, Top, Carniv, Herbiv, Herbiv_true, ProdFeed, 
-            Animals, AnimHerbiv_true, AnimPred,
+            Animals, BasalAnimals, AnimHerbiv_true, AnimPred,
             green_frac_mean, green_frac_sd, green_direct_mean, green_direct_sd,
+            cross_habitat_L, aqu_from_terr, terr_from_aqu, terr_with_aqu,
             meanInDegree, sdInDegree, mean_NTP, sd_NTP, max_NTP,
             TrOmniv, q_inCoherence, diameter, max_chain_len,
             mean_path_len, sd_path_len, loop, 0    

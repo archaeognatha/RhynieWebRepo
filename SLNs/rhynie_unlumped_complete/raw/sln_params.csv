@@ -1,2 +1,2 @@
-in_dir,k_model,gamma,n_reps,seed,no_guilds,no_species
-data/rhynie/rhynie_unlumped_complete,prk,3.0,1000,nothing,46,103
+in_dir,k_model,gamma,n_reps,seed,no_guilds,no_species,webs_repaired,max_repairs,repair_guilds
+data/rhynie/rhynie_unlumped_complete,prk,3.0,1000,20260906,46,103,20,4,terrestrial arthropod predators (1):32; terrestrial arthropod predators (2):15
