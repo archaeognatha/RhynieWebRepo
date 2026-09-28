@@ -1,0 +1,694 @@
+sp_name,guild,animal,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,d_seed,SLN_ID,sp_green_frac,sp_green_direct,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
+"  1 algae, bacteria, detritus","  1 algae, bacteria, detritus",0,0,4,1.0,0,NA,116_pond,0.0,NaN,0.75,0.0,1.0,0.75,0.0
+  2 small rotifers,  2 small rotifers,1,1,3,2.0,1,,116_pond,0.0,0.0,1.2,6.0,2.0,1.2,6.0
+"  3 Moina, Diaptomus","  3 Moina, Diaptomus",1,1,3,2.0,1,,116_pond,0.0,0.0,2.0,6.0,2.0,2.0,6.0
+  4 herbivorous insects,  4 herbivorous insects,1,2,1,2.5,1,,116_pond,0.0,0.0,6.0,3.0,2.5,6.0,3.0
+  5 Cyclops (copepod),  5 Cyclops (copepod),1,3,2,2.6666666666666665,1,,116_pond,0.0,0.0,3.0,2.0,2.6666666666666665,3.0,2.0
+  6 Asplancha,  6 Asplancha,1,4,2,3.25,2,,116_pond,0.0,0.0,6.0,1.2,3.25,6.0,1.2
+  7 predaceous insects,  7 predaceous insects,1,4,0,3.25,2,,116_pond,0.0,0.0,0.0,0.75,3.25,0.0,0.75
+  1 ironplant goldenweed (forb/shrub),  1 ironplant goldenweed (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+  2 three-cleft greenthread (forb/shrub),  2 three-cleft greenthread (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+  3 Cryptantha sp. (forb/shrub),  3 Cryptantha sp. (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+  4 cheatgrass brome (grass),  4 cheatgrass brome (grass),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+  5 Redowski's stickseed (forb/shrub),  5 Redowski's stickseed (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+  6 groundsel (forb/shrub)(Senecio sp.),  6 groundsel (forb/shrub)(Senecio sp.),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+  7 dandelion )forb/shrub),  7 dandelion )forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,16.625,0.0,1.0,16.625,0.0
+  8 wooly indian wheat (forb/shrub),  8 wooly indian wheat (forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,66.5,0.0,1.0,66.5,0.0
+  9 prairie pepperweed (forb/shrub),  9 prairie pepperweed (forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,16.625,0.0,1.0,16.625,0.0
+ 10 groundsel (Senecio multicapitatus)(forb/shrub), 10 groundsel (Senecio multicapitatus)(forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,16.625,0.0,1.0,16.625,0.0
+ 11 fringed sagewort (forb/shrub), 11 fringed sagewort (forb/shrub),0,0,12,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.6944444444444446,0.0,1.0,3.6944444444444446,0.0
+ 12 blue grama (grass), 12 blue grama (grass),0,0,21,1.0,0,0,123_shortgrassprairie,1.0,NaN,2.9555555555555557,0.0,1.0,2.9555555555555557,0.0
+ 13 belvedere summer cypress (forb/shrub), 13 belvedere summer cypress (forb/shrub),0,0,9,1.0,0,0,123_shortgrassprairie,1.0,NaN,5.782608695652174,0.0,1.0,5.782608695652174,0.0
+ 14 scarlet globe mallow (forb/shrub), 14 scarlet globe mallow (forb/shrub),0,0,9,1.0,0,0,123_shortgrassprairie,1.0,NaN,4.586206896551724,0.0,1.0,4.586206896551724,0.0
+ 15 cutleaf evening primrose (forb/shrub), 15 cutleaf evening primrose (forb/shrub),0,0,5,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.5,0.0,1.0,3.5,0.0
+ 16 slimflower scurf pea (forb/shrub), 16 slimflower scurf pea (forb/shrub),0,0,9,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.2439024390243905,0.0,1.0,3.2439024390243905,0.0
+ 17 needle and thread (grass), 17 needle and thread (grass),0,0,6,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.5,0.0,1.0,3.5,0.0
+ 18 hairy golden aster (forb/shrub), 18 hairy golden aster (forb/shrub),0,0,7,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.0930232558139537,0.0,1.0,3.0930232558139537,0.0
+ 19 red three-awn (grass), 19 red three-awn (grass),0,0,7,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.41025641025641,0.0,1.0,3.41025641025641,0.0
+ 20 locoweed (forb/shrub), 20 locoweed (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,13.3,0.0,1.0,13.3,0.0
+ 21 carex (grass), 21 carex (grass),0,0,12,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.0930232558139537,0.0,1.0,3.0930232558139537,0.0
+ 22 sand dropseed (grass), 22 sand dropseed (grass),0,0,10,1.0,0,0,123_shortgrassprairie,1.0,NaN,6.65,0.0,1.0,6.65,0.0
+ 23 western wheatgrass (grass), 23 western wheatgrass (grass),0,0,12,1.0,0,0,123_shortgrassprairie,1.0,NaN,4.433333333333334,0.0,1.0,4.433333333333334,0.0
+ 24 gromwell (forb/shrub), 24 gromwell (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,26.6,0.0,1.0,26.6,0.0
+ 25 broom snakeweed (forb/shrub), 25 broom snakeweed (forb/shrub),0,0,7,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.0930232558139537,0.0,1.0,3.0930232558139537,0.0
+ 26 six-weeks fescue (grass), 26 six-weeks fescue (grass),0,0,5,1.0,0,0,123_shortgrassprairie,1.0,NaN,12.090909090909092,0.0,1.0,12.090909090909092,0.0
+ 27 wavyleaf thistle (forb/shrub), 27 wavyleaf thistle (forb/shrub),0,0,11,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.1666666666666665,0.0,1.0,3.1666666666666665,0.0
+ 28 buffalo grass (grass), 28 buffalo grass (grass),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,44.333333333333336,0.0,1.0,44.333333333333336,0.0
+ 29 crested wheatgrass (grass), 29 crested wheatgrass (grass),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,16.625,0.0,1.0,16.625,0.0
+ 30 alfalfa (forb/shrub), 30 alfalfa (forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,13.3,0.0,1.0,13.3,0.0
+ 31 tumbling Russian thistle (forb/shrub), 31 tumbling Russian thistle (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,12.090909090909092,0.0,1.0,12.090909090909092,0.0
+ 32 four-o-clock (forb/shrub), 32 four-o-clock (forb/shrub),0,0,5,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.8,0.0,1.0,3.8,0.0
+ 33 silky sophora (forb/shrub), 33 silky sophora (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,14.777777777777779,0.0,1.0,14.777777777777779,0.0
+ 34 unknown vegetation, 34 unknown vegetation,0,0,8,1.0,0,0,123_shortgrassprairie,1.0,NaN,4.15625,0.0,1.0,4.15625,0.0
+ 35 wheat (grass), 35 wheat (grass),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,14.777777777777779,0.0,1.0,14.777777777777779,0.0
+ 36 oats (grass), 36 oats (grass),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,14.777777777777779,0.0,1.0,14.777777777777779,0.0
+ 37 commonsunflower (forb/shrub), 37 commonsunflower (forb/shrub),0,0,8,1.0,0,0,123_shortgrassprairie,1.0,NaN,4.75,0.0,1.0,4.75,0.0
+ 38 unknown forbs, 38 unknown forbs,0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,66.5,0.0,1.0,66.5,0.0
+ 39 rubber rabbit brush (forb/shrub), 39 rubber rabbit brush (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.325,0.0,1.0,3.325,0.0
+ 40 bee spiderflower (forb/shrub), 40 bee spiderflower (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.325,0.0,1.0,3.325,0.0
+ 41 dotted gayfeather (forb/shrub), 41 dotted gayfeather (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.325,0.0,1.0,3.325,0.0
+ 42 pinnate tansy mustard (forb/shrub), 42 pinnate tansy mustard (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.325,0.0,1.0,3.325,0.0
+ 43 fourwing saltbrush (forb/shrub), 43 fourwing saltbrush (forb/shrub),0,0,10,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.5945945945945947,0.0,1.0,3.5945945945945947,0.0
+ 44 bottlebrush squirreltail (grass), 44 bottlebrush squirreltail (grass),0,0,5,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.1666666666666665,0.0,1.0,3.1666666666666665,0.0
+ 45 plains bahia (forb/shrub), 45 plains bahia (forb/shrub),0,0,6,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.0930232558139537,0.0,1.0,3.0930232558139537,0.0
+ 46 plains prickly pear (forb/shrub), 46 plains prickly pear (forb/shrub),0,0,6,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.5945945945945947,0.0,1.0,3.5945945945945947,0.0
+ 47 greenthread (forb/shrub), 47 greenthread (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.41025641025641,0.0,1.0,3.41025641025641,0.0
+ 48 groundsel (forb/shrub), 48 groundsel (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,3.2439024390243905,0.0,1.0,3.2439024390243905,0.0
+ 49 small soapweed (forb/shrub), 49 small soapweed (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,4.75,0.0,1.0,4.75,0.0
+ 50 upright prairie coneflower (forb/shrub), 50 upright prairie coneflower (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 51 prairie spiderwart (forb/shrub), 51 prairie spiderwart (forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,22.166666666666668,0.0,1.0,22.166666666666668,0.0
+ 52 unidentified seeds (forb/shrub), 52 unidentified seeds (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,7.388888888888889,0.0,1.0,7.388888888888889,0.0
+ 53 fungus (forb/shrub), 53 fungus (forb/shrub),0,0,4,1.0,0,0,123_shortgrassprairie,1.0,NaN,7.388888888888889,0.0,1.0,7.388888888888889,0.0
+ 54 common buckwheat (forb/shrub), 54 common buckwheat (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 55 tansy leaf aster (forb/shrub), 55 tansy leaf aster (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 56 lambs-quarter (forb/shrub), 56 lambs-quarter (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 57 cream peavine (forb/shrub), 57 cream peavine (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 58 slenderbush buckwheat (forb/shrub), 58 slenderbush buckwheat (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 59 Cryptantha (forb/shrub), 59 Cryptantha (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 60 orchard grass (grass), 60 orchard grass (grass),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 61 Canada wild rye (grass), 61 Canada wild rye (grass),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 62 wild rye (grass), 62 wild rye (grass),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 63 wild buckwheat (forb/shrub), 63 wild buckwheat (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 64 peavine (forb/shrub), 64 peavine (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 65 silky crazyweed (forb/shrub), 65 silky crazyweed (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 66 musineon (forb/shrub), 66 musineon (forb/shrub),0,0,2,1.0,0,0,123_shortgrassprairie,1.0,NaN,66.5,0.0,1.0,66.5,0.0
+ 67 bush peavine (forb/shrub), 67 bush peavine (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 68 knotweed (forb/shrub), 68 knotweed (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,26.6,0.0,1.0,26.6,0.0
+ 69 indian ricegrass (grass), 69 indian ricegrass (grass),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,26.6,0.0,1.0,26.6,0.0
+ 70 pendler three-awn (grass), 70 pendler three-awn (grass),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,26.6,0.0,1.0,26.6,0.0
+ 71 tumbleweed amaranth (forb/shrub), 71 tumbleweed amaranth (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 72 slimleaf goosefoot (forb/shrub), 72 slimleaf goosefoot (forb/shrub),0,0,1,1.0,0,0,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 73 lichen (forb/shrub), 73 lichen (forb/shrub),0,0,3,1.0,0,0,123_shortgrassprairie,1.0,NaN,7.823529411764706,0.0,1.0,7.823529411764706,0.0
+ 74 antelope, 74 antelope,1,14,0,2.0,1,,123_shortgrassprairie,0.9999999999999997,1.0,0.0,9.5,2.0,0.0,9.5
+ 75 cattle, 75 cattle,1,14,0,2.0,1,,123_shortgrassprairie,0.9999999999999997,1.0,0.0,9.5,2.0,0.0,9.5
+ 76 sheep, 76 sheep,1,12,0,2.0,1,,123_shortgrassprairie,1.0,1.0,0.0,11.083333333333334,2.0,0.0,11.083333333333334
+ 77 bison, 77 bison,1,10,0,2.0,1,,123_shortgrassprairie,0.9999999999999999,1.0,0.0,13.3,2.0,0.0,13.3
+ 78 black-tailed jackrabbit, 78 black-tailed jackrabbit,1,17,3,2.0,1,,123_shortgrassprairie,1.0,1.0,44.333333333333336,7.823529411764706,2.0,44.333333333333336,7.823529411764706
+ 79 white-tailed jackrabbit, 79 white-tailed jackrabbit,1,18,3,2.0,1,,123_shortgrassprairie,1.0000000000000002,1.0,44.333333333333336,7.388888888888889,2.0,44.333333333333336,7.388888888888889
+ 80 grasshopper (opob), 80 grasshopper (opob),1,3,0,2.0,1,,123_shortgrassprairie,1.0,1.0,0.0,44.333333333333336,2.0,0.0,44.333333333333336
+ 81 grasshopper (trki), 81 grasshopper (trki),1,2,0,2.0,1,,123_shortgrassprairie,1.0,1.0,0.0,66.5,2.0,0.0,66.5
+ 82 grasshopper (psde), 82 grasshopper (psde),1,2,0,2.0,1,,123_shortgrassprairie,1.0,1.0,0.0,66.5,2.0,0.0,66.5
+ 83 grasshopper (arps), 83 grasshopper (arps),1,4,0,2.0,1,,123_shortgrassprairie,1.0,1.0,0.0,33.25,2.0,0.0,33.25
+ 84 grasshopper (mein), 84 grasshopper (mein),1,10,0,2.0,1,,123_shortgrassprairie,0.9999999999999999,1.0,0.0,13.3,2.0,0.0,13.3
+ 85 Coleoptera, 85 Coleoptera,1,15,9,2.0,1,,123_shortgrassprairie,0.9999999999999999,1.0,6.333333333333333,8.866666666666667,2.0,6.333333333333333,8.866666666666667
+ 86 Diptera, 86 Diptera,1,15,6,2.0,1,,123_shortgrassprairie,0.9999999999999999,1.0,8.3125,8.866666666666667,2.0,8.3125,8.866666666666667
+ 87 Hemiptera, 87 Hemiptera,1,9,4,2.0,1,,123_shortgrassprairie,1.0000000000000002,1.0,22.166666666666668,14.777777777777779,2.0,22.166666666666668,14.777777777777779
+ 88 Homoptera, 88 Homoptera,1,17,3,2.0,1,,123_shortgrassprairie,1.0,1.0,44.333333333333336,7.823529411764706,2.0,44.333333333333336,7.823529411764706
+ 89 vole, 89 vole,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 90 Hymenoptera, 90 Hymenoptera,1,14,6,2.0,1,,123_shortgrassprairie,0.9999999999999997,1.0,8.3125,9.5,2.0,8.3125,9.5
+ 91 butterflies, 91 butterflies,1,9,8,2.0,1,,123_shortgrassprairie,1.0000000000000002,1.0,6.045454545454546,14.777777777777779,2.0,6.045454545454546,14.777777777777779
+ 92 thrips, 92 thrips,1,10,0,2.0,1,,123_shortgrassprairie,0.9999999999999999,1.0,0.0,13.3,2.0,0.0,13.3
+ 93 gopher, 93 gopher,1,11,4,2.0,1,,123_shortgrassprairie,1.0000000000000002,1.0,33.25,12.090909090909092,2.0,33.25,12.090909090909092
+ 94 kangaroo rat, 94 kangaroo rat,1,8,2,2.0,1,,123_shortgrassprairie,1.0,1.0,66.5,16.625,2.0,66.5,16.625
+ 95 harvester ant, 95 harvester ant,1,24,0,2.0,1,,123_shortgrassprairie,0.9999999999999996,1.0,0.0,5.541666666666667,2.0,0.0,5.541666666666667
+ 96 unidentified grasshoppers, 96 unidentified grasshoppers,1,0,9,1.0,0,,123_shortgrassprairie,1.0,NaN,6.333333333333333,0.0,1.0,6.333333333333333,0.0
+ 97 lacewings, 97 lacewings,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+ 98 crickets, 98 crickets,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,44.333333333333336,0.0,1.0,44.333333333333336,0.0
+ 99 cottontail rabbits, 99 cottontail rabbits,1,0,7,1.0,0,,123_shortgrassprairie,1.0,NaN,19.0,0.0,1.0,19.0,0.0
+100 prairie vole,100 prairie vole,1,0,2,1.0,0,,123_shortgrassprairie,1.0,NaN,33.25,0.0,1.0,33.25,0.0
+101 muskrat,101 muskrat,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+102 harvest mouse,102 harvest mouse,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+103 meadow vole,103 meadow vole,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+104 ring-necked pheasent,104 ring-necked pheasent,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+105 horned lark,105 horned lark,1,12,0,2.8085106382978724,2,,123_shortgrassprairie,1.0,0.75,0.0,2.375,2.8085106382978724,0.0,2.375
+106 McCown's longspur,106 McCown's longspur,1,15,0,2.8977272727272725,2,,123_shortgrassprairie,0.9999999999999999,0.6,0.0,2.111111111111111,2.8977272727272725,0.0,2.111111111111111
+107 chestnut-collard longspur,107 chestnut-collard longspur,1,7,0,2.970149253731343,2,,123_shortgrassprairie,1.0,0.2857142857142857,0.0,2.418181818181818,2.970149253731343,0.0,2.418181818181818
+108 ground squirrel,108 ground squirrel,1,19,3,2.7037037037037037,2,,123_shortgrassprairie,0.9999999999999997,0.8421052631578947,44.333333333333336,2.418181818181818,2.7037037037037037,44.333333333333336,2.418181818181818
+109 spiders,109 spiders,1,0,3,1.0,0,,123_shortgrassprairie,1.0,NaN,10.23076923076923,0.0,1.0,10.23076923076923,0.0
+110 dragonflies,110 dragonflies,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+111 house mouse,111 house mouse,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,44.333333333333336,0.0,1.0,44.333333333333336,0.0
+112 horned lark,112 horned lark,1,0,2,1.0,0,,123_shortgrassprairie,1.0,NaN,66.5,0.0,1.0,66.5,0.0
+"113 misc. fur, feather, fin","113 misc. fur, feather, fin",1,0,3,1.0,0,,123_shortgrassprairie,1.0,NaN,7.823529411764706,0.0,1.0,7.823529411764706,0.0
+114 hispid pocket mouse,114 hispid pocket mouse,1,0,2,1.0,0,,123_shortgrassprairie,1.0,NaN,33.25,0.0,1.0,33.25,0.0
+115 unidentified bird,115 unidentified bird,1,0,4,1.0,0,,123_shortgrassprairie,1.0,NaN,33.25,0.0,1.0,33.25,0.0
+116 unknown small mammal,116 unknown small mammal,1,0,3,1.0,0,,123_shortgrassprairie,1.0,NaN,44.333333333333336,0.0,1.0,44.333333333333336,0.0
+117 westwern meadowlark,117 westwern meadowlark,1,0,3,1.0,0,,123_shortgrassprairie,1.0,NaN,44.333333333333336,0.0,1.0,44.333333333333336,0.0
+118 long-billed curlew,118 long-billed curlew,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+119 killdeer,119 killdeer,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+120 mountain plover,120 mountain plover,1,0,1,1.0,0,,123_shortgrassprairie,1.0,NaN,133.0,0.0,1.0,133.0,0.0
+121 lark bunting,121 lark bunting,1,15,1,2.861111111111111,2,,123_shortgrassprairie,0.9999999999999999,0.6666666666666666,133.0,2.111111111111111,2.861111111111111,133.0,2.111111111111111
+122 robber fly,122 robber fly,1,19,0,2.858695652173913,2,,123_shortgrassprairie,0.9999999999999999,0.6842105263157895,0.0,2.046153846153846,2.858695652173913,0.0,2.046153846153846
+123 deer mouse,123 deer mouse,1,13,5,2.795918367346939,2,,123_shortgrassprairie,0.9999999999999999,0.7692307692307693,26.6,2.509433962264151,2.795918367346939,26.6,2.509433962264151
+124 grasshopper mouse,124 grasshopper mouse,1,13,2,2.8548387096774195,2,,123_shortgrassprairie,0.9999999999999999,0.6923076923076923,66.5,2.2542372881355934,2.8548387096774195,66.5,2.2542372881355934
+125 misc. arthropods,125 misc. arthropods,1,0,6,1.0,0,,123_shortgrassprairie,1.0,NaN,7.388888888888889,0.0,1.0,7.388888888888889,0.0
+126 unknown snake,126 unknown snake,1,0,2,1.0,0,,123_shortgrassprairie,1.0,NaN,66.5,0.0,1.0,66.5,0.0
+127 weasel,127 weasel,1,0,2,1.0,0,,123_shortgrassprairie,1.0,NaN,66.5,0.0,1.0,66.5,0.0
+128 burrowing owl,128 burrowing owl,1,12,2,3.5054945054945055,3,,123_shortgrassprairie,1.0000000000000002,0.75,133.0,1.705128205128205,3.5054945054945055,133.0,1.705128205128205
+129 great horned owl,129 great horned owl,1,4,0,3.515151515151515,3,,123_shortgrassprairie,1.0,0.75,0.0,1.4777777777777779,3.515151515151515,0.0,1.4777777777777779
+130 long-eared owl,130 long-eared owl,1,6,0,3.526315789473684,3,,123_shortgrassprairie,1.0,0.5,0.0,1.33,3.526315789473684,0.0,1.33
+131 barn owl,131 barn owl,1,10,0,3.425287356321839,3,,123_shortgrassprairie,0.9999999999999999,0.6,0.0,1.209090909090909,3.425287356321839,0.0,1.209090909090909
+132 golden eagle,132 golden eagle,1,5,0,3.225352112676056,3,,123_shortgrassprairie,1.0,0.4,0.0,1.146551724137931,3.225352112676056,0.0,1.146551724137931
+133 ferruginous hawk,133 ferruginous hawk,1,10,0,3.1395348837209305,3,,123_shortgrassprairie,0.9999999999999999,0.6,0.0,1.1367521367521367,3.1395348837209305,0.0,1.1367521367521367
+134 Swainson's hawk,134 Swainson's hawk,1,18,0,3.4371859296482414,3,,123_shortgrassprairie,1.0000000000000002,0.5555555555555556,0.0,0.8926174496644296,3.4371859296482414,0.0,0.8926174496644296
+      1 Myiatropa sp.,      1 Myiatropa sp.,1,1,0,2.0,1,,138_treeholesengland,0.0,0.0,0.0,8.0,2.0,0.0,8.0
+      2 Prionocyphon sp.,      2 Prionocyphon sp.,1,1,0,2.0,1,,138_treeholesengland,0.0,0.0,0.0,8.0,2.0,0.0,8.0
+      3 Metriocnemus sp.,      3 Metriocnemus sp.,1,1,0,2.0,1,,138_treeholesengland,0.0,0.0,0.0,8.0,2.0,0.0,8.0
+      4 Dasyhelea sp.,      4 Dasyhelea sp.,1,1,0,2.0,1,,138_treeholesengland,0.0,0.0,0.0,8.0,2.0,0.0,8.0
+      5 Aedes sp.,      5 Aedes sp.,1,2,0,2.0,1,,138_treeholesengland,0.0,0.0,0.0,4.0,2.0,0.0,4.0
+      6 Anopheles sp.,      6 Anopheles sp.,1,1,0,2.0,1,,138_treeholesengland,0.0,0.0,0.0,8.0,2.0,0.0,8.0
+      7 large detritus particles,      7 large detritus particles,0,0,2,1.0,0,1,138_treeholesengland,0.0,NaN,4.0,0.0,1.0,4.0,0.0
+      8 small detritus particles,      8 small detritus particles,0,0,3,1.0,0,1,138_treeholesengland,0.0,NaN,2.6666666666666665,0.0,1.0,2.6666666666666665,0.0
+      9 dissolved organic matter detritus,      9 dissolved organic matter detritus,0,0,2,1.0,0,1,138_treeholesengland,0.0,NaN,4.0,0.0,1.0,4.0,0.0
+      1 Lechriodus fletcheri,      1 Lechriodus fletcheri,1,7,1,3.8823529411764706,2,,139_treeholesaustralia,0.0,0.0,0.0,0.6875,3.8823529411764706,0.0,0.6875
+      2 Anatopynia sp.,      2 Anatopynia sp.,1,3,2,3.0,2,,139_treeholesaustralia,0.0,0.0,2.75,1.2222222222222223,3.0,2.75,1.2222222222222223
+      3 Cheiroseius sp.,      3 Cheiroseius sp.,1,1,1,3.0,2,,139_treeholesaustralia,0.0,0.0,3.6666666666666665,3.6666666666666665,3.0,3.6666666666666665,3.6666666666666665
+      4 Prionocyphon sp.,      4 Prionocyphon sp.,1,1,2,2.0,1,,139_treeholesaustralia,0.0,0.0,1.5714285714285714,11.0,2.0,1.5714285714285714,11.0
+      5 hyadesiid mite,      5 hyadesiid mite,1,1,2,2.0,1,,139_treeholesaustralia,0.0,0.0,2.75,11.0,2.0,2.75,11.0
+      6 Aedes sp. 22,      6 Aedes sp. 22,1,2,4,2.0,1,,139_treeholesaustralia,0.0,0.0,2.75,5.5,2.0,2.75,5.5
+      7 Aedes candidoscutellum,      7 Aedes candidoscutellum,1,2,4,2.0,1,,139_treeholesaustralia,0.0,0.0,2.75,5.5,2.0,2.75,5.5
+      8 large detritus particles,      8 large detritus particles,0,0,1,1.0,0,1,139_treeholesaustralia,0.0,NaN,0.9166666666666666,0.0,1.0,0.9166666666666666,0.0
+      9 small detritus particles,      9 small detritus particles,0,0,3,1.0,0,1,139_treeholesaustralia,0.0,NaN,0.8461538461538461,0.0,1.0,0.8461538461538461,0.0
+     10 suspended organic matter detritus,     10 suspended organic matter detritus,0,0,2,1.0,0,1,139_treeholesaustralia,0.0,NaN,1.1,0.0,1.0,1.1,0.0
+     11 Culicoides angularis,     11 Culicoides angularis,1,3,2,3.428571428571429,3,,139_treeholesaustralia,0.0,0.0,5.5,0.9166666666666666,3.428571428571429,5.5,0.9166666666666666
+     12 Arrenurus sp.,     12 Arrenurus sp.,1,5,1,3.5555555555555554,4,,139_treeholesaustralia,0.0,0.0,11.0,0.6111111111111112,3.5555555555555554,11.0,0.6111111111111112
+      1 Toxorhynchites r. septentrionalis,      1 Toxorhynchites r. septentrionalis,1,5,1,3.25,2,,143_stumpholesalabama,0.0,0.0,0.0,1.375,3.25,0.0,1.375
+      2 Prionocyphon discoideus,      2 Prionocyphon discoideus,1,1,0,2.0,1,,143_stumpholesalabama,0.0,0.0,0.0,11.0,2.0,0.0,11.0
+      3 Meromacrus acutus,      3 Meromacrus acutus,1,1,0,2.0,1,,143_stumpholesalabama,0.0,0.0,0.0,11.0,2.0,0.0,11.0
+      4 Brunettia nitida,      4 Brunettia nitida,1,1,0,2.0,1,,143_stumpholesalabama,0.0,0.0,0.0,11.0,2.0,0.0,11.0
+      5 Telmatoscopus superbus,      5 Telmatoscopus superbus,1,1,0,2.0,1,,143_stumpholesalabama,0.0,0.0,0.0,11.0,2.0,0.0,11.0
+      6 Culicoides arboricola,      6 Culicoides arboricola,1,1,1,2.0,1,,143_stumpholesalabama,0.0,0.0,11.0,11.0,2.0,11.0,11.0
+      7 C. guttipennis,      7 C. guttipennis,1,1,1,2.0,1,,143_stumpholesalabama,0.0,0.0,11.0,11.0,2.0,11.0,11.0
+      8 Aedes triseriatus,      8 Aedes triseriatus,1,2,1,2.0,1,,143_stumpholesalabama,0.0,0.0,11.0,5.5,2.0,11.0,5.5
+      9 Orthopodomyia signifera,      9 Orthopodomyia signifera,1,2,1,2.0,1,,143_stumpholesalabama,0.0,0.0,11.0,5.5,2.0,11.0,5.5
+     10 large detritus particles,     10 large detritus particles,,0,2,1.0,0,1,143_stumpholesalabama,0.0,NaN,5.5,0.0,1.0,5.5,0.0
+     11 small detritus particles,     11 small detritus particles,,0,6,1.0,0,1,143_stumpholesalabama,0.0,NaN,1.375,0.0,1.0,1.375,0.0
+     12 suspended organic matter detritus,     12 suspended organic matter detritus,,0,2,1.0,0,1,143_stumpholesalabama,0.0,NaN,2.75,0.0,1.0,2.75,0.0
+      1 Prionocyphon serricornis,      1 Prionocyphon serricornis,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      2 Metriocnemus cavicola,      2 Metriocnemus cavicola,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      3 Aedes ornatus,      3 Aedes ornatus,1,2,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,5.0,2.0,0.0,5.0
+      4 Myiatropa florea,      4 Myiatropa florea,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      5 Telmatoscopus sp.,      5 Telmatoscopus sp.,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      6 Dasyhelea sensualis,      6 Dasyhelea sensualis,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      7 D. lignicola,      7 D. lignicola,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      8 Anopheles nigripes,      8 Anopheles nigripes,1,1,0,2.0,1,,144_treeholesgermany,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+      9 large detritus particles,      9 large detritus particles,0,0,2,1.0,0,1,144_treeholesgermany,0.0,NaN,5.0,0.0,1.0,5.0,0.0
+     10 small detritus particles,     10 small detritus particles,0,0,5,1.0,0,1,144_treeholesgermany,0.0,NaN,2.0,0.0,1.0,2.0,0.0
+     11 suspended organic matter detritus,     11 suspended organic matter detritus,0,0,2,1.0,0,1,144_treeholesgermany,0.0,NaN,5.0,0.0,1.0,5.0,0.0
+      1 Psen spp.,      1 Psen spp.,1,1,2,2.0,1,,151_youngpines,0.0,0.0,5.5,22.0,2.0,5.5,22.0
+      2 Oxybelus uniglumis,      2 Oxybelus uniglumis,1,1,2,2.0,1,,151_youngpines,0.0,0.0,5.5,22.0,2.0,5.5,22.0
+      3 Crossocerus wesmaeli,      3 Crossocerus wesmaeli,1,1,2,2.0,1,,151_youngpines,0.0,0.0,5.5,22.0,2.0,5.5,22.0
+      4 Formica fusca,      4 Formica fusca,1,1,0,2.0,1,,151_youngpines,0.0,0.0,0.0,22.0,2.0,0.0,22.0
+      5 Acanthomyops niger,      5 Acanthomyops niger,1,1,0,2.0,1,,151_youngpines,0.0,0.0,0.0,22.0,2.0,0.0,22.0
+      6 Linyphia triangularis,      6 Linyphia triangularis,1,11,1,3.6363636363636367,2,,151_youngpines,0.7272727272727274,0.0,22.0,0.9565217391304348,3.6363636363636367,22.0,0.9565217391304348
+      7 Agelena labyrinthica,      7 Agelena labyrinthica,1,11,1,3.6363636363636367,2,,151_youngpines,0.7272727272727274,0.0,22.0,0.9565217391304348,3.6363636363636367,22.0,0.9565217391304348
+      8 ichneumonids (unspecified),      8 ichneumonids (unspecified),1,4,2,3.0,2,,151_youngpines,1.0,0.0,5.5,3.6666666666666665,3.0,5.5,3.6666666666666665
+      9 Psammochares fuscus,      9 Psammochares fuscus,1,2,0,4.0,3,,151_youngpines,0.7272727272727274,0.0,0.0,0.5238095238095238,4.0,0.0,0.5238095238095238
+     10 Anthocoris nemorum,     10 Anthocoris nemorum,1,1,0,3.0,2,,151_youngpines,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     11 Exochamus quadripustulatus,     11 Exochamus quadripustulatus,1,1,2,3.0,2,,151_youngpines,1.0,0.0,5.5,7.333333333333333,3.0,5.5,7.333333333333333
+     12 Coccinella 7-punctata,     12 Coccinella 7-punctata,1,1,2,3.0,2,,151_youngpines,1.0,0.0,5.5,7.333333333333333,3.0,5.5,7.333333333333333
+     13 Anatis ocellata,     13 Anatis ocellata,1,1,2,3.0,2,,151_youngpines,1.0,0.0,5.5,7.333333333333333,3.0,5.5,7.333333333333333
+     14 Adalia bipunctata,     14 Adalia bipunctata,1,1,2,3.0,2,,151_youngpines,1.0,0.0,5.5,7.333333333333333,3.0,5.5,7.333333333333333
+     15 Syrphus vitripennis larvae,     15 Syrphus vitripennis larvae,1,1,2,3.0,2,,151_youngpines,1.0,0.0,5.5,7.333333333333333,3.0,5.5,7.333333333333333
+     16 Sphex sabulosa,     16 Sphex sabulosa,1,4,2,3.0,2,,151_youngpines,1.0,0.0,5.5,3.6666666666666665,3.0,5.5,3.6666666666666665
+     17 Dilachnus pini,     17 Dilachnus pini,1,1,8,2.0,1,,151_youngpines,1.0,1.0,2.2,22.0,2.0,2.2,22.0
+     18 Retinia buoliana larvae,     18 Retinia buoliana larvae,1,1,2,2.0,1,,151_youngpines,1.0,1.0,2.4444444444444446,22.0,2.0,2.4444444444444446,22.0
+     19 Panolis griseovariegata larvae,     19 Panolis griseovariegata larvae,1,1,2,2.0,1,,151_youngpines,1.0,1.0,2.4444444444444446,22.0,2.0,2.4444444444444446,22.0
+     20 Oenerostoma piniariella larvae,     20 Oenerostoma piniariella larvae,1,1,2,2.0,1,,151_youngpines,1.0,1.0,2.4444444444444446,22.0,2.0,2.4444444444444446,22.0
+     21 Gelechia dodecella larvae,     21 Gelechia dodecella larvae,1,1,2,2.0,1,,151_youngpines,1.0,1.0,2.4444444444444446,22.0,2.0,2.4444444444444446,22.0
+     22 secretions of Dilachnus pini detritus,     22 secretions of Dilachnus pini detritus,0,0,5,1.0,0,,151_youngpines,0.0,NaN,1.8333333333333333,0.0,1.0,1.8333333333333333,0.0
+     23 young Pinus sp.,     23 young Pinus sp.,0,0,5,1.0,0,,151_youngpines,1.0,NaN,0.7857142857142857,0.0,1.0,0.7857142857142857,0.0
+      1 Crematogaster laeviuscula,      1 Crematogaster laeviuscula,1,3,0,4.0,2,,152_mistletoe,1.0,0.0,0.0,3.142857142857143,4.0,0.0,3.142857142857143
+      2 Olla V-nigrum,      2 Olla V-nigrum,1,1,1,4.0,3,,152_mistletoe,1.0,0.0,22.0,3.6666666666666665,4.0,22.0,3.6666666666666665
+      3 Chrysopis sp.,      3 Chrysopis sp.,1,1,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.6666666666666665,4.0,0.0,3.6666666666666665
+      4 Oecanthus niveus,      4 Oecanthus niveus,1,1,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.6666666666666665,4.0,0.0,3.6666666666666665
+      5 Tacoma feriella,      5 Tacoma feriella,1,1,1,3.0,2,,152_mistletoe,1.0,0.0,22.0,7.333333333333333,3.0,22.0,7.333333333333333
+      6 Casinaria limenitides,      6 Casinaria limenitides,1,1,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.6666666666666665,4.0,0.0,3.6666666666666665
+      7 Phytocoris breviusculus,      7 Phytocoris breviusculus,1,1,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.6666666666666665,4.0,0.0,3.6666666666666665
+      8 Podisus acutissimus,      8 Podisus acutissimus,1,1,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.6666666666666665,4.0,0.0,3.6666666666666665
+      9 Largus cinctus,      9 Largus cinctus,1,2,0,3.0,2,,152_mistletoe,1.0,0.5,0.0,5.5,3.0,0.0,5.5
+     10 Metadontia amoena,     10 Metadontia amoena,1,1,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.6666666666666665,4.0,0.0,3.6666666666666665
+     11 Apanteles cp.,     11 Apanteles cp.,1,2,0,4.0,3,,152_mistletoe,1.0,0.0,0.0,3.142857142857143,4.0,0.0,3.142857142857143
+     12 Vanduzea laeta,     12 Vanduzea laeta,1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     13 pseudococcids (unspecified),     13 pseudococcids (unspecified),1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     14 Lecanium sp.,     14 Lecanium sp.,1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     15 aphids (unspecified),     15 aphids (unspecified),1,1,3,3.0,2,,152_mistletoe,1.0,0.0,4.4,7.333333333333333,3.0,4.4,7.333333333333333
+     16 Leptoglossus brevirostris,     16 Leptoglossus brevirostris,1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     17 Cyathissa percara,     17 Cyathissa percara,1,1,5,3.0,2,,152_mistletoe,1.0,0.0,4.4,7.333333333333333,3.0,4.4,7.333333333333333
+     18 Atlides halesus,     18 Atlides halesus,1,1,2,3.0,2,,152_mistletoe,1.0,0.0,11.0,7.333333333333333,3.0,11.0,7.333333333333333
+     19 Aphrastus unicolor,     19 Aphrastus unicolor,1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     20 Myrmex sp. (prob. estriatus),     20 Myrmex sp. (prob. estriatus),1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     21 Smiracraulax tuberculatus,     21 Smiracraulax tuberculatus,1,1,0,3.0,2,,152_mistletoe,1.0,0.0,0.0,7.333333333333333,3.0,0.0,7.333333333333333
+     22 Phoradendron tomentosum,     22 Phoradendron tomentosum,0,1,12,2.0,1,,152_mistletoe,1.0,1.0,0.7333333333333333,22.0,2.0,0.7333333333333333,22.0
+     23 Prosopis juliflora,     23 Prosopis juliflora,0,0,2,1.0,0,,152_mistletoe,1.0,NaN,0.44,0.0,1.0,0.44,0.0
+      1 Entomobrya ligate,      1 Entomobrya ligate,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+      2 Lepidocyrtus cyaneus,      2 Lepidocyrtus cyaneus,1,1,2,3.0,2,,180_rottingoak1yr,0.0,0.0,23.0,9.2,3.0,23.0,9.2
+      3 Isotoma sensibilis,      3 Isotoma sensibilis,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+      4 Pseudistoma sensibilis,      4 Pseudistoma sensibilis,1,1,2,3.0,2,,180_rottingoak1yr,0.0,0.0,23.0,9.2,3.0,23.0,9.2
+      5 Parcoblatta sp.,      5 Parcoblatta sp.,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+      6 Tachyta nana,      6 Tachyta nana,1,9,0,3.666666666666667,3,,180_rottingoak1yr,0.3333333333333333,0.0,0.0,2.4210526315789473,3.666666666666667,0.0,2.4210526315789473
+      7 Canosoma crassus,      7 Canosoma crassus,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+      8 Thoracophorus costalis,      8 Thoracophorus costalis,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+      9 Acritus exiguus,      9 Acritus exiguus,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     10 Chariessa pilosa,     10 Chariessa pilosa,1,8,0,4.25,3,,180_rottingoak1yr,0.0,0.0,0.0,2.5555555555555554,4.25,0.0,2.5555555555555554
+     11 Alaus oculatus larvae,     11 Alaus oculatus larvae,1,1,0,4.0,3,,180_rottingoak1yr,0.0,0.0,0.0,5.111111111111111,4.0,0.0,5.111111111111111
+     12 Melanopus sp. larvae,     12 Melanopus sp. larvae,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     13 Chrysobothris femorata larvae,     13 Chrysobothris femorata larvae,1,1,2,3.0,2,,180_rottingoak1yr,0.0,0.0,23.0,9.2,3.0,23.0,9.2
+     14 Agrilus sp. larvae,     14 Agrilus sp. larvae,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     15 Silvanus embellis,     15 Silvanus embellis,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+     16 S. planatus,     16 S. planatus,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+     17 Brontes dubius larvae,     17 Brontes dubius larvae,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+     18 Megalodacne fasciata,     18 Megalodacne fasciata,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     19 Xylotrechus colonus larvae,     19 Xylotrechus colonus larvae,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     20 Romaleum atomarium larvae,     20 Romaleum atomarium larvae,1,1,2,3.0,2,,180_rottingoak1yr,0.0,0.0,7.666666666666667,9.2,3.0,7.666666666666667,9.2
+     21 Neoclytus scutellaris larvae,     21 Neoclytus scutellaris larvae,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     22 Graphisurus fasciatus larvae,     22 Graphisurus fasciatus larvae,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     23 Orthotomicus coelatus,     23 Orthotomicus coelatus,1,1,0,3.0,2,,180_rottingoak1yr,0.0,0.0,0.0,9.2,3.0,0.0,9.2
+     24 Megaselia sp. larvae,     24 Megaselia sp. larvae,1,2,1,4.5,3,,180_rottingoak1yr,0.0,0.0,46.0,3.8333333333333335,4.5,46.0,3.8333333333333335
+     25 Lonchaea sp. larvae,     25 Lonchaea sp. larvae,1,1,2,3.0,2,,180_rottingoak1yr,0.0,0.0,23.0,9.2,3.0,23.0,9.2
+     26 tachinid larvae,     26 tachinid larvae,1,1,2,4.0,3,,180_rottingoak1yr,0.0,0.0,23.0,5.111111111111111,4.0,23.0,5.111111111111111
+     27 Tremex columba larvae,     27 Tremex columba larvae,1,1,0,2.0,1,,180_rottingoak1yr,0.0,0.0,0.0,46.0,2.0,0.0,46.0
+     28 Atanycolus simplex,     28 Atanycolus simplex,1,1,0,4.0,3,,180_rottingoak1yr,0.0,0.0,0.0,5.111111111111111,4.0,0.0,5.111111111111111
+     29 Sparhius floridanus,     29 Sparhius floridanus,1,1,0,4.0,3,,180_rottingoak1yr,0.0,0.0,0.0,5.111111111111111,4.0,0.0,5.111111111111111
+     30 Camponotus herculeanus,     30 Camponotus herculeanus,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     31 Crematogaster lineolata,     31 Crematogaster lineolata,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     32 Leptothorax curvispinosus,     32 Leptothorax curvispinosus,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     33 Ponera coarcta,     33 Ponera coarcta,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     34 Proceratium croceum,     34 Proceratium croceum,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     35 Linotaenia bidens,     35 Linotaenia bidens,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     36 Geophilus varians,     36 Geophilus varians,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     37 Chthonius spinosus,     37 Chthonius spinosus,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     38 C. longipalpus,     38 C. longipalpus,1,1,0,2.0,1,,180_rottingoak1yr,1.0,1.0,0.0,46.0,2.0,0.0,46.0
+     39 Uropoda sp.,     39 Uropoda sp.,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+     40 Discopoma sp.,     40 Discopoma sp.,1,1,1,3.0,2,,180_rottingoak1yr,0.0,0.0,46.0,9.2,3.0,46.0,9.2
+     41 Pergamasus sp.,     41 Pergamasus sp.,1,1,1,2.0,1,,180_rottingoak1yr,1.0,1.0,46.0,46.0,2.0,46.0,46.0
+     42 Megisthanus sp.,     42 Megisthanus sp.,1,1,1,2.0,1,,180_rottingoak1yr,1.0,1.0,46.0,46.0,2.0,46.0,46.0
+     43 Dendrolaelops sp.,     43 Dendrolaelops sp.,1,1,1,2.0,1,,180_rottingoak1yr,1.0,1.0,46.0,46.0,2.0,46.0,46.0
+     44 various larvae (unspecified),     44 various larvae (unspecified),1,0,12,1.0,0,,180_rottingoak1yr,1.0,NaN,3.2857142857142856,0.0,1.0,3.2857142857142856,0.0
+     45 phloem (Quercus spp.),     45 phloem (Quercus spp.),0,3,9,2.6666666666666665,1,,180_rottingoak1yr,0.0,0.0,0.8070175438596491,23.0,2.6666666666666665,0.8070175438596491,23.0
+     46 fungi,     46 fungi,0,2,17,2.5,1,,180_rottingoak1yr,0.0,0.0,0.9387755102040817,23.0,2.5,0.9387755102040817,23.0
+     47 sapwood detritus,     47 sapwood detritus,0,0,3,1.0,0,,180_rottingoak1yr,0.0,NaN,0.6571428571428571,0.0,1.0,0.6571428571428571,0.0
+      1 Entomobrya ligate,      1 Entomobrya ligate,1,2,1,2.5,1,,181_rottingoak3yr,0.0,0.0,88.0,44.0,2.5,88.0,44.0
+      2 Isotoma sensibilis,      2 Isotoma sensibilis,1,2,1,2.5,1,,181_rottingoak3yr,0.0,0.0,88.0,44.0,2.5,88.0,44.0
+      3 Neosmithurus clavatus,      3 Neosmithurus clavatus,1,1,1,3.0,2,,181_rottingoak3yr,0.0,0.0,88.0,29.333333333333332,3.0,88.0,29.333333333333332
+      4 Reticulitermes flavipes,      4 Reticulitermes flavipes,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+      5 Parcoblatta sp.,      5 Parcoblatta sp.,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+      6 Tachyta nana,      6 Tachyta nana,1,9,0,3.7777777777777777,2,,181_rottingoak3yr,0.0,0.0,0.0,5.866666666666666,3.7777777777777777,0.0,5.866666666666666
+      7 Canosoma crassus,      7 Canosoma crassus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+      8 Staphylinus violacens,      8 Staphylinus violacens,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+      9 Coproporus ventriculus,      9 Coproporus ventriculus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     10 Trachysectus confluentus,     10 Trachysectus confluentus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     11 Actium sp.,     11 Actium sp.,1,6,0,4.0,3,,181_rottingoak3yr,0.0,0.0,0.0,6.769230769230769,4.0,0.0,6.769230769230769
+     12 Epierus regularis,     12 Epierus regularis,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     13 Epierus sp.,     13 Epierus sp.,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     14 Platysoma lecontei,     14 Platysoma lecontei,1,3,0,3.333333333333333,3,,181_rottingoak3yr,0.6666666666666666,0.0,0.0,8.8,3.333333333333333,0.0,8.8
+     15 Dendroides bicolor larvae,     15 Dendroides bicolor larvae,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     16 Elater nigricollis larvae,     16 Elater nigricollis larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     17 Orthostethus infuscatus larvae,     17 Orthostethus infuscatus larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     18 Deltometopus amoenicornis larvae,     18 Deltometopus amoenicornis larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     19 Alaus oculatus larvae,     19 Alaus oculatus larvae,1,3,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     20 Elaterinae larvae (undet.),     20 Elaterinae larvae (undet.),1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     21 Rhysodes americanus,     21 Rhysodes americanus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     22 Brontes dubius larvae,     22 Brontes dubius larvae,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     23 Megalodacne fasciata,     23 Megalodacne fasciata,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     24 Triplax thoracica,     24 Triplax thoracica,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     25 mycetyphagid (undet.),     25 mycetyphagid (undet.),1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     26 Hymenorus sp.,     26 Hymenorus sp.,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     27 Platydema subcostatum,     27 Platydema subcostatum,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     28 P. ruficorne,     28 P. ruficorne,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     29 P. ruficolle,     29 P. ruficolle,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,29.333333333333332,3.0,0.0,29.333333333333332
+     30 Uloma imberbis,     30 Uloma imberbis,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     31 Dioedus punctatus,     31 Dioedus punctatus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     32 Scotobates carcaratus larvae,     32 Scotobates carcaratus larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     33 Xylopinus saperdoides,     33 Xylopinus saperdoides,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     34 Alobates pennsylvanicus larvae,     34 Alobates pennsylvanicus larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     35 Meracantha contracta larvae,     35 Meracantha contracta larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     36 Strongylium crenatum larvae,     36 Strongylium crenatum larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     37 Synchroa punctata larvae,     37 Synchroa punctata larvae,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     38 Pseudolucanus capreole larvae,     38 Pseudolucanus capreole larvae,1,1,1,2.0,1,,181_rottingoak3yr,0.0,0.0,88.0,88.0,2.0,88.0,88.0
+     39 Platycerus quercus,     39 Platycerus quercus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     40 Ceruchus piceus,     40 Ceruchus piceus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     41 Dorcus (brevis?),     41 Dorcus (brevis?),1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     42 Polymoecus brevipes larvae,     42 Polymoecus brevipes larvae,1,1,1,2.0,1,,181_rottingoak3yr,0.0,0.0,88.0,88.0,2.0,88.0,88.0
+     43 Cloetus globosus,     43 Cloetus globosus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     44 Trichiotinus bidens larvae,     44 Trichiotinus bidens larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     45 Phileurus valgus larvae,     45 Phileurus valgus larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     46 Passalus cornutus,     46 Passalus cornutus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     47 Derobrachus brunneus larvae,     47 Derobrachus brunneus larvae,1,1,1,2.0,1,,181_rottingoak3yr,0.0,0.0,88.0,88.0,2.0,88.0,88.0
+     48 Leptura proxima larvae,     48 Leptura proxima larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     49 Eupsalis minuta,     49 Eupsalis minuta,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     50 Scolecocampa liburna larvae,     50 Scolecocampa liburna larvae,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     51 mycetophilid larvae (undet.),     51 mycetophilid larvae (undet.),1,1,1,3.0,2,,181_rottingoak3yr,0.0,0.0,88.0,29.333333333333332,3.0,88.0,29.333333333333332
+     52 cecidomyid larvae (undet.),     52 cecidomyid larvae (undet.),1,1,1,2.0,1,,181_rottingoak3yr,1.0,1.0,88.0,88.0,2.0,88.0,88.0
+     53 dolicopodid larvae (undet.),     53 dolicopodid larvae (undet.),1,1,1,2.0,1,,181_rottingoak3yr,1.0,1.0,88.0,88.0,2.0,88.0,88.0
+     54 Augochlora pura,     54 Augochlora pura,1,1,0,2.0,1,,181_rottingoak3yr,1.0,1.0,0.0,88.0,2.0,0.0,88.0
+     55 Camponotus herculeanus,     55 Camponotus herculeanus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     56 Crematogaster lineolata,     56 Crematogaster lineolata,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     57 Leptothorax curvispinosus,     57 Leptothorax curvispinosus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     58 Ponera coarcta,     58 Ponera coarcta,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     59 Proceratium croceum,     59 Proceratium croceum,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     60 Pheidole sp.,     60 Pheidole sp.,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     61 lumbricid (undet.),     61 lumbricid (undet.),1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     62 Strobilops aena,     62 Strobilops aena,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     63 Polygyra fallax,     63 Polygyra fallax,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     64 P. tridentata,     64 P. tridentata,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     65 P. thyroideus,     65 P. thyroideus,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     66 Zonitoides arboreus,     66 Zonitoides arboreus,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     67 Euconulus chersinus,     67 Euconulus chersinus,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     68 Retinella indentata,     68 Retinella indentata,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     69 Philomycus carolinensis,     69 Philomycus carolinensis,1,2,0,2.5,1,,181_rottingoak3yr,0.0,0.0,0.0,44.0,2.5,0.0,44.0
+     70 Cambala annulata,     70 Cambala annulata,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     71 Fontaria coriacea,     71 Fontaria coriacea,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     72 Polydesmus serratus,     72 Polydesmus serratus,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     73 Spirostephon lactarium,     73 Spirostephon lactarium,1,1,0,2.0,1,,181_rottingoak3yr,0.0,0.0,0.0,88.0,2.0,0.0,88.0
+     74 Scolopendra viridis,     74 Scolopendra viridis,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     75 Cryptops hyalina,     75 Cryptops hyalina,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     76 Otocryptops sexspinosus,     76 Otocryptops sexspinosus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     77 Bothropolys multidentatus,     77 Bothropolys multidentatus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     78 Chelanops dentatus,     78 Chelanops dentatus,1,1,0,3.0,2,,181_rottingoak3yr,0.0,0.0,0.0,17.6,3.0,0.0,17.6
+     79 Podothrombium sp.,     79 Podothrombium sp.,1,1,2,3.0,2,,181_rottingoak3yr,0.0,0.0,44.0,17.6,3.0,44.0,17.6
+     80 Allothrombium pulvinus,     80 Allothrombium pulvinus,1,1,2,3.0,2,,181_rottingoak3yr,0.0,0.0,44.0,17.6,3.0,44.0,17.6
+     81 Zetes sp.,     81 Zetes sp.,1,1,2,3.0,2,,181_rottingoak3yr,0.0,0.0,44.0,29.333333333333332,3.0,44.0,29.333333333333332
+     82 Schelorabates sp.,     82 Schelorabates sp.,1,1,2,3.0,2,,181_rottingoak3yr,0.0,0.0,44.0,29.333333333333332,3.0,44.0,29.333333333333332
+     83 Pergamasus sp.,     83 Pergamasus sp.,1,1,2,3.0,2,,181_rottingoak3yr,0.0,0.0,44.0,17.6,3.0,44.0,17.6
+     84 Megisthanus sp.,     84 Megisthanus sp.,1,1,2,3.0,2,,181_rottingoak3yr,0.0,0.0,44.0,17.6,3.0,44.0,17.6
+     85 various larvae,     85 various larvae,1,2,16,2.5,1,,181_rottingoak3yr,0.0,0.0,4.4,44.0,2.5,4.4,44.0
+     86 rotting wood detritus,     86 rotting wood detritus,0,0,46,1.0,0,,181_rottingoak3yr,0.0,NaN,0.7213114754098361,0.0,1.0,0.7213114754098361,0.0
+     87 pollen (undet.),     87 pollen (undet.),0,0,1,1.0,0,,181_rottingoak3yr,1.0,NaN,88.0,0.0,1.0,88.0,0.0
+     88 microorganisms,     88 microorganisms,0,0,2,1.0,0,,181_rottingoak3yr,1.0,NaN,22.0,0.0,1.0,22.0,0.0
+     89 fungi (red rot),     89 fungi (red rot),0,1,30,2.0,1,,181_rottingoak3yr,0.0,0.0,1.2941176470588236,88.0,2.0,1.2941176470588236,88.0
+      1 Entomobrya corticola,      1 Entomobrya corticola,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+      2 E. ligata,      2 E. ligata,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+      3 Entomobrya sp.,      3 Entomobrya sp.,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+      4 Pseudachorutes sp.,      4 Pseudachorutes sp.,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+      5 Isotoma sensibilis,      5 Isotoma sensibilis,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+      6 Tomocera flavescens,      6 Tomocera flavescens,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+      7 Parcoblatta sp.,      7 Parcoblatta sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+      8 heteropteran (undet.),      8 heteropteran (undet.),1,8,0,3.2222222222222223,3,,182_rottingpine1yr,0.9375,0.0,0.0,5.933333333333334,3.2222222222222223,0.0,5.933333333333334
+      9 Epiptera sp.,      9 Epiptera sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     10 Tachymenis flavicauda,     10 Tachymenis flavicauda,1,7,0,4.0,3,,182_rottingpine1yr,0.4999999999999999,0.0,0.0,5.933333333333334,4.0,0.0,5.933333333333334
+     11 Erchomus ventriculus,     11 Erchomus ventriculus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     12 Saprinus sp.,     12 Saprinus sp.,1,8,0,3.916666666666667,3,,182_rottingpine1yr,0.625,0.0,0.0,4.045454545454546,3.916666666666667,0.0,4.045454545454546
+     13 Platysoma parallelum,     13 Platysoma parallelum,1,8,0,3.2222222222222223,3,,182_rottingpine1yr,0.9375,0.0,0.0,5.933333333333334,3.2222222222222223,0.0,5.933333333333334
+     14 P. lecontei,     14 P. lecontei,1,3,0,4.0,3,,182_rottingpine1yr,0.5,0.0,0.0,8.090909090909092,4.0,0.0,8.090909090909092
+     15 Plegaderus sp.,     15 Plegaderus sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     16 Cylistix cylindrica,     16 Cylistix cylindrica,1,1,0,4.0,3,,182_rottingpine1yr,0.5,0.0,0.0,9.88888888888889,4.0,0.0,9.88888888888889
+     17 Thanasimus dubius,     17 Thanasimus dubius,1,8,0,3.2222222222222223,3,,182_rottingpine1yr,0.9375,0.0,0.0,5.933333333333334,3.2222222222222223,0.0,5.933333333333334
+     18 Boros unicolor larvae,     18 Boros unicolor larvae,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     19 Dendroides bicolor larvae,     19 Dendroides bicolor larvae,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+     20 Alaus myops larvae,     20 Alaus myops larvae,1,4,0,3.4,3,,182_rottingpine1yr,0.875,0.0,0.0,8.090909090909092,3.4,0.0,8.090909090909092
+     21 Ischiodontus sp. larvae,     21 Ischiodontus sp. larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     22 Melanotus sp. larvae,     22 Melanotus sp. larvae,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     23 Elater verticinus,     23 Elater verticinus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     24 Drapites sp. larvae,     24 Drapites sp. larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     25 Buprestis lineata larvae,     25 Buprestis lineata larvae,1,2,0,2.0,1,,182_rottingpine1yr,0.5,0.5,0.0,44.5,2.0,0.0,44.5
+     26 Buprestis sp. larvae,     26 Buprestis sp. larvae,1,2,0,2.0,1,,182_rottingpine1yr,0.5,0.5,0.0,44.5,2.0,0.0,44.5
+     27 Chalcophora sp. larvae,     27 Chalcophora sp. larvae,1,1,2,2.0,1,,182_rottingpine1yr,1.0,1.0,44.5,89.0,2.0,44.5,89.0
+     28 Chrysobothris sp. larvae,     28 Chrysobothris sp. larvae,1,1,2,2.0,1,,182_rottingpine1yr,1.0,1.0,44.5,89.0,2.0,44.5,89.0
+     29 Temnochila virescens,     29 Temnochila virescens,1,11,0,3.3076923076923075,3,,182_rottingpine1yr,0.9090909090909092,0.0,0.0,4.944444444444445,3.3076923076923075,0.0,4.944444444444445
+     30 Rhizophagus cylindricus,     30 Rhizophagus cylindricus,1,10,0,3.333333333333333,3,,182_rottingpine1yr,0.9,0.0,0.0,5.235294117647059,3.333333333333333,0.0,5.235294117647059
+     31 Brontes dubius,     31 Brontes dubius,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     32 Mycetophagus pini,     32 Mycetophagus pini,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     33 Colopterus semitectus,     33 Colopterus semitectus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     34 Stelidota geminata,     34 Stelidota geminata,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     35 Bolitotherus cornutus,     35 Bolitotherus cornutus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     36 Platydema flavipes,     36 Platydema flavipes,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     37 Stephanopachys rugosus larvae,     37 Stephanopachys rugosus larvae,1,1,0,2.0,1,,182_rottingpine1yr,0.0,0.0,0.0,89.0,2.0,0.0,89.0
+     38 Asemum moestum larvae,     38 Asemum moestum larvae,1,2,0,2.0,1,,182_rottingpine1yr,0.5,0.5,0.0,44.5,2.0,0.0,44.5
+     39 Rhagium lineatum larvae,     39 Rhagium lineatum larvae,1,1,2,2.0,1,,182_rottingpine1yr,1.0,1.0,22.25,89.0,2.0,22.25,89.0
+     40 Xylotrechus sagittatus larvae,     40 Xylotrechus sagittatus larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     41 Callidium antennatum larvae,     41 Callidium antennatum larvae,1,1,1,2.0,1,,182_rottingpine1yr,1.0,1.0,89.0,89.0,2.0,89.0,89.0
+     42 Acanthocinus obsoletus larvae,     42 Acanthocinus obsoletus larvae,1,1,1,2.0,1,,182_rottingpine1yr,1.0,1.0,89.0,89.0,2.0,89.0,89.0
+     43 A. nodosus larvae,     43 A. nodosus larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     44 Eupogonius tomentosus larvae,     44 Eupogonius tomentosus larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     45 Monochammus titillator larvae,     45 Monochammus titillator larvae,1,1,3,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     46 Rhyncolus sp.,     46 Rhyncolus sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     47 Cossonus corticola,     47 Cossonus corticola,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,17.8,3.0,0.0,17.8
+     48 Pissodes memorensis larvae,     48 Pissodes memorensis larvae,1,1,1,2.0,1,,182_rottingpine1yr,1.0,1.0,89.0,89.0,2.0,89.0,89.0
+     49 Pachylobins picivorus larvae,     49 Pachylobins picivorus larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     50 Hylobius pales larvae,     50 Hylobius pales larvae,1,1,0,2.0,1,,182_rottingpine1yr,1.0,1.0,0.0,89.0,2.0,0.0,89.0
+     51 Platypus flavicornis,     51 Platypus flavicornis,1,1,2,3.0,2,,182_rottingpine1yr,0.5,0.0,44.5,17.8,3.0,44.5,17.8
+     52 Ips grandicollis,     52 Ips grandicollis,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     53 I. calligraphus,     53 I. calligraphus,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     54 Xyleborus fitchi,     54 Xyleborus fitchi,1,1,5,3.0,2,,182_rottingpine1yr,0.5,0.0,17.8,17.8,3.0,17.8,17.8
+     55 Orthotomicus coelatus,     55 Orthotomicus coelatus,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     56 Pithyophthorus annectens,     56 Pithyophthorus annectens,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     57 P. pullus,     57 P. pullus,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     58 Dendroctonus valens,     58 Dendroctonus valens,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     59 D. tenebrans,     59 D. tenebrans,1,1,5,2.0,1,,182_rottingpine1yr,1.0,1.0,17.8,89.0,2.0,17.8,89.0
+     60 Sciara coprophila larvae,     60 Sciara coprophila larvae,1,1,1,2.0,1,,182_rottingpine1yr,0.0,0.0,89.0,89.0,2.0,89.0,89.0
+     61 Xylophagus fasciatus larvae,     61 Xylophagus fasciatus larvae,1,1,1,3.0,2,,182_rottingpine1yr,1.0,0.0,89.0,29.666666666666668,3.0,89.0,29.666666666666668
+     62 Lonchaea sp. larvae,     62 Lonchaea sp. larvae,1,1,2,3.0,2,,182_rottingpine1yr,0.5,0.0,44.5,17.8,3.0,44.5,17.8
+     63 Theresia monohammi larvae,     63 Theresia monohammi larvae,1,1,1,3.0,2,,182_rottingpine1yr,1.0,0.0,89.0,29.666666666666668,3.0,89.0,29.666666666666668
+     64 Sarcophaga sp. larvae,     64 Sarcophaga sp. larvae,1,1,1,3.0,2,,182_rottingpine1yr,1.0,0.0,89.0,29.666666666666668,3.0,89.0,29.666666666666668
+     65 Sirex nigricornia larvae,     65 Sirex nigricornia larvae,1,1,0,2.0,1,,182_rottingpine1yr,0.0,0.0,0.0,89.0,2.0,0.0,89.0
+     66 Orussus sp. larvae,     66 Orussus sp. larvae,1,2,0,3.0,2,,182_rottingpine1yr,1.0,0.0,0.0,22.25,3.0,0.0,22.25
+     67 Coeloides pissodis larvae,     67 Coeloides pissodis larvae,1,1,0,3.0,2,,182_rottingpine1yr,1.0,0.0,0.0,29.666666666666668,3.0,0.0,29.666666666666668
+     68 Camponotus herculeanus,     68 Camponotus herculeanus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     69 Leptinothorax curvispinosus,     69 Leptinothorax curvispinosus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     70 Ponera coarctata,     70 Ponera coarctata,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     71 Lasius umbratus,     71 Lasius umbratus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     72 uropodid sp.,     72 uropodid sp.,1,1,1,3.0,2,,182_rottingpine1yr,0.5,0.0,89.0,17.8,3.0,89.0,17.8
+     73 Parasitus sp.,     73 Parasitus sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     74 Dendrolaelaps sp.,     74 Dendrolaelaps sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     75 Pergamasus sp.,     75 Pergamasus sp.,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     76 Geophilus varians,     76 Geophilus varians,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     77 Linotaenia bidens,     77 Linotaenia bidens,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     78 Cryptops hyalina,     78 Cryptops hyalina,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     79 Bothropolys multidentatus,     79 Bothropolys multidentatus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     80 Chelanops oblongus,     80 Chelanops oblongus,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     81 C. virginnae,     81 C. virginnae,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     82 Chelifer cancroides,     82 Chelifer cancroides,1,1,0,3.0,2,,182_rottingpine1yr,0.5,0.0,0.0,12.714285714285714,3.0,0.0,12.714285714285714
+     83 various larvae (unsp.),     83 various larvae (unsp.),1,3,14,2.5,1,,182_rottingpine1yr,0.5,0.3333333333333333,6.357142857142857,29.666666666666668,2.5,6.357142857142857,29.666666666666668
+     84 chironomid larvae,     84 chironomid larvae,1,1,2,3.0,2,,182_rottingpine1yr,0.5,0.0,44.5,17.8,3.0,44.5,17.8
+     85 cecidomyid larvae,     85 cecidomyid larvae,1,1,2,3.0,2,,182_rottingpine1yr,0.5,0.0,44.5,17.8,3.0,44.5,17.8
+     86 dolicopodid larvae,     86 dolicopodid larvae,1,1,2,3.0,2,,182_rottingpine1yr,0.5,0.0,44.5,17.8,3.0,44.5,17.8
+     87 dead cerambycid detritus,     87 dead cerambycid detritus,0,0,1,1.0,0,,182_rottingpine1yr,0.0,NaN,29.666666666666668,0.0,1.0,29.666666666666668,0.0
+     88 phloem (Pinus spp.),     88 phloem (Pinus spp.),0,0,26,1.0,0,,182_rottingpine1yr,1.0,NaN,0.6095890410958904,0.0,1.0,0.6095890410958904,0.0
+     89 sapwood detritus,     89 sapwood detritus,0,0,7,1.0,0,,182_rottingpine1yr,0.0,NaN,0.7235772357723578,0.0,1.0,0.7235772357723578,0.0
+     90 fungi,     90 fungi,0,2,30,2.0,1,,182_rottingpine1yr,0.5,0.5,1.141025641025641,44.5,2.0,1.141025641025641,44.5
+      1 Entomobrya ligata,      1 Entomobrya ligata,1,2,1,2.5,1,,183_rottingpine3yr,0.0,0.0,35.0,17.5,2.5,35.0,17.5
+      2 E. corticola,      2 E. corticola,1,2,1,2.5,1,,183_rottingpine3yr,0.0,0.0,35.0,17.5,2.5,35.0,17.5
+      3 Entomobrya sp.,      3 Entomobrya sp.,1,2,1,2.5,1,,183_rottingpine3yr,0.0,0.0,35.0,17.5,2.5,35.0,17.5
+      4 Isotoma sensibilis,      4 Isotoma sensibilis,1,2,1,2.5,1,,183_rottingpine3yr,0.0,0.0,35.0,17.5,2.5,35.0,17.5
+      5 Parcoblatta sp.,      5 Parcoblatta sp.,1,1,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,11.666666666666666,3.0,0.0,11.666666666666666
+      6 Tachymenis flavicauda,      6 Tachymenis flavicauda,1,4,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,4.375,3.0,0.0,4.375
+      7 Platysoma lecontei,      7 Platysoma lecontei,1,3,0,4.0,3,,183_rottingpine3yr,0.0,0.0,0.0,4.375,4.0,0.0,4.375
+      8 Alaus myops larvae,      8 Alaus myops larvae,1,2,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,8.75,3.0,0.0,8.75
+      9 Orthostethus infuscatus larvae,      9 Orthostethus infuscatus larvae,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     10 Melanotus sp. larvae,     10 Melanotus sp. larvae,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     11 Elater verticinus,     11 Elater verticinus,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     12 Uloma punctulata,     12 Uloma punctulata,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     13 Xylopinus rufipes larvae,     13 Xylopinus rufipes larvae,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     14 Scotobates calcaratus larvae,     14 Scotobates calcaratus larvae,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     15 Passalus cornutus,     15 Passalus cornutus,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     16 Pseudolucanus capreolus larvae,     16 Pseudolucanus capreolus larvae,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     17 Derobrachus brunneus larvae,     17 Derobrachus brunneus larvae,1,1,1,2.0,1,,183_rottingpine3yr,0.0,0.0,35.0,35.0,2.0,35.0,35.0
+     18 Leptura sp. larvae,     18 Leptura sp. larvae,1,1,1,2.0,1,,183_rottingpine3yr,0.0,0.0,35.0,35.0,2.0,35.0,35.0
+     19 chironomid larvae,     19 chironomid larvae,1,1,1,3.0,2,,183_rottingpine3yr,0.0,0.0,35.0,11.666666666666666,3.0,35.0,11.666666666666666
+     20 cecidomyid larvae,     20 cecidomyid larvae,1,1,1,3.0,2,,183_rottingpine3yr,0.0,0.0,35.0,11.666666666666666,3.0,35.0,11.666666666666666
+     21 dolicopodid larvae,     21 dolicopodid larvae,1,1,1,3.0,2,,183_rottingpine3yr,0.0,0.0,35.0,11.666666666666666,3.0,35.0,11.666666666666666
+     22 Leptinothorax curvispinosus,     22 Leptinothorax curvispinosus,1,1,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,7.0,3.0,0.0,7.0
+     23 Ponera coarctata,     23 Ponera coarctata,1,1,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,7.0,3.0,0.0,7.0
+     24 lumbricid (undet.),     24 lumbricid (undet.),1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     25 Polygyra thyriodes,     25 Polygyra thyriodes,1,2,0,2.5,1,,183_rottingpine3yr,0.0,0.0,0.0,17.5,2.5,0.0,17.5
+     26 Zonitoides arboreus,     26 Zonitoides arboreus,1,2,0,2.5,1,,183_rottingpine3yr,0.0,0.0,0.0,17.5,2.5,0.0,17.5
+     27 Philomycus carolinensis,     27 Philomycus carolinensis,1,2,0,2.5,1,,183_rottingpine3yr,0.0,0.0,0.0,17.5,2.5,0.0,17.5
+     28 Cambala annulata,     28 Cambala annulata,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     29 Fontaria coriacen,     29 Fontaria coriacen,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     30 Polydesmus serratus,     30 Polydesmus serratus,1,1,0,2.0,1,,183_rottingpine3yr,0.0,0.0,0.0,35.0,2.0,0.0,35.0
+     31 Geophilus varians,     31 Geophilus varians,1,1,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,7.0,3.0,0.0,7.0
+     32 Linotaenia bidens,     32 Linotaenia bidens,1,1,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,7.0,3.0,0.0,7.0
+     33 Uropoda sp.,     33 Uropoda sp.,1,1,0,3.0,2,,183_rottingpine3yr,0.0,0.0,0.0,11.666666666666666,3.0,0.0,11.666666666666666
+     34 various larvae (unspecified),     34 various larvae (unspecified),1,2,4,2.5,1,,183_rottingpine3yr,0.0,0.0,8.75,17.5,2.5,8.75,17.5
+     35 rotting wood detritus (Pinus spp.),     35 rotting wood detritus (Pinus spp.),0,0,23,1.0,0,,183_rottingpine3yr,0.0,NaN,0.7291666666666666,0.0,1.0,0.7291666666666666,0.0
+     36 fungi,     36 fungi,0,1,13,2.0,1,,183_rottingpine3yr,0.0,0.0,1.4,35.0,2.0,1.4,35.0
+      1 Partnuniella thermalis,      1 Partnuniella thermalis,1,7,0,3.0,2,,203_thermalspringyellowstone,0.9999999999999998,0.0,0.0,1.5555555555555556,3.0,0.0,1.5555555555555556
+      2 Thermacarus nevadensis,      2 Thermacarus nevadensis,1,7,0,3.0,2,,203_thermalspringyellowstone,0.9999999999999998,0.0,0.0,1.5555555555555556,3.0,0.0,1.5555555555555556
+      3 Tachytrechus angustipennis,      3 Tachytrechus angustipennis,1,7,0,3.0,2,,203_thermalspringyellowstone,0.9999999999999998,0.0,0.0,1.5555555555555556,3.0,0.0,1.5555555555555556
+      4 birds (unspecified),      4 birds (unspecified),1,7,0,3.0,2,,203_thermalspringyellowstone,0.9999999999999998,0.0,0.0,1.5555555555555556,3.0,0.0,1.5555555555555556
+      5 arachnids (unspec.),      5 arachnids (unspec.),1,6,0,3.0,2,,203_thermalspringyellowstone,0.9999999999999999,0.0,0.0,1.75,3.0,0.0,1.75
+      6 Paracoenia turbida eggs,      6 Paracoenia turbida eggs,1,1,3,2.0,1,,203_thermalspringyellowstone,1.0,1.0,4.666666666666667,14.0,2.0,4.666666666666667,14.0
+      7 P. turbida larvae,      7 P. turbida larvae,1,1,3,2.0,1,,203_thermalspringyellowstone,1.0,1.0,4.666666666666667,14.0,2.0,4.666666666666667,14.0
+      8 P. turbida pupae,      8 P. turbida pupae,1,1,1,2.0,1,,203_thermalspringyellowstone,1.0,1.0,14.0,14.0,2.0,14.0,14.0
+      9 P. turbida adults,      9 P. turbida adults,1,1,2,2.0,1,,203_thermalspringyellowstone,1.0,1.0,7.0,14.0,2.0,7.0,14.0
+     10 Lamproscatella dichaeta,     10 Lamproscatella dichaeta,1,1,5,2.0,1,,203_thermalspringyellowstone,1.0,1.0,2.8,14.0,2.0,2.8,14.0
+     11 Microcoelepis sp.,     11 Microcoelepis sp.,1,1,5,2.0,1,,203_thermalspringyellowstone,1.0,1.0,2.8,14.0,2.0,2.8,14.0
+     12 chironomid (unspec.),     12 chironomid (unspec.),1,1,5,2.0,1,,203_thermalspringyellowstone,1.0,1.0,2.8,14.0,2.0,2.8,14.0
+     13 amphipod (unspec.),     13 amphipod (unspec.),1,1,5,2.0,1,,203_thermalspringyellowstone,1.0,1.0,2.8,14.0,2.0,2.8,14.0
+     14 tipulid (unspec.),     14 tipulid (unspec.),1,1,5,2.0,1,,203_thermalspringyellowstone,1.0,1.0,2.8,14.0,2.0,2.8,14.0
+     15 blue-green algal-bacterial mat,     15 blue-green algal-bacterial mat,0,0,9,1.0,0,,203_thermalspringyellowstone,1.0,NaN,0.7368421052631579,0.0,1.0,0.7368421052631579,0.0
+     1 bacteria,     1 bacteria,0,0,1,1.0,0,,22_bearisland,1.0,NaN,27.0,0.0,1.0,27.0,0.0
+     2 protozoa (fresh water plankton),     2 protozoa (fresh water plankton),0,1,3,2.0,1,,22_bearisland,1.0,1.0,1.173913043478261,27.0,2.0,1.173913043478261,27.0
+"     3 plants, dead plants","     3 plants, dead plants detritus",0,0,9,1.0,0,,22_bearisland,0.0,NaN,1.588235294117647,0.0,1.0,1.588235294117647,0.0
+     4 algae (fresh water bottom and littoral),     4 algae (fresh water bottom and littoral),0,0,3,1.0,0,,22_bearisland,1.0,NaN,1.5,0.0,1.0,1.5,0.0
+     5 algae (fresh water plankton),     5 algae (fresh water plankton),0,0,5,1.0,0,,22_bearisland,1.0,NaN,1.35,0.0,1.0,1.35,0.0
+     6 worms,     6 worms,1,1,0,2.0,1,,22_bearisland,0.0,0.0,0.0,27.0,2.0,0.0,27.0
+     7 geese,     7 geese,1,2,0,2.0,1,,22_bearisland,0.5,0.5,0.0,13.5,2.0,0.0,13.5
+"     8 snow bunting, ptarmigan","     8 snow bunting, ptarmigan",1,6,1,3.4,3,,22_bearisland,0.25,0.0,27.0,1.4210526315789473,3.4,27.0,1.4210526315789473
+     9 purple sandpiper,     9 purple sandpiper,1,8,1,3.333333333333333,2,,22_bearisland,0.3125,0.0,27.0,1.5,3.333333333333333,27.0,1.5
+    10 protozoa (fresh water bottom and littoral),    10 protozoa (fresh water bottom and littoral),0,1,1,2.0,1,,22_bearisland,1.0,1.0,3.375,27.0,2.0,3.375,27.0
+    11 Hymenoptera,    11 Hymenoptera,1,1,2,2.0,1,,22_bearisland,0.0,0.0,6.75,27.0,2.0,6.75,27.0
+    12 mites,    12 mites,1,1,3,2.0,1,,22_bearisland,0.0,0.0,5.4,27.0,2.0,5.4,27.0
+    13 Diptera (adult),    13 Diptera (adult),1,2,3,2.8,3,,22_bearisland,0.4,0.0,5.4,2.076923076923077,2.8,5.4,2.076923076923077
+    14 Collembola,    14 Collembola,1,1,2,2.0,1,,22_bearisland,0.0,0.0,4.5,27.0,2.0,4.5,27.0
+    15 moss,    15 moss,0,0,4,1.0,0,,22_bearisland,1.0,NaN,1.4210526315789473,0.0,1.0,1.4210526315789473,0.0
+    16 spiders,    16 spiders,1,4,2,3.3,3,,22_bearisland,0.30000000000000004,0.0,6.75,1.588235294117647,3.3,6.75,1.588235294117647
+    17 protozoa (land),    17 protozoa (land),0,1,0,2.0,1,,22_bearisland,1.0,1.0,0.0,27.0,2.0,0.0,27.0
+"    18 Entomostraca, Rotifera (fresh water plankton)","    18 Entomostraca, Rotifera (fresh water plankton)",1,2,3,2.5,1,,22_bearisland,1.0,0.5,1.5,13.5,2.5,1.5,13.5
+"    19 skua, glaucous gull","    19 skua, glaucous gull",1,3,0,3.333333333333333,2,,22_bearisland,0.9111111111111111,0.0,0.0,1.4210526315789473,3.333333333333333,0.0,1.4210526315789473
+"    20 kittiwake, guillemots, fulmar petrel, little auk, puffin","    20 kittiwake, guillemots, fulmar petrel, little auk, puffin",1,1,1,2.0,1,,22_bearisland,1.0,1.0,27.0,27.0,2.0,27.0,27.0
+"    21 northern eider, long-tailed duck, red-throated diver","    21 northern eider, long-tailed duck, red-throated diver",1,3,2,2.875,2,,22_bearisland,0.9333333333333333,0.3333333333333333,13.5,1.588235294117647,2.875,13.5,1.588235294117647
+    22 arctic fox,    22 arctic fox,1,4,0,3.7142857142857144,3,,22_bearisland,0.6239583333333333,0.0,0.0,0.6428571428571429,3.7142857142857144,0.0,0.6428571428571429
+    23 marine animals,    23 marine animals,1,0,3,1.0,0,,22_bearisland,1.0,NaN,3.0,0.0,1.0,3.0,0.0
+    24 seals,    24 seals,1,1,1,2.0,1,,22_bearisland,1.0,1.0,27.0,27.0,2.0,27.0,27.0
+    25 polar bear,    25 polar bear,1,1,0,3.0,2,,22_bearisland,1.0,0.0,0.0,9.0,3.0,0.0,9.0
+    26 Diptera (immature),    26 Diptera (immature),1,5,6,2.2,2,,22_bearisland,0.8,0.6,3.375,3.857142857142857,2.2,3.375,3.857142857142857
+"    27 Entomostraca, Rotifera, Tardigrada, Oligochaeta, Nematoda (fresh water bottom and littoral)","    27 Entomostraca, Rotifera, Tardigrada, Oligochaeta, Nematoda (fresh water bottom and littoral)",1,6,2,2.5,1,,22_bearisland,0.9999999999999999,0.5,6.75,4.5,2.5,6.75,4.5
+    28 Lepidurus,    28 Lepidurus,1,4,1,2.5,1,,22_bearisland,1.0,0.5,9.0,6.75,2.5,9.0,6.75
+     1 herbs,     1 herbs,0,0,2,1.0,0,,27_wythamwood,1.0,NaN,1.6153846153846154,0.0,1.0,1.6153846153846154,0.0
+     2 trees and bushes,     2 trees and bushes,0,0,4,1.0,0,,27_wythamwood,1.0,NaN,1.105263157894737,0.0,1.0,1.105263157894737,0.0
+     3 oak trees,     3 oak trees,0,0,3,1.0,0,,27_wythamwood,1.0,NaN,0.875,0.0,1.0,0.875,0.0
+     4 total litter (detritus),     4 total litter (detritus),0,0,3,1.0,0,,27_wythamwood,0.0,NaN,1.9090909090909092,0.0,1.0,1.9090909090909092,0.0
+     5 insects,     5 insects,1,1,3,2.0,1,,27_wythamwood,1.0,1.0,2.3333333333333335,21.0,2.0,2.3333333333333335,21.0
+     6 winter moth,     6 winter moth,1,2,6,2.0,1,,27_wythamwood,1.0,1.0,1.75,10.5,2.0,1.75,10.5
+     7 Tartrix,     7 Tartrix,1,1,1,2.0,1,,27_wythamwood,1.0,1.0,7.0,21.0,2.0,7.0,21.0
+     8 leaf feeders,     8 leaf feeders,1,2,2,2.0,1,,27_wythamwood,1.0,1.0,2.625,10.5,2.0,2.625,10.5
+     9 earthworms,     9 earthworms,1,1,3,2.0,1,,27_wythamwood,0.0,0.0,4.2,21.0,2.0,4.2,21.0
+    10 fungi,    10 fungi,0,1,1,2.0,1,,27_wythamwood,0.0,0.0,2.625,21.0,2.0,2.625,21.0
+"    11 voles, mice","    11 voles, mice",1,4,2,2.6,2,,27_wythamwood,1.0,0.5,10.5,3.5,2.6,10.5,3.5
+    12 spiders,    12 spiders,1,1,2,3.0,2,,27_wythamwood,1.0,0.0,5.25,7.0,3.0,5.25,7.0
+    13 titmice,    13 titmice,1,6,1,3.0,2,,27_wythamwood,0.9999999999999999,0.16666666666666666,21.0,2.1,3.0,21.0,2.1
+    14 Cyzenis,    14 Cyzenis,1,1,2,3.0,2,,27_wythamwood,1.0,0.0,3.5,4.2,3.0,3.5,4.2
+"    15 Philanthus, Abax, Feronia","    15 Philanthus, Abax, Feronia",1,5,2,3.25,2,,27_wythamwood,0.6000000000000001,0.0,10.5,1.6153846153846154,3.25,10.5,1.6153846153846154
+"    16 soil insects, mites","    16 soil insects, mites",1,2,2,2.5,1,,27_wythamwood,0.0,0.0,5.25,10.5,2.5,5.25,10.5
+    17 parasites,    17 parasites,1,1,0,4.0,3,,27_wythamwood,1.0,0.0,0.0,3.5,4.0,0.0,3.5
+    18 owls,    18 owls,1,2,0,3.25,3,,27_wythamwood,0.5,0.0,0.0,1.4,3.25,0.0,1.4
+    19 weasels,    19 weasels,1,2,0,3.5,3,,27_wythamwood,1.0,0.0,0.0,1.105263157894737,3.5,0.0,1.105263157894737
+    20 hyperparasites,    20 hyperparasites,1,1,0,4.0,3,,27_wythamwood,1.0,0.0,0.0,2.3333333333333335,4.0,0.0,2.3333333333333335
+    21 shrews,    21 shrews,1,3,0,3.5,2,,27_wythamwood,0.5333333333333333,0.0,0.0,1.2352941176470589,3.5,0.0,1.2352941176470589
+    22 moles,    22 moles,1,3,0,3.5,3,,27_wythamwood,0.5333333333333333,0.0,0.0,1.1666666666666667,3.5,0.0,1.1666666666666667
+1 Phagocata,1 Phagocata,1,2,0,3.25,2,,35_morganscreek,0.45,0.0,0.0,1.0,3.25,0.0,1.0
+"2 Decapoda--Orconectes, Cambarus","2 Decapoda--Orconectes, Cambarus",1,4,0,2.857142857142857,2,,35_morganscreek,0.375,0.0,0.0,2.0,2.857142857142857,0.0,2.0
+"3 Plecoptera--Isoperia, Isogenus","3 Plecoptera--Isoperia, Isogenus",1,5,0,3.0,2,,35_morganscreek,0.5,0.0,0.0,1.3333333333333333,3.0,0.0,1.3333333333333333
+"4 Megaloptera--Nigronia, Sialis","4 Megaloptera--Nigronia, Sialis",1,4,0,3.125,2,,35_morganscreek,0.475,0.0,0.0,1.0,3.125,0.0,1.0
+"5 Pisces--Rhinichthys, Semotilus","5 Pisces--Rhinichthys, Semotilus",1,4,0,3.125,2,,35_morganscreek,0.475,0.0,0.0,1.2,3.125,0.0,1.2
+6 Gammarus,6 Gammarus,1,5,3,2.888888888888889,2,,35_morganscreek,0.4,0.0,4.0,1.7142857142857142,2.888888888888889,4.0,1.7142857142857142
+"7 Trichoptera--Diplectrona, Rhyacophila","7 Trichoptera--Diplectrona, Rhyacophila",1,4,4,2.6666666666666665,1,,35_morganscreek,0.5,0.25,2.0,3.0,2.6666666666666665,2.0,3.0
+8 Asellus,8 Asellus,1,2,5,2.0,1,,35_morganscreek,0.5,0.5,2.4,6.0,2.0,2.4,6.0
+"9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon","9 Ephemeroptera--Baetis, Centroptilum, Epeorus, Paraleptophlebia, Pseudocloeon",1,2,4,2.0,1,,35_morganscreek,0.5,0.5,1.2,6.0,2.0,1.2,6.0
+"10 Trichoptera--Neophylax, Glossosoma","10 Trichoptera--Neophylax, Glossosoma",1,2,3,2.0,1,,35_morganscreek,0.5,0.5,4.0,6.0,2.0,4.0,6.0
+"11 Diptera--Tendipedidae, Simulium","11 Diptera--Tendipedidae, Simulium",1,2,5,2.0,1,,35_morganscreek,0.5,0.5,1.3333333333333333,6.0,2.0,1.3333333333333333,6.0
+12 detritus,12 detritus,0,0,7,1.0,0,,35_morganscreek,0.0,NaN,0.8,0.0,1.0,0.8,0.0
+13 diatoms,13 diatoms,0,0,5,1.0,0,,35_morganscreek,1.0,NaN,0.7058823529411765,0.0,1.0,0.7058823529411765,0.0
+     1 Haplochromis johnstoni,     1 Haplochromis johnstoni,1,10,0,2.7,2,,39_lakenyasa,0.4,0.2,0.0,3.0,2.7,0.0,3.0
+     2 Barbus rhoadesii,     2 Barbus rhoadesii,1,2,0,3.5,3,,39_lakenyasa,0.5,0.0,0.0,2.769230769230769,3.5,0.0,2.769230769230769
+     3 Haplochromis dimidiatus,     3 Haplochromis dimidiatus,1,8,0,3.1,2,,39_lakenyasa,0.5,0.25,0.0,2.25,3.1,0.0,2.25
+     4 Haplochromis rostratus,     4 Haplochromis rostratus,1,1,0,4.0,3,,39_lakenyasa,0.5,0.0,0.0,3.272727272727273,4.0,0.0,3.272727272727273
+     5 Haplochromis sp.,     5 Haplochromis sp.,1,1,0,4.0,3,,39_lakenyasa,0.5,0.0,0.0,3.272727272727273,4.0,0.0,3.272727272727273
+     6 Rhamphochromis spp.,     6 Rhamphochromis spp.,1,1,0,4.0,3,,39_lakenyasa,0.5,0.0,0.0,3.272727272727273,4.0,0.0,3.272727272727273
+     7 Engraulicypris sardella,     7 Engraulicypris sardella,1,2,1,2.5,2,,39_lakenyasa,0.5,0.5,36.0,9.0,2.5,36.0,9.0
+     8 various immature fishes,     8 various immature fishes,1,2,5,3.0,2,,39_lakenyasa,0.5,0.0,7.2,6.0,3.0,7.2,6.0
+     9 Lethrinops brevis,     9 Lethrinops brevis,1,2,0,3.0,2,,39_lakenyasa,0.0,0.0,0.0,9.0,3.0,0.0,9.0
+    10 Tilapia saka-squamipinnis,    10 Tilapia saka-squamipinnis,1,2,1,2.0,1,,39_lakenyasa,0.5,0.5,36.0,18.0,2.0,36.0,18.0
+    11 Synodontis zambesensis,    11 Synodontis zambesensis,1,4,0,2.75,2,,39_lakenyasa,0.5,0.25,0.0,4.5,2.75,0.0,4.5
+    12 Lethrinops,    12 Lethrinops,1,2,0,3.0,2,,39_lakenyasa,0.0,0.0,0.0,9.0,3.0,0.0,9.0
+    13 Alestes imberi,    13 Alestes imberi,1,2,0,2.5,2,,39_lakenyasa,1.0,0.5,0.0,9.0,2.5,0.0,9.0
+    14 Microcyclops nyasae,    14 Microcyclops nyasae,1,1,1,2.0,1,,39_lakenyasa,1.0,1.0,3.272727272727273,36.0,2.0,3.272727272727273,36.0
+    15 Lethriops furcifer,    15 Lethriops furcifer,1,1,0,3.0,2,,39_lakenyasa,0.0,0.0,0.0,12.0,3.0,0.0,12.0
+    16 Barbus eurystomus,    16 Barbus eurystomus,1,2,0,3.0,2,,39_lakenyasa,0.5,0.0,0.0,6.0,3.0,0.0,6.0
+    17 Haplocrhomis mola,    17 Haplocrhomis mola,1,6,0,3.0,2,,39_lakenyasa,0.5,0.0,0.0,3.0,3.0,0.0,3.0
+    18 Barilius microcephalus,    18 Barilius microcephalus,1,2,0,2.0,1,,39_lakenyasa,1.0,1.0,0.0,18.0,2.0,0.0,18.0
+    19 Barbus johnstoni,    19 Barbus johnstoni,1,6,0,2.5,1,,39_lakenyasa,0.5,0.3333333333333333,0.0,6.0,2.5,0.0,6.0
+    20 Baetid nymphs,    20 Baetid nymphs,1,1,6,2.0,1,,39_lakenyasa,1.0,1.0,6.0,36.0,2.0,6.0,36.0
+    21 Ostracods,    21 Ostracods,1,1,8,2.0,1,,39_lakenyasa,0.0,0.0,2.25,36.0,2.0,2.25,36.0
+    22 Chironomid larvae,    22 Chironomid larvae,1,1,9,2.0,1,,39_lakenyasa,0.0,0.0,4.0,36.0,2.0,4.0,36.0
+    23 Caridina nilotica,    23 Caridina nilotica,1,1,2,2.0,1,,39_lakenyasa,0.0,0.0,18.0,36.0,2.0,18.0,36.0
+    24 Corbicula africana,    24 Corbicula africana,1,1,3,2.0,1,,39_lakenyasa,0.0,0.0,12.0,36.0,2.0,12.0,36.0
+"    25 Barbus innocens, Haplochromis similis, Haplochromis moori","    25 Barbus innocens, Haplochromis similis, Haplochromis moori",1,3,0,2.0,1,,39_lakenyasa,0.6666666666666666,0.6666666666666666,0.0,12.0,2.0,0.0,12.0
+    26 Lanistes procerus,    26 Lanistes procerus,1,1,1,2.0,1,,39_lakenyasa,1.0,1.0,36.0,36.0,2.0,36.0,36.0
+"    27 Malanoides tuberculata, other gastropods","    27 Malanoides tuberculata, other gastropods",1,1,3,2.0,1,,39_lakenyasa,1.0,1.0,12.0,36.0,2.0,12.0,36.0
+    28 Tilapia melanopleura,    28 Tilapia melanopleura,1,1,0,2.0,1,,39_lakenyasa,1.0,1.0,0.0,36.0,2.0,0.0,36.0
+    29 Tilapia shirana,    29 Tilapia shirana,1,1,0,2.0,1,,39_lakenyasa,0.0,0.0,0.0,36.0,2.0,0.0,36.0
+    30 Labeo mesops,    30 Labeo mesops,1,1,0,2.0,1,,39_lakenyasa,0.0,0.0,0.0,36.0,2.0,0.0,36.0
+    31 terrestrial insects,    31 terrestrial insects,1,0,5,1.0,0,,39_lakenyasa,1.0,NaN,7.2,0.0,1.0,7.2,0.0
+    32 Aufwuchs on Vallisneria,    32 Aufwuchs on Vallisneria,0,0,5,1.0,0,,39_lakenyasa,1.0,NaN,1.1612903225806452,0.0,1.0,1.1612903225806452,0.0
+    33 Vallisneria,    33 Vallisneria,0,0,8,1.0,0,,39_lakenyasa,1.0,NaN,3.0,0.0,1.0,3.0,0.0
+"    34 bottom detritus, algae","    34 bottom detritus, algae",0,0,12,1.0,0,,39_lakenyasa,0.0,NaN,0.8780487804878049,0.0,1.0,0.8780487804878049,0.0
+    35 plankton,    35 plankton,0,0,2,1.0,0,,39_lakenyasa,1.0,NaN,9.0,0.0,1.0,9.0,0.0
+    36 Haplochromis chrysonotus,    36 Haplochromis chrysonotus,1,4,0,2.5,1,,39_lakenyasa,0.25,0.25,0.0,9.0,2.5,0.0,9.0
+    37 Cyclopoid copepods,    37 Cyclopoid copepods,1,1,3,2.0,1,,39_lakenyasa,0.0,0.0,12.0,36.0,2.0,12.0,36.0
+       1 detritus,       1 detritus,0,0,7,1.0,0,,45_conespring,0.0,NaN,0.7692307692307693,0.0,1.0,0.7692307692307693,0.0
+       2 Frenesia,       2 Frenesia,1,1,2,2.0,1,,45_conespring,0.0,0.0,5.0,10.0,2.0,5.0,10.0
+       3 Gammarus,       3 Gammarus,1,1,4,2.0,1,,45_conespring,0.0,0.0,2.5,10.0,2.0,2.5,10.0
+       4 tendipedid,       4 tendipedid,1,1,2,2.0,1,,45_conespring,0.0,0.0,5.0,10.0,2.0,5.0,10.0
+       5 Physa,       5 Physa,1,1,0,2.0,1,,45_conespring,0.0,0.0,0.0,10.0,2.0,0.0,10.0
+       6 Cardiocladius,       6 Cardiocladius,1,1,2,2.0,1,,45_conespring,0.0,0.0,5.0,10.0,2.0,5.0,10.0
+       7 Tubifex,       7 Tubifex,1,1,2,2.0,1,,45_conespring,0.0,0.0,5.0,10.0,2.0,5.0,10.0
+       8 Rhantus,       8 Rhantus,1,3,0,3.0,2,,45_conespring,0.0,0.0,0.0,2.0,3.0,0.0,2.0
+       9 Chauliodes,       9 Chauliodes,1,2,0,3.0,2,,45_conespring,0.0,0.0,0.0,2.5,3.0,0.0,2.5
+      10 Pentaneura,      10 Pentaneura,1,4,1,2.75,1,,45_conespring,0.0,0.0,10.0,2.5,2.75,10.0,2.5
+      11 Phagocata,      11 Phagocata,1,5,0,3.0,2,,45_conespring,0.0,0.0,0.0,1.4285714285714286,3.0,0.0,1.4285714285714286
+       1 Sphagnum riparium,       1 Sphagnum riparium,0,0,1,1.0,0,,58_sphagnumbog,1.0,NaN,0.7391304347826086,0.0,1.0,0.7391304347826086,0.0
+       2 algae,       2 algae,0,0,1,1.0,0,,58_sphagnumbog,1.0,NaN,0.7391304347826086,0.0,1.0,0.7391304347826086,0.0
+       3 detritus,       3 detritus,0,0,1,1.0,0,,58_sphagnumbog,0.0,NaN,0.68,0.0,1.0,0.68,0.0
+       4 decomposing sphagnum detritus,       4 decomposing sphagnum detritus,0,0,2,1.0,0,,58_sphagnumbog,0.0,NaN,1.0625,0.0,1.0,1.0625,0.0
+       5 angiosperms,       5 angiosperms,0,0,2,1.0,0,,58_sphagnumbog,1.0,NaN,4.25,0.0,1.0,4.25,0.0
+       6 Psectrocladius larvae,       6 Psectrocladius larvae,1,2,2,2.0,1,,58_sphagnumbog,1.0,1.0,1.1333333333333333,8.5,2.0,1.1333333333333333,8.5
+"       7 chironomid larvae, cladocerans, rotifers","       7 chironomid larvae, cladocerans, rotifers",1,1,3,2.0,1,,58_sphagnumbog,0.0,0.0,1.0625,17.0,2.0,1.0625,17.0
+       8 fungi,       8 fungi,0,1,2,2.0,1,,58_sphagnumbog,0.0,0.0,1.5454545454545454,17.0,2.0,1.5454545454545454,17.0
+       9 caterpillars,       9 caterpillars,1,1,1,2.0,1,,58_sphagnumbog,1.0,1.0,5.666666666666667,17.0,2.0,5.666666666666667,17.0
+      10 Utricularia,      10 Utricularia,1,1,0,3.0,2,,58_sphagnumbog,0.0,0.0,0.0,5.666666666666667,3.0,0.0,5.666666666666667
+      11 collembola,      11 collembola,1,2,0,2.5,1,,58_sphagnumbog,0.0,0.0,0.0,8.5,2.5,0.0,8.5
+"      12 Chaoborus, Odonata larvae, Hemiptera, Coleoptera","      12 Chaoborus, Odonata larvae, Hemiptera, Coleoptera",1,2,1,3.0,2,,58_sphagnumbog,0.5,0.0,1.2142857142857142,2.125,3.0,1.2142857142857142,2.125
+      13 Nematocera imagines,      13 Nematocera imagines,1,3,3,3.5,2,,58_sphagnumbog,0.5,0.0,2.125,1.8888888888888888,3.5,2.125,1.8888888888888888
+      14 Drosera,      14 Drosera,1,1,0,4.0,3,,58_sphagnumbog,0.5,0.0,0.0,1.0625,4.0,0.0,1.0625
+      15 ants,      15 ants,1,2,1,3.75,3,,58_sphagnumbog,0.25,0.0,2.8333333333333335,0.8947368421052632,3.75,2.8333333333333335,0.8947368421052632
+      16 spiders,      16 spiders,1,2,1,4.428571428571429,3,,58_sphagnumbog,0.375,0.0,5.666666666666667,0.7727272727272727,4.428571428571429,5.666666666666667,0.7727272727272727
+"      17 frogs, lizards, birds","      17 frogs, lizards, birds",1,3,1,4.166666666666666,4,,58_sphagnumbog,0.7916666666666666,0.3333333333333333,17.0,0.4857142857142857,4.166666666666666,17.0,0.4857142857142857
+      18 birds of prey,      18 birds of prey,1,1,0,5.4,5,,58_sphagnumbog,0.7916666666666666,0.0,0.0,0.3469387755102041,5.4,0.0,0.3469387755102041
+"        1 lichens, mosses","        1 lichens, mosses",0,0,4,1.0,0,,61_spitsbergenbarren,1.0,NaN,1.0,0.0,1.0,1.0,0.0
+        2 detritus,        2 detritus,0,0,1,1.0,0,,61_spitsbergenbarren,0.0,NaN,2.6666666666666665,0.0,1.0,2.6666666666666665,0.0
+        3 scarlet mite,        3 scarlet mite,1,1,0,2.0,1,,61_spitsbergenbarren,1.0,1.0,0.0,8.0,2.0,0.0,8.0
+        4 reindeer,        4 reindeer,1,1,0,2.0,1,,61_spitsbergenbarren,1.0,1.0,0.0,8.0,2.0,0.0,8.0
+"        5 landflies, adult chironomids, Achorutes","        5 landflies, adult chironomids, Achorutes",1,1,3,2.0,1,,61_spitsbergenbarren,1.0,1.0,2.6666666666666665,8.0,2.0,2.6666666666666665,8.0
+        6 worm (Lumbricillus),        6 worm (Lumbricillus),1,1,1,2.0,1,,61_spitsbergenbarren,0.0,0.0,8.0,8.0,2.0,8.0,8.0
+        7 spider,        7 spider,1,1,2,3.0,2,,61_spitsbergenbarren,1.0,0.0,4.0,2.6666666666666665,3.0,4.0,2.6666666666666665
+        8 snow bunting,        8 snow bunting,1,3,0,3.0,1,,61_spitsbergenbarren,1.0,0.3333333333333333,0.0,2.6666666666666665,3.0,0.0,2.6666666666666665
+        9 purple sandpiper,        9 purple sandpiper,1,3,0,3.333333333333333,2,,61_spitsbergenbarren,0.6666666666666666,0.0,0.0,1.1428571428571428,3.333333333333333,0.0,1.1428571428571428
+       1 detritus,       1 detritus,0,0,3,1.0,0,,84_temppond,0.0,NaN,0.6111111111111112,0.0,1.0,0.6111111111111112,0.0
+"       2 periphyton, phytoplankton","       2 periphyton, phytoplankton",0,0,2,1.0,0,,84_temppond,1.0,NaN,0.6111111111111112,0.0,1.0,0.6111111111111112,0.0
+       3 Rana sylvatica,       3 Rana sylvatica,1,1,2,2.0,1,,84_temppond,0.0,0.0,1.8333333333333333,11.0,2.0,1.8333333333333333,11.0
+"       4 Daphnia pulex, Tendipes, amphipods, ostracods, corixids","       4 Daphnia pulex, Tendipes, amphipods, ostracods, corixids",1,2,4,2.0,1,,84_temppond,0.5,0.5,1.1,5.5,2.0,1.1,5.5
+"       5 gastropods, pelecypods","       5 gastropods, pelecypods",1,2,3,2.0,1,,84_temppond,0.5,0.5,2.2,5.5,2.0,2.2,5.5
+"       6 Chaoborus, Acilius","       6 Chaoborus, Acilius",1,1,3,3.0,2,,84_temppond,0.5,0.0,1.5714285714285714,2.2,3.0,1.5714285714285714,2.2
+"       7 Hydracarina, Odonata, Ranatra, Belostoma","       7 Hydracarina, Odonata, Ranatra, Belostoma",1,1,1,3.0,2,,84_temppond,0.5,0.0,1.375,2.2,3.0,1.375,2.2
+"       8 Ambystoma laterale, A. maculatum A. tremblayi","       8 Ambystoma laterale, A. maculatum A. tremblayi",1,3,2,3.333333333333333,2,,84_temppond,0.5,0.0,5.5,1.5714285714285714,3.333333333333333,5.5,1.5714285714285714
+       9 Dytiscus,       9 Dytiscus,1,3,2,3.8,3,,84_temppond,0.3333333333333333,0.0,2.75,1.1,3.8,2.75,1.1
+      10 Ambystoma tigrinum,      10 Ambystoma tigrinum,1,4,1,3.7142857142857144,2,,84_temppond,0.3333333333333333,0.0,11.0,0.7857142857142857,3.7142857142857144,11.0,0.7857142857142857
+      11 Notophthalmus viridescens,      11 Notophthalmus viridescens,1,4,0,3.625,2,,84_temppond,0.4583333333333333,0.0,0.0,0.9166666666666666,3.625,0.0,0.9166666666666666
+      12 Batracobdella picta (leech),      12 Batracobdella picta (leech),1,2,0,4.0,3,,84_temppond,0.41666666666666663,0.0,0.0,0.5238095238095238,4.0,0.0,0.5238095238095238
+"      1 wind-blown organic debris, pollen, detritus","      1 wind-blown organic debris, pollen, detritus",0,0,2,1.0,0,,92_highhimalayas,0.0,NaN,1.4166666666666667,0.0,1.0,1.4166666666666667,0.0
+      2 flowering plants,      2 flowering plants,0,0,5,1.0,0,,92_highhimalayas,1.0,NaN,1.5454545454545454,0.0,1.0,1.5454545454545454,0.0
+      3 dead carcasses detritus,      3 dead carcasses detritus,0,0,1,1.0,0,,92_highhimalayas,0.0,NaN,17.0,0.0,1.0,17.0,0.0
+      4 Machilanus (flea),      4 Machilanus (flea),1,1,0,2.0,1,,92_highhimalayas,0.0,0.0,0.0,17.0,2.0,0.0,17.0
+      5 fungi,      5 fungi,0,1,2,2.0,1,,92_highhimalayas,0.0,0.0,2.8333333333333335,17.0,2.0,2.8333333333333335,17.0
+      6 snow partridge,      6 snow partridge,1,1,1,2.0,1,,92_highhimalayas,1.0,1.0,17.0,17.0,2.0,17.0,17.0
+"      7 Ochotona ladacensis (pika), mice","      7 Ochotona ladacensis (pika), mice",1,1,1,2.0,1,,92_highhimalayas,1.0,1.0,17.0,17.0,2.0,17.0,17.0
+      8 Pseudois nahura (bharal sheep),      8 Pseudois nahura (bharal sheep),1,1,2,2.0,1,,92_highhimalayas,1.0,1.0,8.5,17.0,2.0,8.5,17.0
+      9 yak,      9 yak,1,1,1,2.0,1,,92_highhimalayas,1.0,1.0,17.0,17.0,2.0,17.0,17.0
+"     10 bumblebees, butterflies, aphids, weevils","     10 bumblebees, butterflies, aphids, weevils",1,1,0,2.0,1,,92_highhimalayas,1.0,1.0,0.0,17.0,2.0,0.0,17.0
+"     11 lammergeier, yellow-billed chough","     11 lammergeier, yellow-billed chough",1,1,0,2.0,1,,92_highhimalayas,0.0,0.0,0.0,17.0,2.0,0.0,17.0
+     12 springtails,     12 springtails,1,1,2,3.0,2,,92_highhimalayas,0.0,0.0,8.5,5.666666666666667,3.0,8.5,5.666666666666667
+     13 anthomyiid fly,     13 anthomyiid fly,1,1,1,3.0,2,,92_highhimalayas,0.0,0.0,17.0,5.666666666666667,3.0,17.0,5.666666666666667
+     14 Mustela altaica (weasel),     14 Mustela altaica (weasel),1,1,0,3.0,2,,92_highhimalayas,1.0,0.0,0.0,5.666666666666667,3.0,0.0,5.666666666666667
+"     15 wolf, fox","     15 wolf, fox",1,2,0,3.0,2,,92_highhimalayas,1.0,0.0,0.0,4.25,3.0,0.0,4.25
+     16 snow leopard,     16 snow leopard,1,2,0,3.0,2,,92_highhimalayas,1.0,0.0,0.0,4.25,3.0,0.0,4.25
+"     17 mites, centipedes","     17 mites, centipedes",1,1,0,4.0,3,,92_highhimalayas,0.0,0.0,0.0,2.8333333333333335,4.0,0.0,2.8333333333333335
+     18 salticid spider,     18 salticid spider,1,2,0,4.0,3,,92_highhimalayas,0.0,0.0,0.0,2.4285714285714284,4.0,0.0,2.4285714285714284
+"       1 annuals (Monsonia, Stipagrostis, Eragrostis)","       1 annuals (Monsonia, Stipagrostis, Eragrostis)",0,0,3,1.0,0,,98_sanddunesnamib,1.0,NaN,0.8421052631578947,0.0,1.0,0.8421052631578947,0.0
+       2 perennials,       2 perennials,0,0,3,1.0,0,,98_sanddunesnamib,1.0,NaN,0.8421052631578947,0.0,1.0,0.8421052631578947,0.0
+       3 wind-blown detritus,       3 wind-blown detritus,0,0,2,1.0,0,,98_sanddunesnamib,0.0,NaN,1.1428571428571428,0.0,1.0,1.1428571428571428,0.0
+       4 animal dung detritus,       4 animal dung detritus,0,0,1,1.0,0,,98_sanddunesnamib,0.0,NaN,0.8421052631578947,0.0,1.0,0.8421052631578947,0.0
+"       5 Tenebrionidae, Orthoptera, Curculionidae","       5 Tenebrionidae, Orthoptera, Curculionidae",1,2,6,2.0,1,,98_sanddunesnamib,1.0,1.0,1.6,8.0,2.0,1.6,8.0
+"       6 oryx, hare","       6 oryx, hare",1,1,0,2.0,1,,98_sanddunesnamib,1.0,1.0,0.0,16.0,2.0,0.0,16.0
+       7 Aclerda,       7 Aclerda,1,1,2,2.0,1,,98_sanddunesnamib,1.0,1.0,1.2307692307692308,16.0,2.0,1.2307692307692308,16.0
+"       8 Thysanura, Isoptera, other Tenebrionidae","       8 Thysanura, Isoptera, other Tenebrionidae",1,1,6,2.0,1,,98_sanddunesnamib,0.0,0.0,2.0,16.0,2.0,2.0,16.0
+       9 scarabs,       9 scarabs,1,1,3,2.0,1,,98_sanddunesnamib,0.0,0.0,1.4545454545454546,16.0,2.0,1.4545454545454546,16.0
+      10 Gerbillus,      10 Gerbillus,1,3,1,2.5,1,,98_sanddunesnamib,1.0,0.6666666666666666,16.0,5.333333333333333,2.5,16.0,5.333333333333333
+"      11 spiders, solpugids, scorpions","      11 spiders, solpugids, scorpions",1,4,3,3.0,2,,98_sanddunesnamib,0.5,0.0,1.7777777777777777,1.3333333333333333,3.0,1.7777777777777777,1.3333333333333333
+      12 mole,      12 mole,1,4,2,3.5,3,,98_sanddunesnamib,0.625,0.0,8.0,1.0666666666666667,3.5,8.0,1.0666666666666667
+      13 Aporosaura,      13 Aporosaura,1,3,3,3.5,3,,98_sanddunesnamib,0.16666666666666666,0.0,5.333333333333333,0.8888888888888888,3.5,5.333333333333333,0.8888888888888888
+"      14 Typhlosaurus, lizards","      14 Typhlosaurus, lizards",1,4,3,3.5,2,,98_sanddunesnamib,0.375,0.0,5.333333333333333,1.1428571428571428,3.5,5.333333333333333,1.1428571428571428
+      15 snakes,      15 snakes,1,2,1,4.25,3,,98_sanddunesnamib,0.2708333333333333,0.0,16.0,0.6666666666666666,4.25,16.0,0.6666666666666666
+"      16 jackal, hyena","      16 jackal, hyena",1,5,0,4.0,3,,98_sanddunesnamib,0.43333333333333335,0.0,0.0,0.8,4.0,0.0,0.8
+      17 birds,      17 birds,1,8,0,4.0,2,,98_sanddunesnamib,0.4296875,0.0,0.0,0.8,4.0,0.0,0.8

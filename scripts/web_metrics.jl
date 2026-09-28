@@ -96,7 +96,7 @@ function green_fraction(A::AbstractMatrix, is_detritus::AbstractVector{Bool})
         g[cons] = (I - W[:, cons]) \ (W[:, basal] * g[basal])
     catch err
         err isa SingularException || rethrow()
-        @warn "green_fraction: singular system — no path from some consumer to a basal node"
+        @warn "green_fraction: no path from some consumer to a basal node"
         return fill(NaN, S), direct
     end
     return g, direct
@@ -121,7 +121,8 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
 
     # create an empty dataframe to populate with metric values for each web
     SLN_stats_out = DataFrame(SLN_ID = String[], Detritus = Int64[], S = Float64[], interactions = Float64[], L_D = Float64[], C = Float64[],
-        Basal = Float64[], Top = Float64[], Herbiv_true = Float64[], Herbiv = Float64[], Carniv = Float64[],
+        Basal = Float64[], Top = Float64[], Carniv = Float64[], Herbiv = Float64[], Herbiv_true = Float64[], ProdFeed = Float64[],
+        Animals = Float64[], AnimHerbiv_true = Float64[], AnimPred = Float64[],
         green_frac_mean = Float64[], green_frac_sd = Float64[],
         green_direct_mean = Float64[], green_direct_sd = Float64[],
         meanInDegree = Float64[], sdInDegree = Float64[], 
@@ -245,39 +246,50 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         ## Top: fraction of total species (minus detritus) with no predators
         is_top = [sum(sp_A'[i, j] for j in 1:no_species) == 0 for i in 1:no_species]
 
-        Top = sum(is_top)/no_species
+        Top = sum(is_top .& .!is_detritus)/(no_species - Detritus)
 
-        ## Herbivores, Carnivores: fraction of consumer species that eat only basal species, only non-basal species
+        ## fractions of consumer species and animals that eat only basal species, primary producers, and animals
+        
+        has_animal  = hasproperty(sp_P, :animal)         # check the web has "animal" column
+        is_animal   = has_animal ? (coalesce.(sp_P.animal, 0) .== 1) : falses(no_species) # animal nodes
+        is_producer = is_basal .& .!is_detritus          # primary producers (non-detritus + basal)
 
-        herbivores = 0
-        carnivores = 0
-        consumers = 0
-
-        ## herbivores_true: consumers that eat only basal species that are not detritus
-        herbivores_true = 0
+        consumers = 0; herbivores = 0; carnivores = 0; herbivores_true = 0
+        anim_herb_true = 0           # animals eating only basal nodes and at least one primary producer
+        prod_feeders   = 0      # nodes with at least one living-producer resource
+        anim_predators = 0      # animals eating at least one animal node
 
         for i in 1:no_species
             prey = findall(sp_A[i, :] .== 1)
-            if !isempty(prey)
-                consumers += 1
-                if all(is_basal[j] for j in prey)
-                    herbivores += 1
-                    # "For all items 'p' in 'prey', check that 'p' is NOT in 'detritalnodes'"
-                    if all(p -> !(p in detritalnodes), prey) 
-                        herbivores_true +=1
-                    end
-                end
-                if all(!is_basal[j] for j in prey)
-                    carnivores += 1
-                end
+            isempty(prey) && continue # skip to the species if this one has no prey items
+            consumers += 1
+
+            only_prod = all(j -> is_producer[j], prey) # true if all prey are primary producers
+
+            if all(j -> is_basal[j], prey) # if all prey are basal...
+                herbivores += 1 # increment herbivores
+                only_prod && (herbivores_true += 1) # herbivores_true: all prey are also primary producers 
+            end
+            all(j -> !is_basal[j], prey) && (carnivores += 1) # carnivores: no prey items are basal 
+            any(j -> is_producer[j], prey) && (prod_feeders += 1) # prod_feeders: at least one prey is a primary producers 
+
+            if is_animal[i] # for each animal species...
+                all(j -> is_basal[j], prey) && only_prod && (anim_herb_true += 1) # incrememnt animal herbivores w/ at least one producer prey
+                any(j -> is_animal[j], prey) && (anim_predators += 1) # increment animals which eat at least one animal
             end
         end
 
-        Herbiv = herbivores/consumers
-        Carniv = carnivores/consumers
-        
-        Herbiv_true = herbivores_true/consumers
+        n_animals = sum(is_animal) # count of animal nodes
 
+        Carniv      = carnivores/consumers # % consumers that feed on exclusively non-basal nodes
+        Herbiv      = herbivores/consumers # % consumers that feed on exclusively basal nodes
+        Herbiv_true = herbivores_true/consumers # % consumers that feed on exclusively primary producer nodes
+
+        ProdFeed    = prod_feeders/consumers  # % consumers that feed on at least one primary producer node
+        Animals     = has_animal ? n_animals/no_species    : NaN   # % of nodes that are animals
+        AnimHerbiv_true  = has_animal && n_animals > 0 ? anim_herb_true/n_animals : NaN # % of animal nodes that eat only producers 
+        AnimPred  = has_animal && n_animals > 0 ? anim_predators/n_animals : NaN # of animals that eat at least one other animal
+        
         #------------------------------------#
         ### Green fraction: share of resource intake derived from living producers
         green_frac, green_direct = green_fraction(sp_A, is_detritus)
@@ -436,7 +448,8 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
 
         # push metrics to SLN_stats_out
         push!(SLN_stats_out, (SLN_ID, Detritus, no_species, interactions, L_D, C, 
-            Basal, Top, Herbiv_true, Herbiv, Carniv,
+            Basal, Top, Carniv, Herbiv, Herbiv_true, ProdFeed, 
+            Animals, AnimHerbiv_true, AnimPred,
             green_frac_mean, green_frac_sd, green_direct_mean, green_direct_sd,
             meanInDegree, sdInDegree, mean_NTP, sd_NTP, max_NTP,
             TrOmniv, q_inCoherence, diameter, max_chain_len,
@@ -444,7 +457,6 @@ function main(in_dir::AbstractString, name::AbstractString, out::AbstractString,
         ))  # Order must match column order
         println("Updated species info file #$(SLN_ID) and pushed metrics to dataframe.")
     end
-
     # save SLN_stats_out as a csv
     CSV.write(out, SLN_stats_out)
     println("Successfully completed metrics calculations for $name and outputted table as .csv.")
