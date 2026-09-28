@@ -133,6 +133,25 @@ function load_metaweb(guilds_file::String, matrix_file::String)
     return P, A
 end
 
+# ------------------------------------------------------------
+# Check that all nodes have a path down to a basal resource
+# ------------------------------------------------------------
+
+function reaches_basal(A)
+    S     = size(A, 1)
+    reach = vec(sum(A, dims = 2)) .== 0
+    changed = true
+    while changed
+        changed = false
+        for i in 1:S
+            reach[i] && continue
+            if any(j -> reach[j], findall(==(1), @view A[i, :]))
+                reach[i] = true; changed = true
+            end
+        end
+    end
+    return reach
+end
 
 # ------------------------------------------------------------
 # main
@@ -269,11 +288,43 @@ function main(a)
                     end
                 end
             end
-
+            # Cannibalism is allowed, but a consumer species whose ONLY resource is itself
+            # has no path down to a basal node, which is energetically impossible and makes 
+            # its trophic position and basal-derived fractions unsolvable. 
+            # Swap in a real resource:
+            if length(final_prey) == 1 && final_prey[1] == i
+                alt = filter(!=(i), priority_prey)
+                isempty(alt) && (alt = filter(!=(i), potential_prey_all))
+                isempty(alt) || (final_prey = [rand(alt)])
+            end
             # Update the adjacency matrix
             for prey_species_index in final_prey
                 sp_A[i, prey_species_index] = 1
             end
+        end
+
+        # Cannibalism and mutual predation are allowed, but all consumers must
+        # have a downstream pathway to a basal resource. A stranded consumer's
+        # prey are all stranded by definition, so swapping any one of them for a
+        # reachable resource is safe. Repeat until the web is clean.
+        n_repaired = 0
+        for _ in 1:no_species                      # bounded; normally 1-2 passes
+            reach    = reaches_basal(sp_A)
+            stranded = findall(.!reach)
+            isempty(stranded) && break
+            fixed = false
+            for i in stranded
+                g     = species[i, :guild_no]
+                cands = [j for j in 1:no_species if meta_SLN[g, j] == 2 && reach[j]]
+                isempty(cands) && (cands = [j for j in 1:no_species if meta_SLN[g, j] > 0 && reach[j]])
+                isempty(cands) && continue
+                current = findall(==(1), @view sp_A[i, :])
+                sp_A[i, rand(current)] = 0
+                sp_A[i, rand(cands)]   = 1
+                n_repaired += 1
+                fixed = true
+            end
+            fixed || break
         end
 
         #calculate no. preds, or out-degree
