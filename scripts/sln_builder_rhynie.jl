@@ -5,7 +5,7 @@
 #
 # Usage:
 #   julia --project=. scripts/sln_builder_rhynie.jl \
-#       --in-dir  data/rhynie/rhynie_unlumped_complete \
+#       --in-dir  data/rhynie/rhynie_unlumped_complete/raw \
 #       --out-dir SLNs/rhynie_unlumped_complete \
 #       --n-reps 1000 --gamma 3 --seed 20260906
 #
@@ -202,6 +202,10 @@ function main(a)
             end
         end
     end
+
+    webs_repaired = 0                    # replicates needing >= 1 repair
+    max_repairs   = 0                    # most repairs in any single replicate
+    repair_tally  = Dict{String, Int}()  # guild => total links repaired across the run
     
     for rep in 1:a.n_reps                                          
         species = copy(template)
@@ -322,6 +326,7 @@ function main(a)
                 sp_A[i, rand(current)] = 0
                 sp_A[i, rand(cands)]   = 1
                 n_repaired += 1
+                repair_tally[species[i, :guild]] = get(repair_tally, species[i, :guild], 0) + 1
                 fixed = true
             end
             fixed || break
@@ -338,6 +343,11 @@ function main(a)
             species[i,:sp_no_preds] = out_degree
         end
 
+        if n_repaired > 0
+            webs_repaired += 1
+            max_repairs = max(max_repairs, n_repaired)
+        end
+
         writedlm(joinpath(a.out_dir, "matrix_$rep.csv"), sp_A, ',')          
         CSV.write(joinpath(a.out_dir, "speciesinfo_$rep.csv"), species)     
 
@@ -350,6 +360,8 @@ function main(a)
         in_dir = a.in_dir, k_model = a.k_model, gamma = a.γ,
         n_reps = a.n_reps, seed = string(a.seed),
         no_guilds = no_guilds, no_species = no_species,
+        webs_repaired = webs_repaired, max_repairs = max_repairs,
+        repair_guilds = join(["$g:$n" for (g, n) in sort(collect(repair_tally), by = last, rev = true)], "; ")
     ))
     
     println("Done: $(a.n_reps) SLNs written to $(a.out_dir)")
