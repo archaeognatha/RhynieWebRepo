@@ -92,7 +92,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Julidae spec,Diplopoda,Julidae,486,1
 Clubionidae (juv),Araneae,Clubionidae,584,1
 Suctobelbella spp.,Oribatida,Suctobelbidae,625,1
@@ -123,7 +123,6 @@ Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Abax ovalis,Coleoptera,Carabidae,859,1
 Abax parallelepipedus,Coleoptera,Carabidae,860,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Cychrus attenuatus,Coleoptera,Carabidae,868,1
 Sitona spec,Coleoptera,Curculionidae,870,1
 Brachyderinae spec,Coleoptera,Curculionidae,871,1

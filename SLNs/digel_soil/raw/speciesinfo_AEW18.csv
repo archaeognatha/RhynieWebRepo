@@ -77,7 +77,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Diplostyla concolor (ad),Araneae,Linyphiidae,472,1
 Steganacarus herculeanus,Oribatida,Phthiracaridae,519,1
 Robertus lividus (juv) {m},Araneae,Theridiidae,587,1
@@ -104,7 +104,6 @@ Glomeris conspersa {xl},Diplopoda,Glomeridae,756,1
 Linyphiidae cf Erigoniinae (juv) {m},Araneae,Linyphiidae,759,1
 Lithobius aeruginosus {l},Chilopoda,Lithobiidae,764,1
 Curculionidae spec,Coleoptera,Curculionidae,855,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Chilopoda spec,Chilopoda,Chilopoda spec,921,1
 Histopona torpida,Araneae,Agelenidae,937,1
 Bathyphantes gracilis,Araneae,Linyphiidae,938,1

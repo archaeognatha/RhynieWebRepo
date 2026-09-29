@@ -73,7 +73,7 @@ algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Lysigamasus runcatellus (ad),Mesostigmata,Pergamasinae,429,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Rhodacarus coronatus (ad),Mesostigmata,Rhodacaridae,448,1
 Rhodacarus sp (ad),Mesostigmata,Rhodacaridae,449,1
 Trichouropoda ovalis (ad),Mesostigmata,Trematuridae,450,1
@@ -103,7 +103,6 @@ Cantharidae spec,Coleoptera,Cantharidae,851,1
 Geotrupes spec,Coleoptera,Geotrupidae,856,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Brachyderinae spec,Coleoptera,Curculionidae,871,1
 Erotylidae spec,Coleoptera,Erotylidae,898,1
 Cylisticus spec,Isopoda,Cylisticidae,910,1

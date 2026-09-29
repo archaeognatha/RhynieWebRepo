@@ -24,7 +24,7 @@
 #   Rscript scripts/sln_builder_Messel.R \
 #     --speciesinfo data/messel/speciesinfo_messel.csv \
 #     --links data/messel/links_messel.csv \
-#     --out SLNs/Messel \
+#     --out SLNs/Messel/raw \
 # ============================================================
 
 library(igraph) 
@@ -50,6 +50,11 @@ dir.create(output_path, recursive = TRUE, showWarnings = FALSE)
 
 species_info <- read.csv(species_path)
 links        <- read.csv(links_path)
+
+#### ---- add habitat columns ------------------------------------------###
+# Binary habitat flags for web_metrics.jl (matches Rhynie convention); habitat: 1 = terr, 2 = aqu, 3 = both
+species_info$terr <- as.integer(species_info$habitat %in% c(1, 3))
+species_info$aqu  <- as.integer(species_info$habitat %in% c(2, 3))
 
 #### ---- function to purge stranded consumer nodes --------------------------------------------------
 

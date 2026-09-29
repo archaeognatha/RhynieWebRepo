@@ -78,7 +78,7 @@ algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Lysigamasus jugincola (ad),Mesostigmata,Pergamasinae,428,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Vulgarogamasus kraepelini (juv),Mesostigmata,Parasitidae,459,1
 Julidae spec,Diplopoda,Julidae,486,1
 Velleius sp. (juv),Coleoptera,Stapylinidae,571,1
@@ -116,7 +116,6 @@ Cochlodina laminata,Gastropoda,Clausiliidae,823,1
 Larve spec,Coleoptera,Larve spec,857,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Sitona spec,Coleoptera,Curculionidae,870,1
 Rhynchaenus fagi,Coleoptera,Rhynchaeninae,882,1
 Phyllobius pyri,Coleoptera,Curculionidae,891,1

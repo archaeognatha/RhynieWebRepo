@@ -77,7 +77,7 @@ algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Lysigamasus jugincola (ad),Mesostigmata,Pergamasinae,428,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Vulgarogamasus kraepelini (ad),Mesostigmata,Parasitidae,460,1
 Maro minutus (ad),Araneae,Linyphiidae,467,1
 Diplostyla concolor (ad),Araneae,Linyphiidae,472,1
@@ -132,7 +132,6 @@ Phyllobius callacartus,Coleoptera,Curculionidae,854,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Abax parallelepipedus,Coleoptera,Carabidae,860,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec,Coleoptera,Carabidae,875,1
 Abax spec,Coleoptera,Carabidae,881,1
 Rhynchaenus fagi,Coleoptera,Rhynchaeninae,882,1

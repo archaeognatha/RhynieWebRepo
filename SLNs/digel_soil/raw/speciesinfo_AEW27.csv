@@ -73,7 +73,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Julidae spec,Diplopoda,Julidae,486,1
 Carabodes coriaceus,Oribatida,Carabodidae,494,1
 Clubionidae (juv),Araneae,Clubionidae,584,1
@@ -107,7 +107,6 @@ Monachoides incarnatus juv,Gastropoda,Hygromiidae,819,1
 Geotrupes spec,Coleoptera,Geotrupidae,856,1
 Larve spec,Coleoptera,Larve spec,857,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec juv,Coleoptera,Carabidae,865,1
 Ptilidae spec,Coleoptera,Ptilidae,873,1
 Nitidulidae spec,Coleoptera,Nitidulidae,878,1

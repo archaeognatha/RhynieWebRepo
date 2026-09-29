@@ -1,100 +1,100 @@
-trophospecies_id,n_lumped,sp_name,guild,family,sp_id
-1,1,Allacma fusca,Collembola,Sminthuridae,1
-2,3,Folsomia quadrioculata;Folsomia spinosa;Folsomia ksenemani,Collembola,Isotomidae,14;15;683
-4,3,Isotomidae;Isotomiella minor;Parisotoma notabilis,Collembola,Isotomidae,21;22;40
-6,1,Megalothorax minimus,Collembola,Neelidae,27
-7,3,Mesaphorura sp.;Mesaphorura macrochaeta;Mesaphorura sylvatica,Collembola,Tullbergiidae,28;691;692
-8,2,Micranurida granulata;Neanura muscorum,Collembola,Neanuridae,31;696
-10,3,Protaphorura armata;Protaphorura sp.;Protaphorura quadriocellata,Collembola,Onychiuridae,42;361;362
-11,1,Sminthurinus aureus,Collembola,Katiannidae,48
-12,1,Lithobius mutabilis,Chilopoda,Lithobiidae,65
-13,1,Lithobius cf. mutabilis juv,Chilopoda,Lithobiidae,66
-14,1,Lithobius sp4,Chilopoda,Lithobiidae,73
-15,1,Geophilus ribauti,Chilopoda,Geophilidae,74
-16,1,Geophilus insculptus,Chilopoda,Geophilidae,75
-17,1,Athous subfuscus (juv) {m},Coleoptera,Elateridae,113
-18,1,Scydmaenidae sp0 {m},Coleoptera,Scydmanidae,128
-19,1,Aleocharinae sp1 (juv),Coleoptera,Stapylinidae,130
-20,1,Atheta fungi,Coleoptera,Stapylinidae,133
-21,1,Atheta sp.,Coleoptera,Stapylinidae,135
-22,1,Othius subuliformis,Coleoptera,Stapylinidae,149
-23,1,Amaurobius sp (juv),Araneae,Amaurobiidae,164
-24,1,Diplocephalus picinus (ad),Araneae,Linyphiidae,172
-25,1,Linyphiidae (juv),Araneae,Linyphiidae,178
-26,1,Micrargus herbigradus (ad),Araneae,Linyphiidae,179
-27,1,Neobisium sp,Pseudoscorpiones,Neobisidae,182
-28,1,Robertus lividus (ad),Araneae,Theridiidae,186
-29,1,Saloca diceros (ad),Araneae,Linyphiidae,188
-30,1,Tapinocyba insecta (ad),Araneae,Linyphiidae,189
-31,1,Leptogamasus suecicus (ad),Mesostigmata,Pergamasinae,216
-32,1,Lysigamasus lapponicus (ad),Mesostigmata,Pergamasinae,219
-33,1,Pergamasinae (juv) {xs},Mesostigmata,Pergamasinae,234
-34,1,Trachytes aegrota (ad),Mesostigmata,Trachytidae,242
-35,1,Trachytes pauperior (juv),Mesostigmata,Trachytidae,245
-36,1,Uropoda minima (ad),Mesostigmata,Uropodidae,251
-37,1,Uroseius cylindricus (ad),Mesostigmata,Polyaspidae,254
-38,1,Uroseius cylindricus (juv),Mesostigmata,Polyaspidae,255
-39,1,Veigaia nemorensis (ad),Mesostigmata,Veigaiaidae,263
-40,1,Veigaia nemorensis (juv),Mesostigmata,Veigaiaidae,264
-41,1,Zercon sp (juv),Mesostigmata,Zerconidae,268
-42,1,Achipteria coleoptrata,Oribatida,Achipteriidae,295
-43,2,Berniniella conjuncta;Oppiella falcata,Oribatida,Oppiidae,301;337
-44,1,Brachychthoniidae spp.,Oribatida,Brachychthoniidae,302
-45,1,Chamobates borealis,Oribatida,Chamobatidae,306
-46,1,Hypochthonius rufulus,Oribatida,Hypochthoniidae,322
-47,1,Oribatida juv.,Oribatida,,323
-48,1,Nothrus silvestris,Oribatida,Nothridae,335
-50,5,Oppiella nova;Oppiella subpectinata;Oppiella fallax;Suctobelba trigona;Suctobelbella spp.,Oribatida,Oppiidae;Suctobelbidae,338;339;510;624;625
-52,3,Phthiracarus compressus;Phthiracarus longulus;Phthiracarus laevigatus,Oribatida,Phthiracaridae,348;351;515
-54,2,Platynothrus peltifer;Liacarus coracinus,Oribatida,Camisiidae;Liacaridae,353;614
-57,2,Polydesmidae;Chordeumatidae juv {s},Diplopoda,Polydesmidae;Chordeumatidae,396;755
-58,1,plants,Basal,Plants,401
-59,1,roots,Basal,Roots,402
-60,1,root exudates,Basal,Roots,403
-61,1,mykorrhiza,Basal,Fungi,404
-62,1,saphrophytes,Basal,Fungi,405
-63,1,bacterivor nematodes,Basal,Nematoda,406
-64,1,fungivor nematodes,Basal,Nematoda,407
-65,1,root feeding nematodes,Basal,Nematoda,408
-66,1,predatious nematodes,Basal,Nematoda,409
-67,1,omniv. Nematodes,Basal,Nematoda,410
-68,1,bacteria,Basal,Bacteria,411
-69,3,flagelata;ciliata;amoeba,Basal,Protozoa,412;413;414
-72,1,algae,Basal,Algae,415
-73,1,enchitraeidae,Enchitraeidae,Enchitraeidae,416
-74,1,dead organic matter detritus,Basal detritus,detritus,417
-75,1,litter detritus,Basal detritus,detritus,442
-76,1,Erigonella hiemalis (ad),Araneae,Linyphiidae,466
-77,1,Macrargus rufus (ad),Araneae,Linyphiidae,473
-78,1,Julidae spec,Diplopoda,Julidae,486
-79,1,Damaeobelba minutissima,Oribatida,Damaeidae,501
-80,1,Nanhermannia elegantula,Oribatida,Nanhermanniidae,508
-83,1,Troxochrus nasutus (ad),Araneae,Linyphiidae,581
-84,1,Monocephalus fuscipes (ad),Araneae,Linyphiidae,588
-85,1,Lithobius aeruginosus juv,Chilopoda,Lithobiidae,593
-86,1,Cymberemaeus cymba,Oribatida,Cymberemaeidae,608
-87,2,Fuscozetes setosus;Sphaerozetes piriformes,Oribatida,Ceratozetidae,611;623
-89,1,Phthiracarus crenophilus ?,Oribatida,Phthiracaridae,617
-90,1,Quadroppia hammerae,Oribatida,Quadroppiidae,622
-94,1,Tectocepheus velatus velatus,Oribatida,Tectocepheidae,626
-95,1,Pterostichus sp.,Coleoptera,Carabidae,631
-96,1,Lysigamasus cf arcuatus (ad),Mesostigmata,Pergamasinae,653
-97,1,Lysigamasus minorleitneriae (ad),Mesostigmata,Pergamasinae,655
-98,1,Pachylaelaps cf vexillifer (ad),Mesostigmata,Pachylaelapidae,660
-99,1,Hypoaspididae (juv),Mesostigmata,Hypoaspididae,671
-103,1,Micanurida forsslundi,Collembola,Neanuridae,694
-105,1,Lithobius sp2 {l},Chilopoda,Lithobiidae,706
-106,1,Scutigerella immaculata {s},Symphyla,Scutigerellidae,717
-107,1,Trachytes aegrota (juv) {s},Mesostigmata,Trachytidae,737
-108,1,Trachytes pauperior (ad) {s},Mesostigmata,Trachytidae,738
-109,1,Campodea sp {l},Diplura,Campodeidae,749
-111,1,Linyphiidae cf Erigoniinae (juv) {m},Araneae,Linyphiidae,759
-112,1,Aegopinella nitens,Gastropoda,Oxychilidae,800
-113,1,Larve spec,Coleoptera,Larve spec,857
-114,1,Staphylinidae spec,Coleoptera,Stapylinidae,858
-115,1,Carabidae spec,Coleoptera,Carabidae,875
-116,1,Abax spec,Coleoptera,Carabidae,881
-117,1,Trichoniscus spec,Isopoda,Trichoniscidae,911
-118,1,Glomeris spec,Diplopoda,Glomeridae,920
-119,1,Asthenargus paganus,Araneae,Linyphiidae,930
-120,1,Ceratinella brevis,Araneae,Linyphiidae,931
+trophospecies_id,n_lumped,sp_name,guild,family,sp_id,animal
+1,1,Allacma fusca,Collembola,Sminthuridae,1,1
+2,3,Folsomia quadrioculata;Folsomia spinosa;Folsomia ksenemani,Collembola,Isotomidae,14;15;683,1
+4,3,Isotomidae;Isotomiella minor;Parisotoma notabilis,Collembola,Isotomidae,21;22;40,1
+6,1,Megalothorax minimus,Collembola,Neelidae,27,1
+7,3,Mesaphorura sp.;Mesaphorura macrochaeta;Mesaphorura sylvatica,Collembola,Tullbergiidae,28;691;692,1
+8,2,Micranurida granulata;Neanura muscorum,Collembola,Neanuridae,31;696,1
+10,3,Protaphorura armata;Protaphorura sp.;Protaphorura quadriocellata,Collembola,Onychiuridae,42;361;362,1
+11,1,Sminthurinus aureus,Collembola,Katiannidae,48,1
+12,1,Lithobius mutabilis,Chilopoda,Lithobiidae,65,1
+13,1,Lithobius cf. mutabilis juv,Chilopoda,Lithobiidae,66,1
+14,1,Lithobius sp4,Chilopoda,Lithobiidae,73,1
+15,1,Geophilus ribauti,Chilopoda,Geophilidae,74,1
+16,1,Geophilus insculptus,Chilopoda,Geophilidae,75,1
+17,1,Athous subfuscus (juv) {m},Coleoptera,Elateridae,113,1
+18,1,Scydmaenidae sp0 {m},Coleoptera,Scydmanidae,128,1
+19,1,Aleocharinae sp1 (juv),Coleoptera,Stapylinidae,130,1
+20,1,Atheta fungi,Coleoptera,Stapylinidae,133,1
+21,1,Atheta sp.,Coleoptera,Stapylinidae,135,1
+22,1,Othius subuliformis,Coleoptera,Stapylinidae,149,1
+23,1,Amaurobius sp (juv),Araneae,Amaurobiidae,164,1
+24,1,Diplocephalus picinus (ad),Araneae,Linyphiidae,172,1
+25,1,Linyphiidae (juv),Araneae,Linyphiidae,178,1
+26,1,Micrargus herbigradus (ad),Araneae,Linyphiidae,179,1
+27,1,Neobisium sp,Pseudoscorpiones,Neobisidae,182,1
+28,1,Robertus lividus (ad),Araneae,Theridiidae,186,1
+29,1,Saloca diceros (ad),Araneae,Linyphiidae,188,1
+30,1,Tapinocyba insecta (ad),Araneae,Linyphiidae,189,1
+31,1,Leptogamasus suecicus (ad),Mesostigmata,Pergamasinae,216,1
+32,1,Lysigamasus lapponicus (ad),Mesostigmata,Pergamasinae,219,1
+33,1,Pergamasinae (juv) {xs},Mesostigmata,Pergamasinae,234,1
+34,1,Trachytes aegrota (ad),Mesostigmata,Trachytidae,242,1
+35,1,Trachytes pauperior (juv),Mesostigmata,Trachytidae,245,1
+36,1,Uropoda minima (ad),Mesostigmata,Uropodidae,251,1
+37,1,Uroseius cylindricus (ad),Mesostigmata,Polyaspidae,254,1
+38,1,Uroseius cylindricus (juv),Mesostigmata,Polyaspidae,255,1
+39,1,Veigaia nemorensis (ad),Mesostigmata,Veigaiaidae,263,1
+40,1,Veigaia nemorensis (juv),Mesostigmata,Veigaiaidae,264,1
+41,1,Zercon sp (juv),Mesostigmata,Zerconidae,268,1
+42,1,Achipteria coleoptrata,Oribatida,Achipteriidae,295,1
+43,2,Berniniella conjuncta;Oppiella falcata,Oribatida,Oppiidae,301;337,1
+44,1,Brachychthoniidae spp.,Oribatida,Brachychthoniidae,302,1
+45,1,Chamobates borealis,Oribatida,Chamobatidae,306,1
+46,1,Hypochthonius rufulus,Oribatida,Hypochthoniidae,322,1
+47,1,Oribatida juv.,Oribatida,,323,1
+48,1,Nothrus silvestris,Oribatida,Nothridae,335,1
+50,5,Oppiella nova;Oppiella subpectinata;Oppiella fallax;Suctobelba trigona;Suctobelbella spp.,Oribatida,Oppiidae;Suctobelbidae,338;339;510;624;625,1
+52,3,Phthiracarus compressus;Phthiracarus longulus;Phthiracarus laevigatus,Oribatida,Phthiracaridae,348;351;515,1
+54,2,Platynothrus peltifer;Liacarus coracinus,Oribatida,Camisiidae;Liacaridae,353;614,1
+57,2,Polydesmidae;Chordeumatidae juv {s},Diplopoda,Polydesmidae;Chordeumatidae,396;755,1
+58,1,plants,Basal,Plants,401,0
+59,1,roots,Basal,Roots,402,0
+60,1,root exudates,Basal,Roots,403,0
+61,1,mykorrhiza,Basal,Fungi,404,0
+62,1,saphrophytes,Basal,Fungi,405,0
+63,1,bacterivor nematodes,Basal,Nematoda,406,1
+64,1,fungivor nematodes,Basal,Nematoda,407,1
+65,1,root feeding nematodes,Basal,Nematoda,408,1
+66,1,predatious nematodes,Basal,Nematoda,409,1
+67,1,omniv. Nematodes,Basal,Nematoda,410,1
+68,1,bacteria,Basal,Bacteria,411,0
+69,3,flagelata;ciliata;amoeba,Basal,Protozoa,412;413;414,0
+72,1,algae,Basal,Algae,415,0
+73,1,enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
+74,1,dead organic matter detritus,Basal detritus,detritus,417,0
+75,1,litter detritus,Basal detritus,detritus,442,0
+76,1,Erigonella hiemalis (ad),Araneae,Linyphiidae,466,1
+77,1,Macrargus rufus (ad),Araneae,Linyphiidae,473,1
+78,1,Julidae spec,Diplopoda,Julidae,486,1
+79,1,Damaeobelba minutissima,Oribatida,Damaeidae,501,1
+80,1,Nanhermannia elegantula,Oribatida,Nanhermanniidae,508,1
+83,1,Troxochrus nasutus (ad),Araneae,Linyphiidae,581,1
+84,1,Monocephalus fuscipes (ad),Araneae,Linyphiidae,588,1
+85,1,Lithobius aeruginosus juv,Chilopoda,Lithobiidae,593,1
+86,1,Cymberemaeus cymba,Oribatida,Cymberemaeidae,608,1
+87,2,Fuscozetes setosus;Sphaerozetes piriformes,Oribatida,Ceratozetidae,611;623,1
+89,1,Phthiracarus crenophilus ?,Oribatida,Phthiracaridae,617,1
+90,1,Quadroppia hammerae,Oribatida,Quadroppiidae,622,1
+94,1,Tectocepheus velatus velatus,Oribatida,Tectocepheidae,626,1
+95,1,Pterostichus sp.,Coleoptera,Carabidae,631,1
+96,1,Lysigamasus cf arcuatus (ad),Mesostigmata,Pergamasinae,653,1
+97,1,Lysigamasus minorleitneriae (ad),Mesostigmata,Pergamasinae,655,1
+98,1,Pachylaelaps cf vexillifer (ad),Mesostigmata,Pachylaelapidae,660,1
+99,1,Hypoaspididae (juv),Mesostigmata,Hypoaspididae,671,1
+103,1,Micanurida forsslundi,Collembola,Neanuridae,694,1
+105,1,Lithobius sp2 {l},Chilopoda,Lithobiidae,706,1
+106,1,Scutigerella immaculata {s},Symphyla,Scutigerellidae,717,1
+107,1,Trachytes aegrota (juv) {s},Mesostigmata,Trachytidae,737,1
+108,1,Trachytes pauperior (ad) {s},Mesostigmata,Trachytidae,738,1
+109,1,Campodea sp {l},Diplura,Campodeidae,749,1
+111,1,Linyphiidae cf Erigoniinae (juv) {m},Araneae,Linyphiidae,759,1
+112,1,Aegopinella nitens,Gastropoda,Oxychilidae,800,1
+113,1,Larve spec,Coleoptera,Larve spec,857,1
+114,1,Staphylinidae spec,Coleoptera,Stapylinidae,858,1
+115,1,Carabidae spec,Coleoptera,Carabidae,875,1
+116,1,Abax spec,Coleoptera,Carabidae,881,1
+117,1,Trichoniscus spec,Isopoda,Trichoniscidae,911,1
+118,1,Glomeris spec,Diplopoda,Glomeridae,920,1
+119,1,Asthenargus paganus,Araneae,Linyphiidae,930,1
+120,1,Ceratinella brevis,Araneae,Linyphiidae,931,1

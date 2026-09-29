@@ -1,16 +1,16 @@
-trophospecies_id,sp_name,guild,n_lumped,sp_no_prey,sp_no_preds,sp_ntp,sp_long_chain,sp_out_closeness,sp_in_closeness,guild_ntp,guild_out_closeness,guild_in_closeness
-1,Roots,plants,1,0,2,1.0,0.0,1.1666666666666667,0.0,1.0,1.1666666666666667,0.0
-2,Detritus,detritus,1,0,2,1.0,0.0,0.6363636363636364,0.0,1.0,0.6363636363636364,0.0
-3,fungi,fungi,1,1,2,2.0,1.0,1.75,14.0,2.0,1.75,14.0
-4,mycorrhizae,fungi,1,1,2,2.0,1.0,1.75,14.0,2.0,1.75,14.0
-5,bacteria,bacteria,1,1,5,2.0,1.0,1.5555555555555556,14.0,2.0,1.5555555555555556,14.0
-6,phytophagous nematodes,phytophagous nematodes,1,1,3,2.0,1.0,4.666666666666667,14.0,2.0,4.666666666666667,14.0
-7,fungivorous nematodes,fungivorous nematodes,1,2,3,3.0,2.0,4.666666666666667,2.3333333333333335,3.0,4.666666666666667,2.3333333333333335
-8,bacteriophagous nematodes,bactieriophagous nematodes,1,1,3,3.0,2.0,4.666666666666667,4.666666666666667,3.0,4.666666666666667,4.666666666666667
-9,predatory nematodes,predatory nematodes,1,7,2,3.75,2.0,7.0,0.9333333333333333,3.75,7.0,0.9333333333333333
-10,omnivorous nematodes,omnivorous nematodes,1,3,3,3.666666666666667,2.0,4.666666666666667,2.8,3.666666666666667,4.666666666666667,2.8
-11,collembola;cryptostigmatic mites;noncryptostigmatic mites,collembola,3,2,1,3.0,2.0,14.0,2.3333333333333335,3.0,14.0,2.3333333333333335
-14,nematophagous mites,nematophagous mites,1,5,1,3.857142857142857,3.0,14.0,0.7,3.857142857142857,14.0,0.7
-15,predatory mites,predatory mites,1,7,0,4.0,3.0,0.0,0.6363636363636364,4.0,0.0,0.6363636363636364
-16,flagellates,flagellates,1,1,3,3.0,2.0,2.0,4.666666666666667,3.0,2.0,4.666666666666667
-17,amoebae,amoebae,1,2,2,3.5,2.0,2.3333333333333335,3.5,3.5,2.3333333333333335,3.5
+trophospecies_id,n_lumped,sp_name,guild,animal,sp_id
+1,1,Roots,plants,0,1
+2,1,Detritus,detritus,0,2
+3,1,fungi,fungi,0,3
+4,1,mycorrhizae,fungi,0,4
+5,1,bacteria,bacteria,0,5
+6,1,phytophagous nematodes,phytophagous nematodes,1,6
+7,1,fungivorous nematodes,fungivorous nematodes,1,7
+8,1,bacteriophagous nematodes,bactieriophagous nematodes,1,8
+9,1,predatory nematodes,predatory nematodes,1,9
+10,1,omnivorous nematodes,omnivorous nematodes,1,10
+11,3,collembola;cryptostigmatic mites;noncryptostigmatic mites,collembola;cryptostigmatic mites;noncryptostigmatic mites,1,11;12;13
+14,1,nematophagous mites,nematophagous mites,1,14
+15,1,predatory mites,predatory mites,1,15
+16,1,flagellates,flagellates,0,16
+17,1,amoebae,amoebae,0,17

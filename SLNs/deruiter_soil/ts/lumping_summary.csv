@@ -1,5 +1,5 @@
-web_id,n_lumped
-centralplains,1
-horseshoebend,1
-kjettslinge,0
-lovinkhoeve,1
+SLN_ID,n_lumped,n_cross_guild
+centralplains,1,1
+horseshoebend,1,1
+kjettslinge,0,0
+lovinkhoeve,1,1

@@ -74,7 +74,7 @@ algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Pergamasus norvegicus (ad),Mesostigmata,Pergamasinae,439,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Urodiaspis tecta (ad),Mesostigmata,Urodinychidae,452,1
 Maro minutus (ad),Araneae,Linyphiidae,467,1
 Pelecopsis radicicola (ad),Araneae,Linyphiidae,474,1
@@ -109,7 +109,6 @@ Elateridae sp1 (juv) {l},Coleoptera,Elateridae,724,1
 Pergamasinae (juv) {s},Mesostigmata,Pergamasinae,735,1
 Linyphiidae cf Erigoniinae (juv) {m},Araneae,Linyphiidae,759,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec juv,Coleoptera,Carabidae,865,1
 Carabidae spec,Coleoptera,Carabidae,875,1
 Scolytidae spec,Coleoptera,Scolytidae,880,1

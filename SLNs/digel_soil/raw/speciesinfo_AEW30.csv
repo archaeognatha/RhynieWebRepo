@@ -62,7 +62,7 @@ algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Pachylaelaps laeuchlii (ad),Mesostigmata,Pachylaelapidae,436,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Erigonella hiemalis (ad),Araneae,Linyphiidae,466,1
 Julidae spec,Diplopoda,Julidae,486,1
 Scheloribates initialis,Oribatida,Scheloribatidae,518,1
@@ -101,7 +101,6 @@ Euconulus fulvus,Gastropoda,Euconulidae,821,1
 Limacidae spec,Gastropoda,Limacidae,822,1
 Cantharidae spec,Coleoptera,Cantharidae,851,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec,Coleoptera,Carabidae,875,1
 Abax spec,Coleoptera,Carabidae,881,1
 Cantharidae spec juv,Coleoptera,Cantharidae,890,1

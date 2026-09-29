@@ -74,7 +74,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Erigonella hiemalis (ad),Araneae,Linyphiidae,466,1
 Julidae spec,Diplopoda,Julidae,486,1
 Steganacarus herculeanus,Oribatida,Phthiracaridae,519,1
@@ -114,7 +114,6 @@ Trichia striolata juv,Gastropoda,Helicidae,817,1
 Cochlodina laminata,Gastropoda,Clausiliidae,823,1
 Cantharidae spec,Coleoptera,Cantharidae,851,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec,Coleoptera,Carabidae,875,1
 Abax spec,Coleoptera,Carabidae,881,1
 Molops piceus,Coleoptera,Carabidae,885,1

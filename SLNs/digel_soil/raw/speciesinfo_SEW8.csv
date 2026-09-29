@@ -83,7 +83,7 @@ Macrocheles sp (ad),Mesostigmata,Macrochelidae,433,1
 Pachylaelaps bellicosus (ad),Mesostigmata,Pachylaelapidae,434,1
 Pachylaelaps cf bellicosus (juv),Mesostigmata,Pachylaelapidae,435,1
 Pachylaelaps laeuchlii (ad),Mesostigmata,Pachylaelapidae,436,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Veigaia planicola (ad),Mesostigmata,Veigaiaidae,456,1
 Rhysotritia duplicata,Oribatida,Euphthiracaroidae,517,1
 Geophilus truncorum,Chilopoda,Geophilidae,527,1
@@ -108,11 +108,9 @@ Cantharidae spec,Coleoptera,Cantharidae,851,1
 Geotrupes spec,Coleoptera,Geotrupidae,856,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Cychrus attenuatus,Coleoptera,Carabidae,868,1
 Brachyderinae spec,Coleoptera,Curculionidae,871,1
 Carabus nemoralis,Coleoptera,Carabidae,901,1
-Coccinella septempunctata,Coleoptera,Coccinellidae,902,1
 Chilopoda spec,Chilopoda,Chilopoda spec,921,1
 Harpactea lepida (juv),Araneae,Dysderidae,933,1
 Tenuiphantes mengei,Araneae,Linyphiidae,939,1

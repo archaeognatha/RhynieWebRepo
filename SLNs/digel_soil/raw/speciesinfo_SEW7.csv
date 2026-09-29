@@ -79,7 +79,7 @@ enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Lysigamasus cf runcatellus (ad),Mesostigmata,Pergamasinae,427,1
 Pergamasus norvegicus (ad),Mesostigmata,Pergamasinae,439,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Veigaia planicola (juv),Mesostigmata,Veigaiaidae,457,1
 Folsomia brevicauda,Collembola,Isotomidae,458,1
 Vulgarogamasus kraepelini (juv),Mesostigmata,Parasitidae,459,1
@@ -112,7 +112,6 @@ Lepidocyrtus juv.,Collembola,Entomobryidae,689,1
 Lithobius curtipes {m},Chilopoda,Lithobiidae,701,1
 Scutigerella immaculata {s},Symphyla,Scutigerellidae,717,1
 Elateridae sp1 (juv) {l},Coleoptera,Elateridae,724,1
-Scydmaenidae sp0 {xxl},Coleoptera,Scydmanidae,725,1
 Pergamasus sp (juv) {m},Mesostigmata,Pergamasinae,736,1
 Trachytes aegrota (juv) {s},Mesostigmata,Trachytidae,737,1
 Campodea sp {l},Diplura,Campodeidae,749,1
@@ -122,7 +121,6 @@ Cantharidae spec,Coleoptera,Cantharidae,851,1
 Phyllobius callacartus,Coleoptera,Curculionidae,854,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Abax parallelepipedus,Coleoptera,Carabidae,860,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Brachyderinae spec,Coleoptera,Curculionidae,871,1
 Ptilidae spec,Coleoptera,Ptilidae,873,1
 Phyllobius pyri,Coleoptera,Curculionidae,891,1

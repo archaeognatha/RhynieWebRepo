@@ -76,7 +76,7 @@ enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
 Amblyseius cf nemorivagus (ad),Mesostigmata,Phytoseinae,418,1
 Geholaspis longispinosus (juv),Mesostigmata,Macrochelidae,420,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Rhodacarus coronatus (juv),Mesostigmata,Rhodacaridae,447,1
 Rhodacarus coronatus (ad),Mesostigmata,Rhodacaridae,448,1
 Veigaia planicola (ad),Mesostigmata,Veigaiaidae,456,1
@@ -110,7 +110,6 @@ Clausilia bidentata,Gastropoda,Clausiliidae,832,1
 Cantharidae spec,Coleoptera,Cantharidae,851,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec,Coleoptera,Carabidae,875,1
 Amara aenea,Coleoptera,Carabidae,886,1
 Pamagaeus bipustulatus,Coleoptera,Carabidae,900,1

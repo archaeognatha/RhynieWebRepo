@@ -13,12 +13,12 @@ set -euo pipefail          # stop at the first command that fails
 
 N_REPS=${N_REPS:-1000}     # override on the command line for a test run
 BASE_SEED=20260928         # dataset k gets seed BASE_SEED + k (fixed order below)
-METAWEB_DIR=data/rhynie    # CHECK: where metaweb_builder_rhynie.R writes <dsid>/raw/
+METAWEB_DIR=data/rhynie    # metaweb_builder_rhynie.R writes <dsid>/guilds.csv, guild_matrix.csv
 RUN_NICHE=false            # set true to regenerate niche nulls too
 
 RHYNIE="rhynie_unlumped_complete rhynie_unlumped_terr rhynie_unlumped_aqu
         rhynie_lumped_complete   rhynie_lumped_terr   rhynie_lumped_aqu"
-EMPIRICAL="messel digel_soil deruiter_soil ecoweb other_modern"
+EMPIRICAL="deruiter_soil ecoweb other_modern"   # messel and digel_soil have their own blocks (3a, 3b)
 
 metrics() {                # $1 = folder holding matrix_*.csv / speciesinfo_*.csv
   echo "--- web_metrics: $1"
@@ -54,7 +54,26 @@ if [ "$RUN_NICHE" = true ]; then
   done
 fi
 
-# ---- 3. Empirical webs: inputs unchanged, metrics only ------
+# ---- 3a. Messel: rebuild the 6 webs -> trophospecies -> metrics
+echo "=== messel ==="
+Rscript scripts/sln_builder_Messel.R \
+    --speciesinfo data/messel/speciesinfo_messel.csv \
+    --links       data/messel/links_messel.csv \
+    --out         SLNs/messel/raw
+julia --project=. scripts/TrophSpLumper.jl --in-dir SLNs/messel/raw   # writes SLNs/messel/ts
+#metrics SLNs/messel/raw
+metrics SLNs/messel/ts
+
+# ---- 3b. Digel: rebuild the 48 plot webs -> trophospecies -> metrics
+echo "=== digel_soil ==="
+julia --project=. scripts/sln_builder_digel_soil.jl \
+    --in-dir  data/digel_soil \
+    --out-dir SLNs/digel_soil/raw --create
+julia --project=. scripts/TrophSpLumper.jl --in-dir SLNs/digel_soil/raw   # writes SLNs/digel_soil/ts
+metrics SLNs/digel_soil/raw
+metrics SLNs/digel_soil/ts
+
+# ---- 3c. Other empirical webs: inputs unchanged, metrics only
 for ds in $EMPIRICAL; do
   echo "=== $ds ==="
   metrics "SLNs/$ds/raw"

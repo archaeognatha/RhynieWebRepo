@@ -1,5 +1,5 @@
-web_id,n_lumped
-coachella,1
-littlerocklake,24
-tuesdaylake,7
-ythanesturary,5
+SLN_ID,n_lumped,n_cross_guild
+coachella,1,1
+littlerocklake,24,8
+tuesdaylake,7,0
+ythanestuary,5,1

@@ -76,7 +76,7 @@ Lasioseius lawrencei (ad),Mesostigmata,Podocinidae,423,1
 Lysigamasus jugincola (ad),Mesostigmata,Pergamasinae,428,1
 Lysigamasus runcatellus (ad),Mesostigmata,Pergamasinae,429,1
 Pergamasus quisquiliarum (ad),Mesostigmata,Pergamasinae,440,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Zercon cf peltatus (ad),Mesostigmata,Zerconidae,462,1
 Zercon cf peltatus (juv),Mesostigmata,Zerconidae,463,1
 Macrargus rufus (ad),Araneae,Linyphiidae,473,1
@@ -107,7 +107,6 @@ Nesovitrea hammonis,Gastropoda,Oxychilidae,813,1
 Nesovitrea hammonis juv,Gastropoda,Oxychilidae,814,1
 Arion fuscus,Gastropoda,Arionidae,820,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec juv,Coleoptera,Carabidae,865,1
 Chrysomelidae spec,Coleoptera,Chrysomeldiae,866,1
 Brachyderinae spec,Coleoptera,Curculionidae,871,1

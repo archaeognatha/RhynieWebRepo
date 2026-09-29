@@ -77,7 +77,7 @@ Eviphis sp (juv),Mesostigmata,Eviphididae,419,1
 Geholaspis longispinosus (juv),Mesostigmata,Macrochelidae,420,1
 Geholaspis longispinosus (ad),Mesostigmata,Macrochelidae,421,1
 Lysigamasus sp (ad),Mesostigmata,Pergamasinae,431,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Rhodacarus coronatus (ad),Mesostigmata,Rhodacaridae,448,1
 Urodiaspis tecta (ad),Mesostigmata,Urodinychidae,452,1
 Diplostyla concolor (ad),Araneae,Linyphiidae,472,1
@@ -108,7 +108,6 @@ Lumbricus rubellus (juv) {xxl},Lumbricidae,Lumbricidae,744,1
 Linyphiidae cf Erigoniinae (juv) {m},Araneae,Linyphiidae,759,1
 Xenylla grisea,Collembola,Hypogastruridae,774,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Ptilidae spec,Coleoptera,Ptilidae,873,1
 Carabidae spec,Coleoptera,Carabidae,875,1
 Molops piceus,Coleoptera,Carabidae,885,1

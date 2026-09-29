@@ -1,0 +1,358 @@
+sp_name,guild,sp_id,animal,d_seed,SLN_ID,sp_no_prey,sp_no_preds,sp_green_frac,sp_green_direct,sp_aqu_derived,sp_long_chain,sp_out_closeness,sp_in_closeness,sp_ntp,guild_ntp,guild_out_closeness,guild_in_closeness,Higher_taxon,phylum,class,order,family,m_kg_fresh,N_indiv_per_m3_epilimnion,common_name,mean_wetmass_g,N_in_whole_estuary
+plants,plants,1,0,0,coachella,0,18,1.0,NaN,NaN,0,0.8055555555555556,0.0,1.0,1.0,0.8055555555555556,0.0,,,,,,,,,,
+detritus,detritus,2,0,1,coachella,0,6,0.0,NaN,NaN,0,0.6304347826086957,0.0,1.0,1.0,0.6524266936299292,0.0,,,,,,,,,,
+carrion,detritus,3,0,1,coachella,0,9,0.0,NaN,NaN,0,0.6744186046511628,0.0,1.0,1.0,0.6524266936299292,0.0,,,,,,,,,,
+soil microbes,soil microbes,4,0,,coachella,4,12,0.3333333333333333,0.25,NaN,1,0.7435897435897436,9.666666666666666,2.5,2.5,0.7435897435897436,9.666666666666666,,,,,,,,,,
+soil microarthropods and nematodes,soil microarthropods and nematodes,5,1,,coachella,4,2,0.3333333333333333,0.25,NaN,1,0.6744186046511628,7.25,2.5,2.5,0.6744186046511628,7.25,,,,,,,,,,
+soil micropredators,soil micropredators,6,1,,coachella,3,2,0.33333333333333326,0.0,NaN,2,0.6904761904761905,3.625,3.333333333333333,3.333333333333333,0.6904761904761905,3.625,,,,,,,,,,
+soil macroarthropods,soil macroarthropods,7,1,,coachella,5,18,0.3333333333333333,0.2,NaN,1,1.2608695652173914,7.25,2.6666666666666665,2.6666666666666665,1.2608695652173914,7.25,,,,,,,,,,
+soil macroarthropod predators,soil macroarthropod predators,8,1,,coachella,6,17,0.26666666666666666,0.0,NaN,2,1.3181818181818181,3.2222222222222223,3.25,3.25,1.3181818181818181,3.2222222222222223,,,,,,,,,,
+surface arthropod detritivores,surface arthropod detritivores,9,1,,coachella,3,16,0.4444444444444444,0.3333333333333333,NaN,2,1.3181818181818181,5.8,2.6,2.6,1.3181818181818181,5.8,,,,,,,,,,
+surface arthropod herbivores,surface arthropod herbivores,10,1,,coachella,1,16,1.0,1.0,NaN,1,1.3181818181818181,29.0,2.0,2.0,1.3181818181818181,29.0,,,,,,,,,,
+small arthropod predators,small arthropod predators,11,1,,coachella,13,16,0.5789199298927875,0.0,NaN,3,1.380952380952381,0.9354838709677419,3.7027027027027026,3.7027027027027026,1.380952380952381,0.9354838709677419,,,,,,,,,,
+medium arthropod predators,medium arthropod predators,12,1,,coachella,13,16,0.5789199298927874,0.0,NaN,3,1.380952380952381,0.9354838709677419,3.7027027027027026,3.7027027027027026,1.380952380952381,0.9354838709677419,,,,,,,,,,
+large arthropod predators,large arthropod predators,13,1,,coachella,15,15,0.5789914910345072,0.0,NaN,2,1.3181818181818181,1.0357142857142858,3.7209302325581395,3.7209302325581395,1.3181818181818181,1.0357142857142858,,,,,,,,,,
+facultative arthropod predators,facultative arthropod predators,14,1,,coachella,16,16,0.5175188081815665,0.0625,NaN,4,1.380952380952381,0.9354838709677419,3.5,3.5,1.380952380952381,0.9354838709677419,,,,,,,,,,
+life-history arthropod omnivore,life-history arthropod omnivore,15,1,,coachella,13,16,0.6113051998132101,0.07692307692307693,NaN,4,1.380952380952381,0.8529411764705882,3.6285714285714286,3.6285714285714286,1.380952380952381,0.8529411764705882,,,,,,,,,,
+spider parasitoids,spider parasitoids,16,1,,coachella,5,18,0.6842078377050202,0.2,NaN,3,1.5263157894736843,0.6590909090909091,3.9230769230769234,3.9230769230769234,1.5263157894736843,0.6590909090909091,,,,,,,,,,
+primary parasitoids,primary parasitoids,17,1,,coachella,11,7,0.5994825128149386,0.09090909090909091,NaN,3,0.9666666666666667,0.90625,3.586206896551724,3.586206896551724,0.9666666666666667,0.90625,,,,,,,,,,
+hyperparasitoids,hyperparasitoids,18,1,,coachella,5,7,0.7231718570693868,0.2,NaN,4,0.9354838709677419,0.6170212765957447,3.8461538461538463,3.8461538461538463,0.9354838709677419,0.6170212765957447,,,,,,,,,,
+facultative hyperparasitoids,facultative hyperparasitoids,19,1,,coachella,14,7,0.6089970777575883,0.07142857142857142,NaN,3,0.9354838709677419,0.9666666666666667,3.6578947368421053,3.6578947368421053,0.9354838709677419,0.9666666666666667,,,,,,,,,,
+herbivorous mammals and reptiles,herbivorous mammals and reptiles,20,1,,coachella,1,5,1.0,1.0,NaN,1,4.142857142857143,29.0,2.0,2.0,4.142857142857143,29.0,,,,,,,,,,
+primarily herbivorous mammals and birds,primarily herbivorous mammals and birds,21,1,,coachella,11,5,0.5994825128149386,0.09090909090909091,NaN,3,4.142857142857143,0.8529411764705882,3.586206896551724,3.586206896551724,4.142857142857143,0.8529411764705882,,,,,,,,,,
+small omnivorous mammals and birds,small omnivorous mammals and birds,22,1,,coachella,16,5,0.5929062781539335,0.0625,NaN,3,4.833333333333333,0.6590909090909091,3.6363636363636367,3.6363636363636367,4.833333333333333,0.6590909090909091,,,,,,,,,,
+predaceous mammals and birds,predaceous mammals and birds,23,1,,coachella,20,4,0.5698110536030145,0.05,NaN,3,4.142857142857143,0.725,3.5384615384615383,3.5384615384615383,4.142857142857143,0.725,,,,,,,,,,
+arthropodivorous snakes,arthropodivorous snakes,24,1,,coachella,10,7,0.5594307640964322,0.0,NaN,3,0.90625,0.8787878787878788,3.642857142857143,3.642857142857143,0.90625,0.8787878787878788,,,,,,,,,,
+primarily arthropodivorous lizards,primarily arthropodivorous lizards,25,1,,coachella,13,9,0.5994825128149385,0.07692307692307693,NaN,2,0.9354838709677419,0.9666666666666667,3.6,3.6,0.9354838709677419,0.9666666666666667,,,,,,,,,,
+primarily carnivorous lizards,primarily carnivorous lizards,26,1,,coachella,13,8,0.5994825128149384,0.07692307692307693,NaN,2,0.6904761904761905,0.9666666666666667,3.6,3.6,0.6904761904761905,0.9666666666666667,,,,,,,,,,
+primarily carnivorous snakes,primarily carnivorous snakes,27,1,,coachella,12,6,0.5408907416183713,0.0,NaN,3,5.8,0.5576923076923077,3.53125,3.53125,5.8,0.5576923076923077,,,,,,,,,,
+"large, primarily predaceous birds","large, primarily predaceous birds",28,1,,coachella,21,3,0.5494563675107111,0.0,NaN,3,3.625,0.7435897435897436,3.5789473684210527,3.5789473684210527,3.625,0.7435897435897436,,,,,,,,,,
+"large, primarily predaceous mammals","large, primarily predaceous mammals",29,1,,coachella,22,2,0.5709108262006772,0.045454545454545456,NaN,2,2.4166666666666665,0.7837837837837838,3.5344827586206895,3.5344827586206895,2.4166666666666665,0.7837837837837838,,,,,,,,,,
+golden eagle,golden eagle,30,1,,coachella,20,2,0.5464128226598434,0.0,NaN,2,3.2222222222222223,0.7435897435897436,3.537037037037037,3.537037037037037,3.2222222222222223,0.7435897435897436,,,,,,,,,,
+Perca flavescens,Actinopteri,,1,,littlerocklake,113,8,NaN,NaN,NaN,2,5.709677419354839,0.7375,3.9180543382997373,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Chaoborus punctipennis,Insecta,,1,,littlerocklake,6,14,NaN,NaN,NaN,2,3.54,2.3289473684210527,3.1463414634146343,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Cladopelma,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Albabesmyia,Insecta,,1,,littlerocklake,37,21,NaN,NaN,NaN,3,3.1607142857142856,1.2377622377622377,4.406153846153846,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Libellula,Insecta,,1,,littlerocklake,48,4,NaN,NaN,NaN,2,4.0227272727272725,1.5258620689655173,4.158940397350993,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Ophryoxus gracilis,Branchiopoda,,1,,littlerocklake,3,21,NaN,NaN,NaN,1,3.2181818181818183,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Bosmina longirostris,Branchiopoda,,1,,littlerocklake,18,15,NaN,NaN,NaN,1,7.695652173913044,9.833333333333334,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Guttipelopia,Insecta,,1,,littlerocklake,37,21,NaN,NaN,NaN,3,3.1607142857142856,1.2377622377622377,4.406153846153846,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Sympetrum,Insecta,,1,,littlerocklake,48,4,NaN,NaN,NaN,2,4.0227272727272725,1.5258620689655173,4.158940397350993,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Micropterus salmoides,Actinopteri,,1,,littlerocklake,93,8,NaN,NaN,NaN,2,5.709677419354839,0.6807692307692308,3.9487750556792873,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Fish eggs,Actinopteri,,1,,littlerocklake,0,5,NaN,NaN,NaN,0,4.0227272727272725,0.0,1.0,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Hydroporus,Insecta,,1,,littlerocklake,0,2,NaN,NaN,NaN,0,3.847826086956522,0.0,1.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Enallagma,Insecta,,1,,littlerocklake,46,6,NaN,NaN,NaN,2,4.214285714285714,1.5258620689655173,4.162583518930958,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Nanocladius,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Macropelopis,Insecta,,1,,littlerocklake,38,21,NaN,NaN,NaN,3,3.1607142857142856,1.2464788732394365,4.401840490797547,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Campeloma decisum,Bivalvia,,1,,littlerocklake,1,6,NaN,NaN,NaN,1,4.0227272727272725,177.0,2.0,2.0,2.6520202020202017,177.0,Bivalvia,,,,,,,,,
+Pomoxis nigromaculatus,Actinopteri,,1,,littlerocklake,104,8,NaN,NaN,NaN,2,5.709677419354839,0.7108433734939759,3.8876777251184835,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Banksiola,Insecta,,1,,littlerocklake,29,5,NaN,NaN,NaN,3,4.116279069767442,1.120253164556962,4.445070422535212,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Daphnia parvula,Branchiopoda,,1,,littlerocklake,27,16,NaN,NaN,NaN,1,8.85,6.555555555555555,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Ambloplites rupestris,Actinopteri,,1,,littlerocklake,94,8,NaN,NaN,NaN,2,5.709677419354839,0.6833976833976834,3.961267605633803,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Paratendipes,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Caenis,Insecta,,1,,littlerocklake,1,9,NaN,NaN,NaN,1,3.933333333333333,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Chaetocladius,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Djalmabatista,Insecta,,1,,littlerocklake,37,21,NaN,NaN,NaN,3,3.1607142857142856,1.2377622377622377,4.406153846153846,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Micropsectra,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Cryptochironomus,Insecta,,1,,littlerocklake,21,21,NaN,NaN,NaN,2,3.1052631578947367,2.2987012987012987,3.1923076923076925,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Annelida Hirudinea,Clitellata,,1,,littlerocklake,7,5,NaN,NaN,NaN,3,4.116279069767442,0.4348894348894349,3.965299684542587,2.9826498422712935,3.399048625792812,88.71744471744472,Clitellata,,,,,,,,,
+Bezzia,Insecta,,1,,littlerocklake,10,22,NaN,NaN,NaN,2,2.8548387096774195,11.0625,3.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Anisoptera epitheca,Insecta,,1,,littlerocklake,48,4,NaN,NaN,NaN,2,4.0227272727272725,1.5258620689655173,4.158940397350993,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Polypedilum,Insecta,,1,,littlerocklake,20,21,NaN,NaN,NaN,2,3.1052631578947367,2.3289473684210527,3.1818181818181817,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Cricotopus,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Glyptotendipes,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Polycentropus,Insecta,,1,,littlerocklake,1,6,NaN,NaN,NaN,1,4.214285714285714,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Turbellaria Tricladida,Turbellaria,,1,,littlerocklake,2,3,NaN,NaN,NaN,2,3.765957446808511,44.25,3.0,3.0,3.765957446808511,44.25,Turbellaria,,,,,,,,,
+Epischura lacustris,Hexanauplia,,1,,littlerocklake,70,10,NaN,NaN,NaN,4,6.321428571428571,0.4957983193277311,3.4513805522208885,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Endochironomus,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Sphaeriidae,Bivalvia,,1,,littlerocklake,1,5,NaN,NaN,NaN,1,3.933333333333333,177.0,2.0,2.0,2.6520202020202017,177.0,Bivalvia,,,,,,,,,
+Corynoneura,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Procladius,Insecta,,1,,littlerocklake,38,21,NaN,NaN,NaN,3,3.1607142857142856,1.2464788732394365,4.401840490797547,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Umbra,Actinopteri,,1,,littlerocklake,102,6,NaN,NaN,NaN,3,4.116279069767442,0.7023809523809523,3.9392987964416535,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Hemiptera Notonectids,Insecta,,1,,littlerocklake,9,7,NaN,NaN,NaN,4,4.538461538461538,0.3950892857142857,3.6713286713286712,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Leptophlebia,Insecta,,1,,littlerocklake,26,6,NaN,NaN,NaN,1,4.214285714285714,6.8076923076923075,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Leptodora kindtii,Branchiopoda,,1,,littlerocklake,35,9,NaN,NaN,NaN,4,6.321428571428571,0.45268542199488493,3.4109792284866467,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Holopedium gibberum,Branchiopoda,,1,,littlerocklake,27,9,NaN,NaN,NaN,1,6.555555555555555,6.555555555555555,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Sphaeromais,Insecta,,1,,littlerocklake,2,11,NaN,NaN,NaN,1,2.5652173913043477,88.5,2.5,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Notemigonus crysoleucus,Actinopteri,,1,,littlerocklake,49,5,NaN,NaN,NaN,4,4.214285714285714,0.4796747967479675,3.4294736842105262,3.4406496007690706,5.027428819171398,0.5706522909699728,Actinopteri,,,,,,,,,
+Limnephilus,Insecta,,1,,littlerocklake,1,5,NaN,NaN,NaN,1,4.116279069767442,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Xenochironomus,Insecta,,1,,littlerocklake,3,21,NaN,NaN,NaN,2,3.1052631578947367,35.4,3.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Chironomus,Insecta,,1,,littlerocklake,1,13,NaN,NaN,NaN,1,2.723076923076923,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Paratanytarsus,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Daphnia galeata mendotae,Branchiopoda,,1,,littlerocklake,27,16,NaN,NaN,NaN,1,8.85,6.555555555555555,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Agrypnia,Insecta,,1,,littlerocklake,13,5,NaN,NaN,NaN,2,4.116279069767442,2.5652173913043477,3.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Diaphanosoma birgei,Branchiopoda,,1,,littlerocklake,27,16,NaN,NaN,NaN,1,8.85,6.555555555555555,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Arthropoda Hydracarina,Arachnida,,1,,littlerocklake,29,2,NaN,NaN,NaN,3,3.6875,1.10625,4.441926345609065,4.441926345609065,3.6875,1.10625,Arachnida,,,,,,,,,
+Larsia,Insecta,,1,,littlerocklake,37,21,NaN,NaN,NaN,3,3.1607142857142856,1.2377622377622377,4.406153846153846,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Clinotanypus,Insecta,,1,,littlerocklake,38,21,NaN,NaN,NaN,3,3.1607142857142856,1.2464788732394365,4.401840490797547,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Microtendipes,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Pseudochironomus,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Stenochironomus,Insecta,,1,,littlerocklake,1,21,NaN,NaN,NaN,1,3.1052631578947367,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Tropocyclops prasinus,Hexanauplia,,1,,littlerocklake,66,13,NaN,NaN,NaN,5,8.045454545454545,0.4004524886877828,3.1559633027522933,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Stictochironomus,Insecta,,1,,littlerocklake,1,13,NaN,NaN,NaN,1,2.723076923076923,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Mesocyclops edax,Hexanauplia,,1,,littlerocklake,38,12,NaN,NaN,NaN,3,7.695652173913044,0.5566037735849056,3.5654692931633836,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Chaoborus albatus,Insecta,,1,,littlerocklake,6,14,NaN,NaN,NaN,2,3.54,2.3289473684210527,3.1463414634146343,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Acantholeberis curvirostris,Branchiopoda,,1,,littlerocklake,1,20,NaN,NaN,NaN,1,3.1607142857142856,177.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Parachironomus,Insecta,,1,,littlerocklake,20,21,NaN,NaN,NaN,2,3.1052631578947367,2.3289473684210527,3.1818181818181817,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Amphipoda Crangonyx gracilis,Malacostraca,,1,,littlerocklake,25,9,NaN,NaN,NaN,1,3.765957446808511,7.08,2.0,2.0,3.765957446808511,7.08,Malacostraca,,,,,,,,,
+Magaloptera Sialis,Insecta,,1,,littlerocklake,29,6,NaN,NaN,NaN,3,4.214285714285714,1.120253164556962,4.445070422535212,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Oecetis,Insecta,,1,,littlerocklake,7,6,NaN,NaN,NaN,2,4.214285714285714,13.615384615384615,3.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Hemiptera Gerris,Insecta,,1,,littlerocklake,9,3,NaN,NaN,NaN,5,4.0227272727272725,0.33586337760910817,3.701807228915663,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Molanna,Insecta,,1,,littlerocklake,29,6,NaN,NaN,NaN,3,4.214285714285714,1.120253164556962,4.445070422535212,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Mystacides,Insecta,,1,,littlerocklake,12,6,NaN,NaN,NaN,2,4.214285714285714,2.6029411764705883,3.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Lepidoptera Pyralidae eoparagyractis,Insecta,,1,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Diaptomus minutus,Hexanauplia,,1,,littlerocklake,33,14,NaN,NaN,NaN,1,7.375,5.363636363636363,2.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Hemiptera Veliidae,Insecta,,1,,littlerocklake,8,6,NaN,NaN,NaN,5,4.657894736842105,0.33586337760910817,3.4907063197026025,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Neuroptera Climacia,Insecta,,1,,littlerocklake,3,5,NaN,NaN,NaN,2,4.116279069767442,35.4,3.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Polyphemus pediculus,Branchiopoda,,1,,littlerocklake,35,9,NaN,NaN,NaN,4,6.321428571428571,0.45268542199488493,3.4109792284866467,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Gyrinus,Insecta,,1,,littlerocklake,51,6,NaN,NaN,NaN,4,4.317073170731708,0.4597402597402597,4.36734693877551,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Alona affinis,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.0,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Alona quadrangularis,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.0,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Macrocyclops albidus,Hexanauplia,,1,,littlerocklake,8,18,NaN,NaN,NaN,2,3.2777777777777777,12.642857142857142,3.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Kellicottia bostoniensis,Monogononta,,1,,littlerocklake,15,6,NaN,NaN,NaN,1,4.116279069767442,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Eubosmina,Branchiopoda,,1,,littlerocklake,17,15,NaN,NaN,NaN,1,7.695652173913044,10.411764705882353,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Polyarthra vulgaris,Monogononta,,1,,littlerocklake,15,13,NaN,NaN,NaN,1,7.375,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Synchaeta,Monogononta,,1,,littlerocklake,15,14,NaN,NaN,NaN,1,7.08,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Conochilus unicornis,Monogononta,,1,,littlerocklake,15,6,NaN,NaN,NaN,1,4.116279069767442,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Keratella crassa,Monogononta,,1,,littlerocklake,15,7,NaN,NaN,NaN,1,4.916666666666667,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Nauplii,Hexanauplia,,1,,littlerocklake,15,14,NaN,NaN,NaN,1,7.08,11.8,2.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Calanoid copepodids,Hexanauplia,,1,,littlerocklake,15,13,NaN,NaN,NaN,1,7.375,11.8,2.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Scapholeberis kingi,Branchiopoda,,1,,littlerocklake,3,22,NaN,NaN,NaN,1,3.0517241379310347,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Diacyclops thomasi,Hexanauplia,,1,,littlerocklake,38,12,NaN,NaN,NaN,3,7.695652173913044,0.5566037735849056,3.5654692931633836,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Keratella hiemalis,Monogononta,,1,,littlerocklake,15,7,NaN,NaN,NaN,1,4.916666666666667,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Kellicottia longispina,Monogononta,,1,,littlerocklake,15,6,NaN,NaN,NaN,1,4.116279069767442,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Gastropus,Monogononta,,1,,littlerocklake,15,14,NaN,NaN,NaN,1,7.08,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Cyclopoid copepodids,Hexanauplia,,1,,littlerocklake,49,13,NaN,NaN,NaN,4,7.695652173913044,0.4645669291338583,3.3658146964856233,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Conochiloides,Monogononta,,1,,littlerocklake,15,6,NaN,NaN,NaN,1,4.116279069767442,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Trichocerca cylindrica,Monogononta,,1,,littlerocklake,15,14,NaN,NaN,NaN,1,7.08,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Acanthocyclops,Hexanauplia,,1,,littlerocklake,8,20,NaN,NaN,NaN,2,3.1607142857142856,12.642857142857142,3.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Sida crystallina,Branchiopoda,,1,,littlerocklake,28,22,NaN,NaN,NaN,1,3.0517241379310347,6.321428571428571,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Polyarthra remata,Monogononta,,1,,littlerocklake,15,13,NaN,NaN,NaN,1,7.375,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Keratella taurocephala,Monogononta,,1,,littlerocklake,15,7,NaN,NaN,NaN,1,4.916666666666667,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Asplanchna,Monogononta,,1,,littlerocklake,27,14,NaN,NaN,NaN,2,7.375,2.765625,3.0168776371308015,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Keratella cochlearis,Monogononta,,1,,littlerocklake,15,7,NaN,NaN,NaN,1,4.916666666666667,11.8,2.0,2.0726341169379143,5.678341638981174,11.1546875,Monogononta,,,,,,,,,
+Chydorus spi,Branchiopoda,,1,,littlerocklake,3,36,NaN,NaN,NaN,1,3.1607142857142856,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Annelida Oligochaete,Clitellata,,1,,littlerocklake,1,24,NaN,NaN,NaN,1,2.6818181818181817,177.0,2.0,2.9826498422712935,3.399048625792812,88.71744471744472,Clitellata,,,,,,,,,
+Eucyclops serrulatus,Hexanauplia,,1,,littlerocklake,8,20,NaN,NaN,NaN,2,3.1607142857142856,12.642857142857142,3.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Alona intermedia,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.0,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Harpacticoid copepods,Hexanauplia,,1,,littlerocklake,1,12,NaN,NaN,NaN,1,2.4246575342465753,177.0,2.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Microcyclops rubellus,Hexanauplia,,1,,littlerocklake,8,18,NaN,NaN,NaN,2,3.2777777777777777,12.642857142857142,3.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Alona rustica,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.0,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Chydorus sp,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.1052631578947367,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Disparalona acutirostris,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.0,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Tanytarsus,Insecta,,1,,littlerocklake,1,25,NaN,NaN,NaN,1,2.723076923076923,177.0,2.0,2.9689340187902573,3.520204881932588,69.04325915200404,Insecta,,,,,,,,,
+Alonella excisa,Branchiopoda,,1,,littlerocklake,3,33,NaN,NaN,NaN,1,3.0,59.0,2.0,2.1410979228486644,4.8944019434802986,41.03470598384281,Branchiopoda,,,,,,,,,
+Harpacticoid copepodids,Hexanauplia,,1,,littlerocklake,1,5,NaN,NaN,NaN,1,3.847826086956522,177.0,2.0,2.793149795556112,5.60237909905782,31.143506444241723,Hexanauplia,,,,,,,,,
+Cryptomonas,Cryptophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,3.0517241379310347,0.0,Cryptophyceae,,,,,,,,,
+Chroomonas,Cryptophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,3.0517241379310347,0.0,Cryptophyceae,,,,,,,,,
+Mallomonas,Synurophyceae,,0,,littlerocklake,0,9,NaN,NaN,NaN,0,3.933333333333333,0.0,1.0,1.0,4.12520325203252,0.0,Synurophyceae,,,,,,,,,
+Scenedesmus,Chlorophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Xanthidium,Zygnemophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Crucigenia,Chlorophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Rhabdoderma,Cyanophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Oocystis,Trebouxiophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,3.0517241379310347,0.0,Trebouxiophyceae,,,,,,,,,
+Elaktothrix,Chlorophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Aphanocapsa,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,4.317073170731708,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Trachelomonas,Euglenoidea,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,4.116279069767442,0.0,Euglenoidea,,,,,,,,,
+Phacus,Euglenoidea,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,4.116279069767442,0.0,Euglenoidea,,,,,,,,,
+Ankistrodesmus,Chlorophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Euastrum,Zygnemophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Tetraiidron,Chlorophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Dinobryon,Chrysophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,4.317073170731708,0.0,1.0,1.0,4.317073170731708,0.0,Chrysophyceae,,,,,,,,,
+Chroococcus,Cyanophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Quadrigula,Chlorophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Merismopedia,Cyanophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Gloeothece,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,4.317073170731708,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Schroederia,Chlorophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Arthrodesmus,Zygnemophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Tabellaria,Fragilariophyceae,,0,,littlerocklake,0,18,NaN,NaN,NaN,0,1.5526315789473684,0.0,1.0,1.0,2.355440685045948,0.0,Fragilariophyceae,,,,,,,,,
+Synedra,Fragilariophyceae,,0,,littlerocklake,0,14,NaN,NaN,NaN,0,1.5803571428571428,0.0,1.0,1.0,2.355440685045948,0.0,Fragilariophyceae,,,,,,,,,
+Gomphosphaeria,Cyanophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Spondylosium,Zygnemophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Cosmarium,Zygnemophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Asterionella,Fragilariophyceae,,0,,littlerocklake,0,9,NaN,NaN,NaN,0,3.933333333333333,0.0,1.0,1.0,2.355440685045948,0.0,Fragilariophyceae,,,,,,,,,
+Coelosphaerium,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,4.317073170731708,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Pediastrum,Chlorophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Staurastrum,Zygnematophyceae,,0,,littlerocklake,0,7,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.961200759373517,0.0,Zygnematophyceae,,,,,,,,,
+Synura,Synurophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,4.317073170731708,0.0,1.0,1.0,4.12520325203252,0.0,Synurophyceae,,,,,,,,,
+Aphanothece,Cyanophyceae,,0,,littlerocklake,0,26,NaN,NaN,NaN,0,3.0517241379310347,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Fine organic matter detritus,detritus,,0,,littlerocklake,0,44,NaN,NaN,NaN,0,1.2553191489361701,0.0,1.0,1.0,1.2553191489361701,0.0,detritus,,,,,,,,,
+Spongilla lacustris,Demospongiae,,1,,littlerocklake,1,2,NaN,NaN,NaN,1,1.923913043478261,177.0,2.0,2.0,1.923913043478261,177.0,Demospongiae,,,,,,,,,
+Corvomyenia everetti,Eustigmatophyta,,1,,littlerocklake,1,2,NaN,NaN,NaN,1,1.923913043478261,177.0,2.0,2.0,1.923913043478261,177.0,Eustigmatophyta,,,,,,,,,
+Ephydatia muelleri,Demospongiae,,1,,littlerocklake,1,2,NaN,NaN,NaN,1,1.923913043478261,177.0,2.0,2.0,1.923913043478261,177.0,Demospongiae,,,,,,,,,
+Zygnema,Zygnematophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.961200759373517,0.0,Zygnematophyceae,,,,,,,,,
+Bulbochaete,Chlorophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Groenbladia,Zygnemophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Scytonema,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Batrachospermum,Florideophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,1.8061224489795917,0.0,Florideophyceae,,,,,,,,,
+Tribonema,Phaeophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,1.8061224489795917,0.0,Phaeophyceae,,,,,,,,,
+Spirogyra,Zygnemophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Desmidium,Chlorophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Microchaete,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Oscillatoria,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Plectonema,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Microcoleus,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Binuclearia,Ulvophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,1.8061224489795917,0.0,Ulvophyceae,,,,,,,,,
+Rhizoclonium,Ulvophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,1.8061224489795917,0.0,Ulvophyceae,,,,,,,,,
+Geminella,Chlorophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Mougeotia,Zygnemophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Schizothrix,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Phormidium,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Oedogonium,Chlorophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Sphaerozosma,Zygnemophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Hapalosiphon,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Bambusina,Zygnemophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Radiofilum,Chlorophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.7364242470783893,0.0,Chlorophyceae,,,,,,,,,
+Hyalotheca,Zygnemophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.75941591917076,0.0,Zygnemophyceae,,,,,,,,,
+Lyngbya,Cyanophyceae,,0,,littlerocklake,0,3,NaN,NaN,NaN,0,1.8061224489795917,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Anabaena,Cyanophyceae,,0,,littlerocklake,0,1,NaN,NaN,NaN,0,4.116279069767442,0.0,1.0,1.0,2.6989567395796703,0.0,Cyanophyceae,,,,,,,,,
+Bivalvia,Bivalvia,,1,,littlerocklake,1,0,NaN,NaN,NaN,1,0.0,177.0,2.0,2.0,2.6520202020202017,177.0,Bivalvia,,,,,,,,,
+Anabaena circinalis,producer,1,0,0,tuesdaylake,0,0,1.0,NaN,NaN,0,0.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Cyanobacteria,Cyanophyceae,Nostocales,Nostocaceae,1.91e-13,6.0e6,,,
+Ankyra judayi,producer,2,0,0,tuesdaylake,0,2,1.0,NaN,NaN,0,4.3076923076923075,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Chlorococcales,Sphaeropleaceae,1.53e-13,1.3e7,,,
+Cryptomonas sp. 1,producer,3,0,0,tuesdaylake,0,17,1.0,NaN,NaN,0,2.074074074074074,0.0,1.0,1.0,4.7998046398046395,0.0,,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,2.85e-13,3.3e7,,,
+Cryptomonas sp. 3,producer,4,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,6.72e-13,1.8e7,,,
+Cryptomonas sp. 4,producer,5,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Cryptophyta,Cryptophyceae,Cryptomonadales,Cryptomonadaceae,1.64e-12,2.8e7,,,
+Chroococcus dispersus,producer,6,0,0,tuesdaylake,0,17,1.0,NaN,NaN,0,2.074074074074074,0.0,1.0,1.0,4.7998046398046395,0.0,,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,2.39e-13,5.0e6,,,
+Chroococcus limneticus,producer,7,0,0,tuesdaylake,0,17,1.0,NaN,NaN,0,2.074074074074074,0.0,1.0,1.0,4.7998046398046395,0.0,,Cyanobacteria,Cyanophyceae,Chroococcales,Chroococcaceae,1.31e-12,1.6e7,,,
+Cosmarium sp.,producer,8,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Charophyta,Zygnematophyceae,Zygnematales,Desmidiaceae,3.71e-12,1.0e6,,,
+Closteriopsis longissimus,producer,9,0,0,tuesdaylake,0,3,1.0,NaN,NaN,0,4.3076923076923075,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Sphaeropleales,Ankistrodesmaceae,1.98e-13,1.0e6,,,
+Chrysosphaerella longispina,producer,10,0,0,tuesdaylake,0,0,1.0,NaN,NaN,0,0.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Synurophyceae,Synurales,Synuraceae,4.4e-11,1.0e6,,,
+Dinobryon bavaricum,producer,11,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Chrysophyceae,Chromulinales,Dinobryaceae,5.29e-12,8.0e6,,,
+Dinobryon cylindricum,producer,12,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Chrysophyceae,Chromulinales,Dinobryaceae,4.48e-12,6.7e7,,,
+Dactylococcopsis fascicularis,producer,13,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Cyanobacteria,Cyanophyceae,Chlorococcales,Chroococcaceae,1.32e-13,1.0e6,,,
+Diceras sp.,producer,14,0,0,tuesdaylake,0,0,1.0,NaN,NaN,0,0.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Chrysophyceae,Hibberdiales,Stylococcaceae,1.53e-13,1.0e6,,,
+Dictyosphaerium pulchellum,producer,15,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Chlorococcales,Botryococcaceae,4.07e-13,1.0e6,,,
+Dinobryon sertularia,producer,16,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Chrysophyceae,Chromulinales,Dinobryaceae,6.28e-12,2.0e6,,,
+Sphaerocystis schroeteri,producer,17,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Tetrasporales,Palmellaceae,1.08e-11,2.0e6,,,
+Gloeocystis sp.,producer,18,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Chlorococcales,Radiococcaceae,9.46e-11,5.0e6,,,
+Glenodinium pulvisculus,producer,19,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Myzozoa,Dinophyceae,Peridiniales,Peridiniales,5.2e-12,8.0e6,,,
+Microcystis aeruginosa,producer,20,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Cyanobacteria,Cyanophyceae,Chlorococcales,Microcystaceae,1.62e-11,2.0e6,,,
+Mallomonas-spiny sp. 1,producer,21,0,0,tuesdaylake,0,0,1.0,NaN,NaN,0,0.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Synurophyceae,Synurales,Mallomonadaceae,2.22e-12,2.1e7,,,
+Mallomonas-spiny sp. 2,producer,22,0,0,tuesdaylake,0,0,1.0,NaN,NaN,0,0.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Synurophyceae,Synurales,Mallomonadaceae,2.22e-12,2.6e7,,,
+unclassified microflagellates,producer,23,0,0,tuesdaylake,0,17,1.0,NaN,NaN,0,2.074074074074074,0.0,1.0,1.0,4.7998046398046395,0.0,,Microflagellate,,,,1.02e-13,1.26e8,,,
+Oocystis sp. 1,producer,24,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Chlorococcales,Oocystaceae,3.86e-12,2.4e7,,,
+Oocystis sp. 2,producer,25,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Chlorococcales,Oocystaceae,6.32e-12,3.0e6,,,
+Oscillatoria sp.,producer,26,0,0,tuesdaylake,0,2,1.0,NaN,NaN,0,9.333333333333334,0.0,1.0,1.0,4.7998046398046395,0.0,,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,1.61e-12,6.0e6,,,
+Peridinium limbatum,producer,27,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Myzozoa,Dinophyceae,Peridiniales,Peridiniaceae,6.46e-11,1.0e6,,,
+Peridinium pulsillum,producer,28,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Myzozoa,Dinophyceae,Peridiniales,Peridiniaceae,1.58e-12,1.0e6,,,
+Quadrigula lacustris,producer,29,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Sphaeropleales,Ankistrodesmaceae,7.13e-12,1.03e8,,,
+Quadrigula sp. 2,producer,30,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Sphaeropleales,Ankistrodesmaceae,9.48e-13,1.1e7,,,
+Chromulina sp.,producer,31,0,0,tuesdaylake,0,17,1.0,NaN,NaN,0,2.074074074074074,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Chrysophyceae,Chromulinales,Chromulinaceae,3.03e-14,2.09e8,,,
+Schroederia setigera,producer,32,0,0,tuesdaylake,0,4,1.0,NaN,NaN,0,4.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Chlorophyceae,Sphaeropleales,Neochloridaceae,6.37e-13,8.9e7,,,
+Selenastrum minutum,producer,33,0,0,tuesdaylake,0,17,1.0,NaN,NaN,0,2.074074074074074,0.0,1.0,1.0,4.7998046398046395,0.0,,Chlorophyta,Sphaeropleales,Ankistrodesmaceae,Monoraphidium,2.72e-13,1.1e7,,,
+Synedra sp.,producer,34,0,0,tuesdaylake,0,1,1.0,NaN,NaN,0,11.2,0.0,1.0,1.0,4.7998046398046395,0.0,,Bacillariophyta,Fragilariophyceae,Fragilariales,Fragilariaceae,3.62e-13,2.0e6,,,
+Synura sp.,producer,35,0,0,tuesdaylake,0,0,1.0,NaN,NaN,0,0.0,0.0,1.0,1.0,4.7998046398046395,0.0,,Heterokontophyta,Synurophyceae,Synurales,Mallomonadaceae,5.07e-12,1.0e6,,,
+Ascomorpha eucadis,consumer,36,1,,tuesdaylake,6,5,0.9999999999999999,0.9999999999999999,NaN,1,6.222222222222222,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Gastropidae,4.0e-10,21000.0,,,
+Conochilus (colonial),consumer,37,1,,tuesdaylake,7,0,0.9999999999999998,0.9999999999999998,NaN,1,0.0,8.0,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Flosculariaceae,Conochilidae,1.46e-8,4200.0,,,
+Conochiloides dossuarius,consumer,38,1,,tuesdaylake,7,4,0.9999999999999998,0.9999999999999998,NaN,1,9.333333333333334,8.0,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Flosculariaceae,Conochilidae,1.6e-10,1800.0,,,
+Cyclops varians rubellus,consumer,39,1,,tuesdaylake,16,4,0.9999999999999999,0.0,NaN,2,11.2,1.018181818181818,3.394736842105263,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Maxillopoda (Copepoda),Cyclopoida,Cyclopidae,2.44e-8,2400.0,,,
+Diaptomus oregonensis,consumer,40,1,,tuesdaylake,18,4,1.0000000000000002,1.0000000000000002,NaN,1,9.333333333333334,3.111111111111111,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Maxillopoda (Copepoda),Calanoida,Diaptomidae,1.44e-8,600.0,,,
+Daphnia pulex,consumer,41,1,,tuesdaylake,31,2,0.9999999999999993,0.9032258064516123,NaN,1,28.0,1.8064516129032258,2.391304347826087,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Branchiopoda,Cladocera,Daphnidae,4.57e-8,15600.0,,,
+Daphnia rosea,consumer,42,1,,tuesdaylake,23,1,0.9999999999999996,0.869565217391304,NaN,1,18.666666666666668,2.4347826086956523,2.473684210526316,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Branchiopoda,Cladocera,Daphnidae,1.36e-8,2400.0,,,
+Gastropus hyptopus,consumer,43,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Gastropidae,1.35e-10,1800.0,,,
+Gastropus stylifer,consumer,44,1,,tuesdaylake,7,4,0.9999999999999998,0.9999999999999998,NaN,1,9.333333333333334,8.0,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Gastropidae,1.0e-10,11400.0,,,
+Holopedium gibberum,consumer,45,1,,tuesdaylake,18,1,1.0000000000000002,1.0000000000000002,NaN,1,56.0,3.111111111111111,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Branchiopoda,Cladocera,Holopedidae,4.89e-8,4200.0,,,
+Kellicottia bostoniensis,consumer,46,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Brachionidae,2.0e-11,31800.0,,,
+Kellicottia longispina,consumer,47,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Brachionidae,4.5e-11,3000.0,,,
+Keratella cochlearis,consumer,48,1,,tuesdaylake,6,6,0.9999999999999999,0.9999999999999999,NaN,1,7.0,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Brachionidae,1.0e-11,52800.0,,,
+Keratella testudo,consumer,49,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Brachionidae,1.5e-11,69600.0,,,
+Orthocyclops modestus,consumer,50,1,,tuesdaylake,16,4,0.9999999999999999,0.0,NaN,2,11.2,1.018181818181818,3.394736842105263,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Maxillopoda (Copepoda),Cyclopoida,Cyclopidae,3.22e-8,600.0,,,
+Polyarthra vulgaris,consumer,51,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Synchaetatidae,2.6e-10,75600.0,,,
+Synchaeta sp.,consumer,52,1,,tuesdaylake,6,6,0.9999999999999999,0.9999999999999999,NaN,1,7.0,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Synchaetatidae,3.7e-10,29400.0,,,
+Trichocerca cylindrica,consumer,53,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Trichocercidae,5.9e-10,22200.0,,,
+Trichocerca multicrinis,consumer,54,1,,tuesdaylake,6,4,0.9999999999999999,0.9999999999999999,NaN,1,9.333333333333334,9.333333333333334,2.0,2.36460796032681,13.901010101010103,6.006969493277935,,Rotifera,Monogononta,Ploima,Trichocercidae,7.0e-11,4200.0,,,
+Tropocyclops prasinus,consumer,55,1,,tuesdaylake,15,4,0.9999999999999999,0.0,NaN,2,11.2,1.0,3.410958904109589,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda (Crustacea),Maxillopoda (Copepoda),Cyclopoida,Cyclopidae,8.95e-9,1200.0,,,
+Chaoborus punctipennis,consumer,56,1,,tuesdaylake,19,2,0.9999999999999998,0.0,NaN,2,56.0,0.7368421052631579,3.388646288209607,2.36460796032681,13.901010101010103,6.006969493277935,,Arthropoda,Insecta,Diptera,Chaoboridae,2.1e-7,12000.0,,,
+Micropterus salmoides,consumer,57,1,,tuesdaylake,4,1,0.9999999999999999,0.0,NaN,3,0.0,0.5833333333333334,3.5673076923076925,2.36460796032681,13.901010101010103,6.006969493277935,,Chordata,Actinopterygii,Perciformes,Centrarchidae,0.2,0.03,,,
+Lutra lutra,aquatic mammal,1,1,,ythanestuary,5,0,NaN,NaN,NaN,3,0.0,1.058139534883721,3.95,3.95,0.0,1.058139534883721,,,,,,,,Otter,12000.0,2.0
+Phalacrocorax carbo,bird,2,1,,ythanestuary,7,0,NaN,NaN,NaN,3,0.0,0.7844827586206896,3.9615384615384617,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Cormorant,2250.0,30.0
+Ardea cinerea,bird,3,1,,ythanestuary,10,0,NaN,NaN,NaN,3,0.0,0.8125,3.894736842105263,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Heron,1097.0,10.0
+Cygnus olor,bird,4,1,,ythanestuary,1,0,NaN,NaN,NaN,1,0.0,91.0,2.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Mute Swan,10250.0,35.0
+Tadorna tadorna,bird,5,1,,ythanestuary,11,0,NaN,NaN,NaN,2,0.0,3.3703703703703702,3.052631578947368,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Shelduck,1112.0,55.0
+Anas penelope,bird,6,1,,ythanestuary,1,0,NaN,NaN,NaN,1,0.0,91.0,2.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Wigeon,710.0,350.0
+Somateria mollissima,bird,7,1,,ythanestuary,4,0,NaN,NaN,NaN,2,0.0,2.0681818181818183,3.416666666666667,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Eider,2150.0,3350.0
+Somateria mollissima,bird,8,1,,ythanestuary,8,1,NaN,NaN,NaN,3,91.0,1.9782608695652173,3.1875,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Eider juv.,700.0,1834.0
+Haematopus ostralegus,bird,9,1,,ythanestuary,6,0,NaN,NaN,NaN,2,0.0,5.6875,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Oystercatcher,540.0,250.0
+Charadris hiaticula,bird,10,1,,ythanestuary,4,0,NaN,NaN,NaN,2,0.0,4.55,3.125,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Ringed plover,63.0,5.0
+Pluvialis apricaria,bird,11,1,,ythanestuary,5,0,NaN,NaN,NaN,2,0.0,6.066666666666666,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Golden plover,180.0,200.0
+Pluvialis squatarola,bird,12,1,,ythanestuary,2,0,NaN,NaN,NaN,2,0.0,7.583333333333333,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Grey plover,227.0,200.0
+Vanellus vanellus,bird,13,1,,ythanestuary,3,0,NaN,NaN,NaN,2,0.0,7.0,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Lapwing,243.0,200.0
+Calidris alpina,bird,14,1,,ythanestuary,2,0,NaN,NaN,NaN,2,0.0,7.583333333333333,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Dunlin,48.0,350.0
+Limos lapponica,bird,15,1,,ythanestuary,1,0,NaN,NaN,NaN,2,0.0,7.0,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Bar-tailed godwit,301.0,12.0
+Numenius arquata,bird,16,1,,ythanestuary,4,0,NaN,NaN,NaN,2,0.0,3.033333333333333,3.166666666666667,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Curlew,725.0,5.0
+Tringa totanus,bird,17,1,,ythanestuary,12,0,NaN,NaN,NaN,2,0.0,2.275,3.217391304347826,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Redshank,117.0,400.0
+Arenaria interpres,bird,18,1,,ythanestuary,3,0,NaN,NaN,NaN,2,0.0,10.11111111111111,3.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Turnstone,110.0,35.0
+Larus canus,bird,19,1,,ythanestuary,9,0,NaN,NaN,NaN,3,0.0,0.8504672897196262,3.4210526315789473,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Common gull,386.0,15.0
+Larus ridibundus,bird,20,1,,ythanestuary,8,0,NaN,NaN,NaN,3,0.0,0.8348623853211009,3.5,3.2496795769360016,3.5,10.29685591766449,,,,,,,,B H gull,180.0,150.0
+Larus aragentatus,bird,21,1,,ythanestuary,10,0,NaN,NaN,NaN,3,0.0,0.8198198198198198,3.666666666666667,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Herring gull,885.0,30.0
+Larus marinus,bird,22,1,,ythanestuary,6,0,NaN,NaN,NaN,3,0.0,0.8198198198198198,3.583333333333333,3.2496795769360016,3.5,10.29685591766449,,,,,,,,G B B gull,1330.0,20.0
+Sterna Sandvicensis,bird,23,1,,ythanestuary,5,0,NaN,NaN,NaN,3,0.0,1.318840579710145,4.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Sandwich tern,230.0,462.0
+Sterna hirundo,bird,24,1,,ythanestuary,5,0,NaN,NaN,NaN,3,0.0,1.5166666666666666,3.916666666666667,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Common tern,126.0,409.0
+Sterna paradisea,bird,25,1,,ythanestuary,3,0,NaN,NaN,NaN,3,0.0,3.3703703703703702,4.0,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Arctic tern,110.0,30.0
+Corvus frugilegus,bird,26,1,,ythanestuary,4,0,NaN,NaN,NaN,2,0.0,3.033333333333333,3.1818181818181817,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Rook,446.0,8.0
+Corvus corone,bird,27,1,,ythanestuary,4,0,NaN,NaN,NaN,2,0.0,3.25,3.2,3.2496795769360016,3.5,10.29685591766449,,,,,,,,Crow,487.0,12.0
+Sprattus sprattus,fish,28,1,,ythanestuary,1,8,NaN,NaN,NaN,2,7.583333333333333,30.333333333333332,3.0,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Spratt,3.0,10400.0
+Clupea harengus,fish,29,1,,ythanestuary,1,8,NaN,NaN,NaN,2,7.583333333333333,30.333333333333332,3.0,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Herring,5.0,10400.0
+Anguilla anguilla,fish,30,1,,ythanestuary,6,4,NaN,NaN,NaN,3,22.75,1.9782608695652173,3.3636363636363633,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Eel,90.0,20800.0
+Sygnathus rostellatus,fish,31,1,,ythanestuary,3,0,NaN,NaN,NaN,2,0.0,18.2,3.0,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Nilssons pipefish,2.0,2080.0
+Pollachus virens,fish,32,1,,ythanestuary,9,2,NaN,NaN,NaN,2,45.5,1.6545454545454545,3.5,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Saithe,125.0,2080.0
+Ciliata mustella,fish,33,1,,ythanestuary,2,0,NaN,NaN,NaN,3,0.0,2.757575757575758,3.4,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Five-bearded rockling,10.0,20800.0
+Ammodytes tobianus,fish,34,1,,ythanestuary,9,6,NaN,NaN,NaN,2,6.5,7.0,3.1,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Sand eel,2.0,2080.0
+Pholis gunnellus,fish,35,1,,ythanestuary,15,3,NaN,NaN,NaN,2,30.333333333333332,2.6,3.2,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Butterfish,85.0,20800.0
+Zoarces viviparus,fish,36,1,,ythanestuary,13,4,NaN,NaN,NaN,3,22.75,2.2195121951219514,3.1578947368421053,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Viviparous blenny,1.5,20800.0
+Pomatoschistus minutus,fish,37,1,,ythanestuary,15,1,NaN,NaN,NaN,2,3.5,2.4594594594594597,3.25,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Sand goby,6.204,1.04e7
+Pomatoschistus microps,fish,38,1,,ythanestuary,21,6,NaN,NaN,NaN,2,6.066666666666666,2.1666666666666665,3.388888888888889,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Common goby,6.204,4.16e7
+Myxocephalus scorpius,fish,39,1,,ythanestuary,8,3,NaN,NaN,NaN,2,7.0,1.5689655172413792,3.5882352941176467,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Fatherlasher,15.0,20800.0
+Agonus cataphractus,fish,40,1,,ythanestuary,2,0,NaN,NaN,NaN,3,0.0,1.7169811320754718,3.6,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Pogge,15.0,20800.0
+Gasterosteus aculeatus,fish,41,1,,ythanestuary,7,0,NaN,NaN,NaN,3,0.0,1.8958333333333333,3.333333333333333,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,3-spined stickleback,2.0,20800.0
+Pleuronectes platessa,fish,42,1,,ythanestuary,16,1,NaN,NaN,NaN,3,7.0,2.3333333333333335,3.1818181818181817,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Plaice juv.,27.0,686400.0
+Platichthys flesus,fish,43,1,,ythanestuary,42,7,NaN,NaN,NaN,2,15.166666666666666,1.3582089552238805,3.4057971014492754,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Flounder,125.0,264160.0
+Platichthys flesus,fish,44,1,,ythanestuary,13,1,NaN,NaN,NaN,2,91.0,2.4594594594594597,3.2857142857142856,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Flounder juv.,27.0,332800.0
+Salmo trutta,fish,45,1,,ythanestuary,7,4,NaN,NaN,NaN,3,22.75,1.8958333333333333,3.25,3.2780732325444486,16.41574074074074,6.385072340755632,,,,,,,,Sea trout,480.0,10000.0
+Crangon crangon,crustacean,46,1,,ythanestuary,14,17,NaN,NaN,NaN,2,2.757575757575758,3.033333333333333,3.1,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Brown shrimp,2.263157895,1.04e7
+Hyale nilssoni,crustacean,47,1,,ythanestuary,1,2,NaN,NaN,NaN,1,3.3703703703703702,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Amphipod,0.022727273,4.16e6
+Carcinus maenas,crustacean,48,1,,ythanestuary,14,21,NaN,NaN,NaN,2,2.1666666666666665,5.352941176470588,3.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Shore crab,10.0,6.24e6
+Hydrobia ulvae,gastropod,49,1,,ythanestuary,2,19,NaN,NaN,NaN,1,1.318840579710145,45.5,2.0,2.2,4.237536231884058,43.07333333333333,,,,,,,,Mud snail,0.001343284,1.41e11
+Ostracoda,crustacean,50,1,,ythanestuary,1,6,NaN,NaN,NaN,1,1.7843137254901962,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Ostracods,6.82e-6,5.31544e10
+Calanoidea,crustacean,51,1,,ythanestuary,1,7,NaN,NaN,NaN,1,3.1379310344827585,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Calanoid copepods,6.82e-6,3.45e11
+Harpacticoidea,crustacean,52,1,,ythanestuary,1,12,NaN,NaN,NaN,1,1.82,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Harpacticoid copepods,6.82e-6,5.55e11
+Semibalanus balanoides,barnacle,53,1,,ythanestuary,1,14,NaN,NaN,NaN,1,1.625,91.0,2.0,2.0,1.625,91.0,,,,,,,,Barnacle (cyprid),3.92e-6,4.4444e8
+Neomysis integer,crustacean,54,1,,ythanestuary,1,15,NaN,NaN,NaN,2,2.116279069767442,30.333333333333332,3.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Opposum shrimp,0.15625,1.664e7
+Mya arenaria,bivalve,55,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.0,2.856762383733506,91.0,,,,,,,,Clam,0.666666667,1.456e7
+Talitrus saltator,crustacean,56,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Sand hopper,0.031818182,1.664e7
+Corophium volutator,crustacean,57,1,,ythanestuary,1,26,NaN,NaN,NaN,1,1.5689655172413792,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,mud shrimp,0.009090909,5.2e10
+Bathyporeia pilosa,crustacean,58,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Amphipod,0.009090909,871200.0
+Gammarus spp.,crustacean,59,1,,ythanestuary,1,22,NaN,NaN,NaN,1,2.3947368421052633,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Amphipod,0.029545455,2.6e7
+Idotea emarginata,crustacean,60,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Isopod,0.022727273,100000.0
+Jaera marina,crustacean,61,1,,ythanestuary,1,9,NaN,NaN,NaN,1,1.4444444444444444,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Isopod,0.013636364,600000.0
+Eurydice pulchra,crustacean,62,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Isopod,0.018181818,120000.0
+Nototropis spp.,crustacean,63,1,,ythanestuary,1,1,NaN,NaN,NaN,1,3.5,91.0,2.0,2.2066666666666666,3.604085561876285,75.38130718954248,,,,,,,,Amphipod,0.022727273,120000.0
+Nematoda,worm,64,1,,ythanestuary,1,5,NaN,NaN,NaN,1,1.1518987341772151,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,Nematodes,0.000130435,7.16e11
+Diatomeae,phytoplankton ,65,1,,ythanestuary,0,3,NaN,NaN,NaN,0,1.1375,0.0,1.0,1.0,1.1375,0.0,,,,,,,,Diatoms,6.67e-6,6.27e12
+Nereis virens,worm,66,1,,ythanestuary,6,2,NaN,NaN,NaN,1,1.2638888888888888,15.166666666666666,2.571428571428571,2.2244897959183674,4.455116067402876,71.5,,,,,,,,King rag worm,1.25,1.344e6
+Nereis diversicolor,worm,67,1,,ythanestuary,6,26,NaN,NaN,NaN,1,1.75,15.166666666666666,2.571428571428571,2.2244897959183674,4.455116067402876,71.5,,,,,,,,rag worm,0.125,2.496e9
+Hesionidae,worm,68,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,polychaete,0.01875,4.16e7
+Parathemisto spp.,worm,69,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,polychaete,0.00625,3.12e7
+Phyllodoce,worm,70,1,,ythanestuary,1,1,NaN,NaN,NaN,2,7.0,30.333333333333332,3.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,paddle worm,1.25,7.3632e8
+Eteone,worm,71,1,,ythanestuary,1,1,NaN,NaN,NaN,2,7.0,30.333333333333332,3.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,paddle worm,0.625,1.1024e8
+Pygospio elegans,worm,72,1,,ythanestuary,1,10,NaN,NaN,NaN,1,1.82,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,tube worm,0.000416667,3.8272e8
+Capitallidae,worm,73,1,,ythanestuary,1,3,NaN,NaN,NaN,1,4.7894736842105265,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,blood worm,0.000416667,8.6528e8
+Manayunkia aestuarina,worm,74,1,,ythanestuary,1,4,NaN,NaN,NaN,1,3.64,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,polychaete,0.000208333,3.12e11
+Aricia spp.,worm,75,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,polychaete,0.000125,5.2e7
+Arenicola marina,worm,76,1,,ythanestuary,1,3,NaN,NaN,NaN,1,4.136363636363637,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,lugworm,0.166666667,4.576e7
+Tubificoides benedeni,worm,77,1,,ythanestuary,1,4,NaN,NaN,NaN,1,1.82,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,oligopchaete,0.011111111,2.912e10
+Tubifex costatus,worm,78,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2244897959183674,4.455116067402876,71.5,,,,,,,,oligopchaete,0.000555556,3.12e10
+Fucus ceranoides,macroalga,79,0,0,ythanestuary,0,3,NaN,NaN,NaN,0,1.0833333333333333,0.0,1.0,1.0,1.0206140350877193,0.0,,,,,,,,Brown algae,0.25,300000.0
+Littorina littorea,gastropod,80,1,,ythanestuary,3,12,NaN,NaN,NaN,1,4.55,30.333333333333332,2.0,2.2,4.237536231884058,43.07333333333333,,,,,,,,periwinkle,0.09,1.04e7
+Littorina saxatilis,gastropod,81,1,,ythanestuary,3,5,NaN,NaN,NaN,1,1.318840579710145,30.333333333333332,2.0,2.2,4.237536231884058,43.07333333333333,,,,,,,,rough periwinkle,0.016,550000.0
+Alderia modesta,gastropod,82,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.2,4.237536231884058,43.07333333333333,,,,,,,,snail,0.001,2.08e6
+Retusa obtusa,gastropod,83,1,,ythanestuary,1,1,NaN,NaN,NaN,2,7.0,18.2,3.0,2.2,4.237536231884058,43.07333333333333,,,,,,,,snail,0.0008,5.616e7
+Macoma balthica,bivalve,84,1,,ythanestuary,1,8,NaN,NaN,NaN,1,1.318840579710145,91.0,2.0,2.0,2.856762383733506,91.0,,,,,,,,baltic tellin,0.07,9.36e8
+Mytilus edulis,bivalve,85,1,,ythanestuary,1,18,NaN,NaN,NaN,1,1.75,91.0,2.0,2.0,2.856762383733506,91.0,,,,,,,,blue mussel,0.4,3.2424e8
+Cerastoderma edule,bivalve,86,1,,ythanestuary,1,6,NaN,NaN,NaN,1,1.3582089552238805,91.0,2.0,2.0,2.856762383733506,91.0,,,,,,,,cockle,0.5,1.248e8
+Chironomid larvae,insect,87,1,,ythanestuary,1,5,NaN,NaN,NaN,1,3.9565217391304346,91.0,2.0,2.0,5.478260869565217,91.0,,,,,,,,Chironomid larvae,0.000105263,6.24e8
+Diptera larvae,insect,88,1,,ythanestuary,1,1,NaN,NaN,NaN,1,7.0,91.0,2.0,2.0,5.478260869565217,91.0,,,,,,,,Diptera larvae/pupae,0.010526316,6.24e8
+Acari,arachnid,89,1,,ythanestuary,1,2,NaN,NaN,NaN,1,3.3703703703703702,91.0,2.0,2.0,3.3703703703703702,91.0,,,,,,,,Acarina,4.35e-5,3.12e10
+Foraminifera,zooplankton,90,0,,ythanestuary,1,6,NaN,NaN,NaN,1,1.82,91.0,2.0,2.0,1.82,91.0,,,,,,,,Foraminifera,1.25e-5,1.85e11
+Enteromorpha,macroalga,91,0,0,ythanestuary,0,13,NaN,NaN,NaN,0,0.9578947368421052,0.0,1.0,1.0,1.0206140350877193,0.0,,,,,,,,Green algae,0.0025,2.08e7
+POM (detritus),detritus,92,0,1,ythanestuary,0,35,NaN,NaN,NaN,0,0.6546762589928058,0.0,1.0,1.0,0.6546762589928058,0.0,,,,,,,,POM (detritus),,

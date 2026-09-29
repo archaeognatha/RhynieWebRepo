@@ -110,7 +110,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Macrargus rufus (ad),Araneae,Linyphiidae,473,1
 Julidae spec,Diplopoda,Julidae,486,1
 Hahniidae (juv),Araneae,Hahniidae,578,1
@@ -131,7 +131,6 @@ Cochlodina laminata,Gastropoda,Clausiliidae,823,1
 Cantharidae spec,Coleoptera,Cantharidae,851,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
 Elateridae spec,Coleoptera,Elateridae,861,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Crychus caraboides,Coleoptera,Carabidae,877,1
 Cylisticus spec,Isopoda,Cylisticidae,910,1
 Trichoniscus spec,Isopoda,Trichoniscidae,911,1

@@ -78,7 +78,7 @@ Lysigamasus sp (ad),Mesostigmata,Pergamasinae,431,1
 Macrocheles opacus (ad),Mesostigmata,Macrochelidae,432,1
 Pergamasus norvegicus (ad),Mesostigmata,Pergamasinae,439,1
 Entomobrya cf. multifasciata,Collembola,Entomobryidae,441,1
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Veigaia planicola (ad),Mesostigmata,Veigaiaidae,456,1
 Veigaia planicola (juv),Mesostigmata,Veigaiaidae,457,1
 Leitneria granulata (ad),Mesostigmata,Halolaelapidae,464,1
@@ -112,7 +112,6 @@ Staphylinidae sp1 (juv),Coleoptera,Stapylinidae,771,1
 Discus rotundatus juv,Gastropoda,Patulidae,812,1
 Nesovitrea hammonis juv,Gastropoda,Oxychilidae,814,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Brachyderinae spec,Coleoptera,Curculionidae,871,1
 Synuchus nivalis,Coleoptera,Carabidae,899,1
 Chilopoda spec,Chilopoda,Chilopoda spec,921,1

@@ -85,7 +85,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Erigonella hiemalis (ad),Araneae,Linyphiidae,466,1
 Julidae spec,Diplopoda,Julidae,486,1
 Pterostichus spec.,Coleoptera,Carabidae,543,1
@@ -107,7 +107,6 @@ Aegopinella nitidula juv,Gastropoda,Oxychilidae,831,1
 Gastropoda spec juv,Gastropoda,Gastopoda spec,835,1
 Cepea nemoralis,Gastropoda,Helicidae,844,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Carabidae spec juv,Coleoptera,Carabidae,865,1
 Notiophilus spec,Coleoptera,Carabidae,874,1
 Cylisticus spec,Isopoda,Cylisticidae,910,1

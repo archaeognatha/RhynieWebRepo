@@ -111,7 +111,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Julidae spec,Diplopoda,Julidae,486,1
 Pterostichus spec.,Coleoptera,Carabidae,543,1
 Clubionidae (juv),Araneae,Clubionidae,584,1
@@ -130,7 +130,6 @@ Cepea hortensis,Gastropoda,Helicidae,838,1
 Phyllobius spec,Coleoptera,Curculionidae,853,1
 Curculionidae spec,Coleoptera,Curculionidae,855,1
 Staphylinidae spec,Coleoptera,Stapylinidae,858,1
-Coleoptera spec,Coleoptera,Coleoptera spec,863,1
 Brachysomus spec,Coleoptera,Curculionidae,864,1
 Carabidae spec juv,Coleoptera,Carabidae,865,1
 Trichoniscus spec,Isopoda,Trichoniscidae,911,1

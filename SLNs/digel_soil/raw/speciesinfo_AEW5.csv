@@ -76,7 +76,7 @@ amoeba,Basal,Protozoa,414,0
 algae,Basal,Algae,415,0
 enchitraeidae,Enchitraeidae,Enchitraeidae,416,1
 dead organic matter detritus,Basal detritus,detritus,417,0
-litter detritus,Basal detritus,detritus,442,1
+litter detritus,Basal detritus,detritus,442,0
 Diplostyla concolor (ad),Araneae,Linyphiidae,472,1
 Julidae spec,Diplopoda,Julidae,486,1
 Scheloribates initialis,Oribatida,Scheloribatidae,518,1
@@ -91,7 +91,6 @@ Geophilus flavus juv,Chilopoda,Geophilidae,601,1
 Quadroppia hammerae,Oribatida,Quadroppiidae,622,1
 Suctobelba trigona,Oribatida,Suctobelbidae,624,1
 Suctobelbella spp.,Oribatida,Suctobelbidae,625,1
-Anatis ocellata,Coleoptera,Coccinelidae,633,1
 Lathrididae sp1,Coleoptera,Lathrididae,635,1
 Lysigamasus cf arcuatus (ad),Mesostigmata,Pergamasinae,653,1
 Hymenaphorura juv.,Collembola,Onychiuridae,684,1
