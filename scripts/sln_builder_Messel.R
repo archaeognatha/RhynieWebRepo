@@ -7,7 +7,10 @@
 # links: the full web, aquatic + terrestrial subsets, and a high-
 # certainty version of each that excludes low-certainty links
 #
-# 3 functions: 
+# 4 functions: 
+#   purge_stranded: removes links and nodes that are unconnected or 
+#   consumers without downstream path to a basal resource
+#
 #   hi_cert_web: creates a high-certainty subset web from a link list 
 #   and species info table
 #
@@ -71,7 +74,8 @@ purge_stranded <- function(links, species_info, label = "") {
   keep <- rownames(d)[apply(d, 1, function(x) any(is.finite(x)))] # a node is valid if it has a finite distance to AT LEAST one basal node
 
   n_purged <- length(setdiff(V(g)$name, keep))
-  message(label, ": purged ", n_purged, " stranded consumer node(s)")
+  n_unlinked <- sum(!as.character(species_info$sp_id) %in% V(g)$name)
+  message(label, ": dropped ", n_unlinked, " unlinked node(s); purged ", n_purged, " stranded consumer node(s)")
   
   list(links = links[as.character(links$Consumer) %in% keep &
                        as.character(links$Resource) %in% keep, ],
@@ -137,7 +141,7 @@ table_to_adjmatrix <- function(links, species_info) {
     }
   }
   
-return(list(adj_matrix = adj_matrix, species_info_final = species_info_fun))
+return(list(adj_matrix = adj_matrix, species_info = species_info_fun))
 }
 
 #### Habitat subset function ----####
@@ -222,7 +226,7 @@ write.table(aqu_subset$matrix, file.path(output_path, "matrix_messel_aqu.csv"),
 write.table(aqu_subset$species_info, file.path(output_path, "speciesinfo_messel_aqu.csv"), 
             quote = FALSE, sep = ",", row.names = FALSE, col.names = TRUE)
 
-#### Make high-certainty matrix (links with certainty > 2)
+#### Make high-certainty matrix (links with certainty 2 or better)
 hi_cert_data <- hi_cert_web(links, species_info, 2, label = "messel_hi_cert")
 hi_cert_final <- table_to_adjmatrix(hi_cert_data$links, hi_cert_data$species_info)
 # Write the resulting matrix and sp info files to new CSV files

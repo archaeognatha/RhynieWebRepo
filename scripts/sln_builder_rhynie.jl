@@ -5,7 +5,7 @@
 #
 # Usage:
 #   julia --project=. scripts/sln_builder_rhynie.jl \
-#       --in-dir  data/rhynie/rhynie_unlumped_complete/raw \
+#       --in-dir  data/rhynie/rhynie_unlumped_complete \
 #       --out-dir SLNs/rhynie_unlumped_complete \
 #       --n-reps 1000 --gamma 3 --seed 20260906
 #

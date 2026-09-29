@@ -62,6 +62,28 @@ function get_present_species(spp_list_plots_df, plot_id)
     return [parse(Int, String(name)) for (name, val) in pairs(row_data) if val == 1]
 end
 
+# Basal-eligible nodes: Digel's "Basal" group mixes producers and consumers, so list them explicitly
+# plants, roots, root exudates, algae, dead organic matter detritus, litter detritus
+const BASAL_IDS = Set([401, 402, 403, 415, 417, 442])
+
+# Keep only links among nodes with a resource path to a basal-eligible node
+function purge_stranded(links_df, plot)
+    nodes = Set(vcat(links_df.prey, links_df.predator))
+    reached = intersect(BASAL_IDS, nodes)
+    changed = true
+    while changed  # spread reachability upward: resource (prey) -> consumer (predator)
+        changed = false
+        for row in eachrow(links_df)
+            if row.prey in reached && !(row.predator in reached)
+                push!(reached, row.predator); changed = true
+            end
+        end
+    end
+    n_purged = length(setdiff(nodes, reached))
+    n_purged > 0 && println("$plot: purged $n_purged stranded consumer node(s)")
+    return filter(r -> r.prey in reached && r.predator in reached, links_df)
+end
+
 function main(in_dir::String, out_dir::String)
 
     # read in raw species occurrence data and filter out rows without any observed occurrences
@@ -124,7 +146,7 @@ function main(in_dir::String, out_dir::String)
         end
 
         # Store the resulting link table using plot name as key
-        plot_links[plot.plotid] = df
+        plot_links[plot.plotid] = purge_stranded(df, plot.plotid)
     end
 
     # read in the taxa info document and rename columns to match my speciesinfo format
